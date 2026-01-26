@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="bb2b-3a15-e80b-bca0" name="Bane" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="9583-225b-2bf8-8318">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Barsad" hidden="false" id="40e7-42fe-4533-5f27">
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="123a-5395-4580-8044" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Bane)" hidden="false" id="cae1-32ba-2328-117d" targetId="4b9d-e654-e756-e1ab" primary="false"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="de71-c98c-b125-a5ef" targetId="9702-99aa-fc73-85a4" primary="false"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Barsad" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6086-0e91-0a00-5a02">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Barsad</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Barsad" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1bc3-207a-6284-ea69">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Veteran, Bulletproof Vest, Mercenary, Precise Aim</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Assault Rifle" hidden="false" id="8363-e6cb-16d2-9ca3" type="selectionEntry" targetId="5487-abf6-a1cf-b76d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8580-ad11-48fe-bcf9-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8580-ad11-48fe-bcf9-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="600"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="38"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="5b12-a50d-13bd-fb43" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9a23-5e42-36b0-3aa8" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mercenary 1" hidden="false" id="0952-2cd8-0a32-dae1">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="28"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Axe" hidden="false" id="e53f-36a6-1e90-c307" type="selectionEntry" targetId="b896-cde2-09a3-1872"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mercenary 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="88fa-2822-232f-6f39">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Mercenary 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mercenary 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3e86-aeaa-961e-ce72">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Veteran, Bulletproof Vest, Mercenary</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c677-d671-2548-d639" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="5b12-a50d-13bd-fb43" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="ae5c-6e1f-ca9e-60f3" primary="true" name="Henchman"/>
+            <categoryLink targetId="4b9d-e654-e756-e1ab" id="be4b-291b-4460-098d" primary="false" name="Crew (Bane)"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mercenary 2" hidden="false" id="ba22-14bb-940b-8743">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="28"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="e213-2d64-0cb7-1ebf" type="selectionEntry" targetId="0837-9f47-7129-0685"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mercenary 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4b70-6b8a-e6b0-a7ce">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Mercenary 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mercenary 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="cd8b-7736-1eeb-6eb3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Veteran, Bulletproof Vest, Mercenary, Reinforced Gloves, Tough Guy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c805-b235-31d0-31e0" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="5b12-a50d-13bd-fb43" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="1324-4dcb-bccd-9d5e" primary="true" name="Henchman"/>
+            <categoryLink targetId="4b9d-e654-e756-e1ab" id="9efe-f488-e003-5b74" primary="false" name="Crew (Bane)"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="f149-017b-9107-c1d1">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bane" hidden="false" id="94f3-cca9-cb1c-66ff">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="97"/>
+          </costs>
+          <profiles>
+            <profile name="Bane" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d856-919c-43c1-6547">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unkown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bane (Dark Knight Rises)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bane" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1dfc-a457-5b73-b44d">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">True Love (Talia), Strategist, Kill them!, Desensitized, Combo (Unarmed), Reinforced Gloves, Runaway, Born in the Darkness, Close Combat Master</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="4b64-b74b-2538-49b2" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="5274-9ff3-2114-327b" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Crew (Bane)" hidden="false" id="cb88-4f6e-51f9-ed5d" targetId="4b9d-e654-e756-e1ab" primary="false"/>
+            <categoryLink name="Equipment Condition (Bane)" hidden="false" id="559f-625a-2fc9-8434" targetId="0daf-c319-56ab-9164" primary="false"/>
+            <categoryLink name="Bane Mercenary Boss" hidden="false" id="e1db-12a4-9a32-3a30" targetId="5b12-a50d-13bd-fb43" primary="false"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b4e6-d011-cfe3-3cbc" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bane" hidden="false" id="1460-3e31-3f85-e845" type="selectionEntry" targetId="94f3-cca9-cb1c-66ff"/>
+    <entryLink import="true" name="Barsad" hidden="false" id="6b4f-4654-e004-dc55" type="selectionEntry" targetId="40e7-42fe-4533-5f27"/>
+    <entryLink import="true" name="Mercenary 1" hidden="false" id="b8bf-9620-f965-0922" type="selectionEntry" targetId="0952-2cd8-0a32-dae1"/>
+    <entryLink import="true" name="Mercenary 2" hidden="false" id="cd2e-2020-e4f8-ae3b" type="selectionEntry" targetId="ba22-14bb-940b-8743"/>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Bane Mercenary Boss" id="5b12-a50d-13bd-fb43" hidden="false"/>
+  </categoryEntries>
+</catalogue>

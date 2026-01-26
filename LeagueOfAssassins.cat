@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f2da-4023-9d92-989a" name="League of Assassins" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Bane" id="eb89-d0e9-0364-2ecb" targetId="bb2b-3a15-e80b-bca0" importRootEntries="true"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="c05d-7129-df0f-e78b">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Cheshire" hidden="false" id="b3f0-08c7-f0d3-3884">
+          <profiles>
+            <profile name="Cheshire" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6b73-069c-6775-06ee">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Jade Nguyen</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Cheshire</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Cheshire" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="397c-8dc7-d8d5-9c69">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Toxicologist, Acrobat, Agile, Combo (Poisoned Sai), Poison Master, Reflexes</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="31fe-751f-9c29-985f" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink name="Equipment Condition (LoA: Cheshire)" hidden="false" id="f95c-8fb8-ed93-91e9" targetId="0e24-78b4-3f88-2332" primary="false"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="babf-893d-6c70-abbc" primary="false" name="Crew (League of Assassins)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="75"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Sai" hidden="false" id="5bd4-4a91-e6b2-ed66" type="selectionEntry" targetId="fe75-e4d7-0251-58f8">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fef3-aa51-e125-fe0f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fef3-aa51-e125-fe0f-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Poisoned Sword" hidden="false" id="a588-2601-174d-c22e" type="selectionEntry" targetId="e094-2e85-18ec-3fe0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0fe-5217-330e-4d12-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0fe-5217-330e-4d12-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a2c3-f527-9063-3203" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Shadowstorm (Ninja)" hidden="false" id="92cd-96d6-a351-d6bf">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="bfd3-81f2-f9a4-3eac" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="fd5a-3698-69e8-0795" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcae-6808-aa50-e820"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="719f-9040-e0f5-ba15"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Shadowstorm (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eb5d-7e16-4a55-372d">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Shadowstorm</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shadowstorm (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b69f-afe8-95b5-62b8">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite (Ninja), Fast, Reflexes, Stealth, Veteran</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f2db-2500-ff3a-7efe" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="6836-a93a-58de-5955">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Goro" hidden="false" id="a22a-91a2-b98d-2809">
+          <profiles>
+            <profile name="Goro" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="41e2-3d1e-8a90-55e7">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Goro</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Goro" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8402-d78c-f4e5-7ab0">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Duelist, Light Armor, Kill them!, Large, Martial Artist</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Dao Dao" hidden="false" id="52e8-0f6d-7399-4d29" type="selectionEntry" targetId="8952-cab8-a2b5-521c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee12-fe75-e0fe-c486-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee12-fe75-e0fe-c486-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="a193-edc5-4782-c820" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8bc5-5207-a90c-a1c8" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="58d1-afc9-b20c-e497" primary="true" name="Henchman"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="7a2a-1cb2-aae7-b0a8" primary="false" name="Crew (League of Assassins)"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ichi (Ninja)" hidden="false" id="5334-323c-b22d-f93c">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="32"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="900c-81b4-b1eb-43dc" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="cb1a-7e56-1c09-9f91" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c18-8968-33d4-dbe1-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c18-8968-33d4-dbe1-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Smoke Grenade" hidden="false" id="eeff-6436-ebb9-8109" type="selectionEntry" targetId="5427-b1dc-0c3e-0bce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e642-a79c-5026-7ac8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e642-a79c-5026-7ac8-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="b2c2-03d8-1ad1-e49f" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Ichi (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4980-f463-a986-efba">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ichi</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ichi (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="2db5-e3b6-a071-2629">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Feint, Martial Artist</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9187-c318-ec72-4ae2" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Hassassin 1" hidden="false" id="0b36-423b-9fdf-92eb">
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Scimitar" hidden="false" id="97ee-d0be-629e-7824" type="selectionEntry" targetId="f585-5fef-2da4-67d9">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ab1-956f-3d50-af98-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ab1-956f-3d50-af98-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="e87c-0a60-2ee3-1812" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Hassassin 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65e1-0928-ffd7-9d04">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hassassin 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0356-91f7-4e7d-9d8d">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="9a51-e837-2ba9-c3a8" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e008-c1db-ce31-6cd4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ki (Ninja)" hidden="false" id="8f52-abbf-809d-f8b4">
+          <profiles>
+            <profile name="Ki (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="fd61-0e6c-f7b1-30f1">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ki</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ki (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b705-8a2a-45eb-a403">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Precise Aim, Elite (Ninja), Hidden, Martial Artist, Stealth</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="28"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="f71b-01ba-5b40-d13a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Acid Arrow" hidden="false" id="81af-3476-dee8-a606" type="selectionEntry" targetId="1d90-b5dd-8f75-5d82">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c50-f439-6c52-2ca2-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c50-f439-6c52-2ca2-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bow" hidden="false" id="81bc-b84e-d763-8a06" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1c9-8300-2d64-7b92-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c9-8300-2d64-7b92-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="c4d1-67b4-c801-552c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2317-8616-8d99-344c" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Hassassin 2" hidden="false" id="b0a2-dfdd-0a52-832e">
+          <entryLinks>
+            <entryLink import="true" name="Scimitar" hidden="false" id="d843-190c-f0e9-dda8" type="selectionEntry" targetId="dd8f-8893-5c52-4783">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e33-225d-232c-90ac-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e33-225d-232c-90ac-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="b4fc-430c-0e95-c3ef" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="0690-186c-d15a-9e8b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Hassassin 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d277-9b77-7d52-174e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hassassin 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3da9-8a80-0b36-967b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Tension</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="648b-1190-51a7-e9c4" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a02b-6bbf-fe9a-16c0" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Hassassin 3" hidden="false" id="730b-bc4a-8ee8-ec9e">
+          <entryLinks>
+            <entryLink import="true" name="Throwing Knives" hidden="false" id="4851-7f36-a0f6-f5ac" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b126-11a8-93ba-f105-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b126-11a8-93ba-f105-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Scimitar" hidden="false" id="61a4-f90e-ec10-2766" type="selectionEntry" targetId="dd8f-8893-5c52-4783">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e376-4e33-3e72-b060-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e376-4e33-3e72-b060-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="1636-1ae3-5613-9419" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Hassassin 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="bc92-3a4f-1e7f-0db3">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hassassin 3" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ca6b-7e8c-72fd-f938">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="9460-c071-865e-e2a1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2971-4ef1-373f-4630" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Hassassin 4" hidden="false" id="1549-8476-0198-cafc">
+          <entryLinks>
+            <entryLink import="true" name="Bhuj" hidden="false" id="70d1-e40d-0f12-e424" type="selectionEntry" targetId="557f-781b-958d-4944">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="668e-6b04-765d-e96e-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="668e-6b04-765d-e96e-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hidden Blade" hidden="false" id="8724-135b-d130-0979" type="selectionEntry" targetId="4c3e-ed9e-4ce1-6916">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="899a-74d6-3364-8e63-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="899a-74d6-3364-8e63-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="a99c-cd28-59c0-135b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Hassassin 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5751-0f86-6582-2238">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hassassin 4" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d45b-10f6-6563-f436">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Scout</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="ec4a-9280-604e-dafb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2bb3-5821-21fb-96be" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Acolyte 1" hidden="false" id="3354-dc8e-5215-31c7">
+          <entryLinks>
+            <entryLink import="true" name="Scimitar" hidden="false" id="cdbe-dbe3-8587-20a8" type="selectionEntry" targetId="dd8f-8893-5c52-4783">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f05-0069-2714-7c8f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f05-0069-2714-7c8f-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="c081-e519-0ea5-a262" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Acolyte 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5c08-d6be-e196-a775">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Acolyte 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Acolyte 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1d2c-e496-7878-a0b6">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Sneak Attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="bccd-7260-a1ac-505a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="27"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4db0-b5f8-42d7-3d41" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Acolyte 2" hidden="false" id="6600-2363-b4fc-589e">
+          <entryLinks>
+            <entryLink import="true" name="Throwing Knives" hidden="false" id="fbcb-b8d5-219d-8b9d" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="baa7-a38a-dceb-0f9c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baa7-a38a-dceb-0f9c-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Knives" hidden="false" id="7bf2-36b3-70df-523d" type="selectionEntry" targetId="1a61-f961-d003-9e73"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="f015-181b-f453-6a38" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Acolyte 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eb07-27a0-781c-af1d">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Acolyte 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Acolyte 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6966-50e3-679c-8284">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Combo (Knives)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="5bc3-cc7f-49f3-83ab" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0025-c510-04bc-6a42" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Acolyte 3" hidden="false" id="93d4-7393-4b56-af43">
+          <entryLinks>
+            <entryLink import="true" name="Bow" hidden="false" id="b5ce-e44f-b474-cf62" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe9d-2863-fa94-b279-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe9d-2863-fa94-b279-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Poisoned Arrow" hidden="false" id="b995-d840-bd33-66b2" type="selectionEntry" targetId="2fb0-0203-dcf1-9f6c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e08-94bb-6aaf-f040-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e08-94bb-6aaf-f040-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="5978-a2c7-8a45-3630" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Acolyte 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a72b-44bb-9422-2c27">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Acolyte 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Acolyte 3" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6ce8-5d1d-2dca-5ba2">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Sneak Attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="66cf-e3a0-a88b-fcbe" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="56f5-53fc-ef93-5e99" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Acolyte 4" hidden="false" id="cc46-d039-f1c8-fb95">
+          <entryLinks>
+            <entryLink import="true" name="Bow" hidden="false" id="c282-2203-7671-d268" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83db-c3da-d22c-19dc-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83db-c3da-d22c-19dc-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Enervating Arrow" hidden="false" id="f28c-07da-763e-e361" type="selectionEntry" targetId="3c08-4580-1d60-3f41">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0bf-4081-41c3-bd1a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0bf-4081-41c3-bd1a-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="b9d6-4ac0-3e8a-5bea" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="0bb5-e5d4-6bea-fd8f" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Acolyte 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ee95-bdca-1fad-1a2d">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Acolyte 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Acolyte 4" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6060-4a99-f982-2c4a">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Good Aim</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="0b75-7ce0-add5-8e55" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="25"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a7f8-8bf8-8d70-9e6e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Lotus (Ninja)" hidden="false" id="63af-bc66-ce96-f7fc">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="48"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="27bb-dc74-1eb4-c4c7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="2ac0-78e7-16ea-d57d" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="74d4-376c-9215-bc13"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10fb-afcb-d00a-fd0f"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Shuriken" hidden="false" id="bd8f-931f-ac0d-91bc" type="selectionEntry" targetId="e5f1-fafc-c082-6528"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="664c-f76c-cd14-142b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Lotus (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9e67-5738-888d-6f5e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lotus</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lotus (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3d2c-c2af-efd7-4418">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Dodge, Reflexes, Rapid Fire, Martial Artist</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e205-843f-60a8-da40" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ying (Ninja)" hidden="false" id="38dc-3a6d-8c1c-af79">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="30"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="0ed6-7ed5-e57f-8941" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="62dd-eea0-061f-613a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c9f-009f-9400-c561"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ca9-8d80-e8d5-2b75"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="68a5-3fdc-d5c2-3fe6" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Ying (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="fd0d-de56-b8c7-7703">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ying</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ying (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4d10-8928-11ad-4f31">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Combo (Katana)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="27b9-8737-9cbf-dd18" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Yang (Ninja)" hidden="false" id="27a2-c48c-8c0d-7499">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="31"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="2b25-827b-5cae-2eb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="573a-d11f-95fb-de8a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9801-240d-1035-ed4c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28f7-4aa6-9640-d33a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="fa3c-4b07-1656-0507" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Yang (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="30cc-c989-33f6-3b25">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Yang</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Yang (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="70b3-dd26-6658-e2f0">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Climbing Claws, Hardened</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7fab-2131-894d-4f6e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Agent 1" hidden="false" id="273e-5528-fe7b-6336">
+          <entryLinks>
+            <entryLink import="true" name="Kama" hidden="false" id="88c4-84cb-8160-3929" type="selectionEntry" targetId="e7e8-6175-52fa-cc15">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="146d-92fa-7cff-81ef"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd3f-3f2f-4a74-a0b5"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="556e-a300-d32c-7c37" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Agent 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5d7e-368d-8a20-ffb2">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Agent 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Agent 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d59a-373f-7e9a-aeaa">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Sustained Defense</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="21"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="3b81-5cb1-cbf9-dc1c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eb69-de42-0f9d-6c5e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Agent 2" hidden="false" id="7a11-24b4-79ae-51e4">
+          <entryLinks>
+            <entryLink import="true" name="Throwing Knives" hidden="false" id="730f-238c-9308-75a1" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f68-3dad-7ffc-67fc"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="933f-fb1d-daeb-9082"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Knife" hidden="false" id="2f9a-401c-06a6-d612" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="bfe5-e577-65fb-329d" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Agent 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1d01-ca79-2f9c-cca7">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Agent 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Agent 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="11a6-76c6-7bfb-7a02">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="ca67-00dd-6fb1-8d86" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="901b-8640-849b-6867" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="League Agent 3" hidden="false" id="85a3-c696-1cb0-2aff">
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="d264-7504-f681-2fda" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1827-3db6-1185-3140"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dbe-02d9-8c03-cbae"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="0b22-3ed1-18f1-b150" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="League Agent 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0660-cdbd-8d9e-9123">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">League Agent 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="League Agent 3" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="a666-ec40-26e1-b432">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Fast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="23"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="347b-53af-15d9-9c1e" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="963d-a24b-0e6d-4b8e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Seeker (Ninja)" hidden="false" id="299e-4bd2-d6ce-7dcc">
+          <profiles>
+            <profile name="Seeker (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="2970-75c8-0254-4845">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Seeker</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Seeker (Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6a75-0ce4-0402-ba36">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Good Aim, Elite (Ninja),  Martial Artist, Stealth</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="27"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="9c84-5579-9833-933a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Arrow" hidden="false" id="6f36-6cf6-75a8-26c6" type="selectionEntry" targetId="2fb0-0203-dcf1-9f6c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1302-8424-a45f-83cb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a79-4934-6b95-9f14"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bow" hidden="false" id="75d5-27ee-e92c-795e" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dca6-8ed7-3f20-2ec2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1687-79c4-9f4e-a7d4"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="dcc6-c4c5-9447-78fd" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="535a-34e8-0e9f-eb58" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4a97-0902-d1bd-666e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Shadow (Ninja)" hidden="false" id="f25c-3ed1-ea1f-25f2">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchman" hidden="false" id="6152-fa67-96dc-3ae5" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Bo" hidden="false" id="6fce-f4d6-ab36-f5cf" type="selectionEntry" targetId="2bd2-8196-009f-834a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ce7-9d41-88fc-465c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2876-1d9b-17a6-8b05"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Smoke Grenade" hidden="false" id="9ab6-7424-38bb-6d47" type="selectionEntry" targetId="5427-b1dc-0c3e-0bce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b27-f433-e805-1ed2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fed3-a579-ec8a-0868"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="8deb-66bd-3556-ad5c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Shadow(Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0a42-dfd0-b282-2c79">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Shadow</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shadow(Ninja)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ee9a-fbc0-0b65-34de">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Sneak Attack, Martial Artist, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="edf4-faa9-113f-56b3" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="3a23-d597-f8a7-cf53">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="331e-097a-32ec-5b8e">
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="a4bc-069f-f58c-201c" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="7222-72fd-21ab-f51e" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink targetId="3c91-e67e-b870-d7f8" id="3b01-c423-03e6-1209" primary="false" name="Equipment (LoA: Talia al Ghul)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Talia al Ghul (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="00e8-8cb5-246e-f73a">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talia (Rebirth)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talia al Ghul (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="dff0-c78d-b860-2ab4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Leader</comment>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="100"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Twin Scimitars" hidden="false" id="84ec-1c51-b987-cfaf" type="selectionEntry" targetId="8097-0c8f-f0d7-0b91">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7c0-654a-b1a0-d91f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7c0-654a-b1a0-d91f-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5942-2e90-0459-616e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="c8d9-bd9f-e431-9590">
+          <profiles>
+            <profile name="The Wizard" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c1e5-ee40-ccdb-6c11">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Malcolm Merlyn</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Wizard</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Wizard" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f266-0a36-a1f1-90c9">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="110"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="6d12-35b7-4bf3-6d65" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="9cd3-28ce-d32c-6ca7" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="4dd5-a882-b8c2-7597" primary="false" name="Sidekick"/>
+          </categoryLinks>
+          <comment>Leader</comment>
+          <entryLinks>
+            <entryLink import="true" name="Carbon Arrow" hidden="false" id="e872-a835-847c-f958" type="selectionEntry" targetId="e146-724d-2254-2276">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14cb-e90d-247e-1924-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14cb-e90d-247e-1924-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="cf17-6559-f364-c3e6" type="selectionEntry" targetId="4740-3522-b86e-e269">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a47c-b15e-b182-2ef2-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a47c-b15e-b182-2ef2-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2700-d4f5-a8de-279a" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Comics)" hidden="false" id="6b32-4b55-93c9-911c">
+          <profiles>
+            <profile name="Ra&apos;s al Ghul (Comics)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="53e0-ca8e-ddd4-616e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Ra&apos;s al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul (Comics)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ra&apos;s al Ghul (Comics)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b1d5-4500-2ba9-e857">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Weapon Master, Grand Strategist, Immortal, Elite Boss (Ninja), Precise Blow, Undercover, Veteran</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Soultaker Sword" hidden="false" id="4387-af91-ee60-e4ad" type="selectionEntry" targetId="8bfa-d9e4-f86e-4d20"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ca82-344b-3832-2469" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="d0f6-0798-f5ba-9db9" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="0d93-efde-1adf-7d74" primary="true" name="Leader"/>
+            <categoryLink targetId="adec-8d6e-1788-2ae0" id="fe3b-d7a3-6975-f1f8" primary="false" name="Equipment (LoA: Ra&apos;s al Ghul)"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="2192-e770-bb9a-58a7" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="125"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="ee3d-f602-1564-53ee">
+          <profiles>
+            <profile name="Ra&apos;s al Ghul (Dark Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4d13-f349-e8b4-45b3">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Ra&apos;s al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul (Dark Knight)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ra&apos;s al Ghul (Dark Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b577-a1f1-b909-eac4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Sustained Defense, Grand Strategist, Immortal, Elite Boss (Ninja), Order, Persuasive, Deadly Strike (Sword)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Sword" hidden="false" id="1a30-60d6-fb42-7757" type="selectionEntry" targetId="4740-3522-b86e-e269"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41fe-e1cc-514e-264b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="f6b8-67a0-2d43-91f8" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="3f44-8456-5d79-fedd" primary="true" name="Leader"/>
+            <categoryLink targetId="adec-8d6e-1788-2ae0" id="c893-b6ae-90f8-da7e" primary="false" name="Equipment (LoA: Ra&apos;s al Ghul)"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="c1d0-061d-7520-0ae1" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="120"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Rebirth)" hidden="false" id="009d-8006-2694-11e6">
+          <profiles>
+            <profile name="Ra&apos;s al Ghul (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="68be-9fe7-fca5-f60f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Ra&apos;s al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul (Rebirth)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ra&apos;s al Ghul (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e6e8-a0d2-095f-e1a4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrogant, Deadly Strike, Elite Boss (Ninja), Exhaustive Planner, Immortal, Martial Artist, Mastermind, Strategist, Veteran, Weapon Master</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Ancient Sword" hidden="false" id="42f3-055a-7b64-353c" type="selectionEntry" targetId="b5b2-0f62-9080-b451"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8dec-795b-3c6f-4643" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="c2f9-3529-ec2f-f618" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="9c5f-6641-40bd-d9ad" primary="true" name="Leader"/>
+            <categoryLink targetId="adec-8d6e-1788-2ae0" id="7e9a-2d63-3f64-cc3a" primary="false" name="Equipment (LoA: Ra&apos;s al Ghul)"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="07ba-1c5d-564c-0d7f" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="122"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul" hidden="false" id="06bb-03a3-6870-475f">
+          <profiles>
+            <profile name="Ra&apos;s al Ghul" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="38af-25a5-a44c-d39b">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ra&apos;s al Ghul" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="de57-5537-204e-ad95">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite Boss (Ninja), Martial Artist, Immortal, Mastermind, Weapon Master, Veteran, Arrogant, Deadly Strike, Exhaustive Planner, Lazarus Pit Owner, Strategist, Shadows Command</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Ancient Sword" hidden="false" id="0b96-9a03-25d6-0059" type="selectionEntry" targetId="b5b2-0f62-9080-b451"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="37e4-53f9-6bbe-d75b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="357c-f0b9-25cc-9e4f" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="dd95-9dfb-4f56-9b50" primary="true" name="Leader"/>
+            <categoryLink targetId="adec-8d6e-1788-2ae0" id="5448-e225-e13f-13f6" primary="false" name="Equipment (LoA: Ra&apos;s al Ghul)"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="6942-cc79-c7c8-463c" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="120"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="daa7-9924-8f1d-fa01">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Nyssa al Ghul" hidden="false" id="7123-2685-2f7f-ca37">
+          <profiles>
+            <profile name="Nyssa al Ghul" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1a34-285a-3f03-bcec">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Nyssa Raatko</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Nyssa al Ghul</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nyssa al Ghul" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4041-22b2-f28f-06fe">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Hook Arrow, Elite Boss (Ninja), Good Aim, Martial Artist, Master Marksman, Reflexes, Stealth</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Equipment Condition (LoA: Nyssa al Ghul)" hidden="false" id="de44-10b5-1d00-0b4a" targetId="c059-e67d-a436-c0a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="fe2c-e3a5-162a-ec32" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="38af-b600-a78d-139a" targetId="9702-99aa-fc73-85a4" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Kukri" hidden="false" id="b766-a362-df5d-82d7" type="selectionEntry" targetId="cf44-dbf6-7757-1e7b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b29d-466b-196e-803e-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b29d-466b-196e-803e-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bow (Standard Arrow)" hidden="false" id="68d8-3ac4-dd75-2faf" type="selectionEntry" targetId="3515-411e-f490-44f2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f143-a1c5-79f7-03dc-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f143-a1c5-79f7-03dc-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="83"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="22e4-078e-b9e5-5f76" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Miranda Tate" hidden="false" id="5dd5-27be-3270-f4c9">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="53"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Sidekick" hidden="false" id="439e-db42-3233-3a12" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="3a3d-6c8e-30c0-c77f" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Equipment Condition (LoA: Talia al Ghul)" hidden="false" id="3873-74cd-33c8-43df" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Miranda Tate" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="adcc-08ce-72c0-c5ef">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Miranda Tate</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Miranda Tate" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="16ab-e745-4e43-e474">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Charm, True Love (Bane), Scheming (3), Disguised Sneak Attack, Undercover, Millionaire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="7eb7-c1b7-56c2-e023" type="selectionEntry" targetId="2af6-1438-c06d-6378">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f1b4-02f8-9244-69ee" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Talia al Ghul" hidden="false" id="95b3-f0bd-3e33-8bb7">
+          <categoryLinks>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="3cb6-b3ff-8b0f-1552" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="52a9-b559-b02b-3dcc" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="5f62-5de2-1d4d-819d" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="928c-ed8f-13ef-407c" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Talia al Ghul" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4262-2471-12ba-d33f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talia al Ghul</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talia al Ghul" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5a05-9b84-8518-6818">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Affinity (Batman), Elite Boss (Ninja), Martial Artist, Scheming (1), Sneak Attack, True Love (Batman)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="71"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="f4df-cdf0-04f2-5a32" type="selectionEntry" targetId="2a5e-127e-5ce4-1cef"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9444-a4ca-a80d-ffd4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Talia al Ghul (Limited)" hidden="false" id="9b08-f4d5-170e-1141">
+          <categoryLinks>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="3c0f-50a2-1aae-d936" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="9b39-20c9-0af2-fd7b" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="10a6-127f-98b8-4c46" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink targetId="16f4-d87e-e808-378c" id="e9ef-b401-4e40-0547" primary="false" name="Elite Boss (Ninja)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Talia al Ghul (Limited)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ceb4-b7b9-e787-0fcb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talia al Ghul (Limited)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talia al Ghul (Limited)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="02e6-edd0-ad9d-cc24">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite Boss (Ninja), Confusion, Martial Artist, Unpredictable</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="62"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="ba86-6c9c-15da-ac1b" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
+            <entryLink import="true" name="Hand Crossbow" hidden="false" id="2603-c7e9-8e4a-8bb6" type="selectionEntry" targetId="745e-776b-ea1f-295a"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1077-208b-2e1b-d847" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Talia al Ghul (Comics)" hidden="false" id="88cc-8862-b364-2b26">
+          <categoryLinks>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="e77a-c7f6-142b-614b" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="f215-a15e-5400-245d" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="dee6-3be5-907f-c9df" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Talia al Ghul (Comics)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0c49-eff6-5736-8e2f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talia al Ghul (Comics)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talia al Ghul (Comics)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d7d9-fbcc-f744-e43f">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Master Marksman, Affinity (Lex Luthor), Martial Artist, Scheming (3), Sneak Attack, True Love (Bruce Wayne), Get&apos;em, Business Agent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="250"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="75"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Mauser Gun" hidden="false" id="570e-8ae4-80ef-2a85" type="selectionEntry" targetId="b059-05f8-e00f-60ea"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="687b-617b-f925-5567" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Lady Shiva (Legacy)" hidden="false" id="bd36-4a9a-8430-e4bc">
+          <categoryLinks>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="2758-e97e-6535-06aa" primary="true" name="Sidekick"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="c69c-2a3f-55fe-a1e6" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="a684-0ba2-18de-95c4" id="b6b7-2d0a-7c6c-b229" primary="false" name="Equipment (LoA: Lady Shiva)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Lady Shiva" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="da6d-e55c-3c78-86ef">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lady Shiva" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="eb9e-81b2-8a4e-4bdf">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Tracking</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c204-e3ac-d8f7-1e6d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Heretic" hidden="false" id="87c8-d397-3b43-5706">
+          <categoryLinks>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="81aa-c809-7ca7-8c8a" primary="true" name="Sidekick"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="9c85-db26-121a-c5ee" primary="false" name="Crew (League of Assassins)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="The Heretic" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="777d-0010-f927-6f3a">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Heretic" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1526-c173-6e05-8b86">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Desensitized, Devastating Blow, Juggernaut, Large, Master Fighter, Light Armor, Reinforced Gloves, Unstoppable</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="89"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4811-8baf-50d8-c50f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Lady Shiva" hidden="false" id="2abc-7ed1-4799-45f4">
+          <categoryLinks>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="ed6e-10e9-c5e5-64d1" primary="true" name="Sidekick"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="efb6-fc7f-13cd-3103" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="a684-0ba2-18de-95c4" id="b826-c35a-f8a0-47dc" primary="false" name="Equipment (LoA: Lady Shiva)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Lady Shiva" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5672-af74-e728-15f8">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lady Shiva" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="21dd-1afb-8a3e-09ee">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Moral Compass, Precise Blow</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="80"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e21d-af07-c942-cd65" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="5c09-0c37-4685-df2b">
+          <categoryLinks>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="079e-5cfc-1cf1-d7ef" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="f6ab-c561-379c-e3ca" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="408a-178d-f6f2-d82a" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Talia al Ghul (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="782a-6a77-2737-d8a0">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Talia al Ghul</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talia (Rebirth)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talia al Ghul (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8df2-7e60-84d3-cc51">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Sidekick</comment>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="100"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Twin Scimitars" hidden="false" id="c92d-2da1-e8a5-8cf5" type="selectionEntry" targetId="8097-0c8f-f0d7-0b91">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffb9-8455-4d78-b989"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1c-6a62-d596-f5ff"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4e1c-4327-b3d2-6f53" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="534d-29b5-32c8-56ad">
+          <profiles>
+            <profile name="The Wizard" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c73f-9841-d700-c991">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Malcolm Merlyn</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Wizard</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Wizard" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8352-c9b7-a7b3-7795">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="110"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Crew (League of Assassins)" hidden="false" id="8c29-d5bf-c719-da71" targetId="9702-99aa-fc73-85a4" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="2fa5-6e8b-3a78-a570" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <comment>Sidekick</comment>
+          <entryLinks>
+            <entryLink import="true" name="Carbon Arrow" hidden="false" id="cf04-95cb-1581-8b59" type="selectionEntry" targetId="e146-724d-2254-2276">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1860-8a14-6a25-ea4d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46ac-b21e-715a-cbbf"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="2de6-68db-6d27-9123" type="selectionEntry" targetId="4740-3522-b86e-e269">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c766-0284-26c4-0ab1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c628-48a4-9078-a914"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3188-2321-c98a-9ac4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="384b-379b-5ef9-a5c7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Sword" hidden="false" id="e094-2e85-18ec-3fe0">
+          <profiles>
+            <profile name="Poisoned Sword" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="bcb7-5191-f0fd-1755">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Sai" hidden="false" id="fe75-e4d7-0251-58f8">
+          <profiles>
+            <profile name="Poisoned Sai" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="629b-5fb3-a765-643b">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Defensive, Handy, Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Twin Scimitars" hidden="false" id="8097-0c8f-f0d7-0b91">
+          <profiles>
+            <profile name="Twin Scimitars" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8b9c-e139-2015-f826">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Bleed (1), Overwhelming</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dao Dao" hidden="false" id="8952-cab8-a2b5-521c">
+          <profiles>
+            <profile name="Dao Dao" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="bc2c-55f3-e794-242b">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Acid Arrow" hidden="false" id="1d90-b5dd-8f75-5d82">
+          <profiles>
+            <profile name="Acid Arrow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="5af9-9ec3-e7e6-683b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Explosive, Acid, Caustic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Katana" hidden="false" id="2a5e-127e-5ce4-1cef">
+          <profiles>
+            <profile name="Katana" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="7daf-db43-33ac-b55a">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Scimitar" hidden="false" id="f585-5fef-2da4-67d9">
+          <profiles>
+            <profile name="Poisoned Scimitar" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="35b9-9e2d-de8b-a0fc">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Bleed (1), Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Scimitar" hidden="false" id="dd8f-8893-5c52-4783">
+          <profiles>
+            <profile name="Scimitar" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="31cb-7c7d-e155-d664">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Bleed (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bhuj" hidden="false" id="557f-781b-958d-4944">
+          <profiles>
+            <profile name="Bhuj" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="32ba-d7e8-163f-1dd6">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Heavy, Reach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hidden Blade" hidden="false" id="4c3e-ed9e-4ce1-6916">
+          <profiles>
+            <profile name="Hidden Blade" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="fe98-84d2-43db-8b46">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Arrow" hidden="false" id="2fb0-0203-dcf1-9f6c">
+          <profiles>
+            <profile name="Poisoned Arrow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="5af9-9ec3-e7e6-683b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Caustic, Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Enervating Arrow" hidden="false" id="3c08-4580-1d60-3f41">
+          <profiles>
+            <profile name="Enervating Arrow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="82a0-e98a-6fa9-e02b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Explosive, Gas, Enervating (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kukri" hidden="false" id="cf44-dbf6-7757-1e7b">
+          <profiles>
+            <profile name="Kukri" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0ddd-61b9-e331-e504">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp, Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow (Standard Arrow)" hidden="false" id="3515-411e-f490-44f2">
+          <profiles>
+            <profile name="Bow (Standard Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0992-65e8-ac47-dc0d">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Mechanical</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Carbon Arrow" hidden="false" id="e146-724d-2254-2276">
+          <profiles>
+            <profile name="Carbon Arrow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0fc0-900d-cbba-9bf1">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shuriken" hidden="false" id="e5f1-fafc-c082-6528">
+          <profiles>
+            <profile name="Shuriken" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="8e08-def1-bac8-ea02">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hand Crossbow" hidden="false" id="745e-776b-ea1f-295a">
+          <profiles>
+            <profile name="Hand Crossbow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="d202-5ea3-5c15-d868">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, M. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mauser Gun" hidden="false" id="b059-05f8-e00f-60ea">
+          <profiles>
+            <profile name="Mauser Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="1563-527b-86f1-5bf5">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, M. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kama" hidden="false" id="e7e8-6175-52fa-cc15">
+          <profiles>
+            <profile name="Kama" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="be03-90ca-91fd-c39a">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Defensive, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bo" hidden="false" id="2bd2-8196-009f-834a">
+          <profiles>
+            <profile name="Bo" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="a8a0-5dc8-a445-39b8">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Reach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Soultaker Sword" hidden="false" id="8bfa-d9e4-f86e-4d20">
+          <profiles>
+            <profile name="Soultaker Sword" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="d921-a3b2-0688-ab2f">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Enervating (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ancient Sword" hidden="false" id="b5b2-0f62-9080-b451">
+          <profiles>
+            <profile name="Ancient Sword" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="db72-1a4b-ae56-9aec">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Reach (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Cheshire" hidden="false" id="2b0a-126b-d734-2044" type="selectionEntry" targetId="b3f0-08c7-f0d3-3884"/>
+    <entryLink import="true" name="Goro" hidden="false" id="04d1-f676-7dc5-093a" type="selectionEntry" targetId="a22a-91a2-b98d-2809"/>
+    <entryLink import="true" name="Hassassin 1" hidden="false" id="9751-49c7-3a52-aeca" type="selectionEntry" targetId="0b36-423b-9fdf-92eb"/>
+    <entryLink import="true" name="Hassassin 2" hidden="false" id="3d25-e2ac-918c-e915" type="selectionEntry" targetId="b0a2-dfdd-0a52-832e"/>
+    <entryLink import="true" name="Hassassin 3" hidden="false" id="95a4-8105-700d-a340" type="selectionEntry" targetId="730b-bc4a-8ee8-ec9e"/>
+    <entryLink import="true" name="Hassassin 4" hidden="false" id="3389-12b6-b6c7-3cec" type="selectionEntry" targetId="1549-8476-0198-cafc"/>
+    <entryLink import="true" name="Ichi (Ninja)" hidden="false" id="559f-f231-593e-2bf0" type="selectionEntry" targetId="5334-323c-b22d-f93c"/>
+    <entryLink import="true" name="Ki (Ninja)" hidden="false" id="992d-03fe-0d39-ca6c" type="selectionEntry" targetId="8f52-abbf-809d-f8b4"/>
+    <entryLink import="true" name="League Acolyte 1" hidden="false" id="9365-d3c0-f632-10e0" type="selectionEntry" targetId="3354-dc8e-5215-31c7"/>
+    <entryLink import="true" name="League Acolyte 2" hidden="false" id="6577-cedf-d9c9-707c" type="selectionEntry" targetId="6600-2363-b4fc-589e"/>
+    <entryLink import="true" name="League Acolyte 3" hidden="false" id="73b0-5f6f-7dad-99e8" type="selectionEntry" targetId="93d4-7393-4b56-af43"/>
+    <entryLink import="true" name="League Acolyte 4" hidden="false" id="4cb9-d480-5bf4-2edb" type="selectionEntry" targetId="cc46-d039-f1c8-fb95"/>
+    <entryLink import="true" name="Miranda Tate" hidden="false" id="9e00-337f-d63d-a40f" type="selectionEntry" targetId="5dd5-27be-3270-f4c9"/>
+    <entryLink import="true" name="Nyssa al Ghul" hidden="false" id="eb22-d861-e045-ae3e" type="selectionEntry" targetId="7123-2685-2f7f-ca37"/>
+    <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="a875-7b98-adda-bb43" type="selectionEntry" targetId="331e-097a-32ec-5b8e"/>
+    <entryLink import="true" name="The Wizard" hidden="false" id="f306-6fa0-7c19-b247" type="selectionEntry" targetId="c8d9-bd9f-e431-9590"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="fc68-9b64-943b-ef6c" type="selectionEntry" targetId="6b32-4b55-93c9-911c"/>
+    <entryLink import="true" name="Lotus (Ninja)" hidden="false" id="c31e-e4d5-1df0-d141" type="selectionEntry" targetId="63af-bc66-ce96-f7fc"/>
+    <entryLink import="true" name="Yang (Ninja)" hidden="false" id="e52f-9d15-8f92-1e41" type="selectionEntry" targetId="27a2-c48c-8c0d-7499"/>
+    <entryLink import="true" name="Ying (Ninja)" hidden="false" id="fcab-d3e7-2958-ee5e" type="selectionEntry" targetId="38dc-3a6d-8c1c-af79"/>
+    <entryLink import="true" name="Talia al Ghul (Comics)" hidden="false" id="39c2-6093-7138-c159" type="selectionEntry" targetId="88cc-8862-b364-2b26"/>
+    <entryLink import="true" name="Talia al Ghul" hidden="false" id="be14-8b9c-f4c6-21f0" type="selectionEntry" targetId="95b3-f0bd-3e33-8bb7"/>
+    <entryLink import="true" name="Talia al Ghul (Limited)" hidden="false" id="a68d-2566-e29a-f4ed" type="selectionEntry" targetId="9b08-f4d5-170e-1141"/>
+    <entryLink import="true" name="Lady Shiva" hidden="false" id="75cd-94fb-08ef-117b" type="selectionEntry" targetId="bd36-4a9a-8430-e4bc"/>
+    <entryLink import="true" name="The Heretic" hidden="false" id="0f97-00b0-a526-8c38" type="selectionEntry" targetId="87c8-d397-3b43-5706"/>
+    <entryLink import="true" name="Lady Shiva" hidden="false" id="62e4-cc1b-0471-f179" type="selectionEntry" targetId="2abc-7ed1-4799-45f4"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul" hidden="false" id="331d-63af-2b90-dcb4" type="selectionEntry" targetId="06bb-03a3-6870-475f"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="5303-eb81-c51c-cd9c" type="selectionEntry" targetId="ee3d-f602-1564-53ee"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul (Rebirth)" hidden="false" id="7e83-86c8-75e5-bca6" type="selectionEntry" targetId="009d-8006-2694-11e6"/>
+    <entryLink import="true" name="League Agent 1" hidden="false" id="a130-d22a-413d-32f9" type="selectionEntry" targetId="273e-5528-fe7b-6336"/>
+    <entryLink import="true" name="League Agent 2" hidden="false" id="bcc3-f7d1-1245-e68f" type="selectionEntry" targetId="7a11-24b4-79ae-51e4"/>
+    <entryLink import="true" name="League Agent 3" hidden="false" id="deca-7540-13cb-d3e9" type="selectionEntry" targetId="85a3-c696-1cb0-2aff"/>
+    <entryLink import="true" name="Seeker (Ninja)" hidden="false" id="7551-860e-b8cc-b0e1" type="selectionEntry" targetId="299e-4bd2-d6ce-7dcc"/>
+    <entryLink import="true" name="Shadow (Ninja)" hidden="false" id="fe39-c8cb-e08a-bbc5" type="selectionEntry" targetId="f25c-3ed1-ea1f-25f2"/>
+    <entryLink import="true" name="Shadowstorm (Ninja)" hidden="false" id="1cd3-4bcc-1d42-8c58" type="selectionEntry" targetId="92cd-96d6-a351-d6bf"/>
+    <entryLink import="true" name="The Wizard" hidden="false" id="2e83-4598-325b-93a7" type="selectionEntry" targetId="534d-29b5-32c8-56ad"/>
+    <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="8947-2b2b-c07f-83c9" type="selectionEntry" targetId="5c09-0c37-4685-df2b"/>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipment" id="8e6e-4dad-b76c-3399" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="bc9f-3c3f-6c5c-4424">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b4e6-152d-50ca-dd5e" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177c-4633-db36-5342"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Loyalty Tattoo" hidden="false" id="a25a-d201-aeb8-8828">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a4-25dc-a06e-2bdd" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c24-eff3-c66c-ba60"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Climbing Claws" hidden="false" id="c088-973e-b413-7c58">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="28b3-bff1-9de2-c22d" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7a6-b4d2-70c0-9736"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Trained in the Shadows" hidden="false" id="3de8-ddb4-fb85-023a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="80da-425a-82a4-4021" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea71-b5c5-0ac1-4654"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="7da6-0c49-57cf-075c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e10-b682-6f58-8964" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05a5-d952-5253-38fa"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="9d31-8348-f8d4-c88b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b5a-a86c-c54c-b9db" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d53-18f1-f5ea-afe5"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combat Bracers" hidden="false" id="5484-5784-ed22-0137">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="38c7-dfeb-3c49-162e" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ccf-ab2c-3896-cd69"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Dose" hidden="false" id="22ab-288f-94c6-e5d7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="344d-87ed-3593-a338" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8436-9999-f092-cb41"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Precise Orders" hidden="false" id="0ec8-fc8d-f1c3-a3ab">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ce1-cd62-aa87-6796" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b526-5d3f-de6c-c64b"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ancient Weapon" hidden="false" id="28e3-ff27-428d-ba5d">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="84d9-4848-1b7e-85e5" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa27-d0cc-2bbf-b9ad"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="adec-8d6e-1788-2ae0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shadow Training" hidden="false" id="ba32-961d-20cc-8e97">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="151e-d7e3-5d2c-f97b" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6fb-9ca4-bbc9-4f79"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3c91-e67e-b870-d7f8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow Training" hidden="false" id="9858-5e5b-7b05-91b3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="46ca-b467-15fe-6ec3" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c61e-cca0-e720-1fa5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Traditional Way - Katana" hidden="false" id="4e88-abfb-ed12-f69c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="254d-124d-29c8-162d" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="985e-eacc-30ed-3336"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Traditional Way - Bow" hidden="false" id="6c9f-9a7c-dbe2-fc93">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f164-2220-4c2a-9f68" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c95-8576-52d6-23ed"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Unarmed Combat Training" hidden="false" id="49db-ed3c-99d5-5038">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="371d-ca91-d381-8f7b" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e121-48e7-3174-0750"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a684-0ba2-18de-95c4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poison Training" hidden="false" id="fd1a-36c2-dd4e-5a7d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bdb1-4ad8-e0ce-a27f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9df6-8521-f0ce-735c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0e24-78b4-3f88-2332" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
