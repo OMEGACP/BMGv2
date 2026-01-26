@@ -2,6 +2,7 @@
 <catalogue library="false" id="f2da-4023-9d92-989a" name="League of Assassins" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Bane" id="eb89-d0e9-0364-2ecb" targetId="bb2b-3a15-e80b-bca0" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Free Agents" id="d455-dc70-bdb5-0f25" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="c05d-7129-df0f-e78b">
@@ -29,7 +30,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Free Agent" hidden="false" id="31fe-751f-9c29-985f" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
-            <categoryLink name="Equipment Condition (LoA: Cheshire)" hidden="false" id="f95c-8fb8-ed93-91e9" targetId="0e24-78b4-3f88-2332" primary="false"/>
+            <categoryLink name="Equipment (LoA: Cheshire)" hidden="false" id="f95c-8fb8-ed93-91e9" targetId="0e24-78b4-3f88-2332" primary="false"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="babf-893d-6c70-abbc" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <costs>
@@ -51,7 +52,7 @@
             </entryLink>
           </entryLinks>
           <modifiers>
-            <modifier type="set" value="true" field="hidden">
+            <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
               </conditions>
@@ -101,7 +102,7 @@
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f2db-2500-ff3a-7efe" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="true" field="hidden">
+            <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
               </conditions>
@@ -1367,7 +1368,7 @@
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink name="Equipment Condition (LoA: Nyssa al Ghul)" hidden="false" id="de44-10b5-1d00-0b4a" targetId="c059-e67d-a436-c0a1" primary="false"/>
+            <categoryLink name="Equipment (LoA: Nyssa al Ghul)" hidden="false" id="de44-10b5-1d00-0b4a" targetId="c059-e67d-a436-c0a1" primary="false"/>
             <categoryLink name="Sidekick" hidden="false" id="fe2c-e3a5-162a-ec32" targetId="6c53-80aa-1e01-a485" primary="true"/>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="38af-b600-a78d-139a" targetId="9702-99aa-fc73-85a4" primary="false"/>
           </categoryLinks>
@@ -1408,7 +1409,7 @@
           <categoryLinks>
             <categoryLink name="Sidekick" hidden="false" id="439e-db42-3233-3a12" targetId="6c53-80aa-1e01-a485" primary="true"/>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="3a3d-6c8e-30c0-c77f" targetId="9702-99aa-fc73-85a4" primary="false"/>
-            <categoryLink name="Equipment Condition (LoA: Talia al Ghul)" hidden="false" id="3873-74cd-33c8-43df" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="3873-74cd-33c8-43df" targetId="3c91-e67e-b870-d7f8" primary="false"/>
           </categoryLinks>
           <profiles>
             <profile name="Miranda Tate" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="adcc-08ce-72c0-c5ef">
@@ -2071,14 +2072,14 @@
     <entryLink import="true" name="Nyssa al Ghul" hidden="false" id="eb22-d861-e045-ae3e" type="selectionEntry" targetId="7123-2685-2f7f-ca37"/>
     <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="a875-7b98-adda-bb43" type="selectionEntry" targetId="331e-097a-32ec-5b8e"/>
     <entryLink import="true" name="The Wizard" hidden="false" id="f306-6fa0-7c19-b247" type="selectionEntry" targetId="c8d9-bd9f-e431-9590"/>
-    <entryLink import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="fc68-9b64-943b-ef6c" type="selectionEntry" targetId="6b32-4b55-93c9-911c"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul (Comics)" hidden="false" id="fc68-9b64-943b-ef6c" type="selectionEntry" targetId="6b32-4b55-93c9-911c"/>
     <entryLink import="true" name="Lotus (Ninja)" hidden="false" id="c31e-e4d5-1df0-d141" type="selectionEntry" targetId="63af-bc66-ce96-f7fc"/>
     <entryLink import="true" name="Yang (Ninja)" hidden="false" id="e52f-9d15-8f92-1e41" type="selectionEntry" targetId="27a2-c48c-8c0d-7499"/>
     <entryLink import="true" name="Ying (Ninja)" hidden="false" id="fcab-d3e7-2958-ee5e" type="selectionEntry" targetId="38dc-3a6d-8c1c-af79"/>
     <entryLink import="true" name="Talia al Ghul (Comics)" hidden="false" id="39c2-6093-7138-c159" type="selectionEntry" targetId="88cc-8862-b364-2b26"/>
     <entryLink import="true" name="Talia al Ghul" hidden="false" id="be14-8b9c-f4c6-21f0" type="selectionEntry" targetId="95b3-f0bd-3e33-8bb7"/>
     <entryLink import="true" name="Talia al Ghul (Limited)" hidden="false" id="a68d-2566-e29a-f4ed" type="selectionEntry" targetId="9b08-f4d5-170e-1141"/>
-    <entryLink import="true" name="Lady Shiva" hidden="false" id="75cd-94fb-08ef-117b" type="selectionEntry" targetId="bd36-4a9a-8430-e4bc"/>
+    <entryLink import="true" name="Lady Shiva (Legacy)" hidden="false" id="75cd-94fb-08ef-117b" type="selectionEntry" targetId="bd36-4a9a-8430-e4bc"/>
     <entryLink import="true" name="The Heretic" hidden="false" id="0f97-00b0-a526-8c38" type="selectionEntry" targetId="87c8-d397-3b43-5706"/>
     <entryLink import="true" name="Lady Shiva" hidden="false" id="62e4-cc1b-0471-f179" type="selectionEntry" targetId="2abc-7ed1-4799-45f4"/>
     <entryLink import="true" name="Ra&apos;s al Ghul" hidden="false" id="331d-63af-2b90-dcb4" type="selectionEntry" targetId="06bb-03a3-6870-475f"/>

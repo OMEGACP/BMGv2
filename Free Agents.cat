@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="cede-9489-7ead-361e" name="Free Agents" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="4912-0b30-dcf9-efa9">
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Ratcatcher" hidden="false" id="c459-5ab0-b252-1daa" collective="true">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Ratcatcher" hidden="false" id="5ce1-29f0-3b07-495b">
+              <profiles>
+                <profile name="Ratcatcher" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a458-5e3d-40c3-daff">
+                  <characteristics>
+                    <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Otis Flannegan</characteristic>
+                    <characteristic name="Alias" typeId="324e-541d-263d-736b">Ratcatcher</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Ratcatcher" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="39a8-4e54-7986-1449">
+                  <characteristics>
+                    <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                    <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                    <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                    <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                    <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                    <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                    <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                    <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Lord of the Sewer, Poison Immunity, Poison Master, Rat Tamer, Sewer Worker, Sewer Swarm (3), Special Volume S, Stealth</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink name="Free Agent" hidden="false" id="32f5-b8ab-3d9a-4114" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+                <categoryLink name="Crew (Unknown)" hidden="false" id="1ad3-c8ad-cf1d-4a3f" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
+                <categoryLink name="Rival (BB)" hidden="false" id="ab3f-56d3-d9c3-b7a3" targetId="33d4-af20-d41a-829e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+                <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ec8b-27ec-bf58-85ce" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="unit" import="true" name="Sewer Swarm" hidden="false" id="80e2-cc2d-4042-dd88" collective="true">
+                  <selectionEntries>
+                    <selectionEntry type="model" import="true" name="Sewer Swarm" hidden="true" id="86ee-695e-fccc-4f0d" defaultAmount="3" collective="true">
+                      <profiles>
+                        <profile name="Sewer Swarm" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4aef-319b-9f4d-1be4">
+                          <characteristics>
+                            <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                            <characteristic name="Alias" typeId="324e-541d-263d-736b">Sewer Swarm</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Sewer Swarm" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4f7f-03d7-473b-b236">
+                          <characteristics>
+                            <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">3</characteristic>
+                            <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                            <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                            <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">1</characteristic>
+                            <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                            <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                            <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">2</characteristic>
+                            <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Amphibious, Poison Immunity, Stealth, Street Guy, Swarm</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-min"/>
+                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-max"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5ce1-29f0-3b07-495b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-max"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="6bff-d978-870c-ddc1" primary="true" name="Free Agent"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Models" hidden="false" id="c8f9-b951-694e-8e25"/>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Ratcatcher" hidden="false" id="3fac-669f-7560-7ae9" type="selectionEntry" targetId="5ce1-29f0-3b07-495b">
+      <categoryLinks>
+        <categoryLink targetId="9702-99aa-fc73-85a4" id="2749-e55a-4dca-1f2e" primary="false" name="Crew (League of Assassins)"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+</catalogue>

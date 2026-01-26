@@ -213,7 +213,7 @@
             <categoryLink name="Leader" hidden="false" id="4b64-b74b-2538-49b2" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="5274-9ff3-2114-327b" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Crew (Bane)" hidden="false" id="cb88-4f6e-51f9-ed5d" targetId="4b9d-e654-e756-e1ab" primary="false"/>
-            <categoryLink name="Equipment Condition (Bane)" hidden="false" id="559f-625a-2fc9-8434" targetId="0daf-c319-56ab-9164" primary="false"/>
+            <categoryLink name="Equipment (Bane: Bane)" hidden="false" id="559f-625a-2fc9-8434" targetId="0daf-c319-56ab-9164" primary="false"/>
             <categoryLink name="Bane Mercenary Boss" hidden="false" id="e1db-12a4-9a32-3a30" targetId="5b12-a50d-13bd-fb43" primary="false"/>
           </categoryLinks>
           <constraints>

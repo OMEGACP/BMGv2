@@ -33,6 +33,8 @@
     <categoryEntry name="Equipment (LoA: Nyssa al Ghul)" id="c059-e67d-a436-c0a1" hidden="false"/>
     <categoryEntry name="Equipment (LoA: Ra&apos;s al Ghul)" id="adec-8d6e-1788-2ae0" hidden="false"/>
     <categoryEntry name="Equipment (LoA: Talia al Ghul)" id="3c91-e67e-b870-d7f8" hidden="false"/>
+    <categoryEntry name="Rival (BB)" id="33d4-af20-d41a-829e" hidden="false"/>
+    <categoryEntry name="Special Unit" id="ea61-4014-081c-4b64" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -40,12 +42,12 @@
         <categoryLink name="Default Category" hidden="false" id="default-force-category-link" targetId="default-category"/>
         <categoryLink name="Leader" hidden="false" id="5c90-5eb9-1242-6f1b" targetId="955d-3f8e-a1e3-88b9">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8627-c3a2-4976-f273-max" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8627-c3a2-4976-f273-max" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Free Agent" hidden="false" id="5f2a-adb2-6c7f-4f5e" targetId="79d4-9b8b-7f29-cba5">
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5eb8-972a-9158-571b" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="5eb8-972a-9158-571b" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="5eb8-972a-9158-571b">
@@ -58,7 +60,7 @@
         <categoryLink name="Henchman" hidden="false" id="6e01-147a-211b-9ef2" targetId="cf01-1b3c-22d7-8d1b"/>
         <categoryLink name="Sidekick" hidden="false" id="68b7-f7cb-8f33-5327" targetId="6c53-80aa-1e01-a485">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34fc-84d1-c603-bf09"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="34fc-84d1-c603-bf09" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="34fc-84d1-c603-bf09">
@@ -314,7 +316,7 @@ Character Card.</description>
       <description>This model never suffers Impaired Movement when Climbing. In addition, the model may end its movement at any point on a climbable surface, such as on the side of a wall. Make the model’s end position clear to the opposing player if it is not possible to physically place the model there.</description>
     </rule>
     <rule name="Confusion (2SC)" id="7bda-2f07-1fb6-bfdc" hidden="false">
-      <description>2SC: Once per round, this model can target a non-vehicle enemy model within its line of sight, and no further than 8” away. Reduce the target model’s Attack and Defense ratings by 1. Also, the target cannot spend SC this round. Both effects last until the end of the round. </description>
+      <description>2SC: Once per round, this model can target a non-vehicle enemy model within its line of sight, and no further than 8” away. Reduce the target model’s Attack and Defense ratings by 1. Also, the target cannot spend SC this round. Both effects last until the end of the round.</description>
       <alias>Confusion</alias>
     </rule>
     <rule name="Unpredictible" id="84f7-de2f-5332-b782" hidden="false">
@@ -334,7 +336,7 @@ Character Card.</description>
       <description>If this model is your crew’s Boss, you can hire Henchmen with the Cop trait, regardless of their Affiliation.</description>
     </rule>
     <rule name="Addict" id="71d2-94a5-d833-40d1" hidden="false">
-      <description>This model may use Doses (of any kind) belonging to a friendly model in contact, as if the Dose were its own. </description>
+      <description>This model may use Doses (of any kind) belonging to a friendly model in contact, as if the Dose were its own.</description>
     </rule>
     <rule name="Affinity (Model)" id="a9bb-127b-fd56-7453" hidden="false">
       <description>This model shares a special affinity with another character. This model can be recruited as a Free Agent by the crew that includes the model named in parentheses. S/he may be recruited by that crew even if they have the Leader or Sidekick rank, and the crew already includes its maximum number of those ranks (this model’s rank is effectively changed to Free agent for the purposes of configuring the crew). Recruiting this model does not allow a further use of the trait (if, for example, another character has an Affinity to this model).</description>
@@ -347,7 +349,7 @@ Character Card.</description>
       <alias>Air Support</alias>
     </rule>
     <rule name="Amazon" id="4d9a-62e1-aa74-7fd0" hidden="false">
-      <description>This model receives a +1 bonus to its Hit and Block rolls. In addition, Damage rolls against this model suffer a -1 penalty.  </description>
+      <description>This model receives a +1 bonus to its Hit and Block rolls. In addition, Damage rolls against this model suffer a -1 penalty.</description>
     </rule>
     <rule name="Amazon Lineage" id="91c7-c28e-f64c-0607" hidden="false">
       <description>If this model is your crew’s Boss, you can only recruit models with Affiliation: Amazons of Themyscira.</description>
@@ -362,10 +364,10 @@ Character Card.</description>
       <description>When performing a ranged attack, this model must always select the closest model in line of sight, friend or foe, as the target.</description>
     </rule>
     <rule name="Animal" id="8209-cc9c-50b0-f794" hidden="false">
-      <description>This model gains a bonus of +2” to its basic move distance. When it moves, it can ignore obstacles up to 2” high, but cannot Climb or Jump. If this model suffers the Fire effect, at the beginning of the Recount phase (before resolving the effect) make a Willpower roll (which cannot be rerolled). If this roll is failed, the model cannot move in the following round. </description>
+      <description>This model gains a bonus of +2” to its basic move distance. When it moves, it can ignore obstacles up to 2” high, but cannot Climb or Jump. If this model suffers the Fire effect, at the beginning of the Recount phase (before resolving the effect) make a Willpower roll (which cannot be rerolled). If this roll is failed, the model cannot move in the following round.</description>
     </rule>
     <rule name="Archie" id="303d-ae0f-a68d-fbbd" hidden="false">
-      <description>This model is not deployed as normal at the start of the game. Once per game, at the start of the Raise the Plan phase of any round, you may place this model anywhere on the table that is not inside a building, as long as there is enough space for the model’s base to fit. </description>
+      <description>This model is not deployed as normal at the start of the game. Once per game, at the start of the Raise the Plan phase of any round, you may place this model anywhere on the table that is not inside a building, as long as there is enough space for the model’s base to fit.</description>
     </rule>
     <rule name="Arkham Asylum Doctor (1SC)" id="3f5a-e5a7-3f93-b643" hidden="false">
       <alias>Arkham Asylum Doctor</alias>
@@ -381,7 +383,7 @@ Character Card.</description>
       <description>When this model attacks an enemy non-vehicle model, before rolling to hit, the enemy model must pass an Agility roll. If it fails, it suffers -1 Defense until the end of the round.</description>
     </rule>
     <rule name="Attorney’s Allegation (2SC)" id="779d-95f9-f623-5260" hidden="false">
-      <description>2SC: One Use Only. All friendly Henchman within 8” gain 2 free Action Counters. These counters are immediately allocated to Movement, Attack, Defense or Special. </description>
+      <description>2SC: One Use Only. All friendly Henchman within 8” gain 2 free Action Counters. These counters are immediately allocated to Movement, Attack, Defense or Special.</description>
     </rule>
     <rule name="Autorepair (X)" id="0025-ee1c-adf9-4666" hidden="false">
       <description>In the Recount phase after calculating VPs, this model rolls 1D6. On a result of X+ remove a Damage counter from this model.</description>
