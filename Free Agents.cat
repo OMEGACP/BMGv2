@@ -73,6 +73,14 @@
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Poisoned Touch" hidden="false" id="4ab5-4dc5-44a3-29e0" type="selectionEntry" targetId="0f70-2a3d-4cfe-97d1">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="faea-6633-ddfd-59d0-min"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faea-6633-ddfd-59d0-max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -81,28 +89,90 @@
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Poisoned Baton" hidden="false" id="0ad1-f1c1-47f1-f3a2" type="selectionEntry" targetId="a030-59dc-7c22-0094">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="6bff-d978-870c-ddc1" primary="true" name="Free Agent"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Copperhead" hidden="false" id="73ad-d105-6f16-84a2">
+          <profiles>
+            <profile name="Copperhead" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6626-d863-2618-311c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Copperhead</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Copperhead" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f297-2f27-e9b3-db43">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="9be6-5777-9854-eed9" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="20a0-4298-b2d7-68df" primary="false" name="Rival (BB)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="67"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Special Models" hidden="false" id="c8f9-b951-694e-8e25"/>
+    <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c8f9-b951-694e-8e25">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Baton" hidden="false" id="a030-59dc-7c22-0094">
+          <profiles>
+            <profile name="Poisoned Baton" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="f0b6-621a-7e92-faa4">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Touch" hidden="false" id="0f70-2a3d-4cfe-97d1">
+          <profiles>
+            <profile name="Poisoned Touch" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="5717-f2df-9d95-f2b6">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">-</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Ratcatcher" hidden="false" id="3fac-669f-7560-7ae9" type="selectionEntry" targetId="5ce1-29f0-3b07-495b">
       <categoryLinks>
         <categoryLink targetId="9702-99aa-fc73-85a4" id="2749-e55a-4dca-1f2e" primary="false" name="Crew (League of Assassins)"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </entryLink>
+    <entryLink import="true" name="Copperhead" hidden="false" id="519a-a79a-a1ec-4d8e" type="selectionEntry" targetId="73ad-d105-6f16-84a2"/>
   </entryLinks>
 </catalogue>

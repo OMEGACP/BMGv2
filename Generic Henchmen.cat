@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="0d11-f6bc-876a-091a" name="Shared Henchmen" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="5d9e-dfc7-1afc-5f64">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Little Spark" hidden="false" id="8f07-2740-55b5-b978">
+          <profiles>
+            <profile name="Little Spark" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f5fb-19e2-6c3c-6f28">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Little Spark</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Little Spark" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1de5-97ce-abfb-8c59">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Catcher Gear, Electric Storm, Handyman, Sturdy, Unpredictable</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Electric Baton" hidden="false" id="83b7-d563-f341-76a1" type="selectionEntry" targetId="bd2f-c175-007c-f791">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df91-6b94-c7a3-3a76-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df91-6b94-c7a3-3a76-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="4e6a-5702-6a0c-418e" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="5568-934e-1fe5-876e" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="93c7-029c-6777-4305" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Catcher Gear" id="a545-bf3c-8858-7acc" hidden="false" type="rule" targetId="dddb-70a7-0fc6-f4b9"/>
+            <infoLink name="Electric Storm (3SC)" id="7d3f-c07e-4e89-a121" hidden="false" type="rule" targetId="ba07-a631-b529-f2db"/>
+            <infoLink name="Handyman" id="181c-a6da-2fce-5bb3" hidden="false" type="rule" targetId="a9a8-dd44-ee31-bd7c"/>
+            <infoLink name="Sturdy" id="fb5b-798b-3a6e-6406" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="Unpredictible" id="3253-545a-a767-a045" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 01" hidden="false" id="7384-b5e2-3b4e-6c93">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="10"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2004-3206-fb3f-3484" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="8828-c274-c3a1-389a" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Tube" hidden="false" id="060a-09a5-4321-e018" type="selectionEntry" targetId="09df-21fa-f614-222e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1ab-66b2-7336-e309-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1ab-66b2-7336-e309-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 01" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d3f5-4cca-135b-cd71">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 01</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 01" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="06fa-7cb0-a2c9-1faa">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Pickpocket</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3ee3-c007-a570-0fec" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Pickpocket" id="cb20-f022-d868-22a3" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 03" hidden="false" id="7cfc-7aaf-7c7a-6a91">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="19"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="3b13-eb81-d707-7eaf" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="dd1a-6385-ce64-7955" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Axe" hidden="false" id="9054-63c0-a902-60b6" type="selectionEntry" targetId="b896-cde2-09a3-1872">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4489-1c09-a686-3783-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4489-1c09-a686-3783-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 03" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9d4c-6eb1-d9d8-c9a8">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 03</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 03" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="354a-692b-97e4-00c3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Street Guy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d3f4-9d40-a291-b892" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="395d-d2e8-e2c2-0387" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Street Guy" id="8bf2-b4c1-8915-1cc6" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 02" hidden="false" id="bf05-a704-db83-890b">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="17"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="267e-2488-82f8-e343" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="1354-a050-bcd1-d988" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="BiggaSticka" hidden="false" id="7a32-8780-f948-00b7" type="selectionEntry" targetId="78dc-2f8e-ffe6-2a15">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a57-80fd-6b7b-42ec-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a57-80fd-6b7b-42ec-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 02" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ac8d-3115-e863-982f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 02</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 02" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4b90-a7a2-5894-ef4b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Elusive</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="321d-6847-abce-d078" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="8694-451f-9cd8-1423" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Elusive (1MC, Passive)" id="d529-25ec-e821-d208" hidden="false" type="rule" targetId="6c33-51a3-84eb-ada0"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 04" hidden="false" id="2c1a-49f6-655c-86e8">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="eb4c-c86d-ccb5-4ecc" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="10c1-39cd-b204-c1bc" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Brass Knuckles" hidden="false" id="8164-729c-56ed-e8d9" type="selectionEntry" targetId="49c3-bee6-62c3-52f0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9853-06b3-69af-bfdf-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9853-06b3-69af-bfdf-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 04" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ac3-17f9-1ddf-f1fe">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 04</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 04" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b3e1-f7e5-94a3-3ba1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Bodyguard</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7265-ea61-f85e-83b7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bodyguard (1SC, Passive)" id="b0f8-c7be-15d1-6aef" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+            <infoLink name="Criminal" id="6fdd-5389-577e-eed8" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 05" hidden="false" id="2527-3bb8-55b9-8989">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="fcef-d46c-8f22-9f2d" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="0104-4269-49b8-3f7f" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="f96d-a759-cfc4-448c" type="selectionEntry" targetId="0837-9f47-7129-0685">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b5d-6089-82dc-313d-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b5d-6089-82dc-313d-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Smoke Grenade" hidden="false" id="3ce0-2bb6-eeb6-6a52" type="selectionEntry" targetId="5427-b1dc-0c3e-0bce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6c7-0547-b447-48ba-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6c7-0547-b447-48ba-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 05" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cec1-b9d8-b737-0d9e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 05</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 05" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="c562-aef1-71d5-881b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Lantern</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="769a-8216-3f51-984b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Lantern (1SC)" id="d94a-3715-f5a9-f8f4" hidden="false" type="rule" targetId="c9cb-7d7c-08f6-d8f4"/>
+            <infoLink name="Criminal" id="1f02-75a5-5e07-4db7" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="High Security Henchman" hidden="false" id="87ef-407b-2f93-27df">
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="48"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="85cb-abdc-33c3-2deb" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="3958-1c32-c946-fd29" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Knives" hidden="false" id="aa9a-bc87-abcc-3586" type="selectionEntry" targetId="1a61-f961-d003-9e73">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee4d-50b3-1e4f-0405-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee4d-50b3-1e4f-0405-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="High Security Henchman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65bc-f746-4763-5d9b">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">High Security Henchman</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Security Henchman" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="bf70-a7f3-d8d4-574e">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Psycho, Combo (Knives), Devastating Blow</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="39ba-f988-e879-4f84" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="015f-6dae-5637-7653" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Combo (Weapon)" id="bb48-7027-7e48-270d" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Psycho" id="1fd9-6ed2-62df-d3b1" hidden="false" type="rule" targetId="f031-4f92-537e-535a"/>
+            <infoLink name="Devastating Blow (1SC)" id="3bcf-bc73-45c2-80b3" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Turk" hidden="false" id="7eea-2892-c7cd-b7e5">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="25"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="0beb-87ed-0f9f-6974" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="87d8-736f-a0e4-2380" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Handgun" hidden="false" id="5f96-8501-2113-c5ed" type="selectionEntry" targetId="3e08-c26d-8249-ac8a">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e443-2f65-8f6a-3e18-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e443-2f65-8f6a-3e18-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Turk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6496-246d-b5fd-d8fd">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Turk</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Turk" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="32f3-889e-0740-e830">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Gunman</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e94f-72e0-fead-4ab5" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Gunman (2SC)" id="bf85-53f4-5ae7-e362" hidden="false" type="rule" targetId="002e-4ebd-cf7d-47ce"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="High Security Prisoner" hidden="false" id="843b-bb80-d339-b6da">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="e1fa-33ff-39fc-82fc" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="60a0-5f46-a7d3-9951" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="876f-1ab5-e360-52e5" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3b3a-d809-99f7-97ce-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3b3a-d809-99f7-97ce-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="High Security Prisoner" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d676-cf60-ef9d-2d5e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">High Security Prisoner</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Security Prisoner" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f2f8-9bfc-0ada-6330">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Combo (Knife), Hidden, Brutal</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9554-74e2-e64f-8810" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="ff69-4850-4714-be2b" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Combo (Weapon)" id="5075-a69e-d870-2fbe" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Hidden" id="3fd7-959e-6c4f-83fe" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+            <infoLink name="Brutal" id="110d-e8dc-b64b-50b3" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 04211" hidden="false" id="8aba-8226-8ef2-a960">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2d0a-322b-04fc-e3e6" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="63ac-8282-b066-3024" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Carbine" hidden="false" id="13c2-a228-876c-5761" type="selectionEntry" targetId="c842-c325-eeca-7d06">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93cf-f7fb-9790-fe4a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93cf-f7fb-9790-fe4a-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 04211" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0215-55f0-a9dc-7dc4">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 04211</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 04211" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="df7b-8e82-40d8-59c1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Escape Artist, Pickpocket</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5c0c-9033-f4f1-7ca7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Pickpocket" id="080a-fd98-168f-d12f" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
+            <infoLink name="Escape Artist" id="e9d0-98be-a49b-8f50" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 47905" hidden="false" id="31c7-513b-7dc0-2813">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="350"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="23"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="6d3c-b4c4-63e9-ba28" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="0b11-3343-257b-81a4" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="ac02-eaf2-e48f-c208" type="selectionEntry" targetId="0837-9f47-7129-0685">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f97a-623d-2a75-043c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f97a-623d-2a75-043c-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Prisoner 47905" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a6dc-727c-4c66-6145">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 47905</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 47905" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="a526-a0fe-95bf-730d">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Rapid Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f9cf-6ba6-869b-289e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Rapid Fire (1SC)" id="8b9d-79b4-19cd-1709" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="Criminal" id="4302-05a8-e674-301e" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Prisoner 93432" hidden="false" id="492d-ef08-ff48-3b81">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="0b6b-0911-7cf3-9d94" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="0626-c873-1a90-7173" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Prisoner 93432" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0e27-25fb-5444-cbd5">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Prisoner 93432</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prisoner 93432" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="86c0-94ff-37c3-869b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Master Fighter, Reinforced Gloves</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6492-d6e2-69bd-cab3" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="e8a4-a2ac-cb6e-e2b0" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Reinforced Gloves" id="5508-4796-333a-5b95" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Master Fighter" id="16cc-fab4-6dcc-ba9e" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Inmate E0475" hidden="false" id="9aaa-dad8-423b-083a">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="e074-9141-28bb-c464" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="dc43-e8ce-90db-9b71" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Big Spike" hidden="false" id="a94e-d0bb-6fc0-b1c4" type="selectionEntry" targetId="da53-9537-5452-a157">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="559b-8c18-e489-04ba-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="559b-8c18-e489-04ba-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Inmate E0475" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="955b-9b49-5202-409f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Irwin</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Inmate E0475</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inmate E0475" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5403-43be-06b8-e7f9">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Runaway</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ad2a-ba79-8a1d-b3b4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Paranoid (Mental Disorder) " id="32c8-63ba-2d71-54a2" hidden="false" type="rule" targetId="6d07-8246-e781-7ae0"/>
+            <infoLink name="Runaway" id="26a4-9bca-9e49-7600" hidden="false" type="rule" targetId="940e-e2b3-66e9-b8cc"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Inmate E0476" hidden="false" id="9f2a-9f2e-3952-8f57">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="34"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="9bc1-88f9-c057-5de0" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="d69d-fd4d-8f76-1c11" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Improvised Maul" hidden="false" id="32a6-a307-ed0a-d522" type="selectionEntry" targetId="fe90-3d86-3479-6965">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="608e-406c-6af7-dc90-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="608e-406c-6af7-dc90-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Inmate E0476" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b4f1-415f-d2e7-abaf">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Milo</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Inmate E0476</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inmate E0476" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="c020-8271-64af-0c36">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bipolar (Mental Disorder),Hardened, Devastating Blow</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="faf9-662b-cba5-d38d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bipolar (Mental disorder)" id="2f88-a37d-9cab-8d3f" hidden="false" type="rule" targetId="e95e-dab6-ac37-4014"/>
+            <infoLink name="Hardened" id="ce8e-4ca9-e32a-22e8" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
+            <infoLink name="Devastating Blow (1SC)" id="3986-a6ec-b28a-4bc8" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Inmate E0474" hidden="false" id="31f3-7dc4-7abd-5000">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="ecb0-45ca-18f8-1776" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="da05-f76a-f4a4-c785" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katar" hidden="false" id="7074-2b24-d8a0-cd03" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de47-8a69-bafe-792f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de47-8a69-bafe-792f-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Inmate E0474" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="e71e-1b91-6ee6-20fe">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Mezz</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Inmate E0474</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inmate E0474" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4077-971b-9aa9-88c6">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Obsessive (Mental Disorder), Brutal, Climbing Claws</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="efb5-d09b-3c59-4460" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Obsessive (Mental Disorder)" id="4045-18e1-a491-3ef3" hidden="false" type="rule" targetId="f709-e36c-3c5a-3d49"/>
+            <infoLink name="Brutal" id="6156-adc4-3b41-f759" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Climbing Claws" id="fab3-8618-c92e-2ee6" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Inmate E0478" hidden="false" id="98ec-5b95-205d-2d54">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="15"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="f537-6b61-db96-1f33" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="4eb7-d983-0b65-fa38" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="fb10-2505-03f1-3f05" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0f9a-267a-5829-eb1d-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0f9a-267a-5829-eb1d-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Inmate E0478" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eec2-7dcb-7501-1768">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Benton</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Inmate E0478</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inmate E0478" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="9fa1-17bb-03bb-6acf">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Stealth</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8159-c196-0e8b-2e20" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bloodthirsty (Mental disorder)" id="82d5-a5c5-1a42-6500" hidden="false" type="rule" targetId="a6f3-bde6-5361-bc8a"/>
+            <infoLink name="Stealth" id="0025-dac8-22a1-f3a3" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Inmate E0477" hidden="false" id="50e7-6ec9-be39-6bec">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2f4b-876d-429f-c66e" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="9ece-0585-bef6-dd2b" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Meat Knife" hidden="false" id="c792-670d-c1ed-e871" type="selectionEntry" targetId="7423-909b-963f-0b1b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94a3-931d-08f9-b4b7-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94a3-931d-08f9-b4b7-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Throwing Meat Knives" hidden="false" id="9058-8129-f427-7f57" type="selectionEntry" targetId="f750-0b3f-72e8-930a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="91b4-6134-f211-efa8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91b4-6134-f211-efa8-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Inmate E0477" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="11c9-fe28-e8a0-e3e4">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Meatman</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Inmate E0477</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inmate E0477" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ac1b-7f7e-9e92-2d8f">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Mobster, Shooter</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="23b4-71e4-d446-ffa5" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bloodthirsty (Mental disorder)" id="fc5d-3dac-208c-608f" hidden="false" type="rule" targetId="a6f3-bde6-5361-bc8a"/>
+            <infoLink name="Mobster" id="2505-ad32-856b-5988" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
+            <infoLink name="Shooter" id="303c-d1f7-50f8-0900" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Pavillion A Subject" hidden="false" id="0f7b-97d8-0c8c-4f05">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="10"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="8209-7d8c-7261-afaa" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="8165-69cf-048d-8c18" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Pavillion A Subject" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4329-f058-3eb0-b417">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Pavillion A Subject</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Pavillion A Subject" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="c0e6-5a58-69cf-a4df">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Unpredictable, Delirium</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0801-1056-3108-257f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Unpredictible" id="f7e9-7d56-9962-35c6" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Delirium" id="1128-5d24-7986-d77f" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Pavillion B Subject" hidden="false" id="6b82-d588-d4a8-76e7">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="13"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="3201-0828-698c-4b86" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="acac-b29b-2931-eb6c" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Pavillion B Subject" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1929-7e22-e031-7cfb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Pavillion B Subject</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Pavillion B Subject" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d3d3-4016-522a-9fc3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Fast, Delirium</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="54da-a600-830f-7259" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Delirium" id="55cb-a8a3-a558-dd52" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
+            <infoLink name="Paranoid (Mental Disorder) " id="f71f-2ded-f185-7d91" hidden="false" type="rule" targetId="6d07-8246-e781-7ae0"/>
+            <infoLink name="Fast" id="7718-87b4-e7f7-bce4" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="File No 08923" hidden="false" id="dea0-c055-64e3-4a71">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="5836-29a7-f2d2-7e7b" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="6716-df9f-36f1-2b5d" primary="true" name="Henchmen (Common)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="File No 08923" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cac2-a70b-c7e5-341c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">File No 08923</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="File No 08923" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6c08-ac8a-947b-924a">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aggressive Schizophrenia (Mental Disorder), Claws, Delirium</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="73c1-e9b2-2fa9-64d1" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Aggressive Schizophrenia (Mental Disorder)" id="a0b0-9ae0-ba44-3add" hidden="false" type="rule" targetId="f1b2-c975-7054-e0f1"/>
+            <infoLink name="Claws" id="8bdc-10cf-3d38-baad" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+            <infoLink name="Delirium" id="7ded-cfb7-7918-1b10" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="High Security Henchman" hidden="false" id="86d9-b35b-b51b-1214" type="selectionEntry" targetId="87ef-407b-2f93-27df"/>
+    <entryLink import="true" name="High Security Prisoner" hidden="false" id="970b-208d-196a-55da" type="selectionEntry" targetId="843b-bb80-d339-b6da"/>
+    <entryLink import="true" name="Little Spark" hidden="false" id="3bdd-285f-4da0-971c" type="selectionEntry" targetId="8f07-2740-55b5-b978"/>
+    <entryLink import="true" name="Prisoner 01" hidden="false" id="6b6e-9608-3f72-f65b" type="selectionEntry" targetId="7384-b5e2-3b4e-6c93"/>
+    <entryLink import="true" name="Prisoner 02" hidden="false" id="2508-66f8-58f8-54ec" type="selectionEntry" targetId="bf05-a704-db83-890b"/>
+    <entryLink import="true" name="Prisoner 03" hidden="false" id="e49b-f512-4d3f-360b" type="selectionEntry" targetId="7cfc-7aaf-7c7a-6a91"/>
+    <entryLink import="true" name="Prisoner 04" hidden="false" id="05bf-7cd2-3cac-7188" type="selectionEntry" targetId="2c1a-49f6-655c-86e8"/>
+    <entryLink import="true" name="Prisoner 05" hidden="false" id="4b35-ed2a-f489-fe4a" type="selectionEntry" targetId="2527-3bb8-55b9-8989"/>
+    <entryLink import="true" name="Turk" hidden="false" id="6d34-7b5b-9649-7075" type="selectionEntry" targetId="7eea-2892-c7cd-b7e5"/>
+    <entryLink import="true" name="File No 08923" hidden="false" id="d7ea-152a-0fad-8aad" type="selectionEntry" targetId="dea0-c055-64e3-4a71"/>
+    <entryLink import="true" name="Inmate E0474" hidden="false" id="fb88-1546-ce94-1953" type="selectionEntry" targetId="31f3-7dc4-7abd-5000"/>
+    <entryLink import="true" name="Inmate E0475" hidden="false" id="3857-89d1-62ca-7632" type="selectionEntry" targetId="9aaa-dad8-423b-083a"/>
+    <entryLink import="true" name="Inmate E0476" hidden="false" id="86f3-baf8-4678-e609" type="selectionEntry" targetId="9f2a-9f2e-3952-8f57"/>
+    <entryLink import="true" name="Inmate E0477" hidden="false" id="9d66-fc16-a53e-d526" type="selectionEntry" targetId="50e7-6ec9-be39-6bec"/>
+    <entryLink import="true" name="Inmate E0478" hidden="false" id="1cfe-1f10-588c-34db" type="selectionEntry" targetId="98ec-5b95-205d-2d54"/>
+    <entryLink import="true" name="Pavillion A Subject" hidden="false" id="a362-1218-529d-15ac" type="selectionEntry" targetId="0f7b-97d8-0c8c-4f05"/>
+    <entryLink import="true" name="Pavillion B Subject" hidden="false" id="5643-90a6-3cff-c5f5" type="selectionEntry" targetId="6b82-d588-d4a8-76e7"/>
+    <entryLink import="true" name="Prisoner 04211" hidden="false" id="2b12-3106-6817-3930" type="selectionEntry" targetId="8aba-8226-8ef2-a960"/>
+    <entryLink import="true" name="Prisoner 47905" hidden="false" id="e117-e04b-db08-be8e" type="selectionEntry" targetId="31c7-513b-7dc0-2813"/>
+    <entryLink import="true" name="Prisoner 93432" hidden="false" id="3133-b698-bbca-6209" type="selectionEntry" targetId="492d-ef08-ff48-3b81"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="b2c8-c971-986f-30a8" targetId="0b28-80d3-74e4-3257"/>
+  </catalogueLinks>
+</catalogue>

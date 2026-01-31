@@ -30,7 +30,7 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Assault Rifle" hidden="false" id="8363-e6cb-16d2-9ca3" type="selectionEntry" targetId="5487-abf6-a1cf-b76d">
+            <entryLink import="true" name="Cal 0,60 Gun" hidden="false" id="8363-e6cb-16d2-9ca3" type="selectionEntry" targetId="5487-abf6-a1cf-b76d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8580-ad11-48fe-bcf9-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8580-ad11-48fe-bcf9-max"/>
@@ -232,4 +232,8 @@
   <categoryEntries>
     <categoryEntry name="Bane Mercenary Boss" id="5b12-a50d-13bd-fb43" hidden="false"/>
   </categoryEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Free Agents" id="b2f4-3526-6f9b-b2f3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Henchman" id="82a6-0a43-8cee-a62c" targetId="2158-0d1a-7feb-5586" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

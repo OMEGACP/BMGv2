@@ -3,6 +3,10 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Bane" id="eb89-d0e9-0364-2ecb" targetId="bb2b-3a15-e80b-bca0" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Free Agents" id="d455-dc70-bdb5-0f25" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Henchmen" id="0049-fb72-7579-fb2f" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Weapon Rules" id="5377-c1eb-1ae5-8ba5" targetId="27d9-6511-2f86-693d"/>
+    <catalogueLink type="catalogue" name="Effects" id="78a4-8267-1fab-71f7" targetId="21fe-eb6d-4a94-781b"/>
+    <catalogueLink type="catalogue" name="Special Attacks" id="427d-b17d-3c18-f632" targetId="0b28-80d3-74e4-3257"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="c05d-7129-df0f-e78b">
@@ -158,9 +162,16 @@
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="58d1-afc9-b20c-e497" primary="true" name="Henchman"/>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="58d1-afc9-b20c-e497" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="7a2a-1cb2-aae7-b0a8" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink name="Duelist" id="b4d7-d20f-b06d-d116" hidden="false" type="rule" targetId="e78c-7421-cd5a-3dd8"/>
+            <infoLink name="Light Armor" id="2f6d-5c34-a9b5-434b" hidden="false" type="rule" targetId="4d84-5587-91b0-63a5"/>
+            <infoLink name="Kill them! (1SC)" id="7e1d-64e9-72c4-7d65" hidden="false" type="rule" targetId="a3e6-ea50-118e-771b"/>
+            <infoLink name="Large" id="b362-5175-d53b-3ed6" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Martial Artist" id="1984-ee8e-97f2-d6b2" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ichi (Ninja)" hidden="false" id="5334-323c-b22d-f93c">
           <costs>
@@ -168,7 +179,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="32"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="900c-81b4-b1eb-43dc" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="900c-81b4-b1eb-43dc" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="cb1a-7e56-1c09-9f91" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -215,6 +226,12 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Stealth" id="4cd4-988d-7bcd-60eb" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Elite (Type)" id="5e8e-84ae-10f5-aa0c" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="e114-0635-8912-da6a" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Feint (1SC)" id="5208-95d8-d01e-9541" hidden="false" type="rule" targetId="2339-c607-712f-3889"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 1" hidden="false" id="0b36-423b-9fdf-92eb">
           <entryLinks>
@@ -251,7 +268,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="9a51-e837-2ba9-c3a8" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9a51-e837-2ba9-c3a8" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e008-c1db-ce31-6cd4" includeChildSelections="true" includeChildForces="true"/>
@@ -263,6 +280,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="9455-0448-4517-c605" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Martial Expert" id="973a-d1be-b37d-cc00" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ki (Ninja)" hidden="false" id="8f52-abbf-809d-f8b4">
           <profiles>
@@ -290,7 +311,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="28"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="f71b-01ba-5b40-d13a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="f71b-01ba-5b40-d13a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Acid Arrow" hidden="false" id="81af-3476-dee8-a606" type="selectionEntry" targetId="1d90-b5dd-8f75-5d82">
@@ -317,6 +338,13 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Precise Aim (1SC)" id="c1f0-16a9-0021-b9bd" hidden="false" type="rule" targetId="f990-95e5-8d5e-5a30"/>
+            <infoLink name="Elite (Type)" id="06de-47c4-7e54-8ef8" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="d9c2-6289-7414-9c49" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Stealth" id="5954-5aa3-999e-2f0e" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Hidden" id="6022-63c1-4492-5eab" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 2" hidden="false" id="b0a2-dfdd-0a52-832e">
           <entryLinks>
@@ -354,7 +382,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="648b-1190-51a7-e9c4" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="648b-1190-51a7-e9c4" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a02b-6bbf-fe9a-16c0" includeChildSelections="true" includeChildForces="true"/>
@@ -366,6 +394,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="9805-9a2a-2d2c-1cd3" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Martial Expert" id="6688-4025-29aa-a775" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Tension" id="a000-fe32-3470-8141" hidden="false" type="rule" targetId="e4bc-8c3f-e32f-52e5"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 3" hidden="false" id="730b-bc4a-8ee8-ec9e">
           <entryLinks>
@@ -408,7 +441,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="9460-c071-865e-e2a1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9460-c071-865e-e2a1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2971-4ef1-373f-4630" includeChildSelections="true" includeChildForces="true"/>
@@ -420,6 +453,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="aeba-9663-d4bc-c67a" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Martial Expert" id="9543-8f6f-ac49-49f0" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 4" hidden="false" id="1549-8476-0198-cafc">
           <entryLinks>
@@ -462,7 +499,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="ec4a-9280-604e-dafb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="ec4a-9280-604e-dafb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2bb3-5821-21fb-96be" includeChildSelections="true" includeChildForces="true"/>
@@ -474,6 +511,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="724d-26ee-f62d-5942" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Martial Expert" id="e814-df7d-5c14-a92f" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Scout" id="82dd-817b-b3bd-f236" hidden="false" type="rule" targetId="49a9-b4ff-fe41-9009"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 1" hidden="false" id="3354-dc8e-5215-31c7">
           <entryLinks>
@@ -506,7 +548,7 @@
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="bccd-7260-a1ac-505a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="bccd-7260-a1ac-505a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -522,6 +564,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="c305-c00a-f30f-403e" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Martial Expert" id="c202-c66f-4e20-4e2c" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Sneak Attack (1SC)" id="170b-8d8f-d1d2-568b" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 2" hidden="false" id="6600-2363-b4fc-589e">
           <entryLinks>
@@ -555,7 +602,7 @@
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="5bc3-cc7f-49f3-83ab" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="5bc3-cc7f-49f3-83ab" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
@@ -571,6 +618,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Combo (Weapon)" id="1a0b-ba1c-5761-5b4c" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Martial Expert" id="4655-7dde-e402-4d38" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Assassin (X)" id="a0f4-698e-0f09-55da" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 3" hidden="false" id="93d4-7393-4b56-af43">
           <entryLinks>
@@ -604,12 +656,12 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Sneak Attack</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Falconry</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="66cf-e3a0-a88b-fcbe" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="66cf-e3a0-a88b-fcbe" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
@@ -625,6 +677,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="eb24-e875-cdb7-f86a" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Good Aim (1SC)" id="8b21-52b3-c6f0-5fe4" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Falconry" id="31e0-e629-768e-1667" hidden="false" type="rule" targetId="3d59-8389-8f25-609d"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 4" hidden="false" id="cc46-d039-f1c8-fb95">
           <entryLinks>
@@ -641,7 +698,6 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment" hidden="false" id="b9d6-4ac0-3e8a-5bea" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
-            <entryLink import="true" name="Equipment" hidden="false" id="0bb5-e5d4-6bea-fd8f" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Acolyte 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ee95-bdca-1fad-1a2d">
@@ -664,7 +720,7 @@
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="0b75-7ce0-add5-8e55" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0b75-7ce0-add5-8e55" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
@@ -680,6 +736,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Martial Expert" id="b020-2be6-782e-c353" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Good Aim (1SC)" id="d8ef-c06b-fcf7-2c6b" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Assassin (X)" id="a4f9-7f50-e770-505d" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lotus (Ninja)" hidden="false" id="63af-bc66-ce96-f7fc">
           <costs>
@@ -687,7 +748,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="48"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="27bb-dc74-1eb4-c4c7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="27bb-dc74-1eb4-c4c7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="2ac0-78e7-16ea-d57d" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -729,6 +790,14 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Elite (Type)" id="02dc-1266-5b1b-088a" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="27b7-632e-fe81-405c" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Stealth" id="4ac6-9939-9745-640a" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Dodge" id="fc3b-4b1b-1fe3-bcfe" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
+            <infoLink name="Reflexes" id="0a56-af58-c065-1b3d" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
+            <infoLink name="Rapid Fire (1SC)" id="abf4-f70c-a298-578e" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ying (Ninja)" hidden="false" id="38dc-3a6d-8c1c-af79">
           <costs>
@@ -736,7 +805,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="30"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="0ed6-7ed5-e57f-8941" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0ed6-7ed5-e57f-8941" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="62dd-eea0-061f-613a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -777,6 +846,12 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Stealth" id="873b-0096-5b4a-0f2d" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Elite (Type)" id="da02-4fe2-eb68-6572" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="b4b9-e498-968e-66c8" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Combo (Weapon)" id="e606-50ed-36ae-fc5e" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Yang (Ninja)" hidden="false" id="27a2-c48c-8c0d-7499">
           <costs>
@@ -784,7 +859,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="31"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="2b25-827b-5cae-2eb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2b25-827b-5cae-2eb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="573a-d11f-95fb-de8a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -825,6 +900,13 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Elite (Type)" id="b02e-e05b-974d-b1d3" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="7f5a-7732-517d-5f4d" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Stealth" id="93de-af77-09d9-a549" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Climbing Claws" id="2578-023b-4116-54d1" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Hardened" id="0737-7af9-78e1-e01d" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 1" hidden="false" id="273e-5528-fe7b-6336">
           <entryLinks>
@@ -861,7 +943,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="21"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="3b81-5cb1-cbf9-dc1c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3b81-5cb1-cbf9-dc1c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eb69-de42-0f9d-6c5e" includeChildSelections="true" includeChildForces="true"/>
@@ -873,6 +955,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Martial Expert" id="9a50-d5c8-2e72-fbc6" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Sustained Defense" id="e13f-c63c-d84f-643c" hidden="false" type="rule" targetId="04b7-a6f5-397f-1576"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 2" hidden="false" id="7a11-24b4-79ae-51e4">
           <entryLinks>
@@ -882,7 +968,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="933f-fb1d-daeb-9082"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Knife" hidden="false" id="2f9a-401c-06a6-d612" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
+            <entryLink import="true" name="Ice Axe" hidden="false" id="2f9a-401c-06a6-d612" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
             <entryLink import="true" name="Equipment" hidden="false" id="bfe5-e577-65fb-329d" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
@@ -910,7 +996,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="ca67-00dd-6fb1-8d86" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="ca67-00dd-6fb1-8d86" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="901b-8640-849b-6867" includeChildSelections="true" includeChildForces="true"/>
@@ -922,6 +1008,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Martial Expert" id="a173-1f8b-9794-5be0" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Undercover" id="c8e6-8949-1d41-03ea" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 3" hidden="false" id="85a3-c696-1cb0-2aff">
           <entryLinks>
@@ -958,7 +1048,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="23"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="347b-53af-15d9-9c1e" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="347b-53af-15d9-9c1e" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="963d-a24b-0e6d-4b8e" includeChildSelections="true" includeChildForces="true"/>
@@ -970,6 +1060,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Martial Expert" id="3ce1-77d0-f29b-bf63" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Fast" id="9027-8a4a-1b87-08de" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Seeker (Ninja)" hidden="false" id="299e-4bd2-d6ce-7dcc">
           <profiles>
@@ -997,7 +1091,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="27"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="9c84-5579-9833-933a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9c84-5579-9833-933a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Poisoned Arrow" hidden="false" id="6f36-6cf6-75a8-26c6" type="selectionEntry" targetId="2fb0-0203-dcf1-9f6c">
@@ -1013,7 +1107,6 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment" hidden="false" id="dcc6-c4c5-9447-78fd" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
-            <entryLink import="true" name="Equipment" hidden="false" id="535a-34e8-0e9f-eb58" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4a97-0902-d1bd-666e" includeChildSelections="true" includeChildForces="true"/>
@@ -1025,6 +1118,12 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Elite (Type)" id="2cd6-df6f-dadf-21a9" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="8560-16e5-e751-8fde" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Stealth" id="06a0-2804-1092-04e3" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Good Aim (1SC)" id="13b4-9ace-24b9-3809" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Shadow (Ninja)" hidden="false" id="f25c-3ed1-ea1f-25f2">
           <costs>
@@ -1032,7 +1131,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
           </costs>
           <categoryLinks>
-            <categoryLink name="Henchman" hidden="false" id="6152-fa67-96dc-3ae5" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="6152-fa67-96dc-3ae5" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Bo" hidden="false" id="6fce-f4d6-ab36-f5cf" type="selectionEntry" targetId="2bd2-8196-009f-834a">
@@ -1079,6 +1178,70 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Stealth" id="cd61-0bd8-0df3-3c23" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Elite (Type)" id="afcc-a375-6171-5f46" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Martial Artist" id="58fd-3f6c-a40e-a0fb" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Undercover" id="4e65-a7c3-9add-e2dd" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Sneak Attack (1SC)" id="a5e2-c4a7-b29e-e4ea" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ubu" hidden="false" id="5db3-f92c-a969-39aa">
+          <profiles>
+            <profile name="Ubu" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="30ef-4519-7ad9-bff0">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ubu</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ubu" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e201-ab81-c329-1980">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bodyguard, Inspire Fear, Large, Lieutenant (Ra&apos;s al Ghul), Martial Artist, Sturdy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="66"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Huge Scimitar" hidden="false" id="691d-ef7a-4ae4-8fc3" type="selectionEntry" targetId="6a31-e87f-0fd3-4926">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01da-05eb-8b80-ac91"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd40-63ef-b08d-be31"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="d920-ef6b-e64a-5bca" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cfcf-3caa-b0c5-24f0" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="9491-7a5c-ec6c-5be3" primary="true" name="Henchmen (Faction-specific)"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="153e-8191-b811-d53c" primary="false" name="Crew (League of Assassins)"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Inspire Fear (2SC)" id="bc96-c263-3e39-cebf" hidden="false" type="rule" targetId="4ef7-967d-0ca0-b696"/>
+            <infoLink name="Bodyguard (1SC, Passive)" id="65db-32f6-bd23-4442" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+            <infoLink name="Sturdy" id="9464-815f-c7d6-ceee" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="Large" id="e203-419a-207b-b06a" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Martial Artist" id="9fcd-910b-aad8-3405" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Lieutenant (Model)" id="6b8b-0e12-41ac-3858" hidden="false" type="rule" targetId="35b6-a3b3-21f8-000f"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1089,6 +1252,7 @@
             <categoryLink name="Leader" hidden="false" id="a4bc-069f-f58c-201c" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="7222-72fd-21ab-f51e" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink targetId="3c91-e67e-b870-d7f8" id="3b01-c423-03e6-1209" primary="false" name="Equipment (LoA: Talia al Ghul)"/>
+            <categoryLink targetId="804a-afb5-5684-1e16" id="65b1-418d-c437-3666" primary="false" name="Business Agent"/>
           </categoryLinks>
           <profiles>
             <profile name="Talia al Ghul (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="00e8-8cb5-246e-f73a">
@@ -1133,6 +1297,18 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="cea4-930d-7af0-272b" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Business Agent" id="cbb1-c48c-4ac4-fe3a" hidden="false" type="rule" targetId="311a-4c24-57a3-1ff0"/>
+            <infoLink name="Manipulative" id="5e04-def7-131a-52ca" hidden="false" type="rule" targetId="f735-5a9f-d9bd-8fff"/>
+            <infoLink name="Martial Artist" id="2d3c-a8be-1e7b-0791" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mind Control Substance" id="7dfc-680f-2421-59bf" hidden="false" type="rule" targetId="4e44-b921-f62b-8203"/>
+            <infoLink name="Scheming (X)" id="8a5f-2355-36b4-ea91" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Special Volume S" id="505d-d7d4-5732-909e" hidden="false" type="rule" targetId="4daf-3b81-1f67-6394"/>
+            <infoLink name="Strategist" id="b384-7e21-f369-21cd" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="True Love (Name)" id="a536-82ff-4f9d-f114" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Weapon Master" id="224b-7102-ae32-aee6" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="c8d9-bd9f-e431-9590">
           <profiles>
@@ -1189,6 +1365,18 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Trickster" id="1eae-ae8e-dd39-dfbd" hidden="false" type="rule" targetId="1dba-ac2f-ebf0-7291"/>
+            <infoLink name="Acrobat" id="6fac-7338-fa72-f27c" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="eede-1f19-2300-8dcd" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Elite (Type)" id="d87c-13a9-bfaf-6365" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Good Aim (1SC)" id="0505-a408-7d02-5a86" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Martial Artist" id="95a1-508a-bc43-a693" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mixed Combat Style (2SC)" id="4752-e7fd-2a0d-063a" hidden="false" type="rule" targetId="48a9-e1da-b47e-44c5"/>
+            <infoLink name="Outlaw Field Commander (1SC)" id="31ce-aad8-34da-f470" hidden="false" type="rule" targetId="168a-4504-47fe-1b91"/>
+            <infoLink name="Rapid Fire (1SC)" id="4693-7ebd-7b87-65d2" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="The_Wizard" id="bf29-5e89-37b0-7847" hidden="false" type="rule" targetId="e480-4890-6c8e-8b48"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Comics)" hidden="false" id="6b32-4b55-93c9-911c">
           <profiles>
@@ -1227,6 +1415,17 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="125"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Martial Artist" id="1a4e-f023-daa8-1205" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mastermind" id="1dc6-3878-6004-9e2a" hidden="false" type="rule" targetId="96ca-9d5f-9b86-ff7e"/>
+            <infoLink name="Weapon Master" id="477e-ff1d-af1d-f37d" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Grand Strategist" id="7563-90c5-8b58-5387" hidden="false" type="rule" targetId="85bd-c322-9875-4986"/>
+            <infoLink name="Immortal" id="0a30-7f9e-08bf-8c29" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Elite Boss (Type)" id="09c3-5d21-6eeb-a6b6" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Veteran" id="acb6-4200-be3d-ddcd" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+            <infoLink name="Undercover" id="b717-5422-b61a-d527" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Precise Blow (1SC)" id="cf03-caee-9146-f65e" hidden="false" type="rule" targetId="49c0-8d44-51bf-c18e"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="ee3d-f602-1564-53ee">
           <profiles>
@@ -1265,6 +1464,16 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="120"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Persuasive (1AC+1SC)" id="6799-eb74-0970-1286" hidden="false" type="rule" targetId="edb9-92a5-68ff-a712"/>
+            <infoLink name="Elite Boss (Type)" id="d85d-d7dd-b263-0091" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Immortal" id="9da0-bd7e-1ac8-7f18" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Martial Artist" id="d294-d923-9861-9c71" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mastermind" id="dbfc-c3ed-0fd8-59b3" hidden="false" type="rule" targetId="96ca-9d5f-9b86-ff7e"/>
+            <infoLink name="Grand Strategist" id="8866-eb40-baba-72f4" hidden="false" type="rule" targetId="85bd-c322-9875-4986"/>
+            <infoLink name="Order (1SC)" id="8c9f-56ae-9cd2-dcb4" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
+            <infoLink name="Deadly Strike (1SC)" id="3cbc-0433-9c9d-fd8f" hidden="false" type="rule" targetId="b75b-e01d-5713-aa88"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Rebirth)" hidden="false" id="009d-8006-2694-11e6">
           <profiles>
@@ -1303,6 +1512,18 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="122"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Arrogant" id="a3e5-a713-a3f2-8b2c" hidden="false" type="rule" targetId="e95a-0fba-3eab-c954"/>
+            <infoLink name="Deadly Strike (1SC)" id="5d28-d88d-bbb2-3579" hidden="false" type="rule" targetId="b75b-e01d-5713-aa88"/>
+            <infoLink name="Elite Boss (Type)" id="3cad-d2e3-2e19-95b9" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Exhaustive Planner" id="8c26-a075-91bb-56cc" hidden="false" type="rule" targetId="c8ee-73f3-f141-1791"/>
+            <infoLink name="Immortal" id="7463-734e-7862-e20a" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Martial Artist" id="43fd-6440-bb9b-a1c1" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mastermind" id="74b4-dd64-15a5-4475" hidden="false" type="rule" targetId="96ca-9d5f-9b86-ff7e"/>
+            <infoLink name="Strategist" id="43fe-dbd1-ed2e-1fce" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Veteran" id="9319-4415-130e-398f" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+            <infoLink name="Weapon Master" id="fd44-c6da-b9a0-a2a1" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul" hidden="false" id="06bb-03a3-6870-475f">
           <profiles>
@@ -1341,6 +1562,20 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="120"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Elite Boss (Type)" id="eb93-ea14-1f9f-bf6a" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Martial Artist" id="9e5e-4be6-4f45-0aba" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Immortal" id="2675-0a24-9ee9-2d4a" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Mastermind" id="e72b-a77c-308e-45b7" hidden="false" type="rule" targetId="96ca-9d5f-9b86-ff7e"/>
+            <infoLink name="Weapon Master" id="2d05-b87a-285f-7aa8" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Veteran" id="af7a-a987-820a-87d5" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+            <infoLink name="Arrogant" id="eebe-07ad-47a6-4052" hidden="false" type="rule" targetId="e95a-0fba-3eab-c954"/>
+            <infoLink name="Deadly Strike (1SC)" id="6aaa-c094-ae80-5aca" hidden="false" type="rule" targetId="b75b-e01d-5713-aa88"/>
+            <infoLink name="Exhaustive Planner" id="480b-c647-d434-0f62" hidden="false" type="rule" targetId="c8ee-73f3-f141-1791"/>
+            <infoLink name="Strategist" id="bbbe-9a6d-dedc-680d" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Lazarus Pit Owner" id="bfe1-8eeb-0fd6-0565" hidden="false" type="rule" targetId="41fb-bd6e-a339-ec0d"/>
+            <infoLink name="Shadows Command (1SC)" id="8aaf-9203-507b-220e" hidden="false" type="rule" targetId="c075-3a95-c318-21c3"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1400,6 +1635,16 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="6f68-de14-505c-822c" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="e3bc-1bed-bf44-662c" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Elite Boss (Type)" id="5b98-220b-b5fe-0700" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Good Aim (1SC)" id="f219-ffab-102b-3dbf" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Martial Artist" id="44cd-e282-c335-df1c" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Master Marksman" id="b290-fb76-d097-7d86" hidden="false" type="rule" targetId="8601-125c-ddc9-892e"/>
+            <infoLink name="Reflexes" id="4104-e526-218a-5022" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
+            <infoLink name="Stealth" id="6323-8e38-4593-c085" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Miranda Tate" hidden="false" id="5dd5-27be-3270-f4c9">
           <costs>
@@ -1432,7 +1677,7 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Knife" hidden="false" id="7eb7-c1b7-56c2-e023" type="selectionEntry" targetId="2af6-1438-c06d-6378">
+            <entryLink import="true" name="Ice Axe" hidden="false" id="7eb7-c1b7-56c2-e023" type="selectionEntry" targetId="2af6-1438-c06d-6378">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-max"/>
@@ -1449,6 +1694,14 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Charm" id="c30a-7f74-2ad3-1b35" hidden="false" type="rule" targetId="2416-7354-e923-f27c"/>
+            <infoLink name="True Love (Name)" id="eb3d-0b46-ae42-00b9" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Scheming (X)" id="db62-d50b-8bd6-8d88" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Disguised Sneak Attack (1SC)" id="20cf-df5d-b267-0bed" hidden="false" type="rule" targetId="06ea-a294-9a3e-3b08"/>
+            <infoLink name="Undercover" id="2299-abe2-c47d-97c1" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Millionaire" id="6967-4de0-27e7-1bf9" hidden="false" type="rule" targetId="62af-c8ad-69fe-012e"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul" hidden="false" id="95b3-f0bd-3e33-8bb7">
           <categoryLinks>
@@ -1494,6 +1747,15 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="0930-98d4-9f19-7823" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Affinity (Model)" id="26b3-60f1-d806-cd63" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Elite Boss (Type)" id="991a-346b-ef92-dc25" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Martial Artist" id="9792-66c7-2c78-a994" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Scheming (X)" id="72d7-37e4-2d68-af3f" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Sneak Attack (1SC)" id="53f0-0d25-c09f-96e5" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="True Love (Name)" id="e91a-cd9e-8c57-45d0" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Limited)" hidden="false" id="9b08-f4d5-170e-1141">
           <categoryLinks>
@@ -1527,7 +1789,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="62"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Knife" hidden="false" id="ba86-6c9c-15da-ac1b" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
+            <entryLink import="true" name="Ice Axe" hidden="false" id="ba86-6c9c-15da-ac1b" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
             <entryLink import="true" name="Hand Crossbow" hidden="false" id="2603-c7e9-8e4a-8bb6" type="selectionEntry" targetId="745e-776b-ea1f-295a"/>
           </entryLinks>
           <constraints>
@@ -1540,12 +1802,20 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="7abe-b32c-31a4-d52b" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Elite Boss (Type)" id="e3f8-d496-591c-f586" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Confusion (2SC)" id="fa55-c1ca-bc5d-63d9" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
+            <infoLink name="Martial Artist" id="718d-e935-189d-48b5" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Unpredictible" id="1fa7-65f7-0c26-0855" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Comics)" hidden="false" id="88cc-8862-b364-2b26">
           <categoryLinks>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="e77a-c7f6-142b-614b" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="f215-a15e-5400-245d" targetId="3c91-e67e-b870-d7f8" primary="false"/>
             <categoryLink name="Sidekick" hidden="false" id="dee6-3be5-907f-c9df" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink targetId="804a-afb5-5684-1e16" id="36d3-5698-a119-72bc" primary="false" name="Business Agent"/>
           </categoryLinks>
           <profiles>
             <profile name="Talia al Ghul (Comics)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0c49-eff6-5736-8e2f">
@@ -1584,6 +1854,17 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="0e28-de02-6932-a29f" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Master Marksman" id="304c-91c2-0b2b-bb88" hidden="false" type="rule" targetId="8601-125c-ddc9-892e"/>
+            <infoLink name="Affinity (Model)" id="0772-937a-8d45-c97a" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Martial Artist" id="f1a8-cfb2-ce84-48dc" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Scheming (X)" id="5eaf-5a3f-8912-69c9" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Sneak Attack (1SC)" id="9183-855a-956d-12b2" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="True Love (Name)" id="3007-110a-4948-185b" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Get&apos;em! (1SC)" id="f831-b9d4-e88d-2c3c" hidden="false" type="rule" targetId="b5e1-ae0b-25db-78dc"/>
+            <infoLink name="Business Agent" id="45db-355d-92da-79bc" hidden="false" type="rule" targetId="311a-4c24-57a3-1ff0"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lady Shiva (Legacy)" hidden="false" id="bd36-4a9a-8430-e4bc">
           <categoryLinks>
@@ -1625,6 +1906,16 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="cf2d-a41d-6004-eee0" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Adaptable" id="2729-3167-9d2f-ce9b" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Combo (Weapon)" id="1dce-d93f-a305-a73e" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Martial Artist" id="5c16-9fff-b3e0-83df" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Master Fighter" id="8770-1ddf-628f-cad6" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Reinforced Gloves" id="1989-d5f9-329e-c7ec" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Stealth" id="ff8d-3059-ecab-e9de" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Tracking (2SC)" id="f5a6-e0ec-4ee6-4c30" hidden="false" type="rule" targetId="5d17-abb6-c02f-ced1"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="The Heretic" hidden="false" id="87c8-d397-3b43-5706">
           <categoryLinks>
@@ -1665,6 +1956,16 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Desensitized" id="b197-96d8-d6fe-d8d3" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+            <infoLink name="Devastating Blow (1SC)" id="ecb4-c47b-6ac0-eba3" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+            <infoLink name="Juggernaut (1MC+1SC)" id="3e23-13bb-eb68-81c5" hidden="false" type="rule" targetId="3d64-ca18-0c85-bba3"/>
+            <infoLink name="Large" id="ada6-4de0-7690-11a0" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Master Fighter" id="768b-5bef-693d-a871" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Light Armor" id="6d95-5578-11e6-704a" hidden="false" type="rule" targetId="4d84-5587-91b0-63a5"/>
+            <infoLink name="Reinforced Gloves" id="9e8c-25fd-2c7d-1d0c" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Unstoppable (1SC)" id="5363-e3f8-1424-088f" hidden="false" type="rule" targetId="94fd-8660-e5c3-c3d7"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lady Shiva" hidden="false" id="2abc-7ed1-4799-45f4">
           <categoryLinks>
@@ -1706,12 +2007,24 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="2401-4970-f9c5-9bf1" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Adaptable" id="2c97-3a82-cfbc-58ce" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Combo (Weapon)" id="ed25-6e6b-39d5-cb63" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Martial Artist" id="5a36-10b0-c73a-0348" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Master Fighter" id="adba-08b9-e4fb-056f" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Reinforced Gloves" id="d93c-5c1e-d666-94dd" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Stealth" id="51b0-bef4-eba7-1fcc" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Moral Compass" id="e85c-699c-19d3-62e2" hidden="false" type="rule" targetId="2e9f-a340-3237-984d"/>
+            <infoLink name="Precise Blow (1SC)" id="27e7-1ad0-1b7a-dca2" hidden="false" type="rule" targetId="49c0-8d44-51bf-c18e"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="5c09-0c37-4685-df2b">
           <categoryLinks>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="079e-5cfc-1cf1-d7ef" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="f6ab-c561-379c-e3ca" targetId="3c91-e67e-b870-d7f8" primary="false"/>
             <categoryLink name="Sidekick" hidden="false" id="408a-178d-f6f2-d82a" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink targetId="804a-afb5-5684-1e16" id="853a-b385-340f-918f" primary="false" name="Business Agent"/>
           </categoryLinks>
           <profiles>
             <profile name="Talia al Ghul (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="782a-6a77-2737-d8a0">
@@ -1756,6 +2069,18 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Weapon Master" id="8eef-d87e-b732-217c" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Scheming (X)" id="c97b-3808-0a36-1191" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Acrobat" id="5330-4258-c8fa-7530" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Business Agent" id="7d54-3ecd-9434-63b7" hidden="false" type="rule" targetId="311a-4c24-57a3-1ff0"/>
+            <infoLink name="Manipulative" id="3f6a-6f86-4242-f36c" hidden="false" type="rule" targetId="f735-5a9f-d9bd-8fff"/>
+            <infoLink name="Martial Artist" id="6787-6c71-abc4-696c" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Special Volume S" id="fd25-9db9-7406-ad8a" hidden="false" type="rule" targetId="4daf-3b81-1f67-6394"/>
+            <infoLink name="Strategist" id="efbc-9648-016f-cdac" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="True Love (Name)" id="c3da-e42d-1706-9095" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Mind Control Substance" id="a5af-e864-4e75-b981" hidden="false" type="rule" targetId="4e44-b921-f62b-8203"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="534d-29b5-32c8-56ad">
           <profiles>
@@ -1811,6 +2136,18 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="cc42-f0d7-b7b7-14bb" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Good Aim (1SC)" id="dddd-3845-a62d-b9d5" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Elite (Type)" id="e356-2245-4282-50bc" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="ef7f-8d52-04e0-7e56" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Martial Artist" id="76a5-5730-a53e-1de1" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mixed Combat Style (2SC)" id="b0b2-f740-f5e5-62c2" hidden="false" type="rule" targetId="48a9-e1da-b47e-44c5"/>
+            <infoLink name="Outlaw Field Commander (1SC)" id="76fa-c7e4-e668-f2c1" hidden="false" type="rule" targetId="168a-4504-47fe-1b91"/>
+            <infoLink name="Rapid Fire (1SC)" id="cc07-9901-dc9c-dc62" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="Trickster" id="9190-d6e3-b293-7d9b" hidden="false" type="rule" targetId="1dba-ac2f-ebf0-7291"/>
+            <infoLink name="The_Wizard" id="baa3-14f5-8ba4-64aa" hidden="false" type="rule" targetId="e480-4890-6c8e-8b48"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1825,6 +2162,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="eb93-c62b-f191-5172" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Poison" id="fb79-30be-22df-6d5a" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="b81f-4474-5a8f-0d52" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Poisoned Sai" hidden="false" id="fe75-e4d7-0251-58f8">
           <profiles>
@@ -1835,6 +2179,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="22c5-778c-8bec-259f" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Defensive" id="c7bf-67d3-55cd-c039" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
+            <infoLink name="Handy" id="5608-4048-009b-6241" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="8427-58ce-4c84-5011" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Twin Scimitars" hidden="false" id="8097-0c8f-f0d7-0b91">
           <profiles>
@@ -1845,6 +2197,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="2df2-1c51-14e7-d8d9" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Overwhelming" id="ddf9-97df-0933-8459" hidden="false" type="rule" targetId="6203-dc22-5a8b-d6dd"/>
+            <infoLink name="Bleed (X)" id="cfa5-191b-008a-6892" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="c0cd-73c1-5a42-4c3c" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Dao Dao" hidden="false" id="8952-cab8-a2b5-521c">
           <profiles>
@@ -1855,6 +2215,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="01fc-1c87-f196-737b" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Devastating" id="2132-f79f-8f28-ca76" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="1500-b4c3-ad5a-cc57" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Acid Arrow" hidden="false" id="1d90-b5dd-8f75-5d82">
           <profiles>
@@ -1867,6 +2234,16 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="e2fe-8c3f-0137-3e72" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Aim" id="6c40-e74b-80ea-b6bc" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Explosive" id="56b5-da4d-794b-dca8" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Acid" id="0010-e353-8732-d74f" hidden="false" type="rule" targetId="524d-ab5a-b390-e887"/>
+            <infoLink name="Caustic" id="e3b0-f8b5-58a3-efed" hidden="false" type="rule" targetId="6f40-ce3d-f6c7-5376"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="31a8-037c-d659-9fff" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Katana" hidden="false" id="2a5e-127e-5ce4-1cef">
           <profiles>
@@ -1877,6 +2254,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="22ff-a7f8-b3b8-e288" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="25e8-4ef8-f3dd-769c" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="d057-ac88-58df-a136" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Poisoned Scimitar" hidden="false" id="f585-5fef-2da4-67d9">
           <profiles>
@@ -1887,6 +2271,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="5bf7-2241-faaf-5ab4" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Sharp" id="0479-46ff-a228-3065" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Bleed (X)" id="575e-9c75-6334-51b8" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="0e41-16cd-e893-22c2" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Scimitar" hidden="false" id="dd8f-8893-5c52-4783">
           <profiles>
@@ -1897,6 +2289,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="304f-85f4-6b23-509b" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Bleed (X)" id="f807-4d5e-777f-71e8" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="8a82-ea7c-c80c-562b" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bhuj" hidden="false" id="557f-781b-958d-4944">
           <profiles>
@@ -1907,6 +2306,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="c690-2aea-5566-dde9" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Reach (X)" id="3fd2-6a64-6616-00a5" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Heavy" id="6adb-e42b-b8cb-77ba" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="7f01-ae00-56e1-e29b" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hidden Blade" hidden="false" id="4c3e-ed9e-4ce1-6916">
           <profiles>
@@ -1917,6 +2324,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="062a-d308-6440-ad8c" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Handy" id="ac54-0080-d06f-ed3c" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="b980-eae9-2478-7c96" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Poisoned Arrow" hidden="false" id="2fb0-0203-dcf1-9f6c">
           <profiles>
@@ -1929,6 +2343,15 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="1fd2-4619-7863-dfdc" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Aim" id="06fc-73ba-6d7b-d319" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Caustic" id="1d52-c417-8521-8f4f" hidden="false" type="rule" targetId="6f40-ce3d-f6c7-5376"/>
+            <infoLink name="Poison" id="31ec-c27b-68f2-51ef" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="e06f-ebf6-fd79-a852" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Enervating Arrow" hidden="false" id="3c08-4580-1d60-3f41">
           <profiles>
@@ -1941,6 +2364,16 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="6932-b7a0-a5e8-c043" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Aim" id="f6cc-c621-fcad-fba9" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Explosive" id="e5a8-9fb1-3b36-904e" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Gas" id="1622-671b-84c3-3222" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+            <infoLink name="Enervating (X)" id="2074-a223-0545-09ef" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="0808-de5a-2f9e-f2d2" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Kukri" hidden="false" id="cf44-dbf6-7757-1e7b">
           <profiles>
@@ -1951,6 +2384,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="c976-eae1-5dc6-e719" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="555f-018d-23ac-a41f" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Heavy" id="7b6f-b869-4bea-0d14" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="e66a-7074-b8dc-37cb" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bow (Standard Arrow)" hidden="false" id="3515-411e-f490-44f2">
           <profiles>
@@ -1963,6 +2404,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="63af-7670-ae96-f16b" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Mechanical" id="0479-f1aa-f2bc-d395" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="0ea5-f15f-a80d-e7eb" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Carbon Arrow" hidden="false" id="e146-724d-2254-2276">
           <profiles>
@@ -1975,6 +2423,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="5ff3-5494-08e7-8f9f" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Mechanical" id="8ca3-460d-5e86-9450" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Sharp" id="a176-e8c0-d24c-bcdd" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="3084-b26b-bda6-5fcb" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Shuriken" hidden="false" id="e5f1-fafc-c082-6528">
           <profiles>
@@ -1987,6 +2443,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Throwing" id="98a9-b104-5180-3a7d" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="f623-c870-e24c-e728" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="7832-407d-8bb7-0536" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hand Crossbow" hidden="false" id="745e-776b-ea1f-295a">
           <profiles>
@@ -1999,6 +2462,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="535c-5530-65ee-331b" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Medium Range" id="f471-2b28-12e2-d968" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="cfd8-a8be-2e2e-fd73" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Mauser Gun" hidden="false" id="b059-05f8-e00f-60ea">
           <profiles>
@@ -2011,6 +2481,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Firearm" id="6f6e-7652-4c04-c99d" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Medium Range" id="c528-d7cd-b3a4-de0f" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="ec06-1d4b-5724-4856" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Kama" hidden="false" id="e7e8-6175-52fa-cc15">
           <profiles>
@@ -2021,6 +2498,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="2116-a7cf-be46-4c0c" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Defensive" id="7bee-bb7f-4665-9cf6" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="4cab-26bb-1510-dcae" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bo" hidden="false" id="2bd2-8196-009f-834a">
           <profiles>
@@ -2031,6 +2515,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Reach (X)" id="ec42-2f22-9cc2-71b8" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Handy" id="2434-bedd-58f4-636d" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="90bb-5f4d-f019-a73e" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Soultaker Sword" hidden="false" id="8bfa-d9e4-f86e-4d20">
           <profiles>
@@ -2041,6 +2532,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="f3c7-312e-c99c-e75e" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Enervating (X)" id="8cd0-1543-4e21-0f0a" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="c1b0-9b1c-4e3e-36c9" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Ancient Sword" hidden="false" id="b5b2-0f62-9080-b451">
           <profiles>
@@ -2051,6 +2549,31 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="e244-e585-e553-cb21" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Reach" id="a0eb-a997-b7e4-887b" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="8640-24a9-ce6f-dc8f" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Huge Scimitar" hidden="false" id="6a31-e87f-0fd3-4926">
+          <profiles>
+            <profile name="Scimitar" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8d3c-c2da-fbb8-c9e4">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Bleed (1), Reach (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="c6a8-99b5-e799-d57a" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+            <infoLink name="Reach (X)" id="b451-f992-298c-12de" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Heavy" id="e463-af19-a590-5aab" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="1400-ff6a-f696-9440" primary="false" name="CC Weapon"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2097,23 +2620,6 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Equipment" id="8e6e-4dad-b76c-3399" hidden="false">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="bc9f-3c3f-6c5c-4424">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b4e6-152d-50ca-dd5e" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177c-4633-db36-5342"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Loyalty Tattoo" hidden="false" id="a25a-d201-aeb8-8828">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a4-25dc-a06e-2bdd" includeChildSelections="true" includeChildForces="true"/>
@@ -2130,6 +2636,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Bodyguard (1SC, Passive)" id="76d6-1904-105f-3d16" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Climbing Claws" hidden="false" id="c088-973e-b413-7c58">
           <constraints>
@@ -2147,6 +2656,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Climbing Claws" id="3479-539b-57ed-c85b" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Trained in the Shadows" hidden="false" id="3de8-ddb4-fb85-023a">
           <constraints>
@@ -2164,6 +2676,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Hidden" id="2ed2-1d1d-fcf0-0a87" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="7da6-0c49-57cf-075c">
           <constraints>
@@ -2181,6 +2696,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Gas Mask" id="eda4-b3d4-2fec-9118" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="9d31-8348-f8d4-c88b">
           <constraints>
@@ -2198,6 +2716,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="a874-39d6-713d-bb74" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Combat Bracers" hidden="false" id="5484-5784-ed22-0137">
           <constraints>
@@ -2214,6 +2735,7 @@
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value=", Defensive" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
           </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Venom Dose" hidden="false" id="22ab-288f-94c6-e5d7">
@@ -2232,6 +2754,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Venom Dose (Dose)" id="242c-188e-8b03-3830" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Precise Orders" hidden="false" id="0ec8-fc8d-f1c3-a3ab">
           <constraints>
@@ -2249,6 +2774,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Chain of Command" id="7ddc-5049-16e8-7042" hidden="false" type="rule" targetId="5a94-0b2f-3838-4b37"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Ancient Weapon" hidden="false" id="28e3-ff27-428d-ba5d">
           <costs>
@@ -2265,7 +2793,11 @@
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="adec-8d6e-1788-2ae0" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value=", Bleed (1)" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="9b1b-2747-32fb-f6e6" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Shadow Training" hidden="false" id="ba32-961d-20cc-8e97">
           <costs>
@@ -2283,6 +2815,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Undercover" id="4ef2-25a6-3e7d-0b3f" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bow Training" hidden="false" id="9858-5e5b-7b05-91b3">
           <constraints>
@@ -2300,6 +2835,9 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Shooter" id="a60d-473e-9fef-074f" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Traditional Way - Katana" hidden="false" id="4e88-abfb-ed12-f69c">
           <constraints>
@@ -2317,6 +2855,14 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="2ad0-92fa-95eb-a244" type="selectionEntry" targetId="2a5e-127e-5ce4-1cef">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Traditional Way - Bow" hidden="false" id="6c9f-9a7c-dbe2-fc93">
           <constraints>
@@ -2334,6 +2880,14 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Bow (Standard Arrow)" hidden="false" id="9a90-2407-bce2-6e9f" type="selectionEntry" targetId="3515-411e-f490-44f2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Unarmed Combat Training" hidden="false" id="49db-ed3c-99d5-5038">
           <constraints>
@@ -2351,6 +2905,9 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Close Combat Master" id="77c2-0322-e1fc-c331" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Poison Training" hidden="false" id="fd1a-36c2-dd4e-5a7d">
           <constraints>
@@ -2368,8 +2925,38 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Poison Master" id="574b-fb5c-92b4-1995" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="c617-3925-e95d-5154">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b4e6-152d-50ca-dd5e" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177c-4633-db36-5342"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Extra Magazine" id="2365-fc49-cda4-88be" hidden="false">
+              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="200"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Loyalty Tattoo" id="2ff2-171f-928e-e47a" hidden="false">
+      <description>Model gains the Bodyguard rule.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
