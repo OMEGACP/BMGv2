@@ -1536,6 +1536,9 @@ However, the model cannot Crouch in the same round that it uses this ability.</
     <rule name="Sewer Worker" id="5c6b-36f8-aa7a-56e8" hidden="false">
       <description>One-use only: During this model&apos;s activation, you can place a sewer marker anywhere on the gaming area at least 3&quot; from any other marker.</description>
     </rule>
+    <rule name="Sidekick - Let&apos;s go! Reroll" id="a720-f166-b6d7-6977" hidden="false">
+      <description>Friendly Henchmen within 8” of this model may reroll failed Let’s Go! rolls.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="48fe-70de-f325-b2e2">
