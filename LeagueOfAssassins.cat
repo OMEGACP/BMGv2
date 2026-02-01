@@ -1294,7 +1294,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance, Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1332,6 +1332,7 @@
             <infoLink name="Strategist" id="b384-7e21-f369-21cd" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
             <infoLink name="True Love (Name)" id="a536-82ff-4f9d-f114" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
             <infoLink name="Weapon Master" id="224b-7102-ae32-aee6" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Inspire (1SC)" id="50fb-7abe-4841-d4d3" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="c8d9-bd9f-e431-9590">
@@ -1351,7 +1352,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard, Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1400,6 +1401,7 @@
             <infoLink name="Outlaw Field Commander (1SC)" id="31ce-aad8-34da-f470" hidden="false" type="rule" targetId="168a-4504-47fe-1b91"/>
             <infoLink name="Rapid Fire (1SC)" id="4693-7ebd-7b87-65d2" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
             <infoLink name="The_Wizard" id="bf29-5e89-37b0-7847" hidden="false" type="rule" targetId="e480-4890-6c8e-8b48"/>
+            <infoLink name="Inspire (1SC)" id="1c12-d75a-09ac-8d45" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Comics)" hidden="false" id="6b32-4b55-93c9-911c">
@@ -1419,7 +1421,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Weapon Master, Grand Strategist, Immortal, Elite Boss (Ninja), Precise Blow, Undercover, Veteran</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Weapon Master, Grand Strategist, Immortal, Elite Boss (Ninja), Precise Blow, Undercover, Veteran, Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1449,6 +1451,7 @@
             <infoLink name="Veteran" id="acb6-4200-be3d-ddcd" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
             <infoLink name="Undercover" id="b717-5422-b61a-d527" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
             <infoLink name="Precise Blow (1SC)" id="cf03-caee-9146-f65e" hidden="false" type="rule" targetId="49c0-8d44-51bf-c18e"/>
+            <infoLink name="Inspire (1SC)" id="7f15-4995-0bf9-d318" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="ee3d-f602-1564-53ee">
@@ -1468,7 +1471,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Sustained Defense, Grand Strategist, Immortal, Elite Boss (Ninja), Order, Persuasive, Deadly Strike (Sword)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Mastermind, Martial Artist, Sustained Defense, Grand Strategist, Immortal, Elite Boss (Ninja), Order, Persuasive, Deadly Strike (Sword), Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1497,6 +1500,7 @@
             <infoLink name="Grand Strategist" id="8866-eb40-baba-72f4" hidden="false" type="rule" targetId="85bd-c322-9875-4986"/>
             <infoLink name="Order (1SC)" id="8c9f-56ae-9cd2-dcb4" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
             <infoLink name="Deadly Strike (1SC)" id="3cbc-0433-9c9d-fd8f" hidden="false" type="rule" targetId="b75b-e01d-5713-aa88"/>
+            <infoLink name="Inspire (1SC)" id="f5f1-a363-2282-2e6c" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Rebirth)" hidden="false" id="009d-8006-2694-11e6">
@@ -1516,7 +1520,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrogant, Deadly Strike, Elite Boss (Ninja), Exhaustive Planner, Immortal, Martial Artist, Mastermind, Strategist, Veteran, Weapon Master</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrogant, Deadly Strike, Elite Boss (Ninja), Exhaustive Planner, Immortal, Martial Artist, Mastermind, Strategist, Veteran, Weapon Master, Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1547,6 +1551,7 @@
             <infoLink name="Strategist" id="43fe-dbd1-ed2e-1fce" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
             <infoLink name="Veteran" id="9319-4415-130e-398f" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
             <infoLink name="Weapon Master" id="fd44-c6da-b9a0-a2a1" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Inspire (1SC)" id="bfc3-36e1-47aa-e88e" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul" hidden="false" id="06bb-03a3-6870-475f">
@@ -1566,7 +1571,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite Boss (Ninja), Martial Artist, Immortal, Mastermind, Weapon Master, Veteran, Arrogant, Deadly Strike, Exhaustive Planner, Lazarus Pit Owner, Strategist, Shadows Command</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite Boss (Ninja), Martial Artist, Immortal, Mastermind, Weapon Master, Veteran, Arrogant, Deadly Strike, Exhaustive Planner, Lazarus Pit Owner, Strategist, Shadows Command, Inspire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1599,6 +1604,7 @@
             <infoLink name="Strategist" id="bbbe-9a6d-dedc-680d" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
             <infoLink name="Lazarus Pit Owner" id="bfe1-8eeb-0fd6-0565" hidden="false" type="rule" targetId="41fb-bd6e-a339-ec0d"/>
             <infoLink name="Shadows Command (1SC)" id="8aaf-9203-507b-220e" hidden="false" type="rule" targetId="c075-3a95-c318-21c3"/>
+            <infoLink name="Inspire (1SC)" id="025a-f178-44df-2ab8" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1622,7 +1628,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Hook Arrow, Elite Boss (Ninja), Good Aim, Martial Artist, Master Marksman, Reflexes, Stealth</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Hook Arrow, Elite Boss (Ninja), Good Aim, Martial Artist, Master Marksman, Reflexes, Stealth, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1668,6 +1674,7 @@
             <infoLink name="Master Marksman" id="b290-fb76-d097-7d86" hidden="false" type="rule" targetId="8601-125c-ddc9-892e"/>
             <infoLink name="Reflexes" id="4104-e526-218a-5022" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
             <infoLink name="Stealth" id="6323-8e38-4593-c085" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="575c-f887-c70a-1e03" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Miranda Tate" hidden="false" id="5dd5-27be-3270-f4c9">
@@ -1696,7 +1703,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Charm, True Love (Bane), Scheming (3), Disguised Sneak Attack, Undercover, Millionaire</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Charm, True Love (Bane), Scheming (3), Disguised Sneak Attack, Undercover, Millionaire, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1725,6 +1732,7 @@
             <infoLink name="Disguised Sneak Attack (1SC)" id="20cf-df5d-b267-0bed" hidden="false" type="rule" targetId="06ea-a294-9a3e-3b08"/>
             <infoLink name="Undercover" id="2299-abe2-c47d-97c1" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
             <infoLink name="Millionaire" id="6967-4de0-27e7-1bf9" hidden="false" type="rule" targetId="62af-c8ad-69fe-012e"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="10dc-ad88-a013-7368" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul" hidden="false" id="95b3-f0bd-3e33-8bb7">
@@ -1750,7 +1758,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Affinity (Batman), Elite Boss (Ninja), Martial Artist, Scheming (1), Sneak Attack, True Love (Batman)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Affinity (Batman), Elite Boss (Ninja), Martial Artist, Scheming (1), Sneak Attack, True Love (Batman), Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1779,6 +1787,7 @@
             <infoLink name="Scheming (X)" id="72d7-37e4-2d68-af3f" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
             <infoLink name="Sneak Attack (1SC)" id="53f0-0d25-c09f-96e5" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
             <infoLink name="True Love (Name)" id="e91a-cd9e-8c57-45d0" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="6e38-dd84-4cda-1b0f" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Limited)" hidden="false" id="9b08-f4d5-170e-1141">
@@ -1804,7 +1813,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite Boss (Ninja), Confusion, Martial Artist, Unpredictable</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite Boss (Ninja), Confusion, Martial Artist, Unpredictable, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1832,6 +1841,7 @@
             <infoLink name="Confusion (2SC)" id="fa55-c1ca-bc5d-63d9" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
             <infoLink name="Martial Artist" id="718d-e935-189d-48b5" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Unpredictible" id="1fa7-65f7-0c26-0855" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="12d5-dace-28dd-001d" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Comics)" hidden="false" id="88cc-8862-b364-2b26">
@@ -1857,7 +1867,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Master Marksman, Affinity (Lex Luthor), Martial Artist, Scheming (3), Sneak Attack, True Love (Bruce Wayne), Get&apos;em, Business Agent</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Master Marksman, Affinity (Lex Luthor), Martial Artist, Scheming (3), Sneak Attack, True Love (Bruce Wayne), Get&apos;em, Business Agent, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1888,6 +1898,7 @@
             <infoLink name="True Love (Name)" id="3007-110a-4948-185b" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
             <infoLink name="Get&apos;em! (1SC)" id="f831-b9d4-e88d-2c3c" hidden="false" type="rule" targetId="b5e1-ae0b-25db-78dc"/>
             <infoLink name="Business Agent" id="45db-355d-92da-79bc" hidden="false" type="rule" targetId="311a-4c24-57a3-1ff0"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="e450-1afa-87f0-5058" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lady Shiva (Legacy)" hidden="false" id="bd36-4a9a-8430-e4bc">
@@ -1912,7 +1923,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Tracking</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Tracking, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1939,6 +1950,7 @@
             <infoLink name="Reinforced Gloves" id="1989-d5f9-329e-c7ec" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Stealth" id="ff8d-3059-ecab-e9de" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Tracking (2SC)" id="f5a6-e0ec-4ee6-4c30" hidden="false" type="rule" targetId="5d17-abb6-c02f-ced1"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="8789-eca1-f122-00f1" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="The Heretic" hidden="false" id="87c8-d397-3b43-5706">
@@ -1962,7 +1974,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Desensitized, Devastating Blow, Juggernaut, Large, Master Fighter, Light Armor, Reinforced Gloves, Unstoppable</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Desensitized, Devastating Blow, Juggernaut, Large, Master Fighter, Light Armor, Reinforced Gloves, Unstoppable, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1989,6 +2001,7 @@
             <infoLink name="Light Armor" id="6d95-5578-11e6-704a" hidden="false" type="rule" targetId="4d84-5587-91b0-63a5"/>
             <infoLink name="Reinforced Gloves" id="9e8c-25fd-2c7d-1d0c" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Unstoppable (1SC)" id="5363-e3f8-1424-088f" hidden="false" type="rule" targetId="94fd-8660-e5c3-c3d7"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="c74f-9a98-ad55-cbd4" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lady Shiva" hidden="false" id="2abc-7ed1-4799-45f4">
@@ -2013,7 +2026,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Moral Compass, Precise Blow</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Adaptable, Combo (Unarmed), Martial Artist, Master Fighter, Reinforced Gloves, Stealth, Moral Compass, Precise Blow, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2041,6 +2054,7 @@
             <infoLink name="Stealth" id="51b0-bef4-eba7-1fcc" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Moral Compass" id="e85c-699c-19d3-62e2" hidden="false" type="rule" targetId="2e9f-a340-3237-984d"/>
             <infoLink name="Precise Blow (1SC)" id="27e7-1ad0-1b7a-dca2" hidden="false" type="rule" targetId="49c0-8d44-51bf-c18e"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="d030-9a61-3a83-3d2a" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="5c09-0c37-4685-df2b">
@@ -2066,7 +2080,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Weapon Master, Scheming (3), Acrobat, Business Agent, Manipulative, Martial Artist, Special Volume S, Strategist, True Love (Damian Wayne), Mind Control Substance, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2104,6 +2118,7 @@
             <infoLink name="Strategist" id="efbc-9648-016f-cdac" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
             <infoLink name="True Love (Name)" id="c3da-e42d-1706-9095" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
             <infoLink name="Mind Control Substance" id="a5af-e864-4e75-b981" hidden="false" type="rule" targetId="4e44-b921-f62b-8203"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="9fc4-e45a-b043-8e5c" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="534d-29b5-32c8-56ad">
@@ -2123,7 +2138,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Elite Boss (Ninja), Hook Arrow, Martial Artist, Mixed Combat Style, Outlaw Field Commander, Rapid Fire, Trickster, The_Wizard, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2171,6 +2186,7 @@
             <infoLink name="Rapid Fire (1SC)" id="cc07-9901-dc9c-dc62" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
             <infoLink name="Trickster" id="9190-d6e3-b293-7d9b" hidden="false" type="rule" targetId="1dba-ac2f-ebf0-7291"/>
             <infoLink name="The_Wizard" id="baa3-14f5-8ba4-64aa" hidden="false" type="rule" targetId="e480-4890-6c8e-8b48"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="66ec-160b-01e1-deee" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
