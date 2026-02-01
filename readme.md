@@ -1,8 +1,6 @@
 # Roster Building Files for Batman Miniature Game v2 from Knight Models.
 The catalogue files were built using the New Recruit Editor.
 
-# Content
-
 Current state
 ===============
 - all character traits, special attacks, effects and weapon traits from BMG Compendium version 1.3
