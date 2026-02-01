@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# This is a comment
+# Each line is a file pattern followed by one or more owners
+
+# Default owners for everything in the repo
+* @OMEGACP
+
+# Specific owners for JS files
+#*.cat @js-owner
+#*.gst @octo-org/octocats
+
+# Owners for files in the build/logs directory
+#/build/logs/ @doctocat
