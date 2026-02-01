@@ -12,8 +12,8 @@ Generic Henchmen
 Free Agents
 ---------------
 - currently available free agents of BMG v2:
--- Copperhead
-  -- Ratcatcher
+ - Copperhead
+ - Ratcatcher
 
 League of Assassins
 ---------------
