@@ -37,9 +37,7 @@
     <categoryEntry name="Special Unit" id="ea61-4014-081c-4b64" hidden="false"/>
     <categoryEntry name="Business Agent" id="804a-afb5-5684-1e16" hidden="false"/>
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
-    <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false">
-      <description/>
-    </categoryEntry>
+    <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false"/>
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
   </categoryEntries>
   <forceEntries>
@@ -982,7 +980,7 @@ Day Rules:
     </rule>
     <rule name="Let’s go! (1SC, passive)" id="6840-9789-ea5e-da62" hidden="false">
       <description>1SC, passive: When a friendly Henchman ends its activation, roll a die. On a 4+, you may immediately activate this model who has not yet been activated this round. This model activates without giving the opposing player the chance to activate one of his models in between. When this model has finished its turn, subsequent models with the Let’s Go! trait may also attempt to activate, incurring a -1 penalty to the die each time (so the third model in a row activates on a 5+, the fourth and all subsequent model on a 6). A result of 6 is always a success.</description>
-      <alias>Let’s go!</alias>
+      <alias>Let&apos;s go!</alias>
     </rule>
     <rule name="Mental Dominance (2SC)" id="64eb-d550-ac4e-d703" hidden="false">
       <description>2SC: Once per turn, this model may change the position of 4 Action Counters on an enemy non-vehicle model’s Character Card in line of sight.</description>
@@ -1368,7 +1366,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>This model may roll 3 Block dice for every 2DC spent.</description>
     </rule>
     <rule name="Swarm" id="058e-c6fc-78bc-de54" hidden="false">
-      <description>This model cannot be recruited, but can only be brought into play by the Sewer Swarm X trait. This model gains a +1 bonus to its Ping! rolls. This model cannot control any Objective, but can contact them. The opponent cannot scory any VP by any means for damaging or removing this model from play.</description>
+      <description>This model cannot be recruited, but can only be brought into play by the Sewer Swarm X trait. This model gains a +1 bonus to its Ping! rolls. This model cannot control any Objective, but can contest them. The opponent cannot scory any VP by any means for damaging or removing this model from play.</description>
     </rule>
     <rule name="Swift" id="78f3-9b1c-d78b-9970" hidden="false">
       <description>For each 2MC spent to improve its basic movement distance, this model gains an extra +2”.</description>
@@ -1534,6 +1532,9 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
 Each Attack must be paid for as usual (2AC) and consumes an Ammunition magazine. This model doesn’t lose RoF this round for firing after moving. 
 However, the model cannot Crouch in the same round that it uses this ability.</description>
       <alias>Bullet Time</alias>
+    </rule>
+    <rule name="Sewer Worker" id="5c6b-36f8-aa7a-56e8" hidden="false">
+      <description>One-use only: During this model&apos;s activation, you can place a sewer marker anywhere on the gaming area at least 3&quot; from any other marker.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>

@@ -20,7 +20,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Catcher Gear, Electric Storm, Handyman, Sturdy, Unpredictable</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Catcher Gear, Electric Storm, Handyman, Sturdy, Unpredictable, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -56,6 +56,7 @@
             <infoLink name="Handyman" id="181c-a6da-2fce-5bb3" hidden="false" type="rule" targetId="a9a8-dd44-ee31-bd7c"/>
             <infoLink name="Sturdy" id="fb5b-798b-3a6e-6406" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
             <infoLink name="Unpredictible" id="3253-545a-a767-a045" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="9c7c-4ddf-e397-dad4" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 01" hidden="false" id="7384-b5e2-3b4e-6c93">
@@ -91,7 +92,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Pickpocket</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Pickpocket, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -107,6 +108,7 @@
           </modifiers>
           <infoLinks>
             <infoLink name="Pickpocket" id="cb20-f022-d868-22a3" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="bfd0-7511-62f7-edcb" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 03" hidden="false" id="7cfc-7aaf-7c7a-6a91">
@@ -142,7 +144,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Street Guy</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Street Guy, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -159,6 +161,7 @@
           <infoLinks>
             <infoLink name="Criminal" id="395d-d2e8-e2c2-0387" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
             <infoLink name="Street Guy" id="8bf2-b4c1-8915-1cc6" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="659f-5582-b2af-25f6" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 02" hidden="false" id="bf05-a704-db83-890b">
@@ -194,7 +197,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Elusive</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Elusive, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -211,6 +214,7 @@
           <infoLinks>
             <infoLink name="Criminal" id="8694-451f-9cd8-1423" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
             <infoLink name="Elusive (1MC, Passive)" id="d529-25ec-e821-d208" hidden="false" type="rule" targetId="6c33-51a3-84eb-ada0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="1e50-b914-8637-09eb" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 04" hidden="false" id="2c1a-49f6-655c-86e8">
@@ -246,7 +250,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Bodyguard</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Bodyguard, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -263,6 +267,7 @@
           <infoLinks>
             <infoLink name="Bodyguard (1SC, Passive)" id="b0f8-c7be-15d1-6aef" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
             <infoLink name="Criminal" id="6fdd-5389-577e-eed8" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="40e3-eb54-0dad-02d6" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 05" hidden="false" id="2527-3bb8-55b9-8989">
@@ -304,7 +309,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Lantern</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Lantern, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -321,6 +326,7 @@
           <infoLinks>
             <infoLink name="Lantern (1SC)" id="d94a-3715-f5a9-f8f4" hidden="false" type="rule" targetId="c9cb-7d7c-08f6-d8f4"/>
             <infoLink name="Criminal" id="1f02-75a5-5e07-4db7" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="7dd4-fc7b-fb15-80c3" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="High Security Henchman" hidden="false" id="87ef-407b-2f93-27df">
@@ -355,7 +361,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Psycho, Combo (Knives), Devastating Blow</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Psycho, Combo (Knives), Devastating Blow, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -374,6 +380,7 @@
             <infoLink name="Combo (Weapon)" id="bb48-7027-7e48-270d" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
             <infoLink name="Psycho" id="1fd9-6ed2-62df-d3b1" hidden="false" type="rule" targetId="f031-4f92-537e-535a"/>
             <infoLink name="Devastating Blow (1SC)" id="3bcf-bc73-45c2-80b3" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="b11b-41c7-1863-22e0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Turk" hidden="false" id="7eea-2892-c7cd-b7e5">
@@ -409,7 +416,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Gunman</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Gunman, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -425,6 +432,7 @@
           </modifiers>
           <infoLinks>
             <infoLink name="Gunman (2SC)" id="bf85-53f4-5ae7-e362" hidden="false" type="rule" targetId="002e-4ebd-cf7d-47ce"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="9644-f39e-e64e-9c9a" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="High Security Prisoner" hidden="false" id="843b-bb80-d339-b6da">
@@ -460,7 +468,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Combo (Knife), Hidden, Brutal</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Combo (Knife), Hidden, Brutal, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -479,6 +487,7 @@
             <infoLink name="Combo (Weapon)" id="5075-a69e-d870-2fbe" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
             <infoLink name="Hidden" id="3fd7-959e-6c4f-83fe" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
             <infoLink name="Brutal" id="110d-e8dc-b64b-50b3" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="4296-f53f-09bb-340f" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 04211" hidden="false" id="8aba-8226-8ef2-a960">
@@ -514,7 +523,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Escape Artist, Pickpocket</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Escape Artist, Pickpocket, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -531,6 +540,7 @@
           <infoLinks>
             <infoLink name="Pickpocket" id="080a-fd98-168f-d12f" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
             <infoLink name="Escape Artist" id="e9d0-98be-a49b-8f50" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="8e21-0a2b-a794-e680" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 47905" hidden="false" id="31c7-513b-7dc0-2813">
@@ -566,7 +576,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Rapid Fire</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Rapid Fire, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -583,6 +593,7 @@
           <infoLinks>
             <infoLink name="Rapid Fire (1SC)" id="8b9d-79b4-19cd-1709" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
             <infoLink name="Criminal" id="4302-05a8-e674-301e" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="15cc-3af8-595f-11ea" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Prisoner 93432" hidden="false" id="492d-ef08-ff48-3b81">
@@ -610,7 +621,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Master Fighter, Reinforced Gloves</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Master Fighter, Reinforced Gloves, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -628,6 +639,7 @@
             <infoLink name="Criminal" id="e8a4-a2ac-cb6e-e2b0" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
             <infoLink name="Reinforced Gloves" id="5508-4796-333a-5b95" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Master Fighter" id="16cc-fab4-6dcc-ba9e" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="eee1-698e-2986-33c0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0475" hidden="false" id="9aaa-dad8-423b-083a">
@@ -663,7 +675,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Runaway</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Runaway, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -680,6 +692,7 @@
           <infoLinks>
             <infoLink name="Paranoid (Mental Disorder) " id="32c8-63ba-2d71-54a2" hidden="false" type="rule" targetId="6d07-8246-e781-7ae0"/>
             <infoLink name="Runaway" id="26a4-9bca-9e49-7600" hidden="false" type="rule" targetId="940e-e2b3-66e9-b8cc"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="7c9c-5f3d-7cc6-b6f1" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0476" hidden="false" id="9f2a-9f2e-3952-8f57">
@@ -715,7 +728,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bipolar (Mental Disorder),Hardened, Devastating Blow</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bipolar (Mental Disorder),Hardened, Devastating Blow, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -733,6 +746,7 @@
             <infoLink name="Bipolar (Mental disorder)" id="2f88-a37d-9cab-8d3f" hidden="false" type="rule" targetId="e95e-dab6-ac37-4014"/>
             <infoLink name="Hardened" id="ce8e-4ca9-e32a-22e8" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
             <infoLink name="Devastating Blow (1SC)" id="3986-a6ec-b28a-4bc8" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="e575-20ec-d310-d5cf" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0474" hidden="false" id="31f3-7dc4-7abd-5000">
@@ -768,7 +782,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Obsessive (Mental Disorder), Brutal, Climbing Claws</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Obsessive (Mental Disorder), Brutal, Climbing Claws, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -786,6 +800,7 @@
             <infoLink name="Obsessive (Mental Disorder)" id="4045-18e1-a491-3ef3" hidden="false" type="rule" targetId="f709-e36c-3c5a-3d49"/>
             <infoLink name="Brutal" id="6156-adc4-3b41-f759" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
             <infoLink name="Climbing Claws" id="fab3-8618-c92e-2ee6" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="8836-cb3b-8117-6c55" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0478" hidden="false" id="98ec-5b95-205d-2d54">
@@ -821,7 +836,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Stealth</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Stealth, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -838,6 +853,7 @@
           <infoLinks>
             <infoLink name="Bloodthirsty (Mental disorder)" id="82d5-a5c5-1a42-6500" hidden="false" type="rule" targetId="a6f3-bde6-5361-bc8a"/>
             <infoLink name="Stealth" id="0025-dac8-22a1-f3a3" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="862d-23c2-c968-293e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0477" hidden="false" id="50e7-6ec9-be39-6bec">
@@ -879,7 +895,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Mobster, Shooter</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Mobster, Shooter, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -897,6 +913,7 @@
             <infoLink name="Bloodthirsty (Mental disorder)" id="fc5d-3dac-208c-608f" hidden="false" type="rule" targetId="a6f3-bde6-5361-bc8a"/>
             <infoLink name="Mobster" id="2505-ad32-856b-5988" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
             <infoLink name="Shooter" id="303c-d1f7-50f8-0900" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="97a8-13a4-47fe-58bb" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Pavillion A Subject" hidden="false" id="0f7b-97d8-0c8c-4f05">
@@ -924,7 +941,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Unpredictable, Delirium</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Unpredictable, Delirium, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -941,6 +958,7 @@
           <infoLinks>
             <infoLink name="Unpredictible" id="f7e9-7d56-9962-35c6" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
             <infoLink name="Delirium" id="1128-5d24-7986-d77f" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="a91b-d0a1-9584-cf84" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Pavillion B Subject" hidden="false" id="6b82-d588-d4a8-76e7">
@@ -968,7 +986,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Fast, Delirium</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Fast, Delirium, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -986,6 +1004,7 @@
             <infoLink name="Delirium" id="55cb-a8a3-a558-dd52" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
             <infoLink name="Paranoid (Mental Disorder) " id="f71f-2ded-f185-7d91" hidden="false" type="rule" targetId="6d07-8246-e781-7ae0"/>
             <infoLink name="Fast" id="7718-87b4-e7f7-bce4" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="24fd-7e8e-63f8-d34c" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="File No 08923" hidden="false" id="dea0-c055-64e3-4a71">
@@ -1013,7 +1032,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aggressive Schizophrenia (Mental Disorder), Claws, Delirium</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aggressive Schizophrenia (Mental Disorder), Claws, Delirium, Let's go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1031,6 +1050,7 @@
             <infoLink name="Aggressive Schizophrenia (Mental Disorder)" id="a0b0-9ae0-ba44-3add" hidden="false" type="rule" targetId="f1b2-c975-7054-e0f1"/>
             <infoLink name="Claws" id="8bdc-10cf-3d38-baad" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
             <infoLink name="Delirium" id="7ded-cfb7-7918-1b10" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="e7a6-2519-bf5b-7793" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

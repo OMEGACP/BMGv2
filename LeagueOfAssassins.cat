@@ -134,7 +134,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Duelist, Light Armor, Kill them!, Large, Martial Artist</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Duelist, Light Armor, Kill them!, Large, Martial Artist, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -171,6 +171,7 @@
             <infoLink name="Kill them! (1SC)" id="7e1d-64e9-72c4-7d65" hidden="false" type="rule" targetId="a3e6-ea50-118e-771b"/>
             <infoLink name="Large" id="b362-5175-d53b-3ed6" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Martial Artist" id="1984-ee8e-97f2-d6b2" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="28d2-9f37-d8a8-bb22" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ichi (Ninja)" hidden="false" id="5334-323c-b22d-f93c">
@@ -212,7 +213,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Feint, Martial Artist</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Feint, Martial Artist, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -231,6 +232,7 @@
             <infoLink name="Elite (Type)" id="5e8e-84ae-10f5-aa0c" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
             <infoLink name="Martial Artist" id="e114-0635-8912-da6a" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Feint (1SC)" id="5208-95d8-d01e-9541" hidden="false" type="rule" targetId="2339-c607-712f-3889"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="a0be-3b7b-9471-ef30" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 1" hidden="false" id="0b36-423b-9fdf-92eb">
@@ -259,7 +261,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -283,6 +285,7 @@
           <infoLinks>
             <infoLink name="Assassin (X)" id="9455-0448-4517-c605" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Martial Expert" id="973a-d1be-b37d-cc00" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="2884-986a-c684-dfe2" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ki (Ninja)" hidden="false" id="8f52-abbf-809d-f8b4">
@@ -302,7 +305,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Precise Aim, Elite (Ninja), Hidden, Martial Artist, Stealth</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Precise Aim, Elite (Ninja), Hidden, Martial Artist, Stealth, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -344,6 +347,7 @@
             <infoLink name="Martial Artist" id="d9c2-6289-7414-9c49" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Stealth" id="5954-5aa3-999e-2f0e" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Hidden" id="6022-63c1-4492-5eab" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="adc7-3987-596d-e309" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 2" hidden="false" id="b0a2-dfdd-0a52-832e">
@@ -355,7 +359,6 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment" hidden="false" id="b4fc-430c-0e95-c3ef" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
-            <entryLink import="true" name="Equipment" hidden="false" id="0690-186c-d15a-9e8b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Hassassin 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d277-9b77-7d52-174e">
@@ -373,7 +376,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Tension</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Tension, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -398,6 +401,7 @@
             <infoLink name="Assassin (X)" id="9805-9a2a-2d2c-1cd3" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Martial Expert" id="6688-4025-29aa-a775" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Tension" id="a000-fe32-3470-8141" hidden="false" type="rule" targetId="e4bc-8c3f-e32f-52e5"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="d903-0f9c-f953-a814" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 3" hidden="false" id="730b-bc4a-8ee8-ec9e">
@@ -432,7 +436,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -456,6 +460,7 @@
           <infoLinks>
             <infoLink name="Assassin (X)" id="aeba-9663-d4bc-c67a" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Martial Expert" id="9543-8f6f-ac49-49f0" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ae25-bc20-04fa-5554" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hassassin 4" hidden="false" id="1549-8476-0198-cafc">
@@ -490,7 +495,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Scout</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Assassin (2), Scout, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -515,6 +520,7 @@
             <infoLink name="Assassin (X)" id="724d-26ee-f62d-5942" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Martial Expert" id="e814-df7d-5c14-a92f" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Scout" id="82dd-817b-b3bd-f236" hidden="false" type="rule" targetId="49a9-b4ff-fe41-9009"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="3971-e6c8-c9ae-4485" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 1" hidden="false" id="3354-dc8e-5215-31c7">
@@ -543,7 +549,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Sneak Attack</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Sneak Attack, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -568,6 +574,7 @@
             <infoLink name="Assassin (X)" id="c305-c00a-f30f-403e" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Martial Expert" id="c202-c66f-4e20-4e2c" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Sneak Attack (1SC)" id="170b-8d8f-d1d2-568b" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="e340-30db-c285-cf41" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 2" hidden="false" id="6600-2363-b4fc-589e">
@@ -578,7 +585,12 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baa7-a38a-dceb-0f9c-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Knives" hidden="false" id="7bf2-36b3-70df-523d" type="selectionEntry" targetId="1a61-f961-d003-9e73"/>
+            <entryLink import="true" name="Knives" hidden="false" id="7bf2-36b3-70df-523d" type="selectionEntry" targetId="1a61-f961-d003-9e73">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f41-ad8e-c783-c039"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e96a-92e6-73dd-faf1"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Equipment" hidden="false" id="f015-181b-f453-6a38" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
@@ -597,7 +609,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Combo (Knives)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Combo (Knives), Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -622,6 +634,7 @@
             <infoLink name="Combo (Weapon)" id="1a0b-ba1c-5761-5b4c" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
             <infoLink name="Martial Expert" id="4655-7dde-e402-4d38" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Assassin (X)" id="a0f4-698e-0f09-55da" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f867-dc21-4054-8a73" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 3" hidden="false" id="93d4-7393-4b56-af43">
@@ -656,7 +669,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Falconry</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Falconry, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -681,6 +694,7 @@
             <infoLink name="Assassin (X)" id="eb24-e875-cdb7-f86a" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
             <infoLink name="Good Aim (1SC)" id="8b21-52b3-c6f0-5fe4" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
             <infoLink name="Falconry" id="31e0-e629-768e-1667" hidden="false" type="rule" targetId="3d59-8389-8f25-609d"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="7ec7-379f-0eae-4487" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Acolyte 4" hidden="false" id="cc46-d039-f1c8-fb95">
@@ -715,7 +729,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Good Aim</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Assassin (1), Martial Expert, Good Aim, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -740,6 +754,7 @@
             <infoLink name="Martial Expert" id="b020-2be6-782e-c353" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Good Aim (1SC)" id="d8ef-c06b-fcf7-2c6b" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
             <infoLink name="Assassin (X)" id="a4f9-7f50-e770-505d" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="014a-b53a-79f1-0099" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lotus (Ninja)" hidden="false" id="63af-bc66-ce96-f7fc">
@@ -776,7 +791,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Dodge, Reflexes, Rapid Fire, Martial Artist</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Dodge, Reflexes, Rapid Fire, Martial Artist, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -797,6 +812,7 @@
             <infoLink name="Dodge" id="fc3b-4b1b-1fe3-bcfe" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
             <infoLink name="Reflexes" id="0a56-af58-c065-1b3d" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
             <infoLink name="Rapid Fire (1SC)" id="abf4-f70c-a298-578e" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ab96-8f02-ea19-71ad" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ying (Ninja)" hidden="false" id="38dc-3a6d-8c1c-af79">
@@ -832,7 +848,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Combo (Katana)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Combo (Katana), Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -851,6 +867,7 @@
             <infoLink name="Elite (Type)" id="da02-4fe2-eb68-6572" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
             <infoLink name="Martial Artist" id="b4b9-e498-968e-66c8" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Combo (Weapon)" id="e606-50ed-36ae-fc5e" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ba48-378e-3d54-e9ba" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Yang (Ninja)" hidden="false" id="27a2-c48c-8c0d-7499">
@@ -886,7 +903,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Climbing Claws, Hardened</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Climbing Claws, Hardened, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -906,6 +923,7 @@
             <infoLink name="Stealth" id="93de-af77-09d9-a549" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Climbing Claws" id="2578-023b-4116-54d1" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
             <infoLink name="Hardened" id="0737-7af9-78e1-e01d" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="47cc-46af-4093-bb7d" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 1" hidden="false" id="273e-5528-fe7b-6336">
@@ -934,7 +952,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Sustained Defense</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Sustained Defense, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -958,6 +976,7 @@
           <infoLinks>
             <infoLink name="Martial Expert" id="9a50-d5c8-2e72-fbc6" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Sustained Defense" id="e13f-c63c-d84f-643c" hidden="false" type="rule" targetId="04b7-a6f5-397f-1576"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="34e7-ad1c-7d05-7572" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 2" hidden="false" id="7a11-24b4-79ae-51e4">
@@ -987,7 +1006,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Undercover</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Undercover, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1011,6 +1030,7 @@
           <infoLinks>
             <infoLink name="Martial Expert" id="a173-1f8b-9794-5be0" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Undercover" id="c8e6-8949-1d41-03ea" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="2587-1efc-4de3-ba17" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="League Agent 3" hidden="false" id="85a3-c696-1cb0-2aff">
@@ -1039,7 +1059,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Fast</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Martial Expert, Fast, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1063,6 +1083,7 @@
           <infoLinks>
             <infoLink name="Martial Expert" id="3ce1-77d0-f29b-bf63" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
             <infoLink name="Fast" id="9027-8a4a-1b87-08de" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="a3f0-8db6-4fab-bf30" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Seeker (Ninja)" hidden="false" id="299e-4bd2-d6ce-7dcc">
@@ -1082,7 +1103,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Good Aim, Elite (Ninja),  Martial Artist, Stealth</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Good Aim, Elite (Ninja),  Martial Artist, Stealth, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1123,6 +1144,7 @@
             <infoLink name="Martial Artist" id="8560-16e5-e751-8fde" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Stealth" id="06a0-2804-1092-04e3" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Good Aim (1SC)" id="13b4-9ace-24b9-3809" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="b689-2f7d-4ef9-c6e3" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Shadow (Ninja)" hidden="false" id="f25c-3ed1-ea1f-25f2">
@@ -1164,7 +1186,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Sneak Attack, Martial Artist, Undercover</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Sneak Attack, Martial Artist, Undercover, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1184,6 +1206,7 @@
             <infoLink name="Martial Artist" id="58fd-3f6c-a40e-a0fb" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Undercover" id="4e65-a7c3-9add-e2dd" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
             <infoLink name="Sneak Attack (1SC)" id="a5e2-c4a7-b29e-e4ea" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="95e7-5c13-1955-c3e6" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ubu" hidden="false" id="5db3-f92c-a969-39aa">
@@ -1203,7 +1226,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bodyguard, Inspire Fear, Large, Lieutenant (Ra&apos;s al Ghul), Martial Artist, Sturdy</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bodyguard, Inspire Fear, Large, Lieutenant (Ra&apos;s al Ghul), Martial Artist, Sturdy, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1241,6 +1264,7 @@
             <infoLink name="Large" id="e203-419a-207b-b06a" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Martial Artist" id="9fcd-910b-aad8-3405" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Lieutenant (Model)" id="6b8b-0e12-41ac-3858" hidden="false" type="rule" targetId="35b6-a3b3-21f8-000f"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="8229-42c6-0375-448e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2372,7 +2396,7 @@
             <infoLink name="Enervating (X)" id="2074-a223-0545-09ef" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink targetId="f863-9de5-8630-bf4a" id="0808-de5a-2f9e-f2d2" primary="false" name="CC Weapon"/>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="0805-c6db-215d-1bb2" primary="false" name="Ranged Weapon"/>
           </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Kukri" hidden="false" id="cf44-dbf6-7757-1e7b">
@@ -2551,7 +2575,7 @@
           </profiles>
           <infoLinks>
             <infoLink name="Sharp" id="e244-e585-e553-cb21" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-            <infoLink name="Reach" id="a0eb-a997-b7e4-887b" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Reach (X)" id="a0eb-a997-b7e4-887b" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink targetId="f863-9de5-8630-bf4a" id="8640-24a9-ce6f-dc8f" primary="false" name="CC Weapon"/>
@@ -2737,6 +2761,9 @@
             </modifier>
             <modifier type="append" value=", Defensive" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Defensive" id="2f8a-be2c-c924-4f0e" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Venom Dose" hidden="false" id="22ab-288f-94c6-e5d7">
           <constraints>
@@ -2947,8 +2974,8 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="200"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

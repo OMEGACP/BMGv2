@@ -22,7 +22,7 @@
                     <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                     <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                     <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                    <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Lord of the Sewer, Poison Immunity, Poison Master, Rat Tamer, Sewer Worker, Sewer Swarm (3), Special Volume S, Stealth</characteristic>
+                    <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Lord of the Sewers, Poison Immunity, Poison Master, Rat Tamer, Sewer Worker, Sewer Swarm (3), Special Volume S, Stealth</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -81,6 +81,13 @@
                           </constraints>
                         </entryLink>
                       </entryLinks>
+                      <infoLinks>
+                        <infoLink name="Amphibious" id="0871-50bd-fa16-3154" hidden="false" type="rule" targetId="d584-a099-7bff-2550"/>
+                        <infoLink name="Poison Immunity" id="035c-2304-a521-9e35" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+                        <infoLink name="Stealth" id="8636-e4c6-5f63-8cfc" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+                        <infoLink name="Street Guy" id="d921-c291-fd60-cb5c" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+                        <infoLink name="Swarm" id="68ac-1bcb-a6b1-0332" hidden="false" type="rule" targetId="058e-c6fc-78bc-de54"/>
+                      </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -104,6 +111,16 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <infoLinks>
+                <infoLink name="Lord of the Sewers" id="adf2-a75c-cdda-4336" hidden="false" type="rule" targetId="0e63-0def-1f06-452e"/>
+                <infoLink name="Poison Immunity" id="59f7-9769-01da-a0f7" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+                <infoLink name="Poison Master" id="c2cc-0a6f-f0a5-7d07" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+                <infoLink name="Rat Tamer" id="d9a0-d8d9-6c30-40c1" hidden="false" type="rule" targetId="0a07-25ee-37c4-8e5d"/>
+                <infoLink name="Sewer Worker" id="94c7-e662-a72a-3bbb" hidden="false" type="rule" targetId="5c6b-36f8-aa7a-56e8"/>
+                <infoLink name="Sewer Swarm (3)" id="0dab-5832-9dc5-e92e" hidden="false" type="rule" targetId="a9b0-f482-54d2-88b1"/>
+                <infoLink name="Special Volume S" id="aa84-55b0-23f6-0b94" hidden="false" type="rule" targetId="4daf-3b81-1f67-6394"/>
+                <infoLink name="Stealth" id="db9d-659b-e4a9-7c20" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <categoryLinks>
