@@ -965,7 +965,7 @@ Day Rules:
       <alias>Laser Sight</alias>
     </rule>
     <rule name="Leadership" id="10cd-cb0f-6b2c-327a" hidden="false">
-      <description>All friendly models within 8” of this model may reroll Willpower rolls.</description>
+      <description>All friendly models within 8” of this model may reroll Willpower rolls. </description>
     </rule>
     <rule name="Large" id="e335-dce7-3ce6-2489" hidden="false">
       <description>These models are usually around twice the size of a standard human, so they are subject to the following special rules: 
