@@ -13,7 +13,7 @@ Free Agents
 ---------------
 - currently available free agents of BMG v2:
 -- Copperhead
--- Ratcatcher
+  -- Ratcatcher
 
 League of Assassins
 ---------------
