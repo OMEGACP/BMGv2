@@ -1813,7 +1813,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite Boss (Ninja), Confusion, Martial Artist, Unpredictable, Sidekick - Let&apos;s go! Reroll</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Elite Boss (Ninja), Confusion, Martial Artist, Unpredictible, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1876,7 +1876,12 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="75"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Mauser Gun" hidden="false" id="570e-8ae4-80ef-2a85" type="selectionEntry" targetId="b059-05f8-e00f-60ea"/>
+            <entryLink import="true" name="Mauser Gun" hidden="false" id="570e-8ae4-80ef-2a85" type="selectionEntry" targetId="b059-05f8-e00f-60ea">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d56-b4fa-52cc-fc3f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d56-b4fa-52cc-fc3f-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="687b-617b-f925-5567" includeChildSelections="true" includeChildForces="true"/>

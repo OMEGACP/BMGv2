@@ -221,6 +221,15 @@
           </constraints>
           <infoLinks>
             <infoLink name="Inspire (1SC)" id="cc15-2b80-5598-0f3a" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Born in the Darkness" id="7ce8-5db6-61d7-cdd0" hidden="false" type="rule" targetId="3381-6bc0-c6a0-d027"/>
+            <infoLink name="True Love (Name)" id="41a5-a749-fe97-85f9" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Strategist" id="c60e-1900-8eee-1fa7" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Kill them! (1SC)" id="cc39-786c-36e8-dd5f" hidden="false" type="rule" targetId="a3e6-ea50-118e-771b"/>
+            <infoLink name="Desensitized" id="f9e0-c309-0ea2-c13e" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+            <infoLink name="Combo (Weapon)" id="79e4-1c4a-96ad-ddb8" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Reinforced Gloves" id="dda1-c9fb-5a41-c2d6" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Close Combat Master" id="5b1d-6007-a2c8-0000" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
+            <infoLink name="Runaway" id="8d8d-7e4e-5c98-4c28" hidden="false" type="rule" targetId="940e-e2b3-66e9-b8cc"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

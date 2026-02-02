@@ -156,6 +156,225 @@
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="67"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d520-291b-cf6c-7a55" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Claws" hidden="false" id="e9f7-8bb4-a019-1335" type="selectionEntry" targetId="3b05-1b9a-62c4-1d75">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c06-6631-9270-ce5e-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c06-6631-9270-ce5e-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Lobo" hidden="false" id="517f-1059-d329-f5a4">
+          <profiles>
+            <profile name="Lobo" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cb4f-fdaa-9ba4-68dc">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lobo</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lobo" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4e6e-df2c-c917-4bac">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">4</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">11</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrogant, Brutal, Close Combat Master, Dirty Fighter, Immortal, Large, Obstinate, Regeneration, Reinforced Gloves, Sturdy, The Main Man</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="6938-8dbe-07da-f0e1" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="f1a6-cf11-bc8d-f8d7" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="3d58-4e39-26f3-30ff" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="500"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="141"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Arrogant" id="b2dc-1176-f535-ad11" hidden="false" type="rule" targetId="e95a-0fba-3eab-c954"/>
+            <infoLink name="Brutal" id="68f0-955a-f14a-a3a0" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Close Combat Master" id="3ff0-447e-3802-74e4" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
+            <infoLink name="Dirty Fighter" id="46df-7805-913a-4d0a" hidden="false" type="rule" targetId="aa24-efa7-5766-51c7"/>
+            <infoLink name="Immortal" id="cf05-3c00-9eea-b69e" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Large" id="f91e-010b-e1c5-63ef" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Obstinate" id="b69e-f3ad-0194-6684" hidden="false" type="rule" targetId="5d76-4060-5218-9c31"/>
+            <infoLink name="Regeneration (1SC)" id="f41d-085e-a7ce-3c4d" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Reinforced Gloves" id="9826-c562-d019-7cee" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Sturdy" id="1e17-2eea-918a-960e" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="The Main Man" id="4567-b438-255e-092c" hidden="false" type="rule" targetId="707f-88f0-20c8-9302"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Big Gun" hidden="false" id="b483-f244-7ce3-7fe9" type="selectionEntry" targetId="1f31-b9a0-7176-7527">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4bd1-064a-1a3c-c043-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bd1-064a-1a3c-c043-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hook" hidden="false" id="95d8-14c0-647b-b2e1" type="selectionEntry" targetId="599d-4145-08dd-27ad">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7fab-34fd-ffcf-d44b-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fab-34fd-ffcf-d44b-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Lobo&apos;s Spacehog" hidden="false" id="5ef0-b9fe-e89d-9451" type="selectionEntry" targetId="7dca-f44f-e9d1-6262">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9938-3636-8c28-72da"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4c70-a3ca-84ff-6e0b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="King Shark" hidden="false" id="76c8-862b-eecc-46e7">
+          <profiles>
+            <profile name="King Shark" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7237-33b2-e91d-fac2">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Shay Lamden</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">King Shark</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="King Shark" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e1c9-2492-ff29-72d8">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Amphibious, Blood Scent, Bloodthirsty, Brutal, Combo (Claws &amp; Teeth), Huge, Meta-Skin (B.V.), Regeneration, Swift</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="5b5c-1e53-38d5-7d42" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="b875-2571-e1eb-a7f1" primary="false" name="Rival (BB)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="95"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e660-9108-b462-88a9" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Claws &amp; Teeth" hidden="false" id="8a54-0e05-b420-d757" type="selectionEntry" targetId="6710-0eaf-64fe-d7bf">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3ea-911f-33b3-2ffe-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3ea-911f-33b3-2ffe-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Blood Scent" id="b99e-23dc-ee83-cca8" hidden="false" type="rule" targetId="140e-3c75-9988-0dd0"/>
+            <infoLink name="Amphibious" id="f492-5dda-774e-cfd7" hidden="false" type="rule" targetId="d584-a099-7bff-2550"/>
+            <infoLink name="Bloodthirsty (Mental disorder)" id="1ff8-8759-a88e-536e" hidden="false" type="rule" targetId="a6f3-bde6-5361-bc8a"/>
+            <infoLink name="Brutal" id="3432-eb24-01e5-076c" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Combo (Weapon)" id="b3f7-605f-0cf3-f3fe" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Huge" id="48ba-de6b-912c-1ee3" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+            <infoLink name="Bulletproof Vest" id="3eda-d2df-3c62-da82" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
+            <infoLink name="Regeneration (1SC)" id="3671-6466-8d03-7155" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Swift" id="d976-c95b-be75-717a" hidden="false" type="rule" targetId="78f3-9b1c-d78b-9970"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Batman Who Laughs" hidden="false" id="be85-82a6-05c9-8671">
+          <profiles>
+            <profile name="The Batman Who Laughs" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1df2-a732-d54b-d803">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Batman Who Laughs</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Batman Who Laughs" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e10d-faf1-b5da-3566">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Cannibal, Detective, Large, Luck, Martial Arts, Persuasive, Psycho, Sneaking, Stealth, Strategist, Trickster</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="81b2-a34d-7d2a-1328" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="fdb4-45a4-66df-f1bf" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="9573-12c3-59cc-40a2" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="140"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="732c-77db-8851-7f77" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Teeth &amp; Claws" hidden="false" id="bee3-0cb3-ca12-1ebe" type="selectionEntry" targetId="5078-2faa-07f2-d0ff">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="76a2-a8ce-7755-ceb8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76a2-a8ce-7755-ceb8-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Luck (1SC, Passive)" id="6b19-122a-4f4d-39ee" hidden="false" type="rule" targetId="7b52-6498-88f0-3311"/>
+            <infoLink name="Cannibal" id="394c-0524-6957-b2e1" hidden="false" type="rule" targetId="b1bf-8e17-2053-5012"/>
+            <infoLink name="Martial Artist" id="f8be-9a13-315a-67fd" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Persuasive (1AC+1SC)" id="6fbb-7106-5498-c88b" hidden="false" type="rule" targetId="edb9-92a5-68ff-a712"/>
+            <infoLink name="Large" id="96cc-a73a-53ec-d8d0" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Psycho" id="5c57-9a8c-c876-45d1" hidden="false" type="rule" targetId="f031-4f92-537e-535a"/>
+            <infoLink name="Detective" id="b2f1-b070-a729-0530" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Sneaking" id="1312-344b-9192-6e08" hidden="false" type="rule" targetId="1964-47e0-8bc9-4e23"/>
+            <infoLink name="Stealth" id="0e5b-b57b-84c7-bf47" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Strategist" id="2712-d961-de52-7c42" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Trickster" id="d804-d7f6-7f04-49c4" hidden="false" type="rule" targetId="1dba-ac2f-ebf0-7291"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -181,6 +400,90 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hook" hidden="false" id="599d-4145-08dd-27ad">
+          <profiles>
+            <profile name="Hook" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="fc21-3c88-aec3-0a8c">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Reach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="98d5-0545-2bc0-05c9" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Reach (X)" id="dc0c-c5f4-f4cf-70cc" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Big Gun" hidden="false" id="1f31-b9a0-7176-7527">
+          <profiles>
+            <profile name="Big Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0ea9-448a-2056-2b1b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">4</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">M. Range, Firearm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Medium Range" id="ad03-3c9a-c42d-d138" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Firearm" id="c5e1-f679-8770-9882" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Claws" hidden="false" id="3b05-1b9a-62c4-1d75">
+          <profiles>
+            <profile name="Poisoned Claws" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="b1af-b5bd-621c-56dc">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Enervating (2), CRT (Poison)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="CC Weapon" hidden="false" id="775b-c285-2d24-d46c" targetId="f863-9de5-8630-bf4a" primary="false"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Sharp" id="b0bf-f855-f98d-8f56" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Enervating (X)" id="4e50-5579-8e3b-726e" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+          </infoLinks>
+          <rules>
+            <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
+              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Upgrades" hidden="false" id="b972-3b6f-2150-299b">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lobo&apos;s Spacehog" hidden="false" id="7dca-f44f-e9d1-6262">
+          <profiles>
+            <profile name="Lobo&apos;s Spacehog" typeId="c67d-695d-6a54-1b0f" typeName="Character Upgrade" hidden="false" id="e341-e20c-9e59-5979">
+              <characteristics>
+                <characteristic name="Upgraded Character" typeId="b514-1c96-4f58-694d">Lobo</characteristic>
+                <characteristic name="Alias" typeId="b831-e12b-268f-f459">Lobo&apos;s Spacehog</characteristic>
+                <characteristic name="Movement" typeId="523a-d3f9-1dcd-9857">+1</characteristic>
+                <characteristic name="Endurance" typeId="22db-2198-71de-7a57">4</characteristic>
+                <characteristic name="Upgrade Traits" typeId="7c53-1136-d648-2c7e">Fly, Huge, Swift, Mechanical Mount, Hands-Off Mode</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="34"/>
+          </costs>
+          <rules>
+            <rule name="Hands-Off Mode" id="035e-53f5-03f8-5970" hidden="false">
+              <description>Once per game, this model can activate Hands-off Mode during a Charge. Instead of causing close combat hits to models it moves through, this model may perform a ranged attach against each model. This gains Assault (2) and only consumes 1 Ammo in total.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Fly (1MC+1SC)" id="8034-ade9-accb-716e" hidden="false" type="rule" targetId="6eb9-3137-65ed-f057"/>
+            <infoLink name="Huge" id="6d86-b8db-7022-dc88" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+            <infoLink name="Swift" id="f638-92c9-703c-1eee" hidden="false" type="rule" targetId="78f3-9b1c-d78b-9970"/>
+            <infoLink name="Mechanical Mount" id="32f0-014a-b2f4-6ec7" hidden="false" type="rule" targetId="0d96-9d18-448d-f3ee"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -191,5 +494,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Copperhead" hidden="false" id="519a-a79a-a1ec-4d8e" type="selectionEntry" targetId="73ad-d105-6f16-84a2"/>
+    <entryLink import="true" name="Lobo" hidden="false" id="a18d-6630-6355-cc81" type="selectionEntry" targetId="517f-1059-d329-f5a4"/>
+    <entryLink import="true" name="King Shark" hidden="false" id="d7ba-da73-17c1-56a1" type="selectionEntry" targetId="76c8-862b-eecc-46e7"/>
   </entryLinks>
 </catalogue>

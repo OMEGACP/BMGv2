@@ -39,6 +39,8 @@
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
     <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false"/>
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
+    <categoryEntry name="Rival (Joker)" id="6d11-48fc-2bdc-0044" hidden="false"/>
+    <categoryEntry name="Rival (Bane)" id="ce29-acaa-6b01-5196" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -1526,6 +1528,7 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
     </rule>
     <rule name="Bulletproof Vest" id="aa58-9b8b-bedf-dab7" hidden="false">
       <description>Firearms weapons require a 4+ to Damage a model with this Trait, instead of the usual 2+.</description>
+      <alias>Meta-Skin (B.V.)</alias>
     </rule>
     <rule name="Bullet Time (3SC)" id="166b-1774-16c7-28c9" hidden="false">
       <description>One use only. This model can attack twice during its activation, with different ranged weapons. 
@@ -1538,6 +1541,12 @@ However, the model cannot Crouch in the same round that it uses this ability.</
     </rule>
     <rule name="Sidekick - Let&apos;s go! Reroll" id="a720-f166-b6d7-6977" hidden="false">
       <description>Friendly Henchmen within 8” of this model may reroll failed Let’s Go! rolls.</description>
+    </rule>
+    <rule name="Blood Scent" id="140e-3c75-9988-0dd0" hidden="false">
+      <description>If this model targets a model with at least 1 damage marker, it gains +1 to hit, +1 strength and Bleed (1)</description>
+    </rule>
+    <rule name="Born in the Darkness" id="3381-6bc0-c6a0-d027" hidden="false">
+      <description>When this model is not within the area of effect of a light source, it gains +1 bonus to its Defense rolls and enemy models cannot benefit from the Sneak Attack trait when targeting this model.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3003,28 +3012,6 @@ However, the model cannot Crouch in the same round that it uses this ability.</
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Poisoned Claws" hidden="false" id="3b05-1b9a-62c4-1d75">
-          <profiles>
-            <profile name="Poisoned Claws" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="b1af-b5bd-621c-56dc">
-              <characteristics>
-                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Enervating (2), CRT (Poison)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink targetId="f863-9de5-8630-bf4a" id="775b-c285-2d24-d46c" primary="false" name="CC Weapon"/>
-          </categoryLinks>
-          <infoLinks>
-            <infoLink name="Sharp" id="b0bf-f855-f98d-8f56" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-            <infoLink name="Enervating (X)" id="4e50-5579-8e3b-726e" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
-          </infoLinks>
-          <rules>
-            <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Catarangs" hidden="false" id="6f0b-ac1e-53ac-d78e">
           <profiles>
             <profile name="Catarangs" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3d67-83ab-7017-9046">
@@ -3242,6 +3229,34 @@ However, the model cannot Crouch in the same round that it uses this ability.</
             <infoLink name="Handy" id="8b90-0dc7-abe6-b91c" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Claws &amp; Teeth" hidden="false" id="6710-0eaf-64fe-d7bf">
+          <profiles>
+            <profile name="Claws &amp; Teeth" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="bab6-3877-43d9-a3f4">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating" id="d5e6-b838-c790-87ff" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Teeth &amp; Claws" hidden="false" id="5078-2faa-07f2-d0ff">
+          <profiles>
+            <profile name="Teeth &amp; Claws" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="d5d9-c77f-da1d-de62">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach, Handy, Protective</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Reach (X)" id="c5cd-6c05-5bfc-120f" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Handy" id="eeb1-ea58-b787-3f01" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Protective" id="c527-bbd9-16fe-f45f" hidden="false" type="rule" targetId="4e8e-6ac9-8497-579b"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3285,6 +3300,15 @@ However, the model cannot Crouch in the same round that it uses this ability.</
     <profileType name="Equipment" id="0941-0f5b-a95b-5c38" hidden="false">
       <characteristicTypes>
         <characteristicType name="Rules" id="dadd-d641-527c-1d93"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Character Upgrade" id="c67d-695d-6a54-1b0f" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Upgraded Character" id="b514-1c96-4f58-694d"/>
+        <characteristicType name="Alias" id="b831-e12b-268f-f459"/>
+        <characteristicType name="Movement" id="523a-d3f9-1dcd-9857"/>
+        <characteristicType name="Endurance" id="22db-2198-71de-7a57"/>
+        <characteristicType name="Upgrade Traits" id="7c53-1136-d648-2c7e"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -3592,6 +3616,9 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
     <rule name="Thief (1SC)" id="bbf0-b7eb-da4d-436a" hidden="false">
       <alias>Thief</alias>
       <description>1SC: Once this trait is activated, for the rest of the round this models close combat attacks gains CRT: Steal.</description>
+    </rule>
+    <rule name="Mechanical Mount" id="0d96-9d18-448d-f3ee" hidden="false">
+      <description>This model can neither jump or climb.</description>
     </rule>
   </rules>
 </gameSystem>
