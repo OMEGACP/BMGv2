@@ -63,8 +63,8 @@
                         </profile>
                       </profiles>
                       <constraints>
-                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-min"/>
-                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-max"/>
+                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-min-min"/>
+                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a7dc-3b2a-6568-ffb8-min-max"/>
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
@@ -91,8 +91,8 @@
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-max"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min-max"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -106,8 +106,8 @@
               <entryLinks>
                 <entryLink import="true" name="Poisoned Baton" hidden="false" id="0ad1-f1c1-47f1-f3a2" type="selectionEntry" targetId="a030-59dc-7c22-0094">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-max"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-min-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e527-af4b-75bc-88bb-min-max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -376,6 +376,126 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Professor Pyg" hidden="false" id="4d6b-ea38-1307-93e9" collective="true">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Professor Pyg" hidden="false" id="2cdf-f9d6-80fe-e00e">
+              <profiles>
+                <profile name="Professor Pyg" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="dbbe-6968-f6ae-e188">
+                  <characteristics>
+                    <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Lazlo Valentin</characteristic>
+                    <characteristic name="Alias" typeId="324e-541d-263d-736b">Professor Pyg</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Professor Pyg" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5fc8-9b60-6a08-d07f">
+                  <characteristics>
+                    <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                    <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                    <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                    <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                    <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                    <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                    <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                    <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Self-Discipline, Combo (Knife), Goad, Medic, Surgical Madness (Mental Disorder), Dollotrons</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink name="Free Agent" hidden="false" id="d032-7dab-f0dd-3acd" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+                <categoryLink name="Crew (Unknown)" hidden="false" id="5dd0-5d8f-9a36-0c52" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
+                <categoryLink name="Rival (BB)" hidden="false" id="1454-41d1-dd4a-db5d" targetId="33d4-af20-d41a-829e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+                <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="90"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="daef-6d22-40f2-0395" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="unit" import="true" name="Dollotrons" hidden="false" id="2125-6d6c-9b8c-f2a6" collective="true">
+                  <selectionEntries>
+                    <selectionEntry type="model" import="true" name="Dollotron" hidden="true" id="0332-2052-8289-a59c" defaultAmount="3" collective="true">
+                      <profiles>
+                        <profile name="Dollotron" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="74e4-7618-6f98-e3dd">
+                          <characteristics>
+                            <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                            <characteristic name="Alias" typeId="324e-541d-263d-736b">Dollotron</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Dollotron" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="05f7-2248-61dc-d5e9">
+                          <characteristics>
+                            <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                            <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                            <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                            <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                            <characteristic name="Defense" typeId="772d-9054-3e95-2611">1</characteristic>
+                            <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                            <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                            <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Desensitized, Make them perfect, Perfect Creations, Self-discipline, Stupid</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="91cb-5f7e-f2ae-30cf-min"/>
+                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="91cb-5f7e-f2ae-30cf-max"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2cdf-f9d6-80fe-e00e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <infoLinks>
+                        <infoLink name="Desensitized" id="5248-9401-08d8-eed7" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+                        <infoLink name="Make them perfect" id="b7e5-d3f5-707d-f52f" hidden="false" type="rule" targetId="0ece-bf38-a8ed-7295"/>
+                        <infoLink name="Perfect Creations" id="bed6-ea99-0dd7-236b" hidden="false" type="rule" targetId="6937-356e-d652-9a77"/>
+                        <infoLink name="Self-Discipline" id="1485-9339-0df3-4183" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
+                        <infoLink name="Stupid" id="549e-8fe8-48c2-984c" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="591e-44bf-098b-b1bf-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="591e-44bf-098b-b1bf-max"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Knife" hidden="false" id="b82e-88ac-8da3-fc70" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1ce-874f-3d65-f3c7-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1ce-874f-3d65-f3c7-max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Throwing Knives" hidden="false" id="ddbc-da2d-cbda-ab3d" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8493-7618-1a2e-3582-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8493-7618-1a2e-3582-max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Self-Discipline" id="e324-716c-f6d3-901d" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
+                <infoLink name="Combo (Weapon)" id="598c-3d7e-384f-589d" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+                <infoLink name="Goad (1SC)" id="edab-05d1-23e8-60ca" hidden="false" type="rule" targetId="c442-832d-bca7-9f0b"/>
+                <infoLink name="Medic (2SC)" id="e17c-028e-20ca-6083" hidden="false" type="rule" targetId="ce72-b81d-0772-883b"/>
+                <infoLink name="Surgical madness (Mental disorder)" id="3e47-6ac3-5fab-ab3e" hidden="false" type="rule" targetId="7a50-a1b0-f618-fc41"/>
+                <infoLink name="Dollotrons" id="6e27-d0b6-e9a3-d035" hidden="false" type="rule" targetId="96b4-ee64-2bf4-e50a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="45be-ab8b-6ee0-e9d0" primary="true" name="Free Agent"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c8f9-b951-694e-8e25">
@@ -496,5 +616,6 @@
     <entryLink import="true" name="Copperhead" hidden="false" id="519a-a79a-a1ec-4d8e" type="selectionEntry" targetId="73ad-d105-6f16-84a2"/>
     <entryLink import="true" name="Lobo" hidden="false" id="a18d-6630-6355-cc81" type="selectionEntry" targetId="517f-1059-d329-f5a4"/>
     <entryLink import="true" name="King Shark" hidden="false" id="d7ba-da73-17c1-56a1" type="selectionEntry" targetId="76c8-862b-eecc-46e7"/>
+    <entryLink import="true" name="Professor Pyg" hidden="false" id="c8a6-74c2-0be6-baef" type="selectionEntry" targetId="2cdf-f9d6-80fe-e00e"/>
   </entryLinks>
 </catalogue>
