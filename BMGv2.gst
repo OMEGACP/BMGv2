@@ -39,6 +39,8 @@
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
     <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false"/>
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
+    <categoryEntry name="Rival (Joker)" id="6d11-48fc-2bdc-0044" hidden="false"/>
+    <categoryEntry name="Rival (Bane)" id="ce29-acaa-6b01-5196" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -408,8 +410,9 @@ In addition, models suffering damage from the Poison effect within 8&quot; of th
     <rule name="Bat-Armor MK II" id="b300-01ae-406e-f3c3" hidden="false">
       <description>Roll 1D6 for each hit you suffer, before the attacker makes Damage rolls. On a result of 6+ the hit is ignored. In addition, this model gains +1” to its basic movement distance.</description>
     </rule>
-    <rule name="Bat-Armor MK III" id="db55-a770-99bf-b2ca" hidden="false">
-      <description>Roll 1D6 for each hit you suffer, before the attacker makes Damage rolls. On a result of 5+ the hit is ignored. In addition, if this model has moved this activation, it can make close combat attacks against enemies up to 2” away in line of sight (ignore all traits that improve the model’s line of sight, such as Total Vision, for the purpose of these attacks).</description>
+    <rule name="Bat Cape (1SC, passive)" id="db55-a770-99bf-b2ca" hidden="false">
+      <description>1SC, passive: As long as it is able to spend a Special Counter, the model will not take Damage, be Knocked Down, nor become a Casualty as a result of Falling or Jumping. In addition, the model may Leap Down without spending the MC, and without using any of its total movement allowance.</description>
+      <alias>Bat Cape</alias>
     </rule>
     <rule name="Take Cover! (1SC)" id="83a2-424d-a0e4-9615" hidden="false">
       <description>1SC: All friendly Henchmen within 4” of this model (but not the activated model itself) gain 1 free DC. This DC may take the number of assigned Action Counters above a Henchman’s normal maximum. A model can use this trait only once per round.</description>
@@ -1484,7 +1487,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
 effects and damage caused by his EM Smoke Grenades (like the Smoke effect). This spends a magazine as usual but does not count as this model’s Attack Action.</description>
       <alias>Vanish</alias>
     </rule>
-    <rule name="Venom Dose (Dose)" id="7335-6ab8-643c-83ef" hidden="false">
+    <rule name="Venom Dose (Doses)" id="7335-6ab8-643c-83ef" hidden="false">
       <description>A model may use a Venom Dose at the beginning of the Raise the Plan phase. If it does so, for the rest of the round the model gains +1 Strength and can reroll Damage rolls when fighting in close combat.</description>
     </rule>
     <rule name="Vulnerability to Fire" id="5a15-dafe-b201-72b1" hidden="false">
@@ -1526,6 +1529,7 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
     </rule>
     <rule name="Bulletproof Vest" id="aa58-9b8b-bedf-dab7" hidden="false">
       <description>Firearms weapons require a 4+ to Damage a model with this Trait, instead of the usual 2+.</description>
+      <alias>Meta-Skin (B.V.)</alias>
     </rule>
     <rule name="Bullet Time (3SC)" id="166b-1774-16c7-28c9" hidden="false">
       <description>One use only. This model can attack twice during its activation, with different ranged weapons. 
@@ -1538,6 +1542,51 @@ However, the model cannot Crouch in the same round that it uses this ability.</
     </rule>
     <rule name="Sidekick - Let&apos;s go! Reroll" id="a720-f166-b6d7-6977" hidden="false">
       <description>Friendly Henchmen within 8” of this model may reroll failed Let’s Go! rolls.</description>
+    </rule>
+    <rule name="Blood Scent" id="140e-3c75-9988-0dd0" hidden="false">
+      <description>If this model targets a model with at least 1 damage marker, it gains +1 to hit, +1 strength and Bleed (1)</description>
+    </rule>
+    <rule name="Born in the Darkness" id="3381-6bc0-c6a0-d027" hidden="false">
+      <description>When this model is not within the area of effect of a light source, it gains +1 bonus to its Defense rolls and enemy models cannot benefit from the Sneak Attack trait when targeting this model.</description>
+    </rule>
+    <rule name="Bat-Armor MK III" id="459f-53bf-9e3b-e2ad" hidden="false">
+      <description>Roll 1D6 for each hit you suffer, before the attacker makes Damage rolls. On a result of 5+ the hit is ignored. In addition, if this model has moved this activation, it can make close combat attacks against enemies up to 2” away in line of sight (ignore all traits that improve the model’s line of sight, such as Total Vision, for the purpose of these attacks).</description>
+    </rule>
+    <rule name="Hold Breath (2AC)" id="2638-766b-5e11-5b6e" hidden="false">
+      <alias>Hold Breath</alias>
+      <description>This model can only use this trait once per round. This model cannot move this round, and can&apos;t perform attacks. However, the next Ranged Attack this model performs gains +1 to its Collateral Dice result and +1 to its Hit rolls. This effect is cumulative.</description>
+    </rule>
+    <rule name="Cool under Fire" id="7bbd-b52d-9b9d-2ae3" hidden="false">
+      <description>A model with this trait receives 1 additional Strategy Point at the beginning of the game. Also, when a friendly model with the Veteran trait activates within 8&quot;, remove one Effect from that model.</description>
+    </rule>
+    <rule name="Batman Lives (1SC+1SC)" id="adec-d732-0cf9-8d33" hidden="false">
+      <description>1SC+1SC: This model may perform an extra Movement Action at the start of its activation if no enemv models have LoS to it spending a special action. When in contact with a KO enemy model, this model may remove it as a Casualty by spending an addtional special action. In addition, when this model is included in your crew, you can also include model with name: &quot;William Cobb&quot; (ignoring its affiliation), but if you do you, you maynot include any model with the &quot;Free Agent&quot; rank unless it also has Affiliation (Bane).</description>
+      <alias>Batman Lives</alias>
+    </rule>
+    <rule name="Raised with Venom (v3)" id="c15e-63ad-aac9-35a7" hidden="false">
+      <description>v3: 
+v2: This model gains 2 free defense actions if it has used a Venom Dose this round.</description>
+    </rule>
+    <rule name="Tough Guy (v3)" id="0fd2-5d3b-6e1d-dd00" hidden="false">
+      <description>v3: This model counts as two models for scoring friendly Objective cards.
+v2:  If this model damages another model during a round and controls an objective at the end of the same round, it awards 1 additional VP.</description>
+      <alias>Tough Guy</alias>
+    </rule>
+    <rule name="Grudge Match (v3)" id="d77f-12d5-1e0d-e69b" hidden="false">
+      <description>v3 Rule: When this model declares an Attack action, you may choose that no efforts my be made.</description>
+      <alias>Grudge Match</alias>
+    </rule>
+    <rule name="Hunter (v3)" id="6bea-e33f-30de-1a03" hidden="false">
+      <alias>Hunter</alias>
+      <description>When this model is going to make an Attack action against a model that already activated this round, it may perform a free Special Action before or after resolving the attack.</description>
+    </rule>
+    <rule name="Coordination" id="b672-4d6d-9451-3314" hidden="false">
+      <description>Target another friendly model with 8&quot; of this model that share a keywod with this model, immediately perform an action with that model.</description>
+    </rule>
+    <rule name="Paramedic (v3)" id="6f33-c410-baa0-0712" hidden="false">
+      <alias>Paramedic</alias>
+      <description>v3: When this model paces a Suspect, it can remove up to 2 Damage from a friendly model within 4&quot; (not Vehicle). If this ability is used to recover a model that is yet to activate that round from KO, the opponent gains a Pass marker.
+v2: When using the Medic trait and spending an additional SC, you can remove 1 additional damage marker.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -1934,7 +1983,7 @@ However, the model cannot Crouch in the same round that it uses this ability.</
           <profiles>
             <profile name="EM Smoke Grenade" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3006-9b7d-a9be-c9e3">
               <characteristics>
-                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
                 <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Explosive, Mechanical, Smoke, Electric, Grenade</characteristic>
@@ -2375,12 +2424,12 @@ However, the model cannot Crouch in the same round that it uses this ability.</
             <infoLink name="Handy" id="44a3-0100-1d9a-449d" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Shiv" hidden="false" id="dcf0-b356-38ec-2897">
+        <selectionEntry type="upgrade" import="true" name="Surgical Knife" hidden="false" id="dcf0-b356-38ec-2897">
           <profiles>
-            <profile name="Shiv" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="7d91-78ee-5005-4acb">
+            <profile name="Surgical Knife" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="7d91-78ee-5005-4acb">
               <characteristics>
                 <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2389,6 +2438,7 @@ However, the model cannot Crouch in the same round that it uses this ability.</
           </categoryLinks>
           <infoLinks>
             <infoLink name="Handy" id="7ed5-fea7-4921-3b1d" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="6f01-c701-85be-84b7" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Crossbow" hidden="false" id="b1d9-623e-028c-386e">
@@ -3003,28 +3053,6 @@ However, the model cannot Crouch in the same round that it uses this ability.</
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Poisoned Claws" hidden="false" id="3b05-1b9a-62c4-1d75">
-          <profiles>
-            <profile name="Poisoned Claws" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="b1af-b5bd-621c-56dc">
-              <characteristics>
-                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Enervating (2), CRT (Poison)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink targetId="f863-9de5-8630-bf4a" id="775b-c285-2d24-d46c" primary="false" name="CC Weapon"/>
-          </categoryLinks>
-          <infoLinks>
-            <infoLink name="Sharp" id="b0bf-f855-f98d-8f56" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-            <infoLink name="Enervating (X)" id="4e50-5579-8e3b-726e" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
-          </infoLinks>
-          <rules>
-            <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Catarangs" hidden="false" id="6f0b-ac1e-53ac-d78e">
           <profiles>
             <profile name="Catarangs" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3d67-83ab-7017-9046">
@@ -3242,6 +3270,192 @@ However, the model cannot Crouch in the same round that it uses this ability.</
             <infoLink name="Handy" id="8b90-0dc7-abe6-b91c" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Claws &amp; Teeth" hidden="false" id="6710-0eaf-64fe-d7bf">
+          <profiles>
+            <profile name="Claws &amp; Teeth" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="bab6-3877-43d9-a3f4">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating" id="d5e6-b838-c790-87ff" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Teeth &amp; Claws" hidden="false" id="5078-2faa-07f2-d0ff">
+          <profiles>
+            <profile name="Teeth &amp; Claws" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="d5d9-c77f-da1d-de62">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach, Handy, Protective</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Reach (X)" id="c5cd-6c05-5bfc-120f" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Handy" id="eeb1-ea58-b787-3f01" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Protective" id="c527-bbd9-16fe-f45f" hidden="false" type="rule" targetId="4e8e-6ac9-8497-579b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tomahawk" hidden="false" id="52bd-46de-9495-2509">
+          <profiles>
+            <profile name="Tomahawk" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="778d-c5e4-5eee-5978">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Devastating, Handy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="e97a-03b7-6398-f865" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Devastating" id="f697-7588-bd00-5a86" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+            <infoLink name="Handy" id="4cb6-128a-52e1-bc0b" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="false" id="f310-e561-a7de-8820">
+          <profiles>
+            <profile name="Sniper Rifle" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="e735-41ef-049c-d6e2">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">4 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, Reload, Aim, Anti-Tank, Scope, Bleed (3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="0fe8-3f9f-cb5b-4239" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Firearm" id="3318-5c29-ccb2-02bb" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Reload" id="d324-70fc-2bcd-bb53" hidden="false" type="rule" targetId="f2fc-7249-231f-b5cb"/>
+            <infoLink name="Aim" id="98d8-5486-0d67-e223" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Anti-Tank" id="a391-28ac-79fb-9286" hidden="false" type="rule" targetId="5db8-f31a-eafb-c0b4"/>
+            <infoLink name="Scope" id="48f2-4b8c-a329-3d1f" hidden="false" type="rule" targetId="e1ee-b548-15a7-7f62"/>
+          </infoLinks>
+          <rules>
+            <rule name="CRT (3 Blood)" id="3a19-f097-d8fb-ef19" hidden="false">
+              <description>In case of a critical hit, this weapon causes 3 Blood damage.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="0e60-91d9-1bae-b925">
+          <profiles>
+            <profile name="Grenade Launcher" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="6cbd-11b7-97d6-2de2">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">M. Range, Firearm, Grenade, Explosive</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="6925-76c4-1804-2f98" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Short Range" id="c691-3124-6179-f300" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="caf5-2783-2477-df05" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Explosive" id="13b4-05c8-8683-16c7" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Grenade" id="8752-665f-8cd6-4e08" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grenade Launcher (Smoke)" hidden="false" id="5705-3ff9-08f3-a630">
+          <profiles>
+            <profile name="Grenade Launcher (Smoke)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="2347-aa3d-7252-4f7b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">M. Range, Firearm, Grenade</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="6790-f362-8ecf-a850" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Short Range" id="ab86-b512-2b1e-9d8b" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="78c1-8b74-59b8-9266" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Explosive" id="c6c4-0bd8-4171-be4d" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Grenade" id="b74d-2370-ef5c-3de3" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shiv" hidden="false" id="6466-75a7-ab5c-aa35">
+          <profiles>
+            <profile name="Shiv" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="a8a8-3386-d431-8931">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="e955-047b-4775-0b2d" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Handy" id="366c-1bd4-8d92-d7d7" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Stun Gun" hidden="false" id="3990-59e6-a16b-22df">
+          <profiles>
+            <profile name="Stun Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="f68c-8eff-afce-a2e1">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Mechanical, Light, Enervating (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="09c2-3371-d2ed-16b2" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Short Range" id="a206-7175-772c-c795" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="7f14-ce5e-ec61-f5dc" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Light" id="ee5c-0029-4905-277f" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Light Assault Carbine" hidden="false" id="fcea-3f70-0b09-ab92">
+          <profiles>
+            <profile name="Light Assault Carbine" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="c32c-6449-fed0-2705">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">4</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, M. Range, Assault (2), Red Dot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="5496-5818-fbce-d1e9" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Medium Range" id="8174-46b8-7585-16a2" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Firearm" id="368a-2749-f5ee-b2bd" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Assault (X)" id="8bf7-e33c-c973-2605" hidden="false" type="rule" targetId="8c32-0cf1-2cdb-607f"/>
+            <infoLink name="Red Dot" id="1c15-69cb-b2f6-e1c1" hidden="false" type="rule" targetId="679c-b7bb-f4a4-41c4"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Wrecking Hammer" hidden="false" id="1d22-e236-f9a8-84a5">
+          <profiles>
+            <profile name="Wrecking Hammer" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="4735-a113-2d02-3f7e">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Heavy, Handy, Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="3aaa-ae4f-6d0a-2704" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Heavy" id="3e16-1e48-68bc-31c2" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+            <infoLink name="Devastating" id="c132-a645-1007-f55a" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3285,6 +3499,15 @@ However, the model cannot Crouch in the same round that it uses this ability.</
     <profileType name="Equipment" id="0941-0f5b-a95b-5c38" hidden="false">
       <characteristicTypes>
         <characteristicType name="Rules" id="dadd-d641-527c-1d93"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Character Upgrade" id="c67d-695d-6a54-1b0f" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Upgraded Character" id="b514-1c96-4f58-694d"/>
+        <characteristicType name="Alias" id="b831-e12b-268f-f459"/>
+        <characteristicType name="Movement" id="523a-d3f9-1dcd-9857"/>
+        <characteristicType name="Endurance" id="22db-2198-71de-7a57"/>
+        <characteristicType name="Upgrade Traits" id="7c53-1136-d648-2c7e"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -3592,6 +3815,9 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
     <rule name="Thief (1SC)" id="bbf0-b7eb-da4d-436a" hidden="false">
       <alias>Thief</alias>
       <description>1SC: Once this trait is activated, for the rest of the round this models close combat attacks gains CRT: Steal.</description>
+    </rule>
+    <rule name="Mechanical Mount" id="0d96-9d18-448d-f3ee" hidden="false">
+      <description>This model can neither jump or climb.</description>
     </rule>
   </rules>
 </gameSystem>
