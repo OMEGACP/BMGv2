@@ -41,6 +41,17 @@
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
     <categoryEntry name="Rival (Joker)" id="6d11-48fc-2bdc-0044" hidden="false"/>
     <categoryEntry name="Rival (Bane)" id="ce29-acaa-6b01-5196" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Bruce Wayne)" id="c0d1-f803-0129-31a7" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Gillian B. Loeb)" id="40d5-0445-6cea-16e1" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Selina Kyle)" id="96e0-7507-c52a-a1fc" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Oliver Queen)" id="a238-1513-ccff-0bc1" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Roy Harper)" id="7cf1-7163-c06c-d28b" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Kathy Kane)" id="7a0e-9555-4b13-dd4b" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Tim Drake)" id="d5ef-e3e8-08f0-4bab" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Barbara Gordon)" id="a8a5-39ae-29c8-27fd" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Red Hood (Arkham Knight))" id="35e5-b2ff-108b-eb2d" hidden="false"/>
+    <categoryEntry name="Equipment (BB: James Gordon)" id="e0ea-223f-4339-92dd" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Dick Grayson)" id="c2a8-5545-feeb-db01" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -1470,7 +1481,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
     <rule name="Total Vision" id="2bc9-33a3-ff0b-2fa5" hidden="false">
       <description>This model may see at any distance, limited only by his line of sight. Additionally, the model’s line of sight can cross any obstacle or terrain element. It may not shoot through these elements, unless using a weapon with the Remote Control rule.</description>
     </rule>
-    <rule name="Titan Dose (Dose)" id="2af6-a9e7-4235-446d" hidden="false">
+    <rule name="Titan Dose (Doses)" id="2af6-a9e7-4235-446d" hidden="false">
       <description>A model may use a Titan Dose at the beginning of the Raise the Plan phase. If it does so, the model gains +1 to all of its basic skills until the end of the round. The same model cannot use more than 1 Titan dose per game.</description>
     </rule>
     <rule name="Tough Skin" id="7153-8d59-6cf7-9b4b" hidden="false">
@@ -1587,6 +1598,12 @@ v2:  If this model damages another model during a round and controls an objecti
       <alias>Paramedic</alias>
       <description>v3: When this model paces a Suspect, it can remove up to 2 Damage from a friendly model within 4&quot; (not Vehicle). If this ability is used to recover a model that is yet to activate that round from KO, the opponent gains a Pass marker.
 v2: When using the Medic trait and spending an additional SC, you can remove 1 additional damage marker.</description>
+    </rule>
+    <rule name="Telekinesis" id="f743-9aac-1f3b-e4d9" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Informer" id="c03f-32f1-83bd-a81c" hidden="false">
+      <description>As long as this model is in play, and provided it’s not KO, the crew gains one additional Pass on Activation.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -2099,7 +2116,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
               </characteristics>
             </profile>
@@ -3713,6 +3730,7 @@ Speedsters cannot use Speed Force Powers if they are affected by the Freeze eff
     </rule>
     <rule name="Knocked Down" id="1172-3915-cbd4-08b2" hidden="false">
       <description>Place a Knocked Down marker on the Character Card of the affected model. A Knocked Down model cannot attack, or defend itself, and it cannot use any traits with an activation cost until it stands up again. A model may move while Knocked Down, but this movement will be Impaired. A Knocked Down model will always be hit by close combat attacks on a roll of 2+. A Knocked Down model doesn’t grant Ping! rolls when a shot passes through or over it, however.</description>
+      <alias>Knock Down</alias>
     </rule>
     <rule name="Paralyze" id="003b-709b-96cc-058e" hidden="false">
       <description>Place a Paralyze marker on the card of the affected model. A paralyzed model reduces its Defense skill by -2, and cannot spend Action Counters of any kind, for any reason, until the end of the round.</description>
@@ -3818,6 +3836,24 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
     </rule>
     <rule name="Mechanical Mount" id="0d96-9d18-448d-f3ee" hidden="false">
       <description>This model can neither jump or climb.</description>
+    </rule>
+    <rule name="Divination" id="2c24-7aa7-24fd-08ab" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Exorcism" id="af6f-35dc-4b39-f421" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Magical Power (X)" id="5dba-59fb-cb2a-784c" hidden="false">
+      <alias>Magical Power (1)</alias>
+      <alias>Magical Power (2)</alias>
+      <alias>Magical Power (3)</alias>
+      <alias>Magical Power (4)</alias>
+    </rule>
+    <rule name="Necromancy" id="be0e-6414-55ce-a0ee" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="The Devil You Know" id="3edb-f397-d2c8-1e46" hidden="false">
+      <description>TODO</description>
     </rule>
   </rules>
 </gameSystem>
