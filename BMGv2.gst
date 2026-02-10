@@ -35,7 +35,7 @@
     <categoryEntry name="Equipment (LoA: Talia al Ghul)" id="3c91-e67e-b870-d7f8" hidden="false"/>
     <categoryEntry name="Rival (BB)" id="33d4-af20-d41a-829e" hidden="false"/>
     <categoryEntry name="Special Unit" id="ea61-4014-081c-4b64" hidden="false"/>
-    <categoryEntry name="Business Agent" id="804a-afb5-5684-1e16" hidden="false"/>
+    <categoryEntry name="Business Agent (adds $350)" id="804a-afb5-5684-1e16" hidden="false"/>
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
     <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false"/>
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
@@ -52,6 +52,8 @@
     <categoryEntry name="Equipment (BB: Red Hood (Arkham Knight))" id="35e5-b2ff-108b-eb2d" hidden="false"/>
     <categoryEntry name="Equipment (BB: James Gordon)" id="e0ea-223f-4339-92dd" hidden="false"/>
     <categoryEntry name="Equipment (BB: Dick Grayson)" id="c2a8-5545-feeb-db01" hidden="false"/>
+    <categoryEntry name="Public Resources (adds $300)" id="177c-59c1-1c6b-b472" hidden="false"/>
+    <categoryEntry name="Millionaire (adds $400)" id="e8b0-8c25-3753-4913" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -93,6 +95,16 @@
         <modifier type="decrement" value="350" field="b5b3-aa8b-4d9c-5673">
           <repeats>
             <repeat value="1" repeats="1" field="selections" scope="force" childId="804a-afb5-5684-1e16" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="300" field="b5b3-aa8b-4d9c-5673">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="177c-59c1-1c6b-b472" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="400" field="b5b3-aa8b-4d9c-5673">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="e8b0-8c25-3753-4913" shared="true" roundUp="false" includeChildSelections="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1591,8 +1603,8 @@ v2:  If this model damages another model during a round and controls an objecti
       <alias>Hunter</alias>
       <description>When this model is going to make an Attack action against a model that already activated this round, it may perform a free Special Action before or after resolving the attack.</description>
     </rule>
-    <rule name="Coordination" id="b672-4d6d-9451-3314" hidden="false">
-      <description>Target another friendly model with 8&quot; of this model that share a keywod with this model, immediately perform an action with that model.</description>
+    <rule name="Coordination (v3)" id="b672-4d6d-9451-3314" hidden="false">
+      <description>v3+v2: Target another friendly model with 8&quot; of this model that share a keywod with this model, immediately perform an action with that model.</description>
     </rule>
     <rule name="Paramedic (v3)" id="6f33-c410-baa0-0712" hidden="false">
       <alias>Paramedic</alias>
@@ -1604,6 +1616,23 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
     </rule>
     <rule name="Informer" id="c03f-32f1-83bd-a81c" hidden="false">
       <description>As long as this model is in play, and provided it’s not KO, the crew gains one additional Pass on Activation.</description>
+    </rule>
+    <rule name="Evidence Tampering (v3)" id="f075-1fc9-e9e4-dd9c" hidden="false">
+      <alias>Evidence Tampering</alias>
+      <description>v3: When this model reveals an enemy Suspect marker, it may place a friendly Suspect marker in contact. Then, remove the enemy Suspect marker as normal.
+v2: Once per game, this model may manipulate an objective marker without paying the cost for the Movement counter.</description>
+    </rule>
+    <rule name="Incorruptible" id="641f-aad1-7350-58c0" hidden="false">
+      <description>This model can only be included into a Crew with a Boss that have its same affiliation.</description>
+    </rule>
+    <rule name="Observation (v3)" id="324e-2e66-8193-3870" hidden="false">
+      <alias>Observation</alias>
+      <description>v3+v2: While this model is not activated this round, it gains +1 to its Defense rolls. 
+While making an attack against an activated model this round, it gains +1 to Hit and Strength dice rolls.</description>
+    </rule>
+    <rule name="Always on the Move (v3)" id="71a4-18e7-a23a-c1ea" hidden="false">
+      <alias>Always on the Move</alias>
+      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enugh actions available to use this trait.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -2196,7 +2225,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
             <profile name="Taser" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0387-6106-b761-293f">
               <characteristics>
                 <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Stun</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach, Mechanical, CRT (Shock)</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach (3), Mechanical, CRT (Shock)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3433,8 +3462,9 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <infoLinks>
             <infoLink name="Short Range" id="a206-7175-772c-c795" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
-            <infoLink name="Firearm" id="7f14-ce5e-ec61-f5dc" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Mechanical" id="7f14-ce5e-ec61-f5dc" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
             <infoLink name="Light" id="ee5c-0029-4905-277f" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+            <infoLink name="Enervating (X)" id="1780-363c-bbec-5677" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Light Assault Carbine" hidden="false" id="fcea-3f70-0b09-ab92">
@@ -3471,6 +3501,47 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
             <infoLink name="Handy" id="3aaa-ae4f-6d0a-2704" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
             <infoLink name="Heavy" id="3e16-1e48-68bc-31c2" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
             <infoLink name="Devastating" id="c132-a645-1007-f55a" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battering Ram" hidden="false" id="d313-22d8-0ae6-af67">
+          <profiles>
+            <profile name="Battering Ram" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8641-21e1-31ed-7f87">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Heavy, CRT (Push)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="93ac-9a69-d2ad-e561" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+            <infoLink name="Push" id="ca22-c534-cc77-78d6" hidden="false" type="rule" targetId="aeee-63a5-857c-8643"/>
+          </infoLinks>
+          <rules>
+            <rule name="CRT (Push)" id="1aca-78f0-7963-6750" hidden="false">
+              <description>In case of a critical hit, this weapon causes a Push in addition to the usual additional damage of 1 Stun.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Flash Grenade" hidden="false" id="0ae4-1d20-8c70-4d88">
+          <profiles>
+            <profile name="Flash Grenade" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="596e-c5d0-02cc-8677">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, S. Range, Explosive, Grenade, Blind</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="559e-49b0-5378-fc72" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Mechanical" id="0bd4-8402-4e7b-c7be" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Explosive" id="c92e-52b2-9e24-d829" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Short Range" id="fd35-0e88-5127-a2ed" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Grenade" id="650e-42e2-eefe-57d0" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+            <infoLink name="Blind" id="d088-7239-9626-fd02" hidden="false" type="rule" targetId="dc00-9cc9-1e60-df0f"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
