@@ -13,7 +13,11 @@ Free Agents
 ---------------
 - currently available free agents of BMG v2:
    - Copperhead
+   - King Shark
+   - Lobo
+   - Professor Pyg
    - Ratcatcher
+   - The Batman who Laughs
 
 League of Assassins
 ---------------
@@ -22,7 +26,21 @@ League of Assassins
 
 Bane
 ---------------
-- all models from the Bane faction of the Dark Knight Rises box (BMG v2), that can be used in the League of Assassins faction
+- added all models except newest v3 releases
+
+The Brave and the Bold
+---------------
+- all henchmen of v2 and v3
+- most sidekicks
+- most free agents
+- some leaders
+
+Organized Crime
+---------------
+- corrupt leader
+- corrupt sidekick
+- corrupt henchman
+- all cops that can be recruited along with corrupt models
 
 # Extension
 Contributions are welcome. Clone this repository and create a new branch with pattern "feature/*" or "bugfix/*".
