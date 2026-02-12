@@ -563,14 +563,10 @@
             <categoryLink name="CC Weapon" hidden="false" id="775b-c285-2d24-d46c" targetId="f863-9de5-8630-bf4a" primary="false"/>
           </categoryLinks>
           <infoLinks>
+            <infoLink targetId="89ad-42c7-3fc5-d998" id="09fb-6f0b-095f-ddfa" type="rule" name="CRT (Poison)" hidden="false"/>
             <infoLink name="Sharp" id="b0bf-f855-f98d-8f56" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
             <infoLink name="Enervating (X)" id="4e50-5579-8e3b-726e" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
           </infoLinks>
-          <rules>
-            <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
-            </rule>
-          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>

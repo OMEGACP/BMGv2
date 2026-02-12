@@ -20,7 +20,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Catcher Gear, Electric Storm, Handyman, Sturdy, Unpredictable, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Catcher Gear, Electric Storm, Handyman, Sturdy, Unpredictable, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -92,7 +92,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Pickpocket, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Pickpocket, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -144,7 +144,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Street Guy, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Street Guy, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -197,7 +197,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Elusive, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Elusive, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -250,7 +250,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Bodyguard, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Bodyguard, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -309,7 +309,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Lantern, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Lantern, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -361,7 +361,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Psycho, Combo (Knives), Devastating Blow, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Psycho, Combo (Knives), Devastating Blow, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -416,7 +416,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Gunman, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Gunman, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -468,7 +468,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Combo (Knife), Hidden, Brutal, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Combo (Knife), Hidden, Brutal, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -523,7 +523,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Escape Artist, Pickpocket, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Escape Artist, Pickpocket, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -576,7 +576,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Rapid Fire, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Rapid Fire, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -621,7 +621,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Master Fighter, Reinforced Gloves, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Criminal, Master Fighter, Reinforced Gloves, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -675,7 +675,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Runaway, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Runaway, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -728,7 +728,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bipolar (Mental Disorder),Hardened, Devastating Blow, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bipolar (Mental Disorder),Hardened, Devastating Blow, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -782,7 +782,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Obsessive (Mental Disorder), Brutal, Climbing Claws, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Obsessive (Mental Disorder), Brutal, Climbing Claws, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -836,7 +836,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Stealth, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Stealth, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -895,7 +895,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Mobster, Shooter, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bloodthirsty (Mental Disorder), Mobster, Shooter, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -941,7 +941,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Unpredictable, Delirium, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Unpredictable, Delirium, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -986,7 +986,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Fast, Delirium, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Paranoid (Mental Disorder), Fast, Delirium, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1032,7 +1032,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aggressive Schizophrenia (Mental Disorder), Claws, Delirium, Let's go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aggressive Schizophrenia (Mental Disorder), Claws, Delirium, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1078,7 +1078,4 @@
     <entryLink import="true" name="Prisoner 47905" hidden="false" id="e117-e04b-db08-be8e" type="selectionEntry" targetId="31c7-513b-7dc0-2813"/>
     <entryLink import="true" name="Prisoner 93432" hidden="false" id="3133-b698-bbca-6209" type="selectionEntry" targetId="492d-ef08-ff48-3b81"/>
   </entryLinks>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="b2c8-c971-986f-30a8" targetId="0b28-80d3-74e4-3257"/>
-  </catalogueLinks>
 </catalogue>

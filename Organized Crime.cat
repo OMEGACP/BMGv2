@@ -2,6 +2,8 @@
 <catalogue library="false" id="f75a-e0d8-6291-5d7c" name="Organized Crime" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Police Forces" id="dd37-b7f5-4811-28e3" targetId="8028-03db-19d4-984b" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Henchmen" id="1982-19d0-7fff-02e1" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Free Agents" id="2275-8c47-eb6e-fde3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Batman (Arkham Knight)" hidden="false" id="7c57-75f1-c745-d566">

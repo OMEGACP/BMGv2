@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8028-03db-19d4-984b" name="Shared Police Forces" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8028-03db-19d4-984b" name="Shared Police Forces" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="b3de-92c8-a95d-3c3d">
       <selectionEntries>
@@ -58,8 +58,21 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6982-6656-9708-fa30-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Recruitable Cops" hidden="false" id="2001-e84a-40d6-13d5" type="selectionEntryGroup" targetId="269b-5944-73c6-4f01"/>
           </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -103,8 +116,15 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoLinks>
@@ -124,7 +144,6 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e44-1293-30e4-010a-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Recruitable Cops" hidden="false" id="b687-7c41-5242-090d" type="selectionEntryGroup" targetId="269b-5944-73c6-4f01"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -177,11 +196,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="7b9b-fd58-6571-50bb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="0806-2dd4-11ad-f0c0" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="071a-2d3c-5dde-e434" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -238,14 +271,28 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="bdc5-4382-1eae-d5c0" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="6857-f377-d727-7a73" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -317,10 +364,31 @@
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="480b-34de-42b8-4675" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e983-93ac-6f29-f8fe" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -378,10 +446,31 @@
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3eca-b420-782c-04a9" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="558a-cf86-4505-0782" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -438,10 +527,31 @@
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="af1f-a57b-7a14-a2c1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="ada5-e611-d67d-9d6b" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -492,10 +602,31 @@
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="8da4-ae7b-9092-af71" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="82bf-4213-14e2-d0c9" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -546,11 +677,32 @@
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="c34f-8ea4-b186-62bb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
-            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="9399-383a-f318-f01b" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="c34f-8ea4-b186-62bb" targetId="cf01-1b3c-22d7-8d1b" primary="false"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Detective" id="e5ce-21d5-6880-21f7" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
@@ -607,11 +759,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="64fc-5c10-5eb6-6984" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="aa95-4453-e7e8-508a" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="c3c0-c267-5edc-1995" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -670,11 +836,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="e440-0c8f-b37d-bc00" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="91d4-fdc4-18c4-2b66" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -729,11 +909,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="23d6-a9e0-5f5e-6924" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="a357-d9ca-d0eb-fd59" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -782,11 +976,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="801d-c051-7f1b-491a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="861c-8779-be29-9379" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -843,11 +1051,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="743a-7f55-3048-f303" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="b261-b6a4-561f-04f5" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -905,12 +1127,26 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="60ab-0fba-7446-2bea" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
-            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="2bc4-5382-56a6-74ad" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="7449-ef85-40a4-6343" primary="false" name="Crew (The Brave and the Bold)"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Animal" id="2b32-6b3b-1301-ee9d" hidden="false" type="rule" targetId="8209-cc9c-50b0-f794"/>
@@ -926,7 +1162,7 @@
             <profile name="GCPD Detective (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b003-baba-2460-c712">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Classified</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">GCPD Detective</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">GCPD Detective (v3)</characteristic>
               </characteristics>
             </profile>
             <profile name="GCPD Detective (v3)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7bb6-69a5-fbdf-4cec">
@@ -968,11 +1204,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="cec2-0b57-4fc3-f34c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="9da5-87f6-199c-37b4" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1030,11 +1280,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="4e42-cb98-b89a-7e03" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="1c94-f670-7ec8-44ef" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1092,11 +1356,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="e3df-521c-1348-b286" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="cd46-703b-9baf-68c6" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1151,11 +1429,30 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="fee8-6f2e-98f0-8ca8" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="2086-2258-0d90-5882" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1218,11 +1515,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="904f-586b-8871-51be" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="6b46-7921-bd5b-4a1c" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="abd6-b7cb-46ae-2840" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -1282,11 +1593,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="d41e-9c55-9300-3f59" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="4a04-a912-04db-4d6a" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="4cfb-6aaa-7e79-e13c" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -1337,18 +1662,6 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa50-a298-23cc-34d2"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Non-Corrupt Cops" hidden="false" id="5a8b-c99e-db09-e9a2" type="selectionEntryGroup" targetId="2445-e333-0eb7-029c">
-              <constraints>
-                <constraint type="max" value="3" field="selections" scope="self" shared="true" id="6d1d-d3c1-c9f2-1394"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8c1-40c4-3afd-8880" includeChildSelections="true" includeChildForces="true"/>
@@ -1356,14 +1669,9 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true"/>
               </conditions>
               <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
@@ -1373,9 +1681,10 @@
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="97e8-8413-ec62-848b" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="0949-05e4-014d-3f8c" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink targetId="0f48-7464-f7a3-b3b5" id="dc20-a458-ec25-6f0e" primary="false" name="Crew (Organized Crime)"/>
+            <categoryLink targetId="546f-2886-292f-3623" id="76e6-c2e1-2f78-6494" primary="false" name="Corrupt_Flass"/>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="2fb7-b691-6c0d-8353" primary="true" name="Henchmen (Faction-specific)"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Detective" id="c5b7-d6a5-d1b5-bb70" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
@@ -1440,11 +1749,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="beb3-48a3-2694-8746" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="5f38-9bb8-f8a6-15aa" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="d48d-13bc-95ac-a9a8" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -1504,11 +1827,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="453e-a923-cefa-c52f" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="9521-aa8d-ea04-bc5d" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="d535-5b29-3655-90aa" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -1567,11 +1904,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="f592-7ee6-0efb-9943" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e9dd-a9d0-bf59-defc" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Elite (SWAT)" hidden="false" id="05ba-1a9f-07f8-903b" targetId="9a8a-17d6-b168-c131" primary="false"/>
           </categoryLinks>
@@ -1637,11 +1988,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="d6f1-25cb-2c72-ab82" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e4d9-b667-7f3c-1ddc" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1697,11 +2062,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="c2cb-1c2d-1fc2-0347" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="c082-b620-1425-a93b" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1757,11 +2136,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0196-3f62-8166-b9c7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="b488-b7fa-9863-efd3" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1823,11 +2216,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="b996-2bfc-45e3-391c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="3ce7-d9a8-fd2f-9c95" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1889,11 +2296,25 @@
                     <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="63b6-6d87-7af1-51cd" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="0f82-9a82-e6e2-0dd7" targetId="e482-2d30-1001-a6a1" primary="false"/>
           </categoryLinks>
           <infoLinks>
@@ -1922,14 +2343,10 @@
             <categoryLink name="Ranged Weapon" hidden="false" id="bd68-f73e-040b-efb3" targetId="e5df-fb90-85ea-a151" primary="false"/>
           </categoryLinks>
           <infoLinks>
+            <infoLink targetId="301d-eee8-0bd9-af4d" id="b883-e718-7555-9a4a" type="rule" name="CRT (2 Stun)" hidden="false"/>
             <infoLink name="Mechanical" id="4fd6-45b1-a119-f812" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
             <infoLink name="Medium Range" id="50c3-42c4-78f6-8687" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
           </infoLinks>
-          <rules>
-            <rule name="CRT (2 Stun)" id="301d-eee8-0bd9-af4d" hidden="false">
-              <description>In case of a critical hit, this weapon causes additional damage: 2 Stun instead of 1.</description>
-            </rule>
-          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Precision Rifle - AP Ammo" hidden="false" id="fc32-e492-a9be-2715">
           <profiles>
@@ -2045,7 +2462,7 @@
     <entryLink targetId="f665-806b-5ea1-9a60" id="e6b2-362d-eb97-32e8" type="selectionEntry" name="Agent 2" hidden="false"/>
     <entryLink targetId="6dbe-47a6-8822-71e1" id="6011-3506-52b3-34a8" type="selectionEntry" name="Agent 1" hidden="false"/>
     <entryLink targetId="4d41-d5f1-3db0-858a" id="2c88-e7b1-9acb-818a" type="selectionEntry" name="Agent 3" hidden="false"/>
-    <entryLink import="true" name="Commisioner Loeb" hidden="false" id="9b81-a529-801a-e138" type="selectionEntry" targetId="9149-7661-01e9-6872"/>
+    <entryLink import="true" name="Commissioner Loeb" hidden="false" id="9b81-a529-801a-e138" type="selectionEntry" targetId="9149-7661-01e9-6872"/>
     <entryLink targetId="1ab7-99cc-b11b-a7ee" id="2a43-4458-dea6-e3f4" type="selectionEntry" name="Agent O&apos;Connell" hidden="false"/>
     <entryLink import="true" name="Lieutenant Branden" hidden="false" id="347c-3afd-e3c5-8256" type="selectionEntry" targetId="4866-2b37-9781-1df1"/>
     <entryLink targetId="0768-fedc-c093-1f43" id="21dc-e62c-782b-acb6" type="selectionEntry" name="Agent Ron" hidden="false"/>
@@ -2057,11 +2474,47 @@
     <categoryEntry name="Elite (SWAT)" id="9a8a-17d6-b168-c131" hidden="false"/>
     <categoryEntry name="Elite Boss (SWAT)" id="b833-f32e-3868-70b1" hidden="false"/>
     <categoryEntry name="Corrupt" id="ffde-85a2-a29f-9fbd" hidden="false"/>
+    <categoryEntry name="Corrupt_Flass" id="546f-2886-292f-3623" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Recruitable Cops" id="269b-5944-73c6-4f01" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Detective Flass (Year One)" hidden="false" id="9e04-788a-d5cd-8094" targetId="5a62-69dc-c089-fbcc" type="selectionEntry"/>
+        <entryLink import="true" name="Detective Flass (Year One)" hidden="false" id="9e04-788a-d5cd-8094" targetId="5a62-69dc-c089-fbcc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="546f-2886-292f-3623" childId="any" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Agent 1" hidden="false" id="d50b-4542-51df-dec4" targetId="6dbe-47a6-8822-71e1" type="selectionEntry"/>
+        <entryLink import="true" name="Agent 2" hidden="false" id="68be-30ff-f08a-0da9" targetId="f665-806b-5ea1-9a60" type="selectionEntry"/>
+        <entryLink import="true" name="Agent 3" hidden="false" id="5a1b-23ea-576d-44ae" targetId="4d41-d5f1-3db0-858a" type="selectionEntry"/>
+        <entryLink import="true" name="Agent O&apos;Connell" hidden="false" id="6c2d-3c36-b0ba-af0d" targetId="1ab7-99cc-b11b-a7ee" type="selectionEntry"/>
+        <entryLink import="true" name="Agent Ron" hidden="false" id="dc49-250d-0af5-0df7" targetId="0768-fedc-c093-1f43" type="selectionEntry"/>
+        <entryLink import="true" name="Alpha (SWAT)" hidden="false" id="fed4-5ad3-019a-be55" targetId="5f49-ecc8-d707-ba9b" type="selectionEntry"/>
+        <entryLink import="true" name="Bravo (SWAT)" hidden="false" id="f06f-8264-dff5-fad0" targetId="f863-1fcf-bf2f-87ec" type="selectionEntry"/>
+        <entryLink import="true" name="Delta (SWAT)" hidden="false" id="ca3a-07ba-af67-b489" targetId="d57d-fb18-63f1-2ca2" type="selectionEntry"/>
+        <entryLink import="true" name="Echo (SWAT)" hidden="false" id="aed5-8ecd-6ed3-0ee1" targetId="e29f-21e9-8604-a2f9" type="selectionEntry"/>
+        <entryLink import="true" name="Foxtrot (SWAT)" hidden="false" id="2de6-4aa5-23a0-dd51" targetId="5cb9-208f-55f7-fe92" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Cop 1" hidden="false" id="26c6-76b7-346a-54fd" targetId="405a-d382-59bf-d332" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Cop 2" hidden="false" id="3491-61ef-404f-6920" targetId="03a1-71c7-63cd-d931" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Detective (legacy)" hidden="false" id="2044-ee5e-94bf-c95f" targetId="d2da-aec5-57c6-324f" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Detective (v3)" hidden="false" id="e609-4fc1-b108-7752" targetId="f12d-d4b6-f60a-5ec7" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Mounted Cop" hidden="false" id="1a92-8eab-0ce3-b5a9" targetId="1e2e-dae3-ded9-97c8" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Officer 1" hidden="false" id="a864-b420-c227-4be1" targetId="65fe-78ae-63a5-4a7c" type="selectionEntry"/>
+        <entryLink import="true" name="GCPD Officer 2" hidden="false" id="b8c6-6ef2-f33c-3c7e" targetId="f357-4681-272f-52ea" type="selectionEntry"/>
+        <entryLink import="true" name="Gotham Policeman" hidden="false" id="cc69-4fc8-149d-3260" targetId="eb3f-0d3a-4c01-ebfa" type="selectionEntry"/>
+        <entryLink import="true" name="Gotham Policewoman" hidden="false" id="0aae-8ebc-4558-4521" targetId="7710-b9a3-9f74-e13a" type="selectionEntry"/>
+        <entryLink import="true" name="Lerida (SWAT)" hidden="false" id="5577-2395-831e-f79b" targetId="df98-b61b-e82c-d796" type="selectionEntry"/>
+        <entryLink import="true" name="Officer Martinez" hidden="false" id="260c-edb9-a7f4-4dec" targetId="4445-9095-7d61-642b" type="selectionEntry"/>
+        <entryLink import="true" name="Officer Merkel" hidden="false" id="94fb-d583-594f-6e55" targetId="1d51-6201-6813-5eba" type="selectionEntry"/>
+        <entryLink import="true" name="Quick Response Team 1" hidden="false" id="9946-851c-9fe0-fe56" targetId="27f8-6226-3721-7d25" type="selectionEntry"/>
+        <entryLink import="true" name="Quick Response Team 2" hidden="false" id="fb9d-bff9-f156-d672" targetId="42ba-7c77-a031-7be6" type="selectionEntry"/>
+        <entryLink import="true" name="Quick Response Team 3" hidden="false" id="79be-9825-d8a2-2960" targetId="6bf9-b7a1-1834-fce1" type="selectionEntry"/>
+        <entryLink import="true" name="Sgt. Harvey Bullock" hidden="false" id="4738-a775-1cac-92da" targetId="3d93-839f-475d-5d85" type="selectionEntry"/>
+        <entryLink import="true" name="Sierra (SWAT)" hidden="false" id="0a2c-d9da-f767-a126" targetId="26d9-fc0f-6295-67bb" type="selectionEntry"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="self" shared="true" id="35f3-0cf7-cca6-9349"/>
@@ -2069,44 +2522,26 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
           </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Non-Corrupt Cops" id="2445-e333-0eb7-029c" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Sierra (SWAT)" hidden="false" id="0a2c-d9da-f767-a126" targetId="26d9-fc0f-6295-67bb" type="selectionEntry"/>
-            <entryLink import="true" name="Agent 1" hidden="false" id="d50b-4542-51df-dec4" targetId="6dbe-47a6-8822-71e1" type="selectionEntry"/>
-            <entryLink import="true" name="Agent 2" hidden="false" id="68be-30ff-f08a-0da9" targetId="f665-806b-5ea1-9a60" type="selectionEntry"/>
-            <entryLink import="true" name="Agent 3" hidden="false" id="5a1b-23ea-576d-44ae" targetId="4d41-d5f1-3db0-858a" type="selectionEntry"/>
-            <entryLink import="true" name="Agent O&apos;Connell" hidden="false" id="6c2d-3c36-b0ba-af0d" targetId="1ab7-99cc-b11b-a7ee" type="selectionEntry"/>
-            <entryLink import="true" name="Agent Ron" hidden="false" id="dc49-250d-0af5-0df7" targetId="0768-fedc-c093-1f43" type="selectionEntry"/>
-            <entryLink import="true" name="Alpha (SWAT)" hidden="false" id="fed4-5ad3-019a-be55" targetId="5f49-ecc8-d707-ba9b" type="selectionEntry"/>
-            <entryLink import="true" name="Bravo (SWAT)" hidden="false" id="f06f-8264-dff5-fad0" targetId="f863-1fcf-bf2f-87ec" type="selectionEntry"/>
-            <entryLink import="true" name="Delta (SWAT)" hidden="false" id="ca3a-07ba-af67-b489" targetId="d57d-fb18-63f1-2ca2" type="selectionEntry"/>
-            <entryLink import="true" name="Echo (SWAT)" hidden="false" id="aed5-8ecd-6ed3-0ee1" targetId="e29f-21e9-8604-a2f9" type="selectionEntry"/>
-            <entryLink import="true" name="Foxtrot (SWAT)" hidden="false" id="2de6-4aa5-23a0-dd51" targetId="5cb9-208f-55f7-fe92" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Cop 1" hidden="false" id="26c6-76b7-346a-54fd" targetId="405a-d382-59bf-d332" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Cop 2" hidden="false" id="3491-61ef-404f-6920" targetId="03a1-71c7-63cd-d931" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Detective (legacy)" hidden="false" id="2044-ee5e-94bf-c95f" targetId="d2da-aec5-57c6-324f" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Detective (v3)" hidden="false" id="e609-4fc1-b108-7752" targetId="f12d-d4b6-f60a-5ec7" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Mounted Cop" hidden="false" id="1a92-8eab-0ce3-b5a9" targetId="1e2e-dae3-ded9-97c8" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Officer 1" hidden="false" id="a864-b420-c227-4be1" targetId="65fe-78ae-63a5-4a7c" type="selectionEntry"/>
-            <entryLink import="true" name="GCPD Officer 2" hidden="false" id="b8c6-6ef2-f33c-3c7e" targetId="f357-4681-272f-52ea" type="selectionEntry"/>
-            <entryLink import="true" name="Gotham Policeman" hidden="false" id="cc69-4fc8-149d-3260" targetId="eb3f-0d3a-4c01-ebfa" type="selectionEntry"/>
-            <entryLink import="true" name="Gotham Policewoman" hidden="false" id="0aae-8ebc-4558-4521" targetId="7710-b9a3-9f74-e13a" type="selectionEntry"/>
-            <entryLink import="true" name="Lerida (SWAT)" hidden="false" id="5577-2395-831e-f79b" targetId="df98-b61b-e82c-d796" type="selectionEntry"/>
-            <entryLink import="true" name="Officer Martinez" hidden="false" id="260c-edb9-a7f4-4dec" targetId="4445-9095-7d61-642b" type="selectionEntry"/>
-            <entryLink import="true" name="Officer Merkel" hidden="false" id="94fb-d583-594f-6e55" targetId="1d51-6201-6813-5eba" type="selectionEntry"/>
-            <entryLink import="true" name="Quick Response Team 1" hidden="false" id="9946-851c-9fe0-fe56" targetId="27f8-6226-3721-7d25" type="selectionEntry"/>
-            <entryLink import="true" name="Quick Response Team 2" hidden="false" id="fb9d-bff9-f156-d672" targetId="42ba-7c77-a031-7be6" type="selectionEntry"/>
-            <entryLink import="true" name="Quick Response Team 3" hidden="false" id="79be-9825-d8a2-2960" targetId="6bf9-b7a1-1834-fce1" type="selectionEntry"/>
-            <entryLink import="true" name="Sgt. Harvey Bullock" hidden="false" id="4738-a775-1cac-92da" targetId="3d93-839f-475d-5d85" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="6466-e31d-fdae-6b80" id="c603-90a7-95b4-8ce6" primary="true" name="Henchmen (Corrupt)"/>
+      </categoryLinks>
+      <comment>obsolete</comment>
     </selectionEntryGroup>
-    <selectionEntryGroup name="New Group" id="182d-da21-267e-ed41" hidden="false"/>
   </sharedSelectionEntryGroups>
 </catalogue>
