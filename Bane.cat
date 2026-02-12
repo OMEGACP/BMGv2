@@ -37,6 +37,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8580-ad11-48fe-bcf9-max-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="2156-20aa-538b-0d5f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="600"/>
@@ -1225,8 +1226,8 @@
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="a6d9-4336-1eb1-66cd" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
-            <infoLink name="Raised with Venom" id="9517-873b-3f1f-5f87" hidden="false" type="rule" targetId="c15e-63ad-aac9-35a7"/>
-            <infoLink name="Venom Dose (Dose)" id="93ca-0b60-0fb2-3700" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+            <infoLink name="Raised with Venom (v3)" id="9517-873b-3f1f-5f87" hidden="false" type="rule" targetId="c15e-63ad-aac9-35a7"/>
+            <infoLink name="Venom Dose (Doses)" id="93ca-0b60-0fb2-3700" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
             <infoLink name="Medium Armor" id="2e8d-8af2-4ae7-78c0" hidden="false" type="rule" targetId="dfca-f8bb-ae16-e492"/>
             <infoLink name="Let’s go! (1SC, passive)" id="fa95-cdec-6bf5-7e8c" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
             <infoLink name="Reinforced Gloves" id="1898-aab0-5887-dd15" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
@@ -1421,6 +1422,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ae3-6579-63fb-8dc9-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="0d66-a830-1b72-b1b6" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Dallas" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b9ca-413a-1000-d99e">
@@ -2025,8 +2027,8 @@
             <infoLink name="Bulletproof Vest" id="37dc-8d38-dbd6-75a6" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
             <infoLink name="Large" id="594f-9e8b-2420-ee33" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Let’s go! (1SC, passive)" id="cd33-ab74-af78-0401" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
-            <infoLink name="Tough Guy" id="65d2-bc4a-e1c0-ae84" hidden="false" type="rule" targetId="0fd2-5d3b-6e1d-dd00"/>
-            <infoLink name="Grudge Match" id="07aa-356e-4719-c49d" hidden="false" type="rule" targetId="d77f-12d5-1e0d-e69b"/>
+            <infoLink name="Tough Guy (v3)" id="65d2-bc4a-e1c0-ae84" hidden="false" type="rule" targetId="0fd2-5d3b-6e1d-dd00"/>
+            <infoLink name="Grudge Match (v3)" id="07aa-356e-4719-c49d" hidden="false" type="rule" targetId="d77f-12d5-1e0d-e69b"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Cuchillo (v3)" hidden="false" id="825e-da3c-3050-3f20">
@@ -2114,7 +2116,7 @@
             <infoLink name="Sneak Attack (1SC)" id="53c3-594c-f2e4-e054" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
             <infoLink name="Stealth" id="5593-7aba-cf8f-3757" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Let’s go! (1SC, passive)" id="b5d7-85df-8fb2-5f5f" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
-            <infoLink name="Tough Guy" id="80e8-c0e2-c2a0-1768" hidden="false" type="rule" targetId="0fd2-5d3b-6e1d-dd00"/>
+            <infoLink name="Tough Guy (v3)" id="80e8-c0e2-c2a0-1768" hidden="false" type="rule" targetId="0fd2-5d3b-6e1d-dd00"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ted Hunter (v3)" hidden="false" id="4009-67ca-527b-a6e3">
@@ -2334,6 +2336,7 @@
             <categoryLink name="Leader" hidden="false" id="4b64-b74b-2538-49b2" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
             <categoryLink name="Crew (Bane)" hidden="false" id="cb88-4f6e-51f9-ed5d" targetId="4b9d-e654-e756-e1ab" primary="false"/>
             <categoryLink name="Bane Mercenary Boss" hidden="false" id="e1db-12a4-9a32-3a30" targetId="5b12-a50d-13bd-fb43" primary="false"/>
+            <categoryLink targetId="0daf-c319-56ab-9164" id="a0b8-3ded-4698-b982" primary="false" name="Equipment (Bane: Bane)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b4e6-d011-cfe3-3cbc" includeChildSelections="true" includeChildForces="true"/>
@@ -2416,6 +2419,7 @@
           <categoryLinks>
             <categoryLink name="Leader" hidden="false" id="e081-760b-5adb-16b6" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
             <categoryLink name="Crew (Bane)" hidden="false" id="4943-99c0-88dc-95b1" targetId="4b9d-e654-e756-e1ab" primary="false"/>
+            <categoryLink targetId="0daf-c319-56ab-9164" id="915c-8c12-8013-188b" primary="false" name="Equipment (Bane: Bane)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba30-24a7-932b-7ca3" includeChildSelections="true" includeChildForces="true"/>
@@ -2430,7 +2434,7 @@
             <infoLink name="Large" id="ded1-4781-ac25-c72a" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Reinforced Gloves" id="0ee6-d52f-8c22-623c" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="I Will Break You" id="8262-2422-e3ad-2649" hidden="false" type="rule" targetId="5524-1821-ece1-c306"/>
-            <infoLink name="Venom Dose (Dose)" id="d70f-2535-aa31-95ab" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+            <infoLink name="Venom Dose (Doses)" id="d70f-2535-aa31-95ab" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
             <infoLink name="Cool under Fire" id="ed32-5c54-297f-3105" hidden="false" type="rule" targetId="7bbd-b52d-9b9d-2ae3"/>
             <infoLink name="Inspire (1SC)" id="001c-38f2-e367-7790" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
@@ -2502,6 +2506,7 @@
           <categoryLinks>
             <categoryLink name="Leader" hidden="false" id="91b4-f77c-b7ff-6f8f" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
             <categoryLink name="Crew (Bane)" hidden="false" id="ec73-f062-e32d-cb77" targetId="4b9d-e654-e756-e1ab" primary="false"/>
+            <categoryLink targetId="0daf-c319-56ab-9164" id="922c-15dd-b569-a369" primary="false" name="Equipment (Bane: Bane)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1a88-6c8b-4274-e38f" includeChildSelections="true" includeChildForces="true"/>
@@ -2516,9 +2521,9 @@
             <infoLink name="Large" id="8649-21ca-68ca-f1e8" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Reinforced Gloves" id="f45b-2e7f-5e88-1902" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="I Will Break You" id="f560-f286-b704-2353" hidden="false" type="rule" targetId="5524-1821-ece1-c306"/>
-            <infoLink name="Venom Dose (Dose)" id="9ac0-979a-1195-97dd" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+            <infoLink name="Venom Dose (Doses)" id="9ac0-979a-1195-97dd" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
             <infoLink name="Bat Cape (1SC, passive)" id="99e6-fc26-9121-4283" hidden="false" type="rule" targetId="db55-a770-99bf-b2ca"/>
-            <infoLink name="Batman Lives" id="13bc-4eb5-4987-f5eb" hidden="false" type="rule" targetId="adec-d732-0cf9-8d33"/>
+            <infoLink name="Batman Lives (1SC+1SC)" id="13bc-4eb5-4987-f5eb" hidden="false" type="rule" targetId="adec-d732-0cf9-8d33"/>
             <infoLink name="Inspire (1SC)" id="4b5b-41b1-390e-af26" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
           <modifiers>
@@ -2591,6 +2596,7 @@
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="2b39-445a-fc7e-3cbd" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Crew (Bane)" hidden="false" id="33fb-5d19-eda5-f2e1" targetId="4b9d-e654-e756-e1ab" primary="false"/>
             <categoryLink name="Bane Mercenary Boss" hidden="false" id="1a6b-1f83-38c8-2c7d" targetId="5b12-a50d-13bd-fb43" primary="false"/>
+            <categoryLink targetId="0daf-c319-56ab-9164" id="cfdf-53d1-745a-c8b5" primary="false" name="Equipment (Bane: Bane)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5470-3ef0-811a-81a7" includeChildSelections="true" includeChildForces="true"/>
@@ -2672,13 +2678,14 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bulletproof Vest, Climbing Robe (Bat Cape), Elite Boss (Soldier of Fortune), Self-Discipline, Veteran, Weapon Master (Combat Machete)</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bulletproof Vest, Climbing Rope (Bat Cape), Elite Boss (Soldier of Fortune), Self-Discipline, Veteran, Weapon Master (Combat Machete)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
             <categoryLink name="Crew (Bane)" hidden="false" id="ecb0-44ce-950c-cf52" targetId="4b9d-e654-e756-e1ab" primary="false"/>
             <categoryLink targetId="6c53-80aa-1e01-a485" id="2752-d690-6beb-ce9d" primary="true" name="Sidekick"/>
+            <categoryLink targetId="4f96-ce9e-e09b-c7ad" id="ea4e-f663-b973-8ec6" primary="false" name="Equipment (Bane: Bird)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="30ae-7dfe-5a2f-c793" includeChildSelections="true" includeChildForces="true"/>
@@ -2708,6 +2715,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ac-ab16-0567-fa18-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="fb67-0468-6444-b18f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2804,6 +2812,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2357-eb33-4275-0bae-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="86dd-70c7-f782-b1ef" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2900,6 +2909,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b47a-f42c-5fd2-a0d5-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="e6b9-8948-4657-17a4" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2945,7 +2955,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Bane" hidden="false" id="1460-3e31-3f85-e845" type="selectionEntry" targetId="94f3-cca9-cb1c-66ff"/>
+    <entryLink import="true" name="Bane (Comic)" hidden="false" id="1460-3e31-3f85-e845" type="selectionEntry" targetId="94f3-cca9-cb1c-66ff"/>
     <entryLink import="true" name="Barsad" hidden="false" id="6b4f-4654-e004-dc55" type="selectionEntry" targetId="40e7-42fe-4533-5f27"/>
     <entryLink import="true" name="Mercenary 1" hidden="false" id="b8bf-9620-f965-0922" type="selectionEntry" targetId="0952-2cd8-0a32-dae1"/>
     <entryLink import="true" name="Mercenary 2" hidden="false" id="cd2e-2020-e4f8-ae3b" type="selectionEntry" targetId="ba22-14bb-940b-8743"/>
@@ -2983,4 +2993,405 @@
     <catalogueLink type="catalogue" name="Free Agents" id="b2f4-3526-6f9b-b2f3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Henchman" id="82a6-0a43-8cee-a62c" targetId="2158-0d1a-7feb-5586" importRootEntries="true"/>
   </catalogueLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipment" id="ee70-0aa5-4345-08d2" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="ab24-6e92-1b3c-fda9">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0b11-ac13-3217-617f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2997-d84d-47c8-e6b1"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Extra Magazine" id="f142-aa05-c90d-73c7" hidden="false">
+              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="66e4-85ae-2299-875c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6999-a2e7-944d-9840" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb79-b539-e05f-fbf1"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="6130-535c-4ec6-fae5" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="60f8-45a9-d129-2558">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1dd7-8358-f796-c5a7" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4188-de8f-275b-f7ac"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Gas Mask" id="a7e4-5fb5-7500-9386" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Backpack" hidden="false" id="3f7e-485a-13e4-bf21">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="15cb-5c85-5ce3-4acd" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fbd-bf35-5b2d-2523"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Backpack" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Backpack" id="813d-5841-c315-e376" hidden="false" type="rule" targetId="7fb3-1048-9239-798d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Antidote" hidden="false" id="c9a8-48ec-2d8b-176d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3fa7-e9e1-c549-1921" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1453-54bb-8d46-720e"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Poison Immunity" id="8e26-a5eb-caaf-2c6c" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Titan Dose (1)" hidden="false" id="b3d3-f206-16be-ecbd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5290-a720-8447-9102" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1167-9f4f-f1e2-7a0e"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Titan Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Titan Dose (Dose)" id="3eef-e1a8-3938-9f16" hidden="false" type="rule" targetId="2af6-a9e7-4235-446d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Laboratory" hidden="false" id="ea42-d743-ecc7-2ba9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3470-7319-9146-0299" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6442-c97d-78cc-c68f"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Laboratory" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Venom Laboratory" id="ffd2-1ced-6828-043f" hidden="false">
+              <description>All model in your crew can use more than 1 Titan Dose per game. This bonus remains in play even if this model is removed from play or leaves the board. 
+Also, the cost of Venom Doses in the equipment list is reduced to $50.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Applicator" hidden="false" id="2837-5dc2-6e9d-8e7c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="db54-e04e-fbb6-6eb2" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc3-33a3-681c-7ddd"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Applicator" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Venom Applicator" id="1f17-1db3-87d2-2e84" hidden="false">
+              <description>This model can use Titan and Venom Doses on a friendly model in contact.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Night Vision Goggles" hidden="false" id="43d8-929a-fe62-7a71">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4935-e31d-867a-c734" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f303-669b-9940-f402"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Night Vision" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Night Vision" id="1c08-814c-6ce7-c0bf" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Dose (1)" hidden="false" id="abed-73d6-08b5-e515">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="3817-3f70-8f27-c6f7" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6280-4cd2-1d7f-f30b"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Venom Dose (Doses)" id="d88f-01b2-9aa9-363f" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Military Progress" hidden="false" id="45d7-dc56-d3a3-e95b">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4217-23cb-6137-a3c1" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95d4-326f-93cc-90af"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f96-ce9e-e09b-c7ad" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Veteran" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Veteran" id="f20f-aeee-b0b4-80bb" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Venom Applicator" id="c731-790e-0a9b-97fb" hidden="false">
+      <description>This model can use Titan and Venom Doses on a friendly model in contact.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

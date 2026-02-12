@@ -35,12 +35,28 @@
     <categoryEntry name="Equipment (LoA: Talia al Ghul)" id="3c91-e67e-b870-d7f8" hidden="false"/>
     <categoryEntry name="Rival (BB)" id="33d4-af20-d41a-829e" hidden="false"/>
     <categoryEntry name="Special Unit" id="ea61-4014-081c-4b64" hidden="false"/>
-    <categoryEntry name="Business Agent" id="804a-afb5-5684-1e16" hidden="false"/>
+    <categoryEntry name="Business Agent (adds $350)" id="804a-afb5-5684-1e16" hidden="false"/>
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
     <categoryEntry name="CC Weapon" id="f863-9de5-8630-bf4a" hidden="false"/>
     <categoryEntry name="Ranged Weapon" id="e5df-fb90-85ea-a151" hidden="false"/>
     <categoryEntry name="Rival (Joker)" id="6d11-48fc-2bdc-0044" hidden="false"/>
     <categoryEntry name="Rival (Bane)" id="ce29-acaa-6b01-5196" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Bruce Wayne)" id="c0d1-f803-0129-31a7" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Gillian B. Loeb)" id="40d5-0445-6cea-16e1" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Selina Kyle)" id="96e0-7507-c52a-a1fc" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Oliver Queen)" id="a238-1513-ccff-0bc1" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Roy Harper)" id="7cf1-7163-c06c-d28b" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Kathy Kane)" id="7a0e-9555-4b13-dd4b" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Tim Drake)" id="d5ef-e3e8-08f0-4bab" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Barbara Gordon)" id="a8a5-39ae-29c8-27fd" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Red Hood (Arkham Knight))" id="35e5-b2ff-108b-eb2d" hidden="false"/>
+    <categoryEntry name="Equipment (BB: James Gordon)" id="e0ea-223f-4339-92dd" hidden="false"/>
+    <categoryEntry name="Equipment (BB: Dick Grayson)" id="c2a8-5545-feeb-db01" hidden="false"/>
+    <categoryEntry name="Public Resources (adds $300)" id="177c-59c1-1c6b-b472" hidden="false"/>
+    <categoryEntry name="Millionaire (adds $400)" id="e8b0-8c25-3753-4913" hidden="false"/>
+    <categoryEntry name="Henchmen (Corrupt)" id="6466-e31d-fdae-6b80" hidden="false"/>
+    <categoryEntry name="Legend" id="b6ad-bd71-688c-e321" hidden="false"/>
+    <categoryEntry name="Vehicle" id="e649-0ab7-9e7e-1f5c" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -77,11 +93,57 @@
           </modifiers>
         </categoryLink>
         <categoryLink name="Henchmen (Common)" hidden="false" id="32f5-2304-9c59-c54b" targetId="32bb-4b05-45c6-81a9"/>
+        <categoryLink name="Henchmen (Corrupt)" hidden="false" id="1b98-1158-6a4b-cdec" targetId="6466-e31d-fdae-6b80">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="2471-380f-bbec-abf4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Legend" hidden="false" id="ab81-afa9-9922-6738" targetId="b6ad-bd71-688c-e321">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3404-15f9-ce25-a726" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="3404-15f9-ce25-a726">
+              <repeats>
+                <repeat value="350" repeats="1" field="limit::99c9-f5c8-7271-b9c6" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Vehicle" hidden="false" id="4513-1715-96b0-c01f" targetId="e649-0ab7-9e7e-1f5c">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="7773-6c77-721f-eceb" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="7773-6c77-721f-eceb">
+              <repeats>
+                <repeat value="150" repeats="1" field="limit::99c9-f5c8-7271-b9c6" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
       <modifiers>
         <modifier type="decrement" value="350" field="b5b3-aa8b-4d9c-5673">
           <repeats>
             <repeat value="1" repeats="1" field="selections" scope="force" childId="804a-afb5-5684-1e16" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="300" field="b5b3-aa8b-4d9c-5673">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="177c-59c1-1c6b-b472" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="400" field="b5b3-aa8b-4d9c-5673">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="e8b0-8c25-3753-4913" shared="true" roundUp="false" includeChildSelections="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1161,8 +1223,9 @@ Plants can’t control objectives or Manipulate.
 
 Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</description>
     </rule>
-    <rule name="Panda Costume" id="0c7c-f719-de41-c598" hidden="false">
-      <description>This model must spend 2 Action Counters to stand up.</description>
+    <rule name="This is awesome-sauce (2SC)" id="0c7c-f719-de41-c598" hidden="false">
+      <description>2SC: Target a friendly model within 10cm and line of sight. The target model gains one Action Counter, and +1 Strength until the end of the round.</description>
+      <alias>This is awesome-sauce</alias>
     </rule>
     <rule name="Paranoid (Mental Disorder) " id="6d07-8246-e781-7ae0" hidden="false">
       <description>If this model has at least 1 Damage marker on its Character Card, then during the Raise the Plan phase it gains 1 free Action Counter, which must immediately be allocated to Defense.</description>
@@ -1305,7 +1368,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>This character cannot be controlled by an opponent (for example, by means of an ability that inflicts the Hypnotize effect).</description>
     </rule>
     <rule name="Small" id="c13c-b54f-6ade-73f0" hidden="false">
-      <description>This model gains a +1 bonus to its Ping! rolls.</description>
+      <description>This model gainMars a +1 bonus to its Ping! rolls.</description>
     </rule>
     <rule name="Sharpshooter" id="a505-9f19-6107-0142" hidden="false">
       <description>Ranged attacks made by this model ignore the Ping! rule.</description>
@@ -1470,7 +1533,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
     <rule name="Total Vision" id="2bc9-33a3-ff0b-2fa5" hidden="false">
       <description>This model may see at any distance, limited only by his line of sight. Additionally, the model’s line of sight can cross any obstacle or terrain element. It may not shoot through these elements, unless using a weapon with the Remote Control rule.</description>
     </rule>
-    <rule name="Titan Dose (Dose)" id="2af6-a9e7-4235-446d" hidden="false">
+    <rule name="Titan Dose (Doses)" id="2af6-a9e7-4235-446d" hidden="false">
       <description>A model may use a Titan Dose at the beginning of the Raise the Plan phase. If it does so, the model gains +1 to all of its basic skills until the end of the round. The same model cannot use more than 1 Titan dose per game.</description>
     </rule>
     <rule name="Tough Skin" id="7153-8d59-6cf7-9b4b" hidden="false">
@@ -1501,7 +1564,7 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
       <description>When this models uses the Venom dose rule it gains Invulnerability:2 too.</description>
     </rule>
     <rule name="Veteran" id="de8e-f7cc-040e-388b" hidden="false">
-      <description>At the beginning of its activation, this model can reallocate up to 2 Action Counters on its Character Card.</description>
+      <description>At the beginning of its activation, this model can reallocate up to 2 Action Counters on its Character Card.Re</description>
     </rule>
     <rule name="Volunteer" id="8d1d-7387-9af6-9fb0" hidden="false">
       <description>This model cannot be removed from play due to the Suicide Mission rule. The Boss of a Suicide Squad Team automatically gains this trait.</description>
@@ -1580,13 +1643,55 @@ v2:  If this model damages another model during a round and controls an objecti
       <alias>Hunter</alias>
       <description>When this model is going to make an Attack action against a model that already activated this round, it may perform a free Special Action before or after resolving the attack.</description>
     </rule>
-    <rule name="Coordination" id="b672-4d6d-9451-3314" hidden="false">
-      <description>Target another friendly model with 8&quot; of this model that share a keywod with this model, immediately perform an action with that model.</description>
+    <rule name="Coordination (v3)" id="b672-4d6d-9451-3314" hidden="false">
+      <description>v3+v2: Target another friendly model with 8&quot; of this model that share a keywod with this model, immediately perform an action with that model.</description>
     </rule>
     <rule name="Paramedic (v3)" id="6f33-c410-baa0-0712" hidden="false">
       <alias>Paramedic</alias>
       <description>v3: When this model paces a Suspect, it can remove up to 2 Damage from a friendly model within 4&quot; (not Vehicle). If this ability is used to recover a model that is yet to activate that round from KO, the opponent gains a Pass marker.
 v2: When using the Medic trait and spending an additional SC, you can remove 1 additional damage marker.</description>
+    </rule>
+    <rule name="Telekinesis" id="f743-9aac-1f3b-e4d9" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Informer" id="c03f-32f1-83bd-a81c" hidden="false">
+      <description>As long as this model is in play, and provided it’s not KO, the crew gains one additional Pass on Activation.</description>
+    </rule>
+    <rule name="Evidence Tampering (v3)" id="f075-1fc9-e9e4-dd9c" hidden="false">
+      <alias>Evidence Tampering</alias>
+      <description>v3: When this model reveals an enemy Suspect marker, it may place a friendly Suspect marker in contact. Then, remove the enemy Suspect marker as normal.
+v2: Once per game, this model may manipulate an objective marker without paying the cost for the Movement counter.</description>
+    </rule>
+    <rule name="Incorruptible" id="641f-aad1-7350-58c0" hidden="false">
+      <description>This model can only be included into a Crew with a Boss that have its same affiliation.</description>
+    </rule>
+    <rule name="Observation (v3)" id="324e-2e66-8193-3870" hidden="false">
+      <alias>Observation</alias>
+      <description>v3+v2: While this model is not activated this round, it gains +1 to its Defense rolls. 
+While making an attack against an activated model this round, it gains +1 to Hit and Strength dice rolls.</description>
+    </rule>
+    <rule name="Always on the Move (v3)" id="71a4-18e7-a23a-c1ea" hidden="false">
+      <alias>Always on the Move</alias>
+      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enugh actions available to use this trait.</description>
+    </rule>
+    <rule name="CRT (Fire)" id="5804-ed80-2c27-1c8a" hidden="false">
+      <description>In case of a critical hit, this weapon causes the Fire effect for the targeted model instead of the usual Stun damage.</description>
+    </rule>
+    <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
+      <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
+    </rule>
+    <rule name="CRT (2 Stun)" id="301d-eee8-0bd9-af4d" hidden="false">
+      <description>In case of a critical hit, this weapon causes 2 Stun damage instead of the usual Stun damage.</description>
+    </rule>
+    <rule name="Time Stretch (3SC)" id="d628-3ff6-2b7a-9c69" hidden="false">
+      <description>3SC: Once per game, target a friendly model within 10cm and line of sight. The target model gains the Living Legend rule until the end of the round.</description>
+      <alias>Time Stretch</alias>
+    </rule>
+    <rule name="My Idol" id="6be0-3f2e-b12f-6c9b" hidden="false">
+      <description>While a friendly Batman model is in play (not KO or casualty), Bat-Mite gains +1 Willpower.</description>
+    </rule>
+    <rule name="Panda Costume" id="640e-7512-5f0d-c43c" hidden="false">
+      <description>This model must spend 2 Action Counters to stand up.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -1720,7 +1825,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (1 Blood)" id="f609-a78f-fdfa-9d09" hidden="false">
-              <description>In case of a critical hit, this weapon causes 1 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 1 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2099,7 +2204,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
               </characteristics>
             </profile>
@@ -2170,7 +2275,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (1 Blood)" id="8a1c-1336-37a0-c4ec" hidden="false">
-              <description>In case of a critical hit, this weapon causes 1 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 1 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2179,7 +2284,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
             <profile name="Taser" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0387-6106-b761-293f">
               <characteristics>
                 <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Stun</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach, Mechanical, CRT (Shock)</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach (3), Mechanical, CRT (Shock)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2188,7 +2293,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <rules>
             <rule name="CRT (Stun)" id="a7df-6ac5-ae49-dc16" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Stun effect for the targeted model.</description>
+              <description>In case of a critical hit, this weapon causes the Stunned effect for the targeted model instead of the usual Stun damage.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2244,7 +2349,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <rules>
             <rule name="CRT (3 Blood)" id="25fc-8e3f-b8a9-eb8f" hidden="false">
-              <description>In case of a critical hit, this weapon causes 3 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 3 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2290,7 +2395,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (3 Blood)" id="132b-da49-e746-becb" hidden="false">
-              <description>In case of a critical hit, this weapon causes 3 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 3 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2515,7 +2620,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (2 Blood)" id="cbe5-4f7b-f6d9-6102" hidden="false">
-              <description>In case of a critical hit, this weapon causes 2 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 2 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2649,7 +2754,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (1 Blood)" id="fdf0-a79f-8e72-5417" hidden="false">
-              <description>In case of a critical hit, this weapon causes 1 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 1 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2874,7 +2979,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <rules>
             <rule name="CRT (Stun)" id="44b3-b939-2da2-96dd" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Stun effect for the targeted model.</description>
+              <description>In case of a critical hit, this weapon causes the Stunned effect for the targeted model instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2952,7 +3057,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (2 Blood)" id="a02d-0a33-fe73-53a0" hidden="false">
-              <description>In case of a critical hit, this weapon causes 2 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 2 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3008,7 +3113,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (1 Blood)" id="f285-1309-0dd5-27e0" hidden="false">
-              <description>In case of a critical hit, this weapon causes 1 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 1 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3049,7 +3154,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (Casualty)" id="3ca1-d7a3-23e0-c6b4" hidden="false">
-              <description>In case of a critical hit, this weapon removes the targeted model as a casualty.</description>
+              <description>In case of a critical hit, this weapon removes the targeted model as a casualty instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3124,7 +3229,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <rules>
             <rule name="CRT (Poison)" id="34e7-c7a5-e32f-ef2d" hidden="false">
-              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
+              <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model instead of the usual Stun damage.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3261,8 +3366,8 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
             <categoryLink targetId="f863-9de5-8630-bf4a" id="f9ff-f687-c63e-cf89" primary="false" name="CC Weapon"/>
           </categoryLinks>
           <rules>
-            <rule name="CRT (Stunned)" id="6548-2600-fd04-40e5" hidden="false">
-              <description>In case of a critical hit, this weapon causes 1 Blood damage.</description>
+            <rule name="CRT (Stun)" id="6548-2600-fd04-40e5" hidden="false">
+              <description>In case of a critical hit, this weapon causes the Stunned effect instead of the usual Stun damage.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3338,7 +3443,7 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </infoLinks>
           <rules>
             <rule name="CRT (3 Blood)" id="3a19-f097-d8fb-ef19" hidden="false">
-              <description>In case of a critical hit, this weapon causes 3 Blood damage.</description>
+              <description>In case of a critical hit, this weapon causes 3 Blood damage instead of the usual Stun damage.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3416,8 +3521,9 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
           </categoryLinks>
           <infoLinks>
             <infoLink name="Short Range" id="a206-7175-772c-c795" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
-            <infoLink name="Firearm" id="7f14-ce5e-ec61-f5dc" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Mechanical" id="7f14-ce5e-ec61-f5dc" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
             <infoLink name="Light" id="ee5c-0029-4905-277f" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+            <infoLink name="Enervating (X)" id="1780-363c-bbec-5677" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Light Assault Carbine" hidden="false" id="fcea-3f70-0b09-ab92">
@@ -3455,6 +3561,121 @@ v2: When using the Medic trait and spending an additional SC, you can remove 1 a
             <infoLink name="Heavy" id="3e16-1e48-68bc-31c2" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
             <infoLink name="Devastating" id="c132-a645-1007-f55a" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
           </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battering Ram" hidden="false" id="d313-22d8-0ae6-af67">
+          <profiles>
+            <profile name="Battering Ram" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8641-21e1-31ed-7f87">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Heavy, CRT (Push)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="93ac-9a69-d2ad-e561" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+            <infoLink name="Push" id="ca22-c534-cc77-78d6" hidden="false" type="rule" targetId="aeee-63a5-857c-8643"/>
+          </infoLinks>
+          <rules>
+            <rule name="CRT (Push)" id="1aca-78f0-7963-6750" hidden="false">
+              <description>In case of a critical hit, this weapon causes a Push instead of the usual Stun damage.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Flash Grenade" hidden="false" id="0ae4-1d20-8c70-4d88">
+          <profiles>
+            <profile name="Flash Grenade" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="596e-c5d0-02cc-8677">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, S. Range, Explosive, Grenade, Blind</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="559e-49b0-5378-fc72" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Mechanical" id="0bd4-8402-4e7b-c7be" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Explosive" id="c92e-52b2-9e24-d829" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Short Range" id="fd35-0e88-5127-a2ed" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Grenade" id="650e-42e2-eefe-57d0" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+            <infoLink name="Blind" id="d088-7239-9626-fd02" hidden="false" type="rule" targetId="dc00-9cc9-1e60-df0f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Wingdings" hidden="false" id="f746-4730-5142-0cf4">
+          <profiles>
+            <profile name="Wingdings" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="b158-1891-6e2f-9b8c">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Throwing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="8212-d619-842c-c1dd" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Throwing" id="3da3-d615-b559-ce3b" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="7fb4-897f-3403-2b07" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hand Crossbow" hidden="false" id="745e-776b-ea1f-295a">
+          <profiles>
+            <profile name="Hand Crossbow" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="d202-5ea3-5c15-d868">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, M. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="535c-5530-65ee-331b" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Medium Range" id="f471-2b28-12e2-d968" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="cfd8-a8be-2e2e-fd73" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bo" hidden="false" id="82ea-94c8-d65c-4e74">
+          <profiles>
+            <profile name="Bo" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="459a-7322-c388-7cac">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Reach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="8889-8a5f-0a8a-b4a3" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Handy" id="84d9-2fdd-1935-54ad" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Reach (X)" id="c771-545b-7b0a-ecfe" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shuriken" hidden="false" id="e5f1-fafc-c082-6528">
+          <profiles>
+            <profile name="Shuriken" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="8e08-def1-bac8-ea02">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Throwing" id="98a9-b104-5180-3a7d" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="f623-c870-e24c-e728" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="7832-407d-8bb7-0536" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3713,6 +3934,7 @@ Speedsters cannot use Speed Force Powers if they are affected by the Freeze eff
     </rule>
     <rule name="Knocked Down" id="1172-3915-cbd4-08b2" hidden="false">
       <description>Place a Knocked Down marker on the Character Card of the affected model. A Knocked Down model cannot attack, or defend itself, and it cannot use any traits with an activation cost until it stands up again. A model may move while Knocked Down, but this movement will be Impaired. A Knocked Down model will always be hit by close combat attacks on a roll of 2+. A Knocked Down model doesn’t grant Ping! rolls when a shot passes through or over it, however.</description>
+      <alias>Knock Down</alias>
     </rule>
     <rule name="Paralyze" id="003b-709b-96cc-058e" hidden="false">
       <description>Place a Paralyze marker on the card of the affected model. A paralyzed model reduces its Defense skill by -2, and cannot spend Action Counters of any kind, for any reason, until the end of the round.</description>
@@ -3814,10 +4036,28 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
     </rule>
     <rule name="Thief (1SC)" id="bbf0-b7eb-da4d-436a" hidden="false">
       <alias>Thief</alias>
-      <description>1SC: Once this trait is activated, for the rest of the round this models close combat attacks gains CRT: Steal.</description>
+      <description>1SC: Once this trait is activated, for the rest of the round this models close combat attacks gains CRT (Steal).</description>
     </rule>
     <rule name="Mechanical Mount" id="0d96-9d18-448d-f3ee" hidden="false">
       <description>This model can neither jump or climb.</description>
+    </rule>
+    <rule name="Divination" id="2c24-7aa7-24fd-08ab" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Exorcism" id="af6f-35dc-4b39-f421" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="Magical Power (X)" id="5dba-59fb-cb2a-784c" hidden="false">
+      <alias>Magical Power (1)</alias>
+      <alias>Magical Power (2)</alias>
+      <alias>Magical Power (3)</alias>
+      <alias>Magical Power (4)</alias>
+    </rule>
+    <rule name="Necromancy" id="be0e-6414-55ce-a0ee" hidden="false">
+      <description>TODO</description>
+    </rule>
+    <rule name="The Devil You Know" id="3edb-f397-d2c8-1e46" hidden="false">
+      <description>TODO</description>
     </rule>
   </rules>
 </gameSystem>
