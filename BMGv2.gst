@@ -172,9 +172,8 @@
       <description>When this model is recruited, add $350 to the crew’s available Funding.</description>
     </rule>
     <rule name="Canary Cry (2SC)" id="b850-c14c-50f1-5c4c" hidden="false">
-      <description>2SC: Place the Spray template in base contact with this model – all models whose volume lies partially or wholly beneath it will receive one 
-automatic hit with the Sonic special rule. 
-Affected models must pass a Willpower roll or take (1 Blood) Damage and become Stunned. This action doesn’t count as an attack action. A model can use this trait only once per round.</description>
+      <description>2SC: Place the Spray template in base contact with this model – all models whose volume lies partially or wholly beneath it will receive one automatic hit with the Sonic special rule. 
+Affected models must pass a Willpower roll or take 1 Blood Damage and become Stunned. This action doesn’t count as an attack action. A model can use this trait only once per round.</description>
       <alias>Canary Cry</alias>
     </rule>
     <rule name="Clue Launcher" id="e376-b2ae-b389-571f" hidden="false">
@@ -186,6 +185,7 @@ Affected models must pass a Willpower roll or take (1 Blood) Damage and become 
     </rule>
     <rule name="Combo (Weapon)" id="7f97-d629-3ec8-708b" hidden="false">
       <description>For every 2 AC spent using the specified weapon, this model may strike 3 times.</description>
+      <alias>Combo</alias>
       <alias>Combo (Unarmed)</alias>
       <alias>Combo (Poisoned Sai)</alias>
     </rule>
@@ -231,6 +231,7 @@ Action Counters above the normal maximum. A model can use this trait only once 
       <alias>Batclaw</alias>
       <alias>Batclaw / Grapple Gun</alias>
       <alias>Grapplegun</alias>
+      <alias>Grapple Gun</alias>
       <alias>Hook Arrow</alias>
     </rule>
     <rule name="Juggernaut (1MC+1SC)" id="3d64-ca18-0c85-bba3" hidden="false">
@@ -560,8 +561,7 @@ In the Recount phase, your side scores 1 VP for each friendly Clue marker in p
       <alias>Can You Solve This? 6+</alias>
     </rule>
     <rule name="Catcher Gear" id="dddb-70a7-0fc6-f4b9" hidden="false">
-      <description>Enemies attacking this model never benefit from 
-the Heavy weapon special rule.</description>
+      <description>Enemies attacking this model never benefit from the Heavy weapon special rule.</description>
     </rule>
     <rule name="Cannibal" id="b1bf-8e17-2053-5012" hidden="false">
       <description>When this model causes a non-vehicle enemy a Casualty in close combat, remove up to 2 Damage markers of any kind from its Character Card.</description>
@@ -1047,9 +1047,8 @@ Day Rules:
       <description>1SC, passive: When a friendly Henchman ends its activation, roll a die. On a 4+, you may immediately activate this model who has not yet been activated this round. This model activates without giving the opposing player the chance to activate one of his models in between. When this model has finished its turn, subsequent models with the Let’s Go! trait may also attempt to activate, incurring a -1 penalty to the die each time (so the third model in a row activates on a 5+, the fourth and all subsequent model on a 6). A result of 6 is always a success.</description>
       <alias>Let&apos;s go!</alias>
     </rule>
-    <rule name="Mental Dominance (2SC)" id="64eb-d550-ac4e-d703" hidden="false">
-      <description>2SC: Once per turn, this model may change the position of 4 Action Counters on an enemy non-vehicle model’s Character Card in line of sight.</description>
-      <alias>Mental Dominance</alias>
+    <rule name="Mentoring" id="64eb-d550-ac4e-d703" hidden="false">
+      <description>This model can only purchase one piece of Equipment. If its crew contains a Leader or Sidekick with Affiliation (The Brave &amp; Bold), this model gains the Boy Winder and True Love (Bruce Wayne) traits and any model with Name: Bruce Wayne in the same crew gains True Love (Damian Wayne) until the end of the game.</description>
     </rule>
     <rule name="Living Legend" id="db8a-1d79-590a-fbef" hidden="false">
       <description>This model can make two activations each round. Each activation is independent of the other (and cannot usually be made consecutively). At the 
@@ -1057,8 +1056,7 @@ start of the second activation, the model receives 2 Action Counters, which mus
 In addition, once per round, when a trait specifies this model as a target, you may cancel the use of that trait. A crew that includes a Living Legend loses one Pass on Activation each round, if applicable.</description>
     </rule>
     <rule name="Lord of the Sewers" id="0e63-0def-1f06-452e" hidden="false">
-      <description>This model does not count towards the maximum number of models that can enter Sewers during a round. This model may start the game in contact with any Sewer Marker. In addition, this model’s Crew generates 1 extra 
-Sewer marker. Once per game, this model can exit from a Sewer marker without ending its activation.</description>
+      <description>This model does not count towards the maximum number of models that can enter Sewers during a round. This model may start the game in contact with any Sewer Marker. In addition, this model’s Crew generates 1 extra Sewer marker. Once per game, this model can exit from a Sewer marker without ending its activation.</description>
     </rule>
     <rule name="Long Guns" id="5b0e-d1af-b336-6c5e" hidden="false">
       <description>If this model is the Boss, select up to three friendly Henchmen with ranged weapons with the Short Range and Firearm rules. Those weapons replace the Short Range rule with the Medium Range rule. These models must be selected before Pre-Game Phase C.</description>
@@ -1114,7 +1112,7 @@ Willpower roll, gain 1 VP. A model can use this trait once per round.</descript
       <alias>Mind Control Device</alias>
     </rule>
     <rule name="Mind Control Substance" id="4e44-b921-f62b-8203" hidden="false">
-      <description>When this model is selected to your crew, friendly models with the Henchman Rank cannot have thir Willpower value reduced b any means and ignore the damage accumulation rules.</description>
+      <description>When this model is selected to your crew, friendly models with the Henchman Rank cannot have their Willpower value reduced by any means and ignore the damage accumulation rules.</description>
     </rule>
     <rule name="Millionaire" id="62af-c8ad-69fe-012e" hidden="false">
       <description>This model&apos;s crew gains an additional $400 Funding.</description>
@@ -1142,12 +1140,8 @@ Willpower roll, gain 1 VP. A model can use this trait once per round.</descript
     <rule name="Moral Compass" id="2e9f-a340-3237-984d" hidden="false">
       <description>As long as this model is in play and not KO, none of your models may use Coup de Grâce.</description>
     </rule>
-    <rule name="Multitask" id="6a15-b178-5bbe-3cfa" hidden="false">
-      <description>When you hire this model, chose one of the next options:
-• Explorer: Gain the Undercover trait and +1 Movement.
-• Hacker: Gain +1 Willpower. Also gains Computer Intrusion (1SC): Once per turn this model may change the position of 2 Action Counters on the Character Card of an enemy model within 8”, as long as the target has the Bot, Robot or Cybernetic trait.
-• Defensor: Gain +2 to Endurance. Also gains Force Field (1SC): Target friendly model in base contact benefits from a Ping! roll until the end of the round, even if it is not behind cover.
-• Fighter: Gains +1 Attack, +1 Defense and the Claws trait.</description>
+    <rule name="Meet Goliath!" id="6a15-b178-5bbe-3cfa" hidden="false">
+      <description>This model can only be recruited in a crew or Team containing a model with name Damian Wayne. However, this model can never be recruited to a Court of Owls crew.</description>
     </rule>
     <rule name="Narcotic Dose (DOSE)" id="19bc-7c67-8f5a-30c8" hidden="false">
       <description>A model may use a Narcotics Dose at the beginning of the Raise the Plan phase. If it does so, the model gains the Desensitized trait until the end of the round.</description>
@@ -1368,7 +1362,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>This character cannot be controlled by an opponent (for example, by means of an ability that inflicts the Hypnotize effect).</description>
     </rule>
     <rule name="Small" id="c13c-b54f-6ade-73f0" hidden="false">
-      <description>This model gainMars a +1 bonus to its Ping! rolls.</description>
+      <description>This model gains a +1 bonus to its Ping! rolls.</description>
     </rule>
     <rule name="Sharpshooter" id="a505-9f19-6107-0142" hidden="false">
       <description>Ranged attacks made by this model ignore the Ping! rule.</description>
@@ -1564,7 +1558,7 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
       <description>When this models uses the Venom dose rule it gains Invulnerability:2 too.</description>
     </rule>
     <rule name="Veteran" id="de8e-f7cc-040e-388b" hidden="false">
-      <description>At the beginning of its activation, this model can reallocate up to 2 Action Counters on its Character Card.Re</description>
+      <description>At the beginning of its activation, this model can reallocate up to 2 Action Counters on its Character Card.</description>
     </rule>
     <rule name="Volunteer" id="8d1d-7387-9af6-9fb0" hidden="false">
       <description>This model cannot be removed from play due to the Suicide Mission rule. The Boss of a Suicide Squad Team automatically gains this trait.</description>
@@ -1692,6 +1686,21 @@ While making an attack against an activated model this round, it gains +1 to Hit
     </rule>
     <rule name="Panda Costume" id="640e-7512-5f0d-c43c" hidden="false">
       <description>This model must spend 2 Action Counters to stand up.</description>
+    </rule>
+    <rule name="Mental Dominance (2SC)" id="2ed0-ac08-e3f3-1a5f" hidden="false">
+      <description>2SC: Once per turn, this model may change the position of 4 Action Counters on an enemy non-vehicle model’s Character Card in line of sight.</description>
+      <alias>Mental Dominance</alias>
+    </rule>
+    <rule name="Carry (1MC+2SC)" id="56ca-3b22-52ca-b0d7" hidden="false">
+      <description>If this model passes within 2* of one or more friendly models during a movement action, it may pay the Action Counter at the end of the Action to target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm.
+If the target model is Damian Wayne, its BMD is reduced to 0 and it cannot use the Batclaw trait during its next activation. If not, the target model must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive rounds.</description>
+    </rule>
+    <rule name="Multitask" id="e7dc-2321-c3eb-3fb7" hidden="false">
+      <description>When you hire this model, chose one of the next options:
+• Explorer: Gain the Undercover trait and +1 Movement.
+• Hacker: Gain +1 Willpower. Also gains Computer Intrusion (1SC): Once per turn this model may change the position of 2 Action Counters on the Character Card of an enemy model within 8”, as long as the target has the Bot, Robot or Cybernetic trait.
+• Defensor: Gain +2 to Endurance. Also gains Force Field (1SC): Target friendly model in base contact benefits from a Ping! roll until the end of the round, even if it is not behind cover.
+• Fighter: Gains +1 Attack, +1 Defense and the Claws trait.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3677,6 +3686,25 @@ While making an attack against an activated model this round, it gains +1 to Hit
             <categoryLink name="Ranged Weapon" hidden="false" id="7832-407d-8bb7-0536" targetId="e5df-fb90-85ea-a151" primary="false"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow (Standard Arrow)" hidden="false" id="3515-411e-f490-44f2">
+          <profiles>
+            <profile name="Bow (Standard Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0992-65e8-ac47-dc0d">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Mechanical</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="63af-7670-ae96-f16b" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Mechanical" id="0479-f1aa-f2bc-d395" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="0ea5-f15f-a80d-e7eb" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3807,9 +3835,9 @@ Players should consider that explosive templates do not pass through solid obje
       <description>This weapon ignores the Just a Scratch and Ping! rules. Characters in the ‘blank’ area of a Spray Template are considered to be in the ‘lethal’ area.</description>
     </rule>
     <rule name="Grenade" id="6b3e-875d-4e60-676b" hidden="false">
-      <alias>These weapons use their own special rules:</alias>
-      <alias>Weapons with the ‘Grenade’ type (i.e. Freeze Grenades) are used just like other ranged weapons for the purposes of line of sight and Ping!</alias>
-      <alias>However, when a model throws a grenade, it may target any point on the table within range and line of sight, not just a model. Roll a D6 – on a score of 3+, center the Explosion template on the target point, rolling to damage and applying any effects to all models even partially beneath the template (with no further Ping! rolls allowed). If the roll to hit was a 1 or 2, then the attack fails – the grenade was a dud, or rolled away harmlessly.</alias>
+      <description>These weapons use their own special rules:
+Weapons with the ‘Grenade’ type (i.e. Freeze Grenades) are used just like other ranged weapons for the purposes of line of sight and Ping!
+However, when a model throws a grenade, it may target any point on the table within range and line of sight, not just a model. Roll a D6 – on a score of 3+, center the Explosion template on the target point, rolling to damage and applying any effects to all models even partially beneath the template (with no further Ping! rolls allowed). If the roll to hit was a 1 or 2, then the attack fails – the grenade was a dud, or rolled away harmlessly.</description>
     </rule>
     <rule name="Handy" id="b891-4c26-32c8-2364" hidden="false">
       <description>When using this weapon, the wielder may reroll failed Hit rolls.</description>
@@ -4060,4 +4088,750 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
       <description>TODO</description>
     </rule>
   </rules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipment - LoA" id="8e6e-4dad-b76c-3399" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Loyalty Tattoo" hidden="false" id="a25a-d201-aeb8-8828">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a4-25dc-a06e-2bdd" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c24-eff3-c66c-ba60"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Bodyguard" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bodyguard (1SC, Passive)" id="76d6-1904-105f-3d16" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Climbing Claws" hidden="false" id="c088-973e-b413-7c58">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="28b3-bff1-9de2-c22d" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7a6-b4d2-70c0-9736"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Climbing Claws" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Climbing Claws" id="3479-539b-57ed-c85b" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Trained in the Shadows" hidden="false" id="3de8-ddb4-fb85-023a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="80da-425a-82a4-4021" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea71-b5c5-0ac1-4654"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Hidden" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Hidden" id="2ed2-1d1d-fcf0-0a87" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="7da6-0c49-57cf-075c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e10-b682-6f58-8964" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05a5-d952-5253-38fa"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Gas Mask" id="eda4-b3d4-2fec-9118" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="9d31-8348-f8d4-c88b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b5a-a86c-c54c-b9db" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d53-18f1-f5ea-afe5"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="a874-39d6-713d-bb74" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combat Bracers" hidden="false" id="5484-5784-ed22-0137">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="38c7-dfeb-3c49-162e" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ccf-ab2c-3896-cd69"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value=", Defensive" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Defensive" id="2f8a-be2c-c924-4f0e" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Dose" hidden="false" id="22ab-288f-94c6-e5d7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="344d-87ed-3593-a338" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8436-9999-f092-cb41"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Vernom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Venom Dose (Doses)" id="242c-188e-8b03-3830" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Precise Orders" hidden="false" id="0ec8-fc8d-f1c3-a3ab">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ce1-cd62-aa87-6796" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b526-5d3f-de6c-c64b"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Chain of Command" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Chain of Command" id="7ddc-5049-16e8-7042" hidden="false" type="rule" targetId="5a94-0b2f-3838-4b37"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ancient Weapon" hidden="false" id="28e3-ff27-428d-ba5d">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="84d9-4848-1b7e-85e5" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa27-d0cc-2bbf-b9ad"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="adec-8d6e-1788-2ae0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value=", Bleed (1)" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="9b1b-2747-32fb-f6e6" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shadow Training" hidden="false" id="ba32-961d-20cc-8e97">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="151e-d7e3-5d2c-f97b" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6fb-9ca4-bbc9-4f79"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3c91-e67e-b870-d7f8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Undercover" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Undercover" id="4ef2-25a6-3e7d-0b3f" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow Training" hidden="false" id="9858-5e5b-7b05-91b3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="46ca-b467-15fe-6ec3" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c61e-cca0-e720-1fa5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Shooter" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Shooter" id="a60d-473e-9fef-074f" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Traditional Way - Katana" hidden="false" id="4e88-abfb-ed12-f69c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="254d-124d-29c8-162d" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="985e-eacc-30ed-3336"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="2ad0-92fa-95eb-a244" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Traditional Way - Bow" hidden="false" id="6c9f-9a7c-dbe2-fc93">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f164-2220-4c2a-9f68" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c95-8576-52d6-23ed"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Bow" hidden="false" id="9a90-2407-bce2-6e9f" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Unarmed Combat Training" hidden="false" id="49db-ed3c-99d5-5038">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="371d-ca91-d381-8f7b" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e121-48e7-3174-0750"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a684-0ba2-18de-95c4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Close Combat Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Close Combat Master" id="77c2-0322-e1fc-c331" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poison Training" hidden="false" id="fd1a-36c2-dd4e-5a7d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bdb1-4ad8-e0ce-a27f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9df6-8521-f0ce-735c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0e24-78b4-3f88-2332" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Poison Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Poison Master" id="574b-fb5c-92b4-1995" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="c617-3925-e95d-5154">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b4e6-152d-50ca-dd5e" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177c-4633-db36-5342"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Extra Magazine" id="2365-fc49-cda4-88be" hidden="false">
+              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Equipment - Bane" id="ee70-0aa5-4345-08d2" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="ab24-6e92-1b3c-fda9">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0b11-ac13-3217-617f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2997-d84d-47c8-e6b1"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Extra Magazine" id="f142-aa05-c90d-73c7" hidden="false">
+              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="66e4-85ae-2299-875c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6999-a2e7-944d-9840" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb79-b539-e05f-fbf1"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="6130-535c-4ec6-fae5" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="60f8-45a9-d129-2558">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1dd7-8358-f796-c5a7" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4188-de8f-275b-f7ac"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Gas Mask" id="a7e4-5fb5-7500-9386" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Backpack" hidden="false" id="3f7e-485a-13e4-bf21">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="15cb-5c85-5ce3-4acd" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fbd-bf35-5b2d-2523"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Backpack" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Backpack" id="813d-5841-c315-e376" hidden="false" type="rule" targetId="7fb3-1048-9239-798d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Antidote" hidden="false" id="c9a8-48ec-2d8b-176d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3fa7-e9e1-c549-1921" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1453-54bb-8d46-720e"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Poison Immunity" id="8e26-a5eb-caaf-2c6c" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Titan Dose (1)" hidden="false" id="b3d3-f206-16be-ecbd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5290-a720-8447-9102" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1167-9f4f-f1e2-7a0e"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Titan Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Titan Dose (Doses)" id="3eef-e1a8-3938-9f16" hidden="false" type="rule" targetId="2af6-a9e7-4235-446d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Laboratory" hidden="false" id="ea42-d743-ecc7-2ba9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3470-7319-9146-0299" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6442-c97d-78cc-c68f"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Laboratory" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Venom Laboratory" id="ffd2-1ced-6828-043f" hidden="false">
+              <description>All model in your crew can use more than 1 Titan Dose per game. This bonus remains in play even if this model is removed from play or leaves the board. 
+Also, the cost of Venom Doses in the equipment list is reduced to $50.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Applicator" hidden="false" id="2837-5dc2-6e9d-8e7c">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="db54-e04e-fbb6-6eb2" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc3-33a3-681c-7ddd"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Applicator" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <rules>
+            <rule name="Venom Applicator" id="1f17-1db3-87d2-2e84" hidden="false">
+              <description>This model can use Titan and Venom Doses on a friendly model in contact.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Night Vision Goggles" hidden="false" id="43d8-929a-fe62-7a71">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4935-e31d-867a-c734" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f303-669b-9940-f402"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Night Vision" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Night Vision" id="1c08-814c-6ce7-c0bf" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venom Dose (1)" hidden="false" id="abed-73d6-08b5-e515">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="3817-3f70-8f27-c6f7" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6280-4cd2-1d7f-f30b"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Venom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Venom Dose (Doses)" id="d88f-01b2-9aa9-363f" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Military Progress" hidden="false" id="45d7-dc56-d3a3-e95b">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4217-23cb-6137-a3c1" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95d4-326f-93cc-90af"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f96-ce9e-e09b-c7ad" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Veteran" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Veteran" id="f20f-aeee-b0b4-80bb" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </gameSystem>

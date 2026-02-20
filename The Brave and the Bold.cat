@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="31ee-3210-13a5-20e8" name="The Brave and the Bold" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="31ee-3210-13a5-20e8" name="The Brave and Bold" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="322d-98d5-880c-d3b0">
       <selectionEntries>
@@ -724,7 +724,7 @@
             <profile name="Batman (Arkham Origins)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9eae-5b6c-f40c-35c1">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman (Arkham Origins)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman</characteristic>
               </characteristics>
             </profile>
             <profile name="Batman (Arkham Origins)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5d2c-bb9b-5052-6a5f">
@@ -793,7 +793,7 @@
                 <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman (Rebirth)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Batman (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b769-ae43-5332-9730">
+            <profile name="Batman" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b769-ae43-5332-9730">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">9</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
@@ -848,7 +848,7 @@
             <profile name="Batman (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ef36-023f-175a-3b38">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman (Arkham Knight)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman</characteristic>
               </characteristics>
             </profile>
             <profile name="Batman (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="4df9-6746-8bfc-d197">
@@ -966,7 +966,7 @@
             <profile name="Batman (Modern Age)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f3c9-182a-6c3a-48e7">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman (Modern Age)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman</characteristic>
               </characteristics>
             </profile>
             <profile name="Batman (Modern Age)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="c209-24cb-80d2-2ecc">
@@ -1296,7 +1296,7 @@
             <profile name="Robin (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c6e1-d1b8-5ecc-c588">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Tim Drake</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin (Arkham Knight)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin</characteristic>
               </characteristics>
             </profile>
             <profile name="Robin (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="974b-bd0f-3fa5-9472">
@@ -1360,7 +1360,7 @@
             <profile name="Robin (Boy Wonder)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c8c0-92b6-d873-e717">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dick Grayson</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin (Boy Wonder)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin</characteristic>
               </characteristics>
             </profile>
             <profile name="Robin (Boy Wonder)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8e93-6d5c-9a24-3a75">
@@ -1470,19 +1470,19 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Robin (Tim Drake)" hidden="false" id="e738-48be-749d-fddd">
+        <selectionEntry type="model" import="true" name="Robin (Arkham City)" hidden="false" id="e738-48be-749d-fddd">
           <categoryLinks>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e6d3-f45f-221b-74c4" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Sidekick" hidden="false" id="6a61-6a99-fd27-d48b" targetId="6c53-80aa-1e01-a485" primary="true"/>
           </categoryLinks>
           <profiles>
-            <profile name="Robin (Tim Drake)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ef4-2d36-b5b6-4030">
+            <profile name="Robin (Arkham City)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ef4-2d36-b5b6-4030">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Tim Drake</characteristic>
                 <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin</characteristic>
               </characteristics>
             </profile>
-            <profile name="Robin (Tim Drake)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7075-fea3-267c-1ddf">
+            <profile name="Robin (Arkham City)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7075-fea3-267c-1ddf">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>

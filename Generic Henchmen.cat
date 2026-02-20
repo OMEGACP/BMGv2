@@ -1053,6 +1053,145 @@
             <infoLink name="Let’s go! (1SC, passive)" id="e7a6-2519-bf5b-7793" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Goliath" hidden="false" id="cb1b-731a-0da3-7ea2">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="70"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="fc32-c4d1-4d5b-8803" primary="true" name="Henchmen (Faction-specific)"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="c84e-9f3e-24f0-c1bd" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="4676-517f-e608-77e2" primary="false" name="Crew (The Brave and the Bold)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Goliath" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="262c-91a3-9d35-0b00">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Goliath</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Unknown</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Goliath" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5957-5781-cdcc-db50">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">1</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">10</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Animal, Carry, Claws, Fly, Huge, Meet Goliath, Tough Skin, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="476a-2176-5c66-fe5f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Animal" id="f1ba-2ada-99fe-5c81" hidden="false" type="rule" targetId="8209-cc9c-50b0-f794"/>
+            <infoLink name="Fly (1MC+1SC)" id="1b48-fdf7-d0b8-a161" hidden="false" type="rule" targetId="6eb9-3137-65ed-f057"/>
+            <infoLink name="Claws" id="625f-46c1-4acf-f4cd" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="7a12-e928-86d4-7530" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Huge" id="d331-db01-477d-1a12" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+            <infoLink name="Tough Skin" id="1635-08ba-bc8a-39e6" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Meet Goliath!" id="8616-b518-d984-a4bc" hidden="false" type="rule" targetId="6a15-b178-5bbe-3cfa"/>
+            <infoLink name="Carry (1MC+2SC)" id="9521-6aa9-d1a1-f2ea" hidden="false" type="rule" targetId="56ca-3b22-52ca-b0d7"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Robin (Damian Wayne)" hidden="false" id="6314-544d-0fed-16ca">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="3c01-bce6-154d-ba1c" primary="true" name="Henchmen (Faction-specific)"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="6b28-cd4c-fa41-98c6" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="b4a7-9c70-7cf3-0d15" primary="false" name="Crew (The Brave and the Bold)"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="697d-f8d7-4c5e-a88d" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Robin (Damian Wayne)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="07e6-9af6-48a5-d61c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Damian Wayne</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Robin (Damian Wayne)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="728e-4196-3177-a381">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Batclaw, Combo (Katana), Detective, Invaluable, Martial Artist, Mentoring, True Love (Talia al Ghul), Small, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="049c-4798-6a3a-97cd" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="4a30-b3ff-e19b-86a2" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="bc0c-3ed5-bbd5-58ae" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Combo (Weapon)" id="c447-041d-a38e-f2ab" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f448-3c06-5cc1-b16e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Detective" id="bc6c-a4de-52dd-1789" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Invaluable" id="2926-a8c7-c814-a56e" hidden="false" type="rule" targetId="1ef0-6024-7ba2-87e1"/>
+            <infoLink name="Martial Artist" id="c0d9-4bbf-21fd-db45" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Mentoring" id="47d9-da73-fd76-6148" hidden="false" type="rule" targetId="64eb-d550-ac4e-d703"/>
+            <infoLink name="Small" id="7ea3-c1a3-e63e-5b9c" hidden="false" type="rule" targetId="c13c-b54f-6ade-73f0"/>
+            <infoLink name="True Love (Name)" id="3e90-81c1-a0d0-1826" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Katana" hidden="false" id="df42-b0eb-cb2d-2cff" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d009-02ba-ceb9-c7fd"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eb6-0c3e-63ab-83bc"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Batlings" hidden="false" id="6187-e535-a4dd-f751" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a7c-7b86-f12c-c412"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7bc-cf31-2866-53b3"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="5b60-6f96-f7a1-3bb0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1077,5 +1216,7 @@
     <entryLink import="true" name="Prisoner 04211" hidden="false" id="2b12-3106-6817-3930" type="selectionEntry" targetId="8aba-8226-8ef2-a960"/>
     <entryLink import="true" name="Prisoner 47905" hidden="false" id="e117-e04b-db08-be8e" type="selectionEntry" targetId="31c7-513b-7dc0-2813"/>
     <entryLink import="true" name="Prisoner 93432" hidden="false" id="3133-b698-bbca-6209" type="selectionEntry" targetId="492d-ef08-ff48-3b81"/>
+    <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="bd8a-6775-6150-c65a" type="selectionEntry" targetId="cb1b-731a-0da3-7ea2"/>
+    <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="2e7c-1217-0297-db8b" type="selectionEntry" targetId="6314-544d-0fed-16ca"/>
   </entryLinks>
 </catalogue>
