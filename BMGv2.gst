@@ -172,8 +172,7 @@
       <description>When this model is recruited, add $350 to the crew’s available Funding.</description>
     </rule>
     <rule name="Canary Cry (2SC)" id="b850-c14c-50f1-5c4c" hidden="false">
-      <description>2SC: Place the Spray template in base contact with this model – all models whose volume lies partially or wholly beneath it will receive one automatic hit with the Sonic special rule. 
-Affected models must pass a Willpower roll or take 1 Blood Damage and become Stunned. This action doesn’t count as an attack action. A model can use this trait only once per round.</description>
+      <description>2SC: Place the Spray template in base contact with this model – all models whose volume lies partially or wholly beneath it will receive one automatic hit with the Sonic special rule. Affected models must pass a Willpower roll or take 1 Blood Damage and become Stunned. This action doesn’t count as an attack action. A model can use this trait only once per round.</description>
       <alias>Canary Cry</alias>
     </rule>
     <rule name="Clue Launcher" id="e376-b2ae-b389-571f" hidden="false">
@@ -212,8 +211,7 @@ Affected models must pass a Willpower roll or take 1 Blood Damage and become St
       <description>Until the end of the round, this model can perform ranged attacks against enemy models with 16&quot;, ignoring cover and LoS, as long as the target models are within 6&quot; of a friendly model.</description>
     </rule>
     <rule name="Follow me! (1SC)" id="dff5-13a0-8c39-ebad" hidden="false">
-      <description>1SC: All friendly Henchmen within 4” of this model (but not the activated model itself) gain 1 free MC. This MC may take the number of assigned 
-Action Counters above the normal maximum. A model can use this trait only once per round.</description>
+      <description>1SC: All friendly Henchmen within 4” of this model (but not the activated model itself) gain 1 free MC. This MC may take the number of assigned Action Counters above the normal maximum. A model can use this trait only once per round.</description>
       <alias>Follow me!</alias>
     </rule>
     <rule name="Good Aim (1SC)" id="294c-c52a-d46b-0d2e" hidden="false">
@@ -289,8 +287,7 @@ Action Counters above the normal maximum. A model can use this trait only once 
       <description>Before starting the game, choose 1 Objective in play of the indicated Type. If this model controls it at the end of a round, it awards 1 additional VP.</description>
     </rule>
     <rule name="Precise Aim (1SC)" id="f990-95e5-8d5e-5a30" hidden="false">
-      <description>1SC: If this model has not moved, it can activate this ability to gain a +2 bonus to ranged attack rolls. This model may not move after using Precise 
-Aim</description>
+      <description>1SC: If this model has not moved, it can activate this ability to gain a +2 bonus to ranged attack rolls. This model may not move after using Precise Aim.</description>
       <alias>Precise Aim</alias>
     </rule>
     <rule name="Rapid Fire (1SC)" id="4708-3417-6fab-181d" hidden="false">
@@ -320,8 +317,7 @@ Aim</description>
       <description>One use only. Remove up to 2 Damage markers from this model (any type).</description>
     </rule>
     <rule name="Speedster (X)" id="6564-1a29-2fe2-9231" hidden="false">
-      <description>This model can use Speed Force Powers, and has a maximum reserve of X Speed Force counters. A Speedster model gains +2” to its basic movement distance. The model does not treat Difficult Ground and Climbing as Impaired 
-Movement, although others effects that modify the terrain (i.e. Ice) must be taken into account. Close combat attacks from this model cannot be Blocked unless the target has the Speedster trait too.</description>
+      <description>This model can use Speed Force Powers, and has a maximum reserve of X Speed Force counters. A Speedster model gains +2” to its basic movement distance. The model does not treat Difficult Ground and Climbing as Impaired Movement, although others effects that modify the terrain (i.e. Ice) must be taken into account. Close combat attacks from this model cannot be Blocked unless the target has the Speedster trait too.</description>
       <alias>Speedster (1)</alias>
       <alias>Speedster (2)</alias>
       <alias>Speedster (3)</alias>
@@ -344,8 +340,7 @@ Movement, although others effects that modify the terrain (i.e. Ice) must be ta
       <description>This model does not spend SC when using the Good Aim special rule. In addition, once per game, at the start of the Raise the Plan phase, you may move this model up to 4&quot;.</description>
     </rule>
     <rule name="Toxicologist" id="a823-9628-8f8c-e3ab" hidden="false">
-      <description>Before performing an attack, this model can exchange one of the following effects during that attack: Enervating /2 or Scared
-In addition, models suffering damage from the Poison effect within 8&quot; of this model suffer an additional blood damage.</description>
+      <description>Before performing an attack, this model can exchange one of the following effects during that attack: Enervating (2) or Scared. In addition, models suffering damage from the Poison effect within 8&quot; of this model suffer an additional blood damage.</description>
     </rule>
     <rule name="Treacherous" id="3050-696c-b6cb-3c88" hidden="false">
       <description>This model cannot be the Boss of your crew</description>
@@ -494,9 +489,7 @@ In addition, models suffering damage from the Poison effect within 8&quot; of th
     </rule>
     <rule name="Sewer Swarm (3)" id="a9b0-f482-54d2-88b1" hidden="false">
       <alias>Sewer Swarm</alias>
-      <description>Before phase D4 of the Pre-Game Sequence place 3 Sewer Swarm models within 2&quot; of this model.
-If during this model&apos;s activation, you have less than 3 Sewer Swarms in play, you may spend 2 SC to place a Sewer Swarm model within 2&quot; of this model. Immediately allocate the Sewer Swarm&apos;s Action Counters. 
-While a Sewer Swarm is within 4&quot;, that model gains the Poison Master rule.</description>
+      <description>Before phase D4 of the Pre-Game Sequence place 3 Sewer Swarm models within 2&quot; of this model. If during this model&apos;s activation, you have less than 3 Sewer Swarms in play, you may spend 2 SC to place a Sewer Swarm model within 2&quot; of this model. Immediately allocate the Sewer Swarm&apos;s Action Counters. While a Sewer Swarm is within 4&quot;, that model gains the Poison Master rule.</description>
     </rule>
     <rule name="Batpod" id="eaf2-cc05-2937-1029" hidden="false">
       <description>This model gains +8&quot; to its basic movement distance. It can neither jump, climb, nor can it enter sewers. At the beginning of th Raise the Plan phase, you may remove this model from the Game and replace it with Batman (The Dark Knight Rises). If you do this, swap the Character Card, maintaining all damage and effect markers. Place the new model in a postion previously occupied by the Batpod.</description>
@@ -531,8 +524,7 @@ While a Sewer Swarm is within 4&quot;, that model gains the Poison Master rule.<
       <alias>Boss&apos;s Orders</alias>
     </rule>
     <rule name="Bot" id="0001-33fd-60aa-9000" hidden="false">
-      <description>This model cannot recover from KO or recover Stun damage in the Recount phase. However, Firearms, Mechanical and Beam weapons damage this model on a result of 4+ instead of their usual specified score. In addition, this model cannot use Doses of any kind, and is 
-immune to the Enervating, Hypnotize, Poison, Scared and Terror effects.</description>
+      <description>This model cannot recover from KO or recover Stun damage in the Recount phase. However, Firearms, Mechanical and Beam weapons damage this model on a result of 4+ instead of their usual specified score. In addition, this model cannot use Doses of any kind, and is immune to the Enervating, Hypnotize, Poison, Scared and Terror effects.</description>
     </rule>
     <rule name="Bot Mechanic (2SC)" id="463f-b13e-37e7-3a06" hidden="false">
       <description>Target a model with the Bot trait within 4” and in Line of Sight. Remove up to 3 Damage markers from that model. A model can use this trait only once per round.</description>
@@ -548,11 +540,7 @@ immune to the Enervating, Hypnotize, Poison, Scared and Terror effects.</descri
       <description>Unarmed close combat attacks made by this model deal (1 Blood) and have CRT: Cooled.</description>
     </rule>
     <rule name="Can You Solve This? X+ (1SC)" id="528e-9319-1653-6f78" hidden="false">
-      <description>Once per round this model can attempt to place a friendly Clue marker. Roll a dice – on a result of X+, place a Clue Marker in contact. 
-If it won’t fit, the marker is lost. 
-A Clue marker cannot be placed within either player’s deployment area, or within 4” of any other Clue marker, friendly or enemy. 
-No more than five friendly Clue markers may be placed on the board at any one time. 
-In the Recount phase, your side scores 1 VP for each friendly Clue marker in play. A model in contact with a Clue marker can remove it from the game with a Manipulate action.</description>
+      <description>Once per round this model can attempt to place a friendly Clue marker. Roll a dice – on a result of X+, place a Clue Marker in contact. If it won’t fit, the marker is lost. A Clue marker cannot be placed within either player’s deployment area, or within 4” of any other Clue marker, friendly or enemy. No more than five friendly Clue markers may be placed on the board at any one time. In the Recount phase, your side scores 1 VP for each friendly Clue marker in play. A model in contact with a Clue marker can remove it from the game with a Manipulate action.</description>
       <alias>Can You Solve This? 1+</alias>
       <alias>Can You Solve This? 2+</alias>
       <alias>Can You Solve This? 3+</alias>
@@ -592,10 +580,7 @@ In the Recount phase, your side scores 1 VP for each friendly Clue marker in p
       <description>When this model uses the Charge special attack it only costs 1SC. In addition, this model is immune to the Steal effect.</description>
     </rule>
     <rule name="Concealment (1MC+1SC)" id="f853-c115-9856-c56c" hidden="false">
-      <description>1MC+1SC: Until the end of the round in which this ability is used, enemy models can only see this model if it is in contact with them. 
-This ability works even when the model is within the area of effect of a Light. 
-However, the model is still subject to other rules that aid detection, such as Total Vision or Superior Sense of Smell, etc. 
-This model can be affected by templates, but cannot be targeted directly.</description>
+      <description>1MC+1SC: Until the end of the round in which this ability is used, enemy models can only see this model if it is in contact with them. This ability works even when the model is within the area of effect of a Light. However, the model is still subject to other rules that aid detection, such as Total Vision or Superior Sense of Smell, etc. This model can be affected by templates, but cannot be targeted directly.</description>
       <alias>Concealment</alias>
     </rule>
     <rule name="Combat Mode (3MC)" id="3107-1447-a72a-1b76" hidden="false">
@@ -615,9 +600,7 @@ This model can be affected by templates, but cannot be targeted directly.</des
       <description>This model can use the Arrest rule by spending only 1MC.</description>
     </rule>
     <rule name="Counter Attack (1SC) (Passive)" id="648d-9c9e-3175-ef1c" hidden="false">
-      <description>1SC: Once this trait is activated, for the rest of the round this model may make one strike against an attacker for each successful Block roll it makes 
-against that attack (to a maximum equal to the number of successful strikes the attacker made). 
-These Counter Strikes take place immediately, thus they are resolved before the normal sequence of play resumes.</description>
+      <description>1SC: Once this trait is activated, for the rest of the round this model may make one strike against an attacker for each successful Block roll it makes against that attack (to a maximum equal to the number of successful strikes the attacker made). These Counter Strikes take place immediately, thus they are resolved before the normal sequence of play resumes.</description>
       <alias>Counter Attack</alias>
     </rule>
     <rule name="Criminal" id="6303-cbbb-83c5-0c5a" hidden="false">
@@ -627,10 +610,7 @@ These Counter Strikes take place immediately, thus they are resolved before the
       <description>If this model is included your Crew, you can recruit up to 3 Henchmen with the Cop trait. Additional models in the crew with this trait have no further effect.</description>
     </rule>
     <rule name="Countermeasures" id="540e-4b1b-0954-e4ae" hidden="false">
-      <description>This model gains one of the following rules at the start of each activation, until its next activation: 
-- Stealth
-- Night Vision
-- Ignore the Anti-tank rule.</description>
+      <description>This model gains one of the following rules at the start of each activation, until its next activation: Stealth / Night Vision / Ignore the Anti-tank rule.</description>
     </rule>
     <rule name="Coward’s Reward (1SC)" id="6c03-4a8a-ebda-82af" hidden="false">
       <description>1SC: Until the end of the round, when an enemy model in contact with this model wishes to move away, it must first pass an Agility roll or suffer (1 Blood) damage.</description>
@@ -668,9 +648,7 @@ These Counter Strikes take place immediately, thus they are resolved before the
       <alias>Death or Exile</alias>
     </rule>
     <rule name="Dirty Money" id="1537-0dff-66c5-f56c" hidden="false">
-      <description>If this model is the Boss, its crew has an extra 
-$300 in its Funding stash than is normal for the 
-game size.</description>
+      <description>If this model is the Boss, its crew has an extra $300 in its Funding stash than is normal for the game size.</description>
     </rule>
     <rule name="Death Pack" id="de95-3180-f208-8cef" hidden="false">
       <description>If the target of this model’s close combat attacks is already in contact with one or more other friendly models with this trait, this model gains +1 to Hit rolls and one free attack dice against that target.</description>
@@ -698,8 +676,7 @@ game size.</description>
       <description>This model can use ranged weapons even if it is in contact with enemy models. If it uses a ranged weapon to target an enemy model in contact, it gains +1 to its Hit rolls.</description>
     </rule>
     <rule name="Disarray (1SC)" id="19ca-58d8-d573-be79" hidden="false">
-      <description>1SC: Once per turn, this model may change the position of 2 Action Counters on the Character Card of a non-vehicle enemy model in line of 
-sight.</description>
+      <description>1SC: Once per turn, this model may change the position of 2 Action Counters on the Character Card of a non-vehicle enemy model in line of sight.</description>
       <alias>Disarray</alias>
     </rule>
     <rule name="Discourage (2SC)" id="11d4-8deb-39df-161d" hidden="false">
@@ -777,9 +754,7 @@ sight.</description>
       <description>This model’s ranged attack targets suffer a -1 penalty to their Ping! rolls.</description>
     </rule>
     <rule name="Explosive Gel" id="17ee-350d-fd6f-ead3" hidden="false">
-      <description>A model with Explosive Gel may Manipulate a lamppost, sewer, dumpster, phone booth, or other item of urban furniture (at a cost of 1MC as usual). 
-When he does so, place a Gel marker on it. This model may then choose to destroy the marked item and remove it from the game spending by 1SC at any time during any of its activations. 
-Note that Explosive Gel may not be used to destroy Objective markers.</description>
+      <description>A model with Explosive Gel may Manipulate a lamppost, sewer, dumpster, phone booth, or other item of urban furniture (at a cost of 1MC as usual). When he does so, place a Gel marker on it. This model may then choose to destroy the marked item and remove it from the game spending by 1SC at any time during any of its activations. Note that Explosive Gel may not be used to destroy Objective markers.</description>
     </rule>
     <rule name="Extremely mutated" id="0fbf-d426-99c7-05e2" hidden="false">
       <description>This model cannot buy more than one item of equipment.</description>
@@ -797,8 +772,7 @@ Note that Explosive Gel may not be used to destroy Objective markers.</descript
       <description>This Model is immune to damage caused by weapons with the Explosive and/or Expansive rules.</description>
     </rule>
     <rule name="For the Family (1SC, Passive)" id="fd64-978d-921a-797e" hidden="false">
-      <description>1SC: If a friendly Carmine Falcone within 2” and line of sight of this model is hit by an attack (of any kind), this model takes the hit instead. This Trait 
-can’t be used against attacks by models with Name: Selina Kyle.</description>
+      <description>1SC: If a friendly Carmine Falcone within 2” and line of sight of this model is hit by an attack (of any kind), this model takes the hit instead. This Trait can’t be used against attacks by models with Name: Selina Kyle.</description>
       <alias>For the Family</alias>
     </rule>
     <rule name="Flying High (1MC+3SC)" id="afa7-94b5-ac07-fb6e" hidden="false">
@@ -890,9 +864,7 @@ can’t be used against attacks by models with Name: Selina Kyle.</description>
       <description>After Objectives have been placed (at the end of the pre-game phase D), this model may be deployed anywhere in the playing area. The model must be placed more than 4” away from any Objective and out of line of sight of any enemy model or 12” away from them. If this is not possible, this model should be deployed in the usual deployment zone.</description>
     </rule>
     <rule name="Hover (1MC)" id="db80-1605-b40c-23de" hidden="false">
-      <description>1MC: When this ability is activated, place a Hover marker on the character card. The model is in Hover mode for the rest of the round. 
-While a model is in Hover mode, they can only be hit in close combat on a natural result of 6. A model with a Hover marker cannot benefit from the Ping! or Crouch rules. If a model with a Hover marker becomes KO, Knocked Down, Paralyzed, Pinned Down or Stunned, it receives (2 Blood) in addition to any other effects, and immediately loses the Hover mode.
-At the beginning of the Raise the Plan phase, the model loses the Hover mode.</description>
+      <description>1MC: When this ability is activated, place a Hover marker on the character card. The model is in Hover mode for the rest of the round. While a model is in Hover mode, they can only be hit in close combat on a natural result of 6. A model with a Hover marker cannot benefit from the Ping! or Crouch rules. If a model with a Hover marker becomes KO, Knocked Down, Paralyzed, Pinned Down or Stunned, it receives (2 Blood) in addition to any other effects, and immediately loses the Hover mode. At the beginning of the Raise the Plan phase, the model loses the Hover mode.</description>
       <alias>Hover</alias>
     </rule>
     <rule name="Hidden Sniper (2AC)" id="aa6b-976e-b366-6d8a" hidden="false">
@@ -943,7 +915,6 @@ At the beginning of the Raise the Plan phase, the model loses the Hover mode.</
     <rule name="I Will Break You" id="5524-1821-ece1-c306" hidden="false">
       <description>When you hire this model, chose one of the next options:
 • Bane gains +3 Extra Venom Dose.
-
 • Bane gains Exhaustive Planner and +1 to Willpower.
 • Bane Gains Close Combat Master.</description>
     </rule>
@@ -1051,9 +1022,7 @@ Day Rules:
       <description>This model can only purchase one piece of Equipment. If its crew contains a Leader or Sidekick with Affiliation (The Brave &amp; Bold), this model gains the Boy Winder and True Love (Bruce Wayne) traits and any model with Name: Bruce Wayne in the same crew gains True Love (Damian Wayne) until the end of the game.</description>
     </rule>
     <rule name="Living Legend" id="db8a-1d79-590a-fbef" hidden="false">
-      <description>This model can make two activations each round. Each activation is independent of the other (and cannot usually be made consecutively). At the 
-start of the second activation, the model receives 2 Action Counters, which must be allocated immediately.
-In addition, once per round, when a trait specifies this model as a target, you may cancel the use of that trait. A crew that includes a Living Legend loses one Pass on Activation each round, if applicable.</description>
+      <description>This model can make two activations each round. Each activation is independent of the other (and cannot usually be made consecutively). At the start of the second activation, the model receives 2 Action Counters, which must be allocated immediately. In addition, once per round, when a trait specifies this model as a target, you may cancel the use of that trait. A crew that includes a Living Legend loses one Pass on Activation each round, if applicable.</description>
     </rule>
     <rule name="Lord of the Sewers" id="0e63-0def-1f06-452e" hidden="false">
       <description>This model does not count towards the maximum number of models that can enter Sewers during a round. This model may start the game in contact with any Sewer Marker. In addition, this model’s Crew generates 1 extra Sewer marker. Once per game, this model can exit from a Sewer marker without ending its activation.</description>
@@ -1102,13 +1071,11 @@ In addition, once per round, when a trait specifies this model as a target, you
       <alias>Monitoring Device</alias>
     </rule>
     <rule name="Mine (1MC+1SC)" id="0273-f045-99d3-ae85" hidden="false">
-      <description>1MC+1SC: Place a Mine marker (30mm diameter) in base contact with this model. The model may subsequently move away, leaving the marker in place. When a Vehicle moves into contact with the marker, immediately perform a Strength 1+ Damage roll against it. If the roll is successful, the vehicle suffers (3 Blood), and the marker is removed from play. If the roll fails remove the 
-Mine Marker. A model may only place two Mine markers in a game, so make a note when they are used.</description>
+      <description>1MC+1SC: Place a Mine marker (30mm diameter) in base contact with this model. The model may subsequently move away, leaving the marker in place. When a Vehicle moves into contact with the marker, immediately perform a Strength 1+ Damage roll against it. If the roll is successful, the vehicle suffers (3 Blood), and the marker is removed from play. If the roll fails remove the Mine Marker. A model may only place two Mine markers in a game, so make a note when they are used.</description>
       <alias>Mine</alias>
     </rule>
     <rule name="Mind Control Device (2SC)" id="527e-fcdd-d4f0-41b3" hidden="false">
-      <description>2SC: Choose a non-vehicle enemy model within 8” and line of sight. The target immediately suffers the Hypnotize effect. If the target fails the 
-Willpower roll, gain 1 VP. A model can use this trait once per round.</description>
+      <description>2SC: Choose a non-vehicle enemy model within 8” and line of sight. The target immediately suffers the Hypnotize effect. If the target fails the Willpower roll, gain 1 VP. A model can use this trait once per round.</description>
       <alias>Mind Control Device</alias>
     </rule>
     <rule name="Mind Control Substance" id="4e44-b921-f62b-8203" hidden="false">
@@ -1180,8 +1147,7 @@ Willpower roll, gain 1 VP. A model can use this trait once per round.</descript
       <description>This model suffers a -1 penalty to Block rolls.</description>
     </rule>
     <rule name="One-Shot Gun (2AC+2SC)" id="aced-9512-3f89-049c" hidden="false">
-      <description>2AC+2SC: One use only. Instead of attacking, this model may choose an enemy model within 8” and line of sight. The target automatically receives one Hit, with Damage (3 Blood), and CRT: (3 Blood). 
-This ability is considered a ranged weapon with the Firearm rule, so all rules, traits and abilities that relate to it are in effect – line of sight, Ping! rolls and abilities that affect Firearms (such as Bulletproof vests, and Disruptors).</description>
+      <description>2AC+2SC: One use only. Instead of attacking, this model may choose an enemy model within 8” and line of sight. The target automatically receives one Hit, with Damage (3 Blood), and CRT: (3 Blood). This ability is considered a ranged weapon with the Firearm rule, so all rules, traits and abilities that relate to it are in effect - line of sight, Ping! rolls and abilities that affect Firearms (such as Bulletproof vests, and Disruptors).</description>
       <alias>One-Shot Gun</alias>
     </rule>
     <rule name="Perfect Creations" id="6937-356e-d652-9a77" hidden="false">
@@ -1189,32 +1155,14 @@ This ability is considered a ranged weapon with the Firearm rule, so all rules,
     </rule>
     <rule name="Plant" id="15b4-ef42-8d35-8271" hidden="false">
       <description>A crew can recruit up to three Plants for every 200 Reputation points, or parts thereof, of the crew limit. Each Plant recruited to your crew grants you two Seed markers (30mm diameter).
-
-
 Plants are not deployed as usual, instead follow the rules below. After Objectives and all other models have been placed, deploy the seed markers at any point on the tabletop at least 2” away from any other marker (including Sewers, Lampposts, Objectives, etc.).
-
-
 At the beginning of any Raise the Plan phase, you may replace one or more Seed markers with one of your Plants (place them one by one if you want to replace more than one Plant). Once placed, the Plant is treated as a normal model in your crew.
-
-
 If a Plant gets Knocked Out, remove it immediately from the game as a Casualty.
-
-
 Plants can only be Pushed by Large or Huge models. If they are successfully Pushed, it is removed as a Casualty.
-
-
 A Plant’s basic movement distance is 0, and it cannot use MCs.
-
-
 Plants do not grant VPs in the usual way. Instead, the total VPs earned for removing a plant as a Casualty is always 1.
-
-
 Plants have a 4” ‘action area’ radius. Within that radius, Plants are able to attack in close combat (no line of sight is needed), and prevent enemy models from controlling objectives.
-
-
 Plants can’t control objectives or Manipulate.
-
-
 Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</description>
     </rule>
     <rule name="This is awesome-sauce (2SC)" id="0c7c-f719-de41-c598" hidden="false">
@@ -1270,8 +1218,7 @@ Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</descri
       <description>When this model is the Boss you can recruit up to three Henchman with any Affiliation (as long as they don’t have the Bot or Cybernetic traits). Their Affiliation is assumed to be the same as this model. However, Henchmen hired in this way lose -1 Willpower and gain the Self-Discipline trait if they do not have it already.</description>
     </rule>
     <rule name="Psychoanalysis (1SC)" id="57a0-1985-58fb-0ff5" hidden="false">
-      <description>1SC: Target a model, friend or foe, within 8” and line of sight, and who is also 
-subject to any Mental Disorder Trait. The target ignores the effects of their Mental Disorder until the end of the round.</description>
+      <description>1SC: Target a model, friend or foe, within 8” and line of sight, and who is also subject to any Mental Disorder Trait. The target ignores the effects of their Mental Disorder until the end of the round.</description>
       <alias>Psychoanalysis</alias>
     </rule>
     <rule name="Psychologist" id="ca26-6996-bc1d-36af" hidden="false">
@@ -1408,13 +1355,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>When this model is made a Casualty, do not remove it from play. Instead, roll a D6: on a result of 5+ the model removes 1 Injury marker and remains in play (the model is Knocked Down, and removes the Action Counters normally for damage accumulation). If the roll is failed, the model becomes a Casualty normally.</description>
     </rule>
     <rule name="Surgical madness (Mental disorder)" id="7a50-a1b0-f618-fc41" hidden="false">
-      <description>When this model uses the Medic trait, the target model removes 1 extra Damage marker. In addition, roll 1D6. The target model gains the following trait until the end of its next activation:
-1. Weak
-2. Stupid
-3. Aggressive Schizophrenia
-4. The Voices
-5. OCD
-6. Desensitized</description>
+      <description>When this model uses the Medic trait, the target model removes 1 extra Damage marker. In addition, roll 1D6. The target model gains the following trait until the end of its next activation: 1. Weak | 2. Stupid | 3. Aggressive Schizophrenia | 4. The Voices | 5. OCD | 6. Desensitized</description>
     </rule>
     <rule name="Superior Sense of Smell" id="fc19-6d01-3524-c762" hidden="false">
       <description>This model doesn’t need an uninterrupted line of sight to see its target. Instead, anything within 10” can be seen by this model, even if the target is not under the effect of Light. In addition, this model is immune to the Blind effect.</description>
@@ -1501,19 +1442,7 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>At the end of the Raise the Plan phase, you may choose one enemy non-vehicle model on the board (line of sight is not required). The target model must immediately make a Willpower roll. If it fails, you may force the opponent to activate the target model first.</description>
     </rule>
     <rule name="Thirty days has…" id="4ea8-fbcc-440b-684d" hidden="false">
-      <description>Depending on the month the game starts Calendar Man gains the specific trait for that month: 
-• January-Demotivate, 
-• February-Confusion, 
-• March-Luck, 
-• April-Trickster, 
-• May-Disarray, 
-• June-Demoralize, 
-• July-Veteran, 
-• August-Intimidate, 
-• September-Cruel, 
-• October-Undead, 
-• November-Unpredictable, 
-• December-Survivor.</description>
+      <description>Depending on the month the game starts Calendar Man gains the specific trait for that month: January-Demotivate | February-Confusion | March-Luck | April-Trickster | May-Disarray | June-Demoralize | July-Veteran | August-Intimidate | September-Cruel | October-Undead | November-Unpredictable | December-Survivor.</description>
     </rule>
     <rule name="Timely arrival" id="c18d-4b39-9477-7e08" hidden="false">
       <description>This model is not deployed as normal at the start of the game. Instead, at the start of the Raise the Plan phase of the second round, you may place this model anywhere on the table, no closer than 4” to any Objective or enemy model. The model’s volume must fit in the chosen position.</description>
@@ -1540,18 +1469,16 @@ subject to any Mental Disorder Trait. The target ignores the effects of their M
       <description>After placing Objectives, this model may be deployed up to 8” away from its deployment area, but no closer than 4” to an objective.</description>
     </rule>
     <rule name="Vanish (2SC)" id="dd3e-ea85-3e5d-05df" hidden="false">
-      <description>2SC: Make a free EM Smoke Grenades attack (not affected by Rapid Fire) that make an automatic hit. For the duration of this attack, the EM Smoke Grenades gains the Light special rule. If this model does not move during this activation and is beneath the template when it makes this attack, this model may be placed completely within 4” of its current position. This placement does not count as movement, but this model cannot move this activation (or use the Grapple Gun/Batclaw Trait). This model ignores the 
-effects and damage caused by his EM Smoke Grenades (like the Smoke effect). This spends a magazine as usual but does not count as this model’s Attack Action.</description>
+      <description>2SC: Make a free EM Smoke Grenades attack (not affected by Rapid Fire) that make an automatic hit. For the duration of this attack, the EM Smoke Grenades gains the Light special rule. If this model does not move during this activation and is beneath the template when it makes this attack, this model may be placed completely within 4” of its current position. This placement does not count as movement, but this model cannot move this activation (or use the Grapple Gun/Batclaw Trait). This model ignores the effects and damage caused by his EM Smoke Grenades (like the Smoke effect). This spends a magazine as usual but does not count as this model’s Attack Action.</description>
       <alias>Vanish</alias>
     </rule>
     <rule name="Venom Dose (Doses)" id="7335-6ab8-643c-83ef" hidden="false">
       <description>A model may use a Venom Dose at the beginning of the Raise the Plan phase. If it does so, for the rest of the round the model gains +1 Strength and can reroll Damage rolls when fighting in close combat.</description>
     </rule>
     <rule name="Vulnerability to Fire" id="5a15-dafe-b201-72b1" hidden="false">
-      <description>Each Fire marker received causes Damage 
-(2 Blood) to this model.</description>
+      <description>Each Fire marker received causes Damage (2 Blood) to this model.</description>
     </rule>
-    <rule name="Vertigo Dose (Dose)" id="754e-b2a6-d17f-3ab6" hidden="false">
+    <rule name="Vertigo Dose (Doses)" id="754e-b2a6-d17f-3ab6" hidden="false">
       <description>A model may use a Vertigo Dose at the beginning of the Raise the Plan phase. If it does so, for the rest of the round the model gains +1 willpower and can reroll failed Willpower and Agility rolls until end of the round.</description>
     </rule>
     <rule name="Venom Enrage" id="1bb9-2e34-9b58-8820" hidden="false">
@@ -1575,7 +1502,10 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
     <rule name="Wizard of Quiz" id="d866-5602-4afb-ad57" hidden="false">
       <description>Objectives within 6” of this model grant 1 VP less to opponents (to a minimum of 1 VP).</description>
     </rule>
-    <rule name="Lazarus Pit Owner" id="41fb-bd6e-a339-ec0d" hidden="false"/>
+    <rule name="Lazarus Pit Owner (v3)" id="41fb-bd6e-a339-ec0d" hidden="false">
+      <description>v3: Once per game, at any time, you can search in your deck for a &quot;Reclaim the Lazarus Pit&quot; objective card and add it to your hand.
+v2: This model revovers one additional damage when interacting with the Lazarus Pit objective</description>
+    </rule>
     <rule name="Shadows Command (1SC)" id="c075-3a95-c318-21c3" hidden="false">
       <alias>Shadows Command</alias>
       <description>Target another friendly model within 8&quot;. This character may immediately perform a free move action of up to 2&quot; or can perform a free manipulate action if it is in contact with scenery that can be manipulated.</description>
@@ -1589,9 +1519,7 @@ effects and damage caused by his EM Smoke Grenades (like the Smoke effect). Thi
       <alias>Meta-Skin (B.V.)</alias>
     </rule>
     <rule name="Bullet Time (3SC)" id="166b-1774-16c7-28c9" hidden="false">
-      <description>One use only. This model can attack twice during its activation, with different ranged weapons. 
-Each Attack must be paid for as usual (2AC) and consumes an Ammunition magazine. This model doesn’t lose RoF this round for firing after moving. 
-However, the model cannot Crouch in the same round that it uses this ability.</description>
+      <description>One use only. This model can attack twice during its activation, with different ranged weapons. Each Attack must be paid for as usual (2AC) and consumes an Ammunition magazine. This model doesn’t lose RoF this round for firing after moving. However, the model cannot Crouch in the same round that it uses this ability.</description>
       <alias>Bullet Time</alias>
     </rule>
     <rule name="Sewer Worker" id="5c6b-36f8-aa7a-56e8" hidden="false">
@@ -1621,7 +1549,7 @@ However, the model cannot Crouch in the same round that it uses this ability.</
       <alias>Batman Lives</alias>
     </rule>
     <rule name="Raised with Venom (v3)" id="c15e-63ad-aac9-35a7" hidden="false">
-      <description>v3: 
+      <description>v3: This round, this model also gains 2 free Efforts while defending if it already has used a Venom Dose.
 v2: This model gains 2 free defense actions if it has used a Venom Dose this round.</description>
     </rule>
     <rule name="Tough Guy (v3)" id="0fd2-5d3b-6e1d-dd00" hidden="false">
@@ -1661,8 +1589,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
     </rule>
     <rule name="Observation (v3)" id="324e-2e66-8193-3870" hidden="false">
       <alias>Observation</alias>
-      <description>v3+v2: While this model is not activated this round, it gains +1 to its Defense rolls. 
-While making an attack against an activated model this round, it gains +1 to Hit and Strength dice rolls.</description>
+      <description>v3+v2: While this model is not activated this round, it gains +1 to its Defense rolls. While making an attack against an activated model this round, it gains +1 to Hit and Strength dice rolls.</description>
     </rule>
     <rule name="Always on the Move (v3)" id="71a4-18e7-a23a-c1ea" hidden="false">
       <alias>Always on the Move</alias>
@@ -1692,8 +1619,7 @@ While making an attack against an activated model this round, it gains +1 to Hit
       <alias>Mental Dominance</alias>
     </rule>
     <rule name="Carry (1MC+2SC)" id="56ca-3b22-52ca-b0d7" hidden="false">
-      <description>If this model passes within 2* of one or more friendly models during a movement action, it may pay the Action Counter at the end of the Action to target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm.
-If the target model is Damian Wayne, its BMD is reduced to 0 and it cannot use the Batclaw trait during its next activation. If not, the target model must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive rounds.</description>
+      <description>If this model passes within 2* of one or more friendly models during a movement action, it may pay the Action Counter at the end of the Action to target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm. If the target model is Damian Wayne, its BMD is reduced to 0 and it cannot use the Batclaw trait during its next activation. If not, the target model must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive rounds.</description>
     </rule>
     <rule name="Multitask" id="e7dc-2321-c3eb-3fb7" hidden="false">
       <description>When you hire this model, chose one of the next options:
@@ -4677,8 +4603,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
           </modifiers>
           <rules>
             <rule name="Venom Laboratory" id="ffd2-1ced-6828-043f" hidden="false">
-              <description>All model in your crew can use more than 1 Titan Dose per game. This bonus remains in play even if this model is removed from play or leaves the board. 
-Also, the cost of Venom Doses in the equipment list is reduced to $50.</description>
+              <description>All model in your crew can use more than 1 Titan Dose per game. This bonus remains in play even if this model is removed from play or leaves the board. Also, the cost of Venom Doses in the equipment list is reduced to $50.</description>
             </rule>
           </rules>
         </selectionEntry>
