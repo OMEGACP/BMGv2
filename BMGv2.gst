@@ -3,22 +3,17 @@
   <categoryEntries>
     <categoryEntry name="Default Category" id="default-category"/>
     <categoryEntry name="Crew (Bane)" id="4b9d-e654-e756-e1ab" hidden="false"/>
-    <categoryEntry name="Crew (Batman)" id="bb57-55b2-0ab2-6ce9" hidden="false"/>
-    <categoryEntry name="Crew (Black Mask)" id="493a-36bc-1b2f-a0dc" hidden="false"/>
     <categoryEntry name="Crew (Court of Owls)" id="fb1c-d0da-ecbd-dd81" hidden="false"/>
-    <categoryEntry name="Crew (Gorilla Grodd)" id="69fa-ba23-e7f2-3a6d" hidden="false"/>
+    <categoryEntry name="Crew (Central City Villains)" id="69fa-ba23-e7f2-3a6d" hidden="false"/>
     <categoryEntry name="Crew (Joker)" id="a8e5-9f8a-d8f0-02c7" hidden="false"/>
     <categoryEntry name="Crew (League of Assassins)" id="9702-99aa-fc73-85a4" hidden="false"/>
-    <categoryEntry name="Crew (Mad Hatter)" id="4583-b269-50aa-8407" hidden="false"/>
     <categoryEntry name="Crew (Militia)" id="78c0-f98c-71de-0d2a" hidden="false"/>
     <categoryEntry name="Crew (Mr. Freeze)" id="7e87-ad93-a8e5-ecff" hidden="false"/>
-    <categoryEntry name="Crew (Oliver Queen)" id="a3ed-6968-7ee7-76c7" hidden="false"/>
     <categoryEntry name="Crew (Organized Crime)" id="0f48-7464-f7a3-b3b5" hidden="false"/>
     <categoryEntry name="Crew (Penguin)" id="2f0f-c9e9-aee7-4a3a" hidden="false"/>
-    <categoryEntry name="Crew (Poison Ivy)" id="8acb-5b5e-ca8e-fb31" hidden="false"/>
+    <categoryEntry name="Crew (Gotham City Sirens)" id="8acb-5b5e-ca8e-fb31" hidden="false"/>
     <categoryEntry name="Crew (Riddler)" id="e7cc-9d1d-65dc-4380" hidden="false"/>
     <categoryEntry name="Crew (The Brave and the Bold)" id="e482-2d30-1001-a6a1" hidden="false"/>
-    <categoryEntry name="Crew (Two Face)" id="3357-90ff-5d46-5cea" hidden="false"/>
     <categoryEntry name="Crew (Unknown)" id="b8c1-0bb0-ed53-bdfa" hidden="false"/>
     <categoryEntry name="Elite Boss (Ninja)" id="16f4-d87e-e808-378c" hidden="false"/>
     <categoryEntry name="Free Agent" id="79d4-9b8b-7f29-cba5" hidden="false"/>
@@ -33,7 +28,7 @@
     <categoryEntry name="Equipment (LoA: Nyssa al Ghul)" id="c059-e67d-a436-c0a1" hidden="false"/>
     <categoryEntry name="Equipment (LoA: Ra&apos;s al Ghul)" id="adec-8d6e-1788-2ae0" hidden="false"/>
     <categoryEntry name="Equipment (LoA: Talia al Ghul)" id="3c91-e67e-b870-d7f8" hidden="false"/>
-    <categoryEntry name="Rival (BB)" id="33d4-af20-d41a-829e" hidden="false"/>
+    <categoryEntry name="Rival (The Brave and the Bold)" id="33d4-af20-d41a-829e" hidden="false"/>
     <categoryEntry name="Special Unit" id="ea61-4014-081c-4b64" hidden="false"/>
     <categoryEntry name="Business Agent (adds $350)" id="804a-afb5-5684-1e16" hidden="false"/>
     <categoryEntry name="Henchmen (Common)" id="32bb-4b05-45c6-81a9" hidden="false"/>
@@ -1019,7 +1014,7 @@ Day Rules:
       <alias>Let&apos;s go!</alias>
     </rule>
     <rule name="Mentoring" id="64eb-d550-ac4e-d703" hidden="false">
-      <description>This model can only purchase one piece of Equipment. If its crew contains a Leader or Sidekick with Affiliation (The Brave &amp; Bold), this model gains the Boy Winder and True Love (Bruce Wayne) traits and any model with Name: Bruce Wayne in the same crew gains True Love (Damian Wayne) until the end of the game.</description>
+      <description>This model can only purchase one piece of Equipment. If its crew contains a Leader or Sidekick with Affiliation (The Brave &amp; Bold), this model gains the Boy Wonder and True Love (Bruce Wayne) traits and any model with Name: Bruce Wayne in the same crew gains True Love (Damian Wayne) until the end of the game.</description>
     </rule>
     <rule name="Living Legend" id="db8a-1d79-590a-fbef" hidden="false">
       <description>This model can make two activations each round. Each activation is independent of the other (and cannot usually be made consecutively). At the start of the second activation, the model receives 2 Action Counters, which must be allocated immediately. In addition, once per round, when a trait specifies this model as a target, you may cancel the use of that trait. A crew that includes a Living Legend loses one Pass on Activation each round, if applicable.</description>
@@ -1627,6 +1622,53 @@ v2: Once per game, this model may manipulate an objective marker without paying 
 • Hacker: Gain +1 Willpower. Also gains Computer Intrusion (1SC): Once per turn this model may change the position of 2 Action Counters on the Character Card of an enemy model within 8”, as long as the target has the Bot, Robot or Cybernetic trait.
 • Defensor: Gain +2 to Endurance. Also gains Force Field (1SC): Target friendly model in base contact benefits from a Ping! roll until the end of the round, even if it is not behind cover.
 • Fighter: Gains +1 Attack, +1 Defense and the Claws trait.</description>
+    </rule>
+    <rule name="Shapeshifting" id="805d-feea-cb8b-5915" hidden="false">
+      <description>At the start of the Raise the Plan phase, before allocating Action Counters to it, if this model is not KO, it can exchange an Upgrade Card with the name &apos;(Animal) Form&apos; to this model.</description>
+    </rule>
+    <rule name="Bug (Archie)" id="aab9-c5aa-2613-38be" hidden="false">
+      <description>This model is not deployed as normal at the start of the game. Once per game, at the start of the Raise the Plan phase of any round, you may place this model anywhere on the table that is not inside a building, as long as there is enough space for the model&apos;s base to fit.</description>
+    </rule>
+    <rule name="Ghost" id="1f71-cf2e-157f-7f52" hidden="false">
+      <description>This model has the Incorporeal and Invulnerability (1) traits, which remain active without paying the Action Counter cost.</description>
+    </rule>
+    <rule name="Possession (2SC)" id="4dd0-543d-0df2-d967" hidden="false">
+      <alias>Possession</alias>
+      <description>2SC: Target a non-vehicle enemy model within 4” without the Bot trait. The target must take a Willpower roll with a -2 Willpower penalty. If it fails the roll, the target bcomes Possessed. Remove this model (the &apos;Possessor&apos; hereafter) from play - it cannot be activated aswhile this trait is in effect and it does not count for the purposes of Passes.
+
+
+However, the Possessed model is not controlled by ypu, rather than its own player. Treat it as a member of the Possessor&apos;s crew (if this activation takes place in the following round, the model&apos;s Action Counters are also allocated by you in the Raise the Plan phase).At the end of its activation, the Possessed model must take another Willpower roll (again with a -2 Willpower penalty) or continue being possessed. If the Possessed model passes the Willpower roll, the possession ends - see below. Alternatively, at the end of the Possessed model&apos;s activation, immediately before the Willpower roll is taken, the Possessor may choose to end the possession.
+
+
+When the possession ends, return the Possessor to play by placing it within 4&quot; of the Possessed moder. The Possessor cannot be activated this round; the model that was Possessed returns immediately to the control of its owning player.
+
+
+If the Possessed model becomes KO or Casualty while possessed, then the possession ends as described above. However, as soon as the Possessor is placed on the board, assign 2 Blood Damage to its Character Card.</description>
+    </rule>
+    <rule name="Agent of Order" id="0b15-3c2e-f2f6-d2b0" hidden="false">
+      <description>Friendly models with 4&quot; cannot have their Action Counters reallocated by opponents.</description>
+    </rule>
+    <rule name="Light Radiance (1SC)" id="6c78-84a9-d45b-35e9" hidden="false">
+      <description>1SC: When this character uses the Medic trait, it affects all characters within 2&quot;.</description>
+      <alias>Light Radiance</alias>
+    </rule>
+    <rule name="Agent of Chaos" id="53d9-4071-9499-fb93" hidden="false">
+      <description>Friendly models with 4&quot; of this model may reallocate any of all Action Counters on their character card when they activate.</description>
+    </rule>
+    <rule name="Immune to Fire" id="6d1e-af87-c56b-0924" hidden="false">
+      <description>This model is immune to fire.</description>
+    </rule>
+    <rule name="Demon" id="00ae-7ec4-7b12-2d2b" hidden="false">
+      <description>Damage rolls against this model suffer a -1 penalty. In addition, this model does not reduce its number of Action Counters as it accumulates Damage markers.</description>
+    </rule>
+    <rule name="Occultism" id="1204-eab5-ddaf-fedf" hidden="false">
+      <description>This model can use Occultism Spells. In addition, once per game during its activation, the model gains +1 to its Defense value until the end of the round.</description>
+    </rule>
+    <rule name="Cooperative Fighting" id="fd40-a0e6-6697-555e" hidden="false">
+      <description>When attacking an enemy in close combat that is already engaged with another friendly mode, this model inflicts 1 additional Stun for each die in the damage roll that inflicts damage.</description>
+    </rule>
+    <rule name="Stay in Formation" id="6da4-28aa-f1e7-f6d3" hidden="false">
+      <description>Once per game, during this model&apos;s activation, one friendly model within 8&quot; can make a free move of up to 6&quot; directly towards this model.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3301,7 +3343,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
             <categoryLink targetId="f863-9de5-8630-bf4a" id="f9ff-f687-c63e-cf89" primary="false" name="CC Weapon"/>
           </categoryLinks>
           <rules>
-            <rule name="CRT (Stun)" id="6548-2600-fd04-40e5" hidden="false">
+            <rule name="CRT (Stunned)" id="6548-2600-fd04-40e5" hidden="false">
               <description>In case of a critical hit, this weapon causes the Stunned effect instead of the usual Stun damage.</description>
             </rule>
           </rules>

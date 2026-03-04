@@ -31,13 +31,14 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df91-6b94-c7a3-3a76-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="1587-17f4-50f9-08c8" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="4e6a-5702-6a0c-418e" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="4e6a-5702-6a0c-418e" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="5568-934e-1fe5-876e" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <constraints>
@@ -65,7 +66,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="10"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="2004-3206-fb3f-3484" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2004-3206-fb3f-3484" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="8828-c274-c3a1-389a" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -75,6 +76,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1ab-66b2-7336-e309-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="e780-6281-015a-04c2" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 01" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d3f5-4cca-135b-cd71">
@@ -117,7 +119,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="19"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="3b13-eb81-d707-7eaf" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="3b13-eb81-d707-7eaf" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="dd1a-6385-ce64-7955" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -127,6 +129,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4489-1c09-a686-3783-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="ddb2-8ce0-d512-adf0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 03" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9d4c-6eb1-d9d8-c9a8">
@@ -170,7 +173,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="17"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="267e-2488-82f8-e343" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="267e-2488-82f8-e343" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="1354-a050-bcd1-d988" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -180,6 +183,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a57-80fd-6b7b-42ec-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="62fe-850f-f0c5-cb34" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 02" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ac8d-3115-e863-982f">
@@ -223,7 +227,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="eb4c-c86d-ccb5-4ecc" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="eb4c-c86d-ccb5-4ecc" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="10c1-39cd-b204-c1bc" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -233,6 +237,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9853-06b3-69af-bfdf-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="cb50-a244-fb20-a2c5" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ac3-17f9-1ddf-f1fe">
@@ -276,7 +281,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="fcef-d46c-8f22-9f2d" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="fcef-d46c-8f22-9f2d" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="0104-4269-49b8-3f7f" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -292,6 +297,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6c7-0547-b447-48ba-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="a883-25e8-3894-341b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 05" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cec1-b9d8-b737-0d9e">
@@ -334,7 +340,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="48"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="85cb-abdc-33c3-2deb" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="85cb-abdc-33c3-2deb" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="3958-1c32-c946-fd29" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -344,6 +350,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee4d-50b3-1e4f-0405-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="9cc7-12a0-8ff8-7c0a" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Henchman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65bc-f746-4763-5d9b">
@@ -389,7 +396,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="25"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="0beb-87ed-0f9f-6974" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="0beb-87ed-0f9f-6974" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="87d8-736f-a0e4-2380" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -399,6 +406,7 @@
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e443-2f65-8f6a-3e18-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="b1a2-34e2-7f32-c612" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Turk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6496-246d-b5fd-d8fd">
@@ -441,7 +449,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="e1fa-33ff-39fc-82fc" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="e1fa-33ff-39fc-82fc" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="60a0-5f46-a7d3-9951" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -451,6 +459,7 @@
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3b3a-d809-99f7-97ce-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="48e5-f2c4-c908-9dcf" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Prisoner" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d676-cf60-ef9d-2d5e">
@@ -496,7 +505,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="2d0a-322b-04fc-e3e6" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2d0a-322b-04fc-e3e6" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="63ac-8282-b066-3024" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -506,6 +515,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93cf-f7fb-9790-fe4a-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="3c0b-1936-2020-ec88" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04211" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0215-55f0-a9dc-7dc4">
@@ -549,7 +559,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="23"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="6d3c-b4c4-63e9-ba28" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="6d3c-b4c4-63e9-ba28" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="0b11-3343-257b-81a4" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -559,6 +569,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f97a-623d-2a75-043c-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="f7f6-8bba-5d97-154b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 47905" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a6dc-727c-4c66-6145">
@@ -602,7 +613,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="0b6b-0911-7cf3-9d94" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="0b6b-0911-7cf3-9d94" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="0626-c873-1a90-7173" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <profiles>
@@ -641,6 +652,9 @@
             <infoLink name="Master Fighter" id="16cc-fab4-6dcc-ba9e" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
             <infoLink name="Let’s go! (1SC, passive)" id="eee1-698e-2986-33c0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="74c2-8276-c44c-58e1" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0475" hidden="false" id="9aaa-dad8-423b-083a">
           <costs>
@@ -648,7 +662,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="18"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="e074-9141-28bb-c464" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="e074-9141-28bb-c464" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="dc43-e8ce-90db-9b71" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -658,6 +672,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="559b-8c18-e489-04ba-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="42c7-c46f-74ee-57a0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0475" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="955b-9b49-5202-409f">
@@ -701,7 +716,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="34"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="9bc1-88f9-c057-5de0" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="9bc1-88f9-c057-5de0" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="d69d-fd4d-8f76-1c11" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -711,6 +726,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="608e-406c-6af7-dc90-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="2113-3270-b11d-dd13" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0476" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b4f1-415f-d2e7-abaf">
@@ -755,8 +771,8 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="ecb0-45ca-18f8-1776" primary="false" name="Rival (BB)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="da05-f76a-f4a4-c785" primary="true" name="Henchmen (Common)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="81d5-a0cc-fdde-3970" primary="false" name="Rival (The Brave and the Bold)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katar" hidden="false" id="7074-2b24-d8a0-cd03" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
@@ -765,6 +781,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de47-8a69-bafe-792f-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="fa28-ea23-1a8f-de2c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0474" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="e71e-1b91-6ee6-20fe">
@@ -809,7 +826,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="15"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="f537-6b61-db96-1f33" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="f537-6b61-db96-1f33" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="4eb7-d983-0b65-fa38" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -819,6 +836,7 @@
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0f9a-267a-5829-eb1d-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="7be5-e79c-fddb-a253" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0478" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eec2-7dcb-7501-1768">
@@ -862,7 +880,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="2f4b-876d-429f-c66e" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="2f4b-876d-429f-c66e" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="9ece-0585-bef6-dd2b" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <entryLinks>
@@ -878,6 +896,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91b4-6134-f211-efa8-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="6c38-e83d-e934-c515" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0477" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="11c9-fe28-e8a0-e3e4">
@@ -922,7 +941,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="10"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="8209-7d8c-7261-afaa" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="8209-7d8c-7261-afaa" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="8165-69cf-048d-8c18" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <profiles>
@@ -960,6 +979,9 @@
             <infoLink name="Delirium" id="1128-5d24-7986-d77f" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
             <infoLink name="Let’s go! (1SC, passive)" id="a91b-d0a1-9584-cf84" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="1142-8d36-6c6f-8f9b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Pavillion B Subject" hidden="false" id="6b82-d588-d4a8-76e7">
           <costs>
@@ -967,7 +989,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="13"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="3201-0828-698c-4b86" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="3201-0828-698c-4b86" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="acac-b29b-2931-eb6c" primary="true" name="Henchmen (Common)"/>
           </categoryLinks>
           <profiles>
@@ -1006,6 +1028,9 @@
             <infoLink name="Fast" id="7718-87b4-e7f7-bce4" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
             <infoLink name="Let’s go! (1SC, passive)" id="24fd-7e8e-63f8-d34c" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="101c-e39e-c5a5-db7b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="File No 08923" hidden="false" id="dea0-c055-64e3-4a71">
           <costs>
@@ -1013,8 +1038,8 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
           </costs>
           <categoryLinks>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="5836-29a7-f2d2-7e7b" primary="false" name="Rival (BB)"/>
             <categoryLink targetId="32bb-4b05-45c6-81a9" id="6716-df9f-36f1-2b5d" primary="true" name="Henchmen (Common)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="d6c8-bf30-67e3-449a" primary="false" name="Rival (The Brave and the Bold)"/>
           </categoryLinks>
           <profiles>
             <profile name="File No 08923" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cac2-a70b-c7e5-341c">
@@ -1052,6 +1077,9 @@
             <infoLink name="Delirium" id="7ded-cfb7-7918-1b10" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
             <infoLink name="Let’s go! (1SC, passive)" id="e7a6-2519-bf5b-7793" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="df4e-60b3-3a26-018e" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Goliath" hidden="false" id="cb1b-731a-0da3-7ea2">
           <costs>
@@ -1110,6 +1138,9 @@
             <infoLink name="Meet Goliath!" id="8616-b518-d984-a4bc" hidden="false" type="rule" targetId="6a15-b178-5bbe-3cfa"/>
             <infoLink name="Carry (1MC+2SC)" id="9521-6aa9-d1a1-f2ea" hidden="false" type="rule" targetId="56ca-3b22-52ca-b0d7"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="e56e-f4c3-a764-5a02" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Robin (Damian Wayne)" hidden="false" id="6314-544d-0fed-16ca">
           <costs>
@@ -1216,7 +1247,7 @@
     <entryLink import="true" name="Prisoner 04211" hidden="false" id="2b12-3106-6817-3930" type="selectionEntry" targetId="8aba-8226-8ef2-a960"/>
     <entryLink import="true" name="Prisoner 47905" hidden="false" id="e117-e04b-db08-be8e" type="selectionEntry" targetId="31c7-513b-7dc0-2813"/>
     <entryLink import="true" name="Prisoner 93432" hidden="false" id="3133-b698-bbca-6209" type="selectionEntry" targetId="492d-ef08-ff48-3b81"/>
-    <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="bd8a-6775-6150-c65a" type="selectionEntry" targetId="cb1b-731a-0da3-7ea2"/>
+    <entryLink import="true" name="Goliath" hidden="false" id="bd8a-6775-6150-c65a" type="selectionEntry" targetId="cb1b-731a-0da3-7ea2"/>
     <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="2e7c-1217-0297-db8b" type="selectionEntry" targetId="6314-544d-0fed-16ca"/>
   </entryLinks>
 </catalogue>

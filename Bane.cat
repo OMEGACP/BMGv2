@@ -357,6 +357,7 @@
             <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="297f-ceb9-4ef4-7362" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="4b9d-e654-e756-e1ab" id="ad43-fa02-cfa1-25a7" primary="false" name="Crew (Bane)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="0487-2565-9d38-c5f7" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="4e2d-e205-7be8-a8ca" id="cf7a-67d3-8897-73a2" primary="false" name="Bane Mercenary"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="5c40-32e8-b8a5-9079" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
@@ -444,6 +445,7 @@
             <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="c0cb-5f77-23dc-0117" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="4b9d-e654-e756-e1ab" id="b9f0-c24f-1ed1-831d" primary="false" name="Crew (Bane)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="efe2-3163-f92e-22e2" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="4e2d-e205-7be8-a8ca" id="a377-899f-7f64-ac87" primary="false" name="Bane Mercenary"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="f28b-d719-3e98-9683" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
@@ -1497,12 +1499,13 @@
             <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="f46d-cdd3-2f0d-d0ed" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="4b9d-e654-e756-e1ab" id="7e37-762e-dfe9-6003" primary="false" name="Crew (Bane)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="8360-be9e-4701-cbc0" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="4e2d-e205-7be8-a8ca" id="bfcf-3ead-b23a-227b" primary="false" name="Bane Mercenary"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="8500-1013-a0d9-5a66" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
             <infoLink name="Bulletproof Vest" id="d97c-413f-a11e-6fa5" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
             <infoLink name="Let’s go! (1SC, passive)" id="fce7-84fc-88c5-cf3f" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
-            <infoLink name="Mercenary" id="1ef4-cb71-4870-a9e3" hidden="false" type="rule" targetId="928b-aec0-9346-a40c"/>
+            <infoLink name="Mercenary" id="b6d3-75da-db7d-15a4" hidden="false" type="rule" targetId="928b-aec0-9346-a40c"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="T.N.T." hidden="false" id="9e23-79cb-1af6-7703">
@@ -1761,6 +1764,7 @@
             <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="d151-be0f-3cbd-3dcd" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="4b9d-e654-e756-e1ab" id="6d0d-832c-c0ad-9ee7" primary="false" name="Crew (Bane)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="c3c4-410e-3a40-3aef" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="4e2d-e205-7be8-a8ca" id="0acd-f5ce-15be-07e9" primary="false" name="Bane Mercenary"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="8d92-a79e-69d5-455d" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
@@ -1942,6 +1946,7 @@
             <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="8c22-2473-3f07-762d" primary="true" name="Henchmen (Faction-specific)"/>
             <categoryLink targetId="4b9d-e654-e756-e1ab" id="9922-0e49-89f4-d7f4" primary="false" name="Crew (Bane)"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="272d-7118-8633-f7f9" primary="false" name="Crew (League of Assassins)"/>
+            <categoryLink targetId="4e2d-e205-7be8-a8ca" id="c999-7323-e53a-4e33" primary="false" name="Bane Mercenary"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Veteran" id="6cc2-ea4d-580f-099f" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
