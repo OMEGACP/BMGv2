@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="f2da-4023-9d92-989a" name="League of Assassins" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="f2da-4023-9d92-989a" name="League of Assassins" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Bane" id="eb89-d0e9-0364-2ecb" targetId="bb2b-3a15-e80b-bca0" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Free Agents" id="d455-dc70-bdb5-0f25" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
@@ -165,7 +165,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee12-fe75-e0fe-c486-min-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="a193-edc5-4782-c820" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="a193-edc5-4782-c820" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8bc5-5207-a90c-a1c8" includeChildSelections="true" includeChildForces="true"/>
@@ -188,6 +188,7 @@
             <infoLink name="Large" id="b362-5175-d53b-3ed6" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
             <infoLink name="Martial Artist" id="1984-ee8e-97f2-d6b2" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Let’s go! (1SC, passive)" id="28d2-9f37-d8a8-bb22" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Charge (1MC+1SC)" id="1d0b-dd8f-6354-6b5f" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ichi (Ninja)" hidden="false" id="5334-323c-b22d-f93c">
@@ -211,7 +212,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e642-a79c-5026-7ac8-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b2c2-03d8-1ad1-e49f" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="b2c2-03d8-1ad1-e49f" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Ichi (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4980-f463-a986-efba">
@@ -259,7 +260,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ab1-956f-3d50-af98-min-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="e87c-0a60-2ee3-1812" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="e87c-0a60-2ee3-1812" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Hassassin 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65e1-0928-ffd7-9d04">
@@ -345,7 +346,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c9-8300-2d64-7b92-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="c4d1-67b4-c801-552c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="c4d1-67b4-c801-552c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2317-8616-8d99-344c" includeChildSelections="true" includeChildForces="true"/>
@@ -374,7 +375,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e33-225d-232c-90ac-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b4fc-430c-0e95-c3ef" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="b4fc-430c-0e95-c3ef" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Hassassin 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d277-9b77-7d52-174e">
@@ -434,7 +435,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e376-4e33-3e72-b060-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="1636-1ae3-5613-9419" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="1636-1ae3-5613-9419" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Hassassin 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="bc92-3a4f-1e7f-0db3">
@@ -493,7 +494,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="899a-74d6-3364-8e63-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="a99c-cd28-59c0-135b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="a99c-cd28-59c0-135b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Hassassin 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5751-0f86-6582-2238">
@@ -547,7 +548,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f05-0069-2714-7c8f-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="c081-e519-0ea5-a262" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="c081-e519-0ea5-a262" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Acolyte 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5c08-d6be-e196-a775">
@@ -607,7 +608,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e96a-92e6-73dd-faf1"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="f015-181b-f453-6a38" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="f015-181b-f453-6a38" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Acolyte 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eb07-27a0-781c-af1d">
@@ -667,7 +668,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e08-94bb-6aaf-f040-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="5978-a2c7-8a45-3630" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="5978-a2c7-8a45-3630" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Acolyte 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a72b-44bb-9422-2c27">
@@ -727,7 +728,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0bf-4081-41c3-bd1a-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b9d6-4ac0-3e8a-5bea" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="b9d6-4ac0-3e8a-5bea" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Acolyte 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ee95-bdca-1fad-1a2d">
@@ -789,7 +790,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Shuriken" hidden="false" id="bd8f-931f-ac0d-91bc" type="selectionEntry" targetId="e5f1-fafc-c082-6528"/>
-            <entryLink import="true" name="Equipment" hidden="false" id="664c-f76c-cd14-142b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="664c-f76c-cd14-142b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Lotus (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9e67-5738-888d-6f5e">
@@ -846,7 +847,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ca9-8d80-e8d5-2b75"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="68a5-3fdc-d5c2-3fe6" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="68a5-3fdc-d5c2-3fe6" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Ying (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="fd0d-de56-b8c7-7703">
@@ -864,7 +865,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Combo (Katana), Let&apos;s go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Stealth, Elite (Ninja), Martial Artist, Combo (Katana), Hardened (Errata), Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -884,6 +885,7 @@
             <infoLink name="Martial Artist" id="b4b9-e498-968e-66c8" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Combo (Weapon)" id="e606-50ed-36ae-fc5e" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
             <infoLink name="Let’s go! (1SC, passive)" id="ba48-378e-3d54-e9ba" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Hardened" id="37c5-a8db-5214-5142" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Yang (Ninja)" hidden="false" id="27a2-c48c-8c0d-7499">
@@ -901,7 +903,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28f7-4aa6-9640-d33a"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="fa3c-4b07-1656-0507" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="fa3c-4b07-1656-0507" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Yang (Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="30cc-c989-33f6-3b25">
@@ -950,7 +952,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd3f-3f2f-4a74-a0b5"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="556e-a300-d32c-7c37" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="556e-a300-d32c-7c37" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Agent 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5d7e-368d-8a20-ffb2">
@@ -1004,7 +1006,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Ice Axe" hidden="false" id="2f9a-401c-06a6-d612" type="selectionEntry" targetId="2af6-1438-c06d-6378"/>
-            <entryLink import="true" name="Equipment" hidden="false" id="bfe5-e577-65fb-329d" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="bfe5-e577-65fb-329d" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Agent 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1d01-ca79-2f9c-cca7">
@@ -1057,7 +1059,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dbe-02d9-8c03-cbae"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="0b22-3ed1-18f1-b150" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="0b22-3ed1-18f1-b150" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="League Agent 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0660-cdbd-8d9e-9123">
@@ -1143,7 +1145,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1687-79c4-9f4e-a7d4"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="dcc6-c4c5-9447-78fd" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="dcc6-c4c5-9447-78fd" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4a97-0902-d1bd-666e" includeChildSelections="true" includeChildForces="true"/>
@@ -1184,7 +1186,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fed3-a579-ec8a-0868"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="8deb-66bd-3556-ad5c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="8deb-66bd-3556-ad5c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <profiles>
             <profile name="Shadow(Ninja)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0a42-dfd0-b282-2c79">
@@ -1257,7 +1259,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd40-63ef-b08d-be31"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="d920-ef6b-e64a-5bca" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="d920-ef6b-e64a-5bca" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cfcf-3caa-b0c5-24f0" includeChildSelections="true" includeChildForces="true"/>
@@ -1281,6 +1283,7 @@
             <infoLink name="Martial Artist" id="9fcd-910b-aad8-3405" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
             <infoLink name="Lieutenant (Model)" id="6b8b-0e12-41ac-3858" hidden="false" type="rule" targetId="35b6-a3b3-21f8-000f"/>
             <infoLink name="Let’s go! (1SC, passive)" id="8229-42c6-0375-448e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Charge (1MC+1SC)" id="ee0e-c9f2-a6b0-0df2" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1702,6 +1705,7 @@
             <categoryLink name="Sidekick" hidden="false" id="439e-db42-3233-3a12" targetId="6c53-80aa-1e01-a485" primary="true"/>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="3a3d-6c8e-30c0-c77f" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="3873-74cd-33c8-43df" targetId="3c91-e67e-b870-d7f8" primary="false"/>
+            <categoryLink targetId="e8b0-8c25-3753-4913" id="e4a0-6885-6da3-ebd1" primary="false" name="Millionaire (adds $400)"/>
           </categoryLinks>
           <profiles>
             <profile name="Miranda Tate" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="adcc-08ce-72c0-c5ef">
@@ -1783,7 +1787,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="71"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Katana" hidden="false" id="f4df-cdf0-04f2-5a32" type="selectionEntry" targetId="2a5e-127e-5ce4-1cef"/>
+            <entryLink import="true" name="Katana" hidden="false" id="f4df-cdf0-04f2-5a32" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9444-a4ca-a80d-ffd4" includeChildSelections="true" includeChildForces="true"/>
@@ -1982,8 +1986,8 @@
           <profiles>
             <profile name="The Heretic" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="777d-0010-f927-6f3a">
               <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Damian Wayne Clone</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Heretic</characteristic>
               </characteristics>
             </profile>
             <profile name="The Heretic" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1526-c173-6e05-8b86">
@@ -2023,7 +2027,16 @@
             <infoLink name="Reinforced Gloves" id="9e8c-25fd-2c7d-1d0c" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Unstoppable (1SC)" id="5363-e3f8-1424-088f" hidden="false" type="rule" targetId="94fd-8660-e5c3-c3d7"/>
             <infoLink name="Sidekick - Let&apos;s go! Reroll" id="c74f-9a98-ad55-cbd4" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Charge (1MC+1SC)" id="8979-48a3-f1ad-3c39" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Great Sword" hidden="false" id="5efd-fcb7-dde7-d6bb" type="selectionEntry" targetId="70da-10dd-4495-ea9a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26f1-482a-a148-0e90"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8806-22e7-7427-590b"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lady Shiva" hidden="false" id="2abc-7ed1-4799-45f4">
           <categoryLinks>
@@ -2306,23 +2319,6 @@
             <categoryLink targetId="e5df-fb90-85ea-a151" id="31a8-037c-d659-9fff" primary="false" name="Ranged Weapon"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Katana" hidden="false" id="2a5e-127e-5ce4-1cef">
-          <profiles>
-            <profile name="Katana" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="7daf-db43-33ac-b55a">
-              <characteristics>
-                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Handy" id="22ff-a7f8-b3b8-e288" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
-            <infoLink name="Sharp" id="25e8-4ef8-f3dd-769c" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink targetId="f863-9de5-8630-bf4a" id="d057-ac88-58df-a136" primary="false" name="CC Weapon"/>
-          </categoryLinks>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Poisoned Scimitar" hidden="false" id="f585-5fef-2da4-67d9">
           <profiles>
             <profile name="Poisoned Scimitar" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="35b9-9e2d-de8b-a0fc">
@@ -2400,15 +2396,14 @@
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
                 <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
-                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Caustic, Poison</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Paralyze (Errata)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Mechanical" id="1fd2-4619-7863-dfdc" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
             <infoLink name="Aim" id="06fc-73ba-6d7b-d319" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
-            <infoLink name="Caustic" id="1d52-c417-8521-8f4f" hidden="false" type="rule" targetId="6f40-ce3d-f6c7-5376"/>
-            <infoLink name="Poison" id="31ec-c27b-68f2-51ef" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Paralyze" id="31ec-c27b-68f2-51ef" hidden="false" type="rule" targetId="003b-709b-96cc-058e"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink targetId="e5df-fb90-85ea-a151" id="e06f-ebf6-fd79-a852" primary="false" name="Ranged Weapon"/>
@@ -2452,25 +2447,6 @@
           </infoLinks>
           <categoryLinks>
             <categoryLink targetId="f863-9de5-8630-bf4a" id="e66a-7074-b8dc-37cb" primary="false" name="CC Weapon"/>
-          </categoryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Bow (Standard Arrow)" hidden="false" id="3515-411e-f490-44f2">
-          <profiles>
-            <profile name="Bow (Standard Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0992-65e8-ac47-dc0d">
-              <characteristics>
-                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
-                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
-                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Mechanical</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Aim" id="63af-7670-ae96-f16b" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
-            <infoLink name="Mechanical" id="0479-f1aa-f2bc-d395" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink targetId="e5df-fb90-85ea-a151" id="0ea5-f15f-a80d-e7eb" primary="false" name="Ranged Weapon"/>
           </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Carbon Arrow" hidden="false" id="e146-724d-2254-2276">
@@ -2598,6 +2574,23 @@
             <categoryLink targetId="f863-9de5-8630-bf4a" id="1400-ff6a-f696-9440" primary="false" name="CC Weapon"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Great Sword" hidden="false" id="70da-10dd-4495-ea9a">
+          <profiles>
+            <profile name="Great Sword" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="9ba2-d3bd-98ae-720d">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="2ae5-594b-63ed-02da" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Reach (X)" id="4603-d196-a721-6e04" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="f22f-e59d-5fee-611e" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink targetId="e5f1-fafc-c082-6528" id="77a7-b48b-cbf4-6b7e" type="selectionEntry" name="Shuriken" hidden="false"/>
@@ -2643,358 +2636,6 @@
     <entryLink import="true" name="The Wizard" hidden="false" id="2e83-4598-325b-93a7" type="selectionEntry" targetId="534d-29b5-32c8-56ad"/>
     <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="8947-2b2b-c07f-83c9" type="selectionEntry" targetId="5c09-0c37-4685-df2b"/>
   </entryLinks>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Equipment" id="8e6e-4dad-b76c-3399" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Loyalty Tattoo" hidden="false" id="a25a-d201-aeb8-8828">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a4-25dc-a06e-2bdd" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c24-eff3-c66c-ba60"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Bodyguard" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Bodyguard (1SC, Passive)" id="76d6-1904-105f-3d16" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Climbing Claws" hidden="false" id="c088-973e-b413-7c58">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="28b3-bff1-9de2-c22d" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7a6-b4d2-70c0-9736"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Climbing Claws" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Climbing Claws" id="3479-539b-57ed-c85b" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Trained in the Shadows" hidden="false" id="3de8-ddb4-fb85-023a">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="80da-425a-82a4-4021" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea71-b5c5-0ac1-4654"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Hidden" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Hidden" id="2ed2-1d1d-fcf0-0a87" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Gas Mask" hidden="false" id="7da6-0c49-57cf-075c">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e10-b682-6f58-8964" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05a5-d952-5253-38fa"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Gas Mask" id="eda4-b3d4-2fec-9118" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="9d31-8348-f8d4-c88b">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b5a-a86c-c54c-b9db" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d53-18f1-f5ea-afe5"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="a874-39d6-713d-bb74" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Combat Bracers" hidden="false" id="5484-5784-ed22-0137">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="38c7-dfeb-3c49-162e" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ccf-ab2c-3896-cd69"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value=", Defensive" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Defensive" id="2f8a-be2c-c924-4f0e" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Venom Dose" hidden="false" id="22ab-288f-94c6-e5d7">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="344d-87ed-3593-a338" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8436-9999-f092-cb41"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Vernom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Venom Dose (Doses)" id="242c-188e-8b03-3830" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Precise Orders" hidden="false" id="0ec8-fc8d-f1c3-a3ab">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ce1-cd62-aa87-6796" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b526-5d3f-de6c-c64b"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Chain of Command" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Chain of Command" id="7ddc-5049-16e8-7042" hidden="false" type="rule" targetId="5a94-0b2f-3838-4b37"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ancient Weapon" hidden="false" id="28e3-ff27-428d-ba5d">
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="1"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="84d9-4848-1b7e-85e5" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa27-d0cc-2bbf-b9ad"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="adec-8d6e-1788-2ae0" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value=", Bleed (1)" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Bleed (X)" id="9b1b-2747-32fb-f6e6" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Shadow Training" hidden="false" id="ba32-961d-20cc-8e97">
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="151e-d7e3-5d2c-f97b" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6fb-9ca4-bbc9-4f79"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3c91-e67e-b870-d7f8" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Undercover" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Undercover" id="4ef2-25a6-3e7d-0b3f" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Bow Training" hidden="false" id="9858-5e5b-7b05-91b3">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="46ca-b467-15fe-6ec3" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c61e-cca0-e720-1fa5"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Shooter" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Shooter" id="a60d-473e-9fef-074f" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Traditional Way - Katana" hidden="false" id="4e88-abfb-ed12-f69c">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="254d-124d-29c8-162d" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="985e-eacc-30ed-3336"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
-          </costs>
-          <entryLinks>
-            <entryLink import="true" name="Katana" hidden="false" id="2ad0-92fa-95eb-a244" type="selectionEntry" targetId="2a5e-127e-5ce4-1cef">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b4-f2ec-9abd-cac2-max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Traditional Way - Bow" hidden="false" id="6c9f-9a7c-dbe2-fc93">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f164-2220-4c2a-9f68" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c95-8576-52d6-23ed"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <entryLinks>
-            <entryLink import="true" name="Bow (Standard Arrow)" hidden="false" id="9a90-2407-bce2-6e9f" type="selectionEntry" targetId="3515-411e-f490-44f2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec7b-b1c2-c25f-80bc-max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Unarmed Combat Training" hidden="false" id="49db-ed3c-99d5-5038">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="371d-ca91-d381-8f7b" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e121-48e7-3174-0750"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a684-0ba2-18de-95c4" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Close Combat Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Close Combat Master" id="77c2-0322-e1fc-c331" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Poison Training" hidden="false" id="fd1a-36c2-dd4e-5a7d">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bdb1-4ad8-e0ce-a27f" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9df6-8521-f0ce-735c"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0e24-78b4-3f88-2332" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Poison Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Poison Master" id="574b-fb5c-92b4-1995" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Magazine" hidden="false" id="c617-3925-e95d-5154">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b4e6-152d-50ca-dd5e" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177c-4633-db36-5342"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <rules>
-            <rule name="Extra Magazine" id="2365-fc49-cda4-88be" hidden="false">
-              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Loyalty Tattoo" id="2ff2-171f-928e-e47a" hidden="false">
       <description>Model gains the Bodyguard rule.</description>

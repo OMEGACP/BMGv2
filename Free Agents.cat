@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="cede-9489-7ead-361e" name="Free Agents" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="cede-9489-7ead-361e" name="Free Agents" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="4912-0b30-dcf9-efa9">
       <selectionEntries>
@@ -29,7 +29,7 @@
               <categoryLinks>
                 <categoryLink name="Free Agent" hidden="false" id="32f5-b8ab-3d9a-4114" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
                 <categoryLink name="Crew (Unknown)" hidden="false" id="1ad3-c8ad-cf1d-4a3f" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
-                <categoryLink name="Rival (BB)" hidden="false" id="ab3f-56d3-d9c3-b7a3" targetId="33d4-af20-d41a-829e" primary="false"/>
+                <categoryLink name="Rival (The Brave and the Bold)" hidden="false" id="ab3f-56d3-d9c3-b7a3" targetId="33d4-af20-d41a-829e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -39,7 +39,7 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ec8b-27ec-bf58-85ce" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="unit" import="true" name="Sewer Swarm" hidden="false" id="80e2-cc2d-4042-dd88" collective="true">
+                <selectionEntry type="unit" import="true" name="Army of Rats" hidden="false" id="80e2-cc2d-4042-dd88" collective="true">
                   <selectionEntries>
                     <selectionEntry type="model" import="true" name="Sewer Swarm" hidden="true" id="86ee-695e-fccc-4f0d" defaultAmount="3" collective="true">
                       <profiles>
@@ -88,12 +88,18 @@
                         <infoLink name="Street Guy" id="d921-c291-fd60-cb5c" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
                         <infoLink name="Swarm" id="68ac-1bcb-a6b1-0332" hidden="false" type="rule" targetId="058e-c6fc-78bc-de54"/>
                       </infoLinks>
+                      <categoryLinks>
+                        <categoryLink targetId="ea61-4014-081c-4b64" id="aac5-59cb-4033-bb9a" primary="true" name="Special Unit"/>
+                      </categoryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min-min"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b34-4396-4d14-525a-min-max"/>
                   </constraints>
+                  <categoryLinks>
+                    <categoryLink targetId="ea61-4014-081c-4b64" id="038e-d366-d892-95e3" primary="true" name="Special Unit"/>
+                  </categoryLinks>
                 </selectionEntry>
               </selectionEntries>
               <modifiers>
@@ -150,7 +156,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="9be6-5777-9854-eed9" primary="true" name="Free Agent"/>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="20a0-4298-b2d7-68df" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="a0f5-a6a2-862e-8b87" primary="false" name="Rival (The Brave and the Bold)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -198,8 +204,8 @@
           </profiles>
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="6938-8dbe-07da-f0e1" primary="true" name="Free Agent"/>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="f1a6-cf11-bc8d-f8d7" primary="false" name="Rival (BB)"/>
             <categoryLink targetId="6d11-48fc-2bdc-0044" id="3d58-4e39-26f3-30ff" primary="false" name="Rival (Joker)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="eeaa-a10e-bba1-a3b9" primary="false" name="Rival (The Brave and the Bold)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="500"/>
@@ -271,7 +277,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="5b5c-1e53-38d5-7d42" primary="true" name="Free Agent"/>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="b875-2571-e1eb-a7f1" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="b875-2571-e1eb-a7f1" primary="false" name="Rival (The Brave and the Bold)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -330,7 +336,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="81b2-a34d-7d2a-1328" primary="true" name="Free Agent"/>
-            <categoryLink targetId="33d4-af20-d41a-829e" id="fdb4-45a4-66df-f1bf" primary="false" name="Rival (BB)"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="fdb4-45a4-66df-f1bf" primary="false" name="Rival (The Brave and the Bold)"/>
             <categoryLink targetId="6d11-48fc-2bdc-0044" id="9573-12c3-59cc-40a2" primary="false" name="Rival (Joker)"/>
           </categoryLinks>
           <costs>
@@ -402,7 +408,7 @@
               <categoryLinks>
                 <categoryLink name="Free Agent" hidden="false" id="d032-7dab-f0dd-3acd" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
                 <categoryLink name="Crew (Unknown)" hidden="false" id="5dd0-5d8f-9a36-0c52" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
-                <categoryLink name="Rival (BB)" hidden="false" id="1454-41d1-dd4a-db5d" targetId="33d4-af20-d41a-829e" primary="false"/>
+                <categoryLink name="Rival (The Brave and the Bold)" hidden="false" id="1454-41d1-dd4a-db5d" targetId="33d4-af20-d41a-829e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -495,6 +501,129 @@
           <categoryLinks>
             <categoryLink targetId="79d4-9b8b-7f29-cba5" id="45be-ab8b-6ee0-e9d0" primary="true" name="Free Agent"/>
           </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ratcatcher_Otis-Flannegan" hidden="false" id="f9e6-6599-2119-e5ae">
+          <profiles>
+            <profile name="Ratcatcher" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="20a7-4cff-9070-8661">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Otis Flannegan</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ratcatcher</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ratcatcher" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="68c3-5c89-ca5e-b180">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Lord of the Sewers, Poison Immunity, Poison Master, Rat Tamer, Sewer Worker, Sewer Swarm (3), Special Volume S, Stealth</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="9e1a-41f9-6b29-007f" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink name="Crew (Unknown)" hidden="false" id="af24-0b22-0c53-fae1" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
+            <categoryLink name="Rival (The Brave and the Bold)" hidden="false" id="97e4-f972-2b4b-a4f7" targetId="33d4-af20-d41a-829e" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="84e1-5896-3875-7cda" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Army of Rats" hidden="false" id="80d8-5e57-4ce1-a9ed" collective="true">
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Sewer Swarm" hidden="true" id="7176-1448-0fbd-253b" defaultAmount="3" collective="true">
+                  <profiles>
+                    <profile name="Sewer Swarm" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d5eb-9766-4bfd-aabe">
+                      <characteristics>
+                        <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                        <characteristic name="Alias" typeId="324e-541d-263d-736b">Sewer Swarm</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Sewer Swarm" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e445-b543-d9f2-e4ab">
+                      <characteristics>
+                        <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">3</characteristic>
+                        <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                        <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                        <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">1</characteristic>
+                        <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                        <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                        <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">2</characteristic>
+                        <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Amphibious, Poison Immunity, Stealth, Street Guy, Swarm</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="f5fe-f18c-26aa-300a"/>
+                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="48ce-c71e-4ec1-d871"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="f9e6-6599-2119-e5ae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <entryLinks>
+                    <entryLink import="true" name="Poisoned Touch" hidden="false" id="50cf-93f2-54b1-18e0" type="selectionEntry" targetId="0f70-2a3d-4cfe-97d1">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4f9-da80-1734-84a7"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d97-912b-4c1d-bd25"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <infoLinks>
+                    <infoLink name="Amphibious" id="7165-6fa4-87ed-fee8" hidden="false" type="rule" targetId="d584-a099-7bff-2550"/>
+                    <infoLink name="Poison Immunity" id="ed64-e369-52b2-690a" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+                    <infoLink name="Stealth" id="da14-eba9-0f07-4666" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+                    <infoLink name="Street Guy" id="d5f5-2b53-7437-7e54" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+                    <infoLink name="Swarm" id="e564-1fd1-442a-4ce3" hidden="false" type="rule" targetId="058e-c6fc-78bc-de54"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink name="Special Unit" hidden="false" id="cf4f-dd3a-b934-f968" targetId="ea61-4014-081c-4b64" primary="true"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="051f-2cff-688f-9af9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c73-0345-6007-c670"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Special Unit" hidden="false" id="177d-2069-27f6-1c7e" targetId="ea61-4014-081c-4b64" primary="true"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Baton" hidden="false" id="2d8b-b690-48aa-8b13" type="selectionEntry" targetId="a030-59dc-7c22-0094">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e8e-68f0-9f17-3744"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c856-dd8c-c9fc-9156"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Lord of the Sewers" id="480f-e3e0-287b-fe62" hidden="false" type="rule" targetId="0e63-0def-1f06-452e"/>
+            <infoLink name="Poison Immunity" id="40fc-f3c7-91d0-62ac" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Poison Master" id="5237-844f-e8c1-d301" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+            <infoLink name="Rat Tamer" id="9b31-fd76-c874-1911" hidden="false" type="rule" targetId="0a07-25ee-37c4-8e5d"/>
+            <infoLink name="Sewer Worker" id="11ad-95df-422e-c1d8" hidden="false" type="rule" targetId="5c6b-36f8-aa7a-56e8"/>
+            <infoLink name="Sewer Swarm (3)" id="f41d-01be-601b-4706" hidden="false" type="rule" targetId="a9b0-f482-54d2-88b1"/>
+            <infoLink name="Special Volume S" id="1937-572d-2da4-9a24" hidden="false" type="rule" targetId="4daf-3b81-1f67-6394"/>
+            <infoLink name="Stealth" id="09a0-6a95-1ab9-7464" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -614,5 +743,6 @@
     <entryLink import="true" name="King Shark" hidden="false" id="d7ba-da73-17c1-56a1" type="selectionEntry" targetId="76c8-862b-eecc-46e7"/>
     <entryLink import="true" name="Professor Pyg" hidden="false" id="c8a6-74c2-0be6-baef" type="selectionEntry" targetId="2cdf-f9d6-80fe-e00e"/>
     <entryLink import="true" name="The Batman Who Laughs" hidden="false" id="2c0e-2754-5fec-6846" type="selectionEntry" targetId="be85-82a6-05c9-8671"/>
+    <entryLink import="true" name="Ratcatcher_Otis-Flannegan" hidden="false" id="0045-a560-f8f4-83c6" type="selectionEntry" targetId="f9e6-6599-2119-e5ae"/>
   </entryLinks>
 </catalogue>
