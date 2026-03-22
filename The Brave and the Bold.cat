@@ -924,7 +924,7 @@
           </categoryLinks>
           <infoLinks>
             <infoLink name="Sturdy" id="0acd-2fb1-e6e2-98d2" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
-            <infoLink name="Agent of Order" id="0f60-734f-857f-69da" hidden="false" type="rule" targetId="53d9-4071-9499-fb93"/>
+            <infoLink name="Agent of Chaos" id="0f60-734f-857f-69da" hidden="false" type="rule" targetId="53d9-4071-9499-fb93"/>
             <infoLink name="Tension" id="099a-b81b-abcc-4c86" hidden="false" type="rule" targetId="e4bc-8c3f-e32f-52e5"/>
             <infoLink name="Teamwork X (Model)" id="2476-9bb0-efb6-48b5" hidden="false" type="rule" targetId="eef1-152d-cd96-c343"/>
             <infoLink name="Hardened" id="3421-a92b-8a34-f43c" hidden="false" type="rule" targetId="0610-907f-ed3e-df46"/>
@@ -1396,15 +1396,15 @@
             <infoLink name="Coordination (v3)" id="735f-1317-129b-f395" hidden="false" type="rule" targetId="b672-4d6d-9451-3314"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Alfred Pennyworth (Dark Knight Rises)" hidden="false" id="4687-f070-d142-ccf5">
+        <selectionEntry type="model" import="true" name="Alfred Pennyworth (DKR)" hidden="false" id="4687-f070-d142-ccf5">
           <profiles>
-            <profile name="Alfred Pennyworth (Dark Knight Rises)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ea43-73a2-e37b-e159">
+            <profile name="Alfred Pennyworth (DKR)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ea43-73a2-e37b-e159">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Alfred Pennyworth</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Alfred Pennyworth (Dark Knight Rises)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Alfred Pennyworth (DKR)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Alfred Pennyworth (Dark Knight Rises)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="400e-26ea-de2c-9daa">
+            <profile name="Alfred Pennyworth (DKR)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="400e-26ea-de2c-9daa" noindex="false">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
@@ -1991,7 +1991,7 @@
           <profiles>
             <profile name="Commissioner Gordon (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="00f8-bcec-40c9-0bb7">
               <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">James W. Gordon</characteristic>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">James W Gordon</characteristic>
                 <characteristic name="Alias" typeId="324e-541d-263d-736b">Commissioner Gordon (Legacy)</characteristic>
               </characteristics>
             </profile>
@@ -3216,21 +3216,6 @@
             <infoLink name="Medium Range" id="1653-1075-abc6-9c53" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tanto" hidden="false" id="1176-e8eb-2ae7-13e4">
-          <profiles>
-            <profile name="Tanto" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="00cf-6bdb-5e05-0305">
-              <characteristics>
-                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Defensive, Sharp, Bleed (2)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Defensive" id="835e-c3ea-6c9b-a87b" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
-            <infoLink name="Sharp" id="306b-1c05-7516-b5c9" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-            <infoLink name="Bleed (X)" id="6ecc-e25f-86c3-40ce" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="BB Gun" hidden="false" id="5995-0644-bf37-779f">
           <profiles>
             <profile name="BB Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="85b2-1f27-68c0-672b">
@@ -3749,7 +3734,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
@@ -4848,7 +4833,7 @@ Immunity to CRT.</description>
     <entryLink targetId="b0e0-7164-a9ee-3de8" id="7abc-d2d4-89c4-3c88" type="selectionEntry" name="Batman (Modern Age)" hidden="false"/>
     <entryLink targetId="796a-f9c6-b690-e481" id="683b-1d30-d879-0acf" type="selectionEntry" name="Bat-Mite" hidden="false"/>
     <entryLink targetId="91ab-badd-2322-13e0" id="5f29-1713-834c-a1e3" type="selectionEntry" name="Commissioner Gordon (Legacy)" hidden="false"/>
-    <entryLink targetId="3f0b-f9ed-a247-8dc0" id="a7a7-87b0-dc3b-d40c" type="selectionEntry" name="Batgirl (Barbara Gordon)" hidden="false"/>
+    <entryLink targetId="3f0b-f9ed-a247-8dc0" id="a7a7-87b0-dc3b-d40c" type="selectionEntry" name="Batgirl (Rebirth)" hidden="false"/>
     <entryLink targetId="ee63-f889-d474-bcda" id="a61c-16f9-b14b-7dc5" type="selectionEntry" name="Black Canary" hidden="false"/>
     <entryLink targetId="cb5a-d3a0-3993-1922" id="a10b-502b-89a9-d79c" type="selectionEntry" name="Lieutenant Gordon (Year One)" hidden="false"/>
     <entryLink targetId="4048-ad38-d841-d153" id="54a9-b121-cd3c-1e47" type="selectionEntry" name="John Constantine" hidden="false"/>
@@ -4887,5 +4872,6 @@ Immunity to CRT.</description>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Police Forces" id="1415-049c-7374-559f" targetId="8028-03db-19d4-984b" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Models" id="7bf6-45cd-07fd-8b28" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -2327,19 +2327,19 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="f149-017b-9107-c1d1">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Bane (Comic)" hidden="false" id="94f3-cca9-cb1c-66ff">
+        <selectionEntry type="model" import="true" name="Bane (Arkham Origins)" hidden="false" id="94f3-cca9-cb1c-66ff">
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="93"/>
           </costs>
           <profiles>
-            <profile name="Bane (Comic)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d856-919c-43c1-6547">
+            <profile name="Bane (Arkham Origins)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d856-919c-43c1-6547">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unkown</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bane (Comic)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bane (Arkham Origins)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Bane (Comic)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1dfc-a457-5b73-b44d">
+            <profile name="Bane (Arkham Origins)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1dfc-a457-5b73-b44d">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
@@ -2348,7 +2348,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">True Love (Talia), Strategist, Kill them!, Desensitized, Combo (Unarmed), Reinforced Gloves, Runaway, Born in the Darkness, Close Combat Master</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Inspire, Large, Lethal Blow, Master Fighter, Reinforced Gloves, Scheming (2), Sturdy, Venom Dose (2), Venom Enrage</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2371,6 +2371,7 @@
             <infoLink name="Sturdy" id="8d8d-7e4e-5c98-4c28" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
             <infoLink name="Inspire (1SC)" id="50f6-98a3-c413-77fc" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
             <infoLink name="Charge (1MC+1SC)" id="f0a6-7931-b22d-71aa" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
+            <infoLink name="Venom Enrage" id="e148-94f8-589f-9f89" hidden="false" type="rule" targetId="1bb9-2e34-9b58-8820"/>
           </infoLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2673,6 +2674,61 @@
                   </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bane (Arkham City)" hidden="false" id="c823-f365-cb64-477e">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="150"/>
+          </costs>
+          <profiles>
+            <profile name="Bane (Arkham City)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3584-fe64-706f-aa11">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unkown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bane (Arkham City)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bane (Arkham City)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ad25-466f-ad40-2039">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">6</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">10</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Affinity (Batman), Desensitized, Inspire, Large, Master Fighter, Primary Target (Titan), Reinforced Gloves, Scheming (1), Titan Addict, Titan Dose (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="b832-20df-b652-7904" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink name="Crew (Bane)" hidden="false" id="f592-b819-5997-ee31" targetId="4b9d-e654-e756-e1ab" primary="false"/>
+            <categoryLink name="Bane Mercenary Boss" hidden="false" id="ebe4-d186-9d42-2431" targetId="5b12-a50d-13bd-fb43" primary="false"/>
+            <categoryLink targetId="0daf-c319-56ab-9164" id="924f-1e21-b8ad-d9d5" primary="false" name="Equipment (Bane: Bane)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="25e8-cc98-c1ae-805c" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Titan Addict" id="e206-2816-b03d-47b6" hidden="false" type="rule" targetId="68bb-fb1d-e04c-984a"/>
+            <infoLink name="Scheming (X)" id="7fbc-ce0f-1264-c525" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Master Fighter" id="fbda-93db-8228-be84" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Titan Dose (Doses)" id="0955-e34f-5b32-a9e1" hidden="false" type="rule" targetId="2af6-a9e7-4235-446d"/>
+            <infoLink name="Reinforced Gloves" id="2594-84ba-46cf-fe52" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Large" id="79eb-e1a4-6911-a65c" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Affinity (Model)" id="a139-65b2-74cd-cbfb" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Inspire (1SC)" id="04e1-e66d-e4d5-770e" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Charge (1MC+1SC)" id="1086-96f1-52cc-fdc7" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
+            <infoLink name="Primary Target (Type)" id="5a12-2edc-a06d-6a5f" hidden="false" type="rule" targetId="0ac2-e25d-8423-8b8c"/>
+            <infoLink name="Desensitized" id="c3a1-e42d-cd14-5413" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>

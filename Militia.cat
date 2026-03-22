@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="03e6-e7e3-c455-4787" name="Militia" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="2180-229c-2c53-042b">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Scarecrow (Arkham Knight)" hidden="false" id="2588-0414-6324-3359">
+          <profiles>
+            <profile name="Scarecrow (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="fca5-5d1e-6e92-6262">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Jonathan Crane</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Scarecrow (Arkham Knight)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Scarecrow (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="5d63-cc0b-0220-c649">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Discourage, Gas Mask, Inspire, Inspire Fear, Psycho, Psychologist, Scheming (1), The Fear Master, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="78c0-f98c-71de-0d2a" id="8653-be4e-1ff1-1242" primary="false" name="Crew (Militia)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="d31c-f51b-160f-8fd3" primary="true" name="Leader"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="80"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ee12-9fb2-ceb0-5061" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Syringe Fear Claw" hidden="false" id="14d4-6832-7697-884c" type="selectionEntry" targetId="7e92-1207-9a30-16f0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9ec-354c-d2d8-09ac"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c87-44bc-58a5-0c99"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Discourage (2SC)" id="7319-203b-eeda-8841" hidden="false" type="rule" targetId="11d4-8deb-39df-161d"/>
+            <infoLink name="Inspire Fear (2SC)" id="0a7b-c601-2296-e54f" hidden="false" type="rule" targetId="4ef7-967d-0ca0-b696"/>
+            <infoLink name="Scheming (X)" id="edf4-1f33-a069-6bc0" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="The Fear Master (1SC)" id="e48a-614c-496f-87a3" hidden="false" type="rule" targetId="7d67-ae9f-8b1a-514d"/>
+            <infoLink name="Gas Mask" id="b2b7-bb68-8918-e69b" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
+            <infoLink name="Undercover" id="33c2-81d7-7212-ca87" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Psycho" id="830a-0a15-3772-8836" hidden="false" type="rule" targetId="f031-4f92-537e-535a"/>
+            <infoLink name="Psychologist" id="7bad-ce51-cf67-5c61" hidden="false" type="rule" targetId="ca26-6996-bc1d-36af"/>
+            <infoLink name="Inspire (1SC)" id="9fee-43c4-ae1d-6423" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

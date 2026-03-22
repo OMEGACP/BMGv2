@@ -15,7 +15,7 @@
           <profiles>
             <profile name="Commissioner Loeb" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="73f7-b443-37b0-4ddd">
               <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Gillian B. Loeb</characteristic>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Gillian B Loeb</characteristic>
                 <characteristic name="Alias" typeId="324e-541d-263d-736b">Commissioner Loeb</characteristic>
               </characteristics>
             </profile>
@@ -484,7 +484,7 @@
           <profiles>
             <profile name="Quick Response Team 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9d7a-5822-e3f1-1a26">
               <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">L. Lawrence</characteristic>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">L Lawrence</characteristic>
                 <characteristic name="Alias" typeId="324e-541d-263d-736b">Quick Response Team 1</characteristic>
               </characteristics>
             </profile>
@@ -702,7 +702,7 @@
             </modifier>
           </modifiers>
           <categoryLinks>
-            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="c34f-8ea4-b186-62bb" targetId="cf01-1b3c-22d7-8d1b" primary="false"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="7050-b141-8aea-131b" primary="false" name="Crew (The Brave and the Bold)"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Detective" id="e5ce-21d5-6880-21f7" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
@@ -1564,7 +1564,7 @@
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
                 <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Brutal, Bulletproof Vest, Elite (SWAT), Cop, Let&apos;s go!</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Brutal, Bulletproof Vest, Elite (SWAT), Lethal Blow, Cop, Let&apos;s go!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1622,6 +1622,7 @@
             <infoLink name="Elite (Type)" id="552c-d957-1a0f-37c4" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
             <infoLink name="Brutal" id="45b2-a2e6-aef5-4dbe" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
             <infoLink name="Cop" id="caaf-edda-743d-8697" hidden="false" type="rule" targetId="19bd-d9e6-cf79-308f"/>
+            <infoLink name="Lethal Blow (1SC)" id="4be8-6e88-38b7-3ae1" hidden="false" type="rule" targetId="c0ad-0137-69db-b426"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Detective Flass (Year One)" hidden="false" id="5a62-69dc-c089-fbcc">

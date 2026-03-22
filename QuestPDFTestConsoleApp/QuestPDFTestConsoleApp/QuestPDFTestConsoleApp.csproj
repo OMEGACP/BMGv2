@@ -1,0 +1,163 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Parse\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Media\Background.png" />
+    <None Remove="Media\Damage_0b1s.png" />
+    <None Remove="Media\Damage_0b2s.png" />
+    <None Remove="Media\Damage_0b3s.png" />
+    <None Remove="Media\Damage_1b0s.png" />
+    <None Remove="Media\Damage_1b1s.png" />
+    <None Remove="Media\Damage_1b2s.png" />
+    <None Remove="Media\Damage_2b0s.png" />
+    <None Remove="Media\Damage_2b1s.png" />
+    <None Remove="Media\Damage_3b0s.png" />
+    <None Remove="Media\Damage_4b0s.png" />
+    <None Remove="Media\Damage_5b0s.png" />
+    <None Remove="Media\FreeAgent.svg" />
+    <None Remove="Media\Hard Grunge.ttf" />
+    <None Remove="Media\Henchman.svg" />
+    <None Remove="Media\Leader.svg" />
+    <None Remove="Media\Playing Cards Background.plain.jpg" />
+    <None Remove="Media\Playing Cards Background.plain.svg" />
+    <None Remove="Media\portrait_Robin_DamianWayne.jpg" />
+    <None Remove="Media\portrait_Robin_DamianWayne.png" />
+    <None Remove="Media\Portrait_Unknown.png" />
+    <None Remove="Media\Ring_large.png" />
+    <None Remove="Media\Sidekick.svg" />
+    <None Remove="TestData\Bane.cat" />
+    <None Remove="TestData\BMGv2.gst" />
+    <None Remove="TestData\Free Agents.cat" />
+    <None Remove="TestData\Generic Henchmen.cat" />
+    <None Remove="TestData\Joker.cat" />
+    <None Remove="TestData\LeagueOfAssassins.cat" />
+    <None Remove="TestData\Organized Crime.cat" />
+    <None Remove="TestData\Shared Police Forces.cat" />
+    <None Remove="TestData\The Brave and the Bold.cat" />
+    <None Remove="TestData\The Court of Owls.cat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Media\Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_0b1s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_0b2s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_0b3s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_1b0s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_1b1s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_1b2s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_2b0s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_2b1s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_3b0s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_4b0s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Damage_5b0s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\FreeAgent.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Hard Grunge.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Henchman.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Leader.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Playing Cards Background.plain.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Playing Cards Background.plain.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\portrait_Robin_DamianWayne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Portrait_Unknown.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Ring_large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Sidekick.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Bane.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\BMGv2.gst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Free Agents.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Generic Henchmen.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Joker.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\LeagueOfAssassins.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Organized Crime.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Shared Police Forces.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\The Brave and the Bold.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\The Court of Owls.cat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QuestPDF" Version="2026.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Parse\" />
+  </ItemGroup>
+
+</Project>
