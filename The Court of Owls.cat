@@ -1,2 +1,1219 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="a715-5c67-e01a-bca9" name="The Court of Owls" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="a715-5c67-e01a-bca9" name="The Court of Owls" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="5f5f-1ab5-b270-c1bc">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Dementor" hidden="false" id="5fb7-646d-d4f7-a19b">
+          <entryLinks>
+            <entryLink import="true" name="Dementor&apos;s Claw" hidden="false" id="e3c4-02ac-1382-5d3d" type="selectionEntry" targetId="452d-045f-cf29-6dda">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d13b-92ff-02dc-5d79"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b00-f8a6-240d-1b4d"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="7d53-3801-0121-f113" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Dementor&apos;s Sickle" hidden="false" id="5f2f-7a57-ea2c-0956" type="selectionEntry" targetId="5ea8-d670-3eeb-5727">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a369-2958-64d6-2eb6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c29-b5f9-4322-ccd8"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Dementor" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="620e-b872-0e06-6076">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Dementor</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Dementor" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f86f-f795-f487-bce1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Inspire Fear, Light Armor, Obstinate, Sneak Attack, Stealth, Unstoppable Monster, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="eb96-f1fe-50b1-9ff1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="61b6-8368-4e80-ff38" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf6b-4da1-2d5a-9341" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Inspire Fear (2SC)" id="87fc-daed-f9ea-6082" hidden="false" type="rule" targetId="4ef7-967d-0ca0-b696"/>
+            <infoLink name="Unstoppable Monster" id="72a6-0ce0-3ed1-fb3c" hidden="false" type="rule" targetId="0665-6fa1-c0a6-edac"/>
+            <infoLink name="Sneak Attack (1SC)" id="e49a-0473-8aad-a5e1" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Obstinate" id="5162-4e91-a916-4d3a" hidden="false" type="rule" targetId="5d76-4060-5218-9c31"/>
+            <infoLink name="Stealth" id="384c-8222-da90-fee9" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Weakness to Cold" id="b6e9-6bb0-86da-c74d" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="d09c-b90f-b5a0-dd9a" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="396b-a51d-7bf5-f1b9" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Light Armor" id="67cf-69cb-0f90-2ca8" hidden="false" type="rule" targetId="4d84-5587-91b0-63a5"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Strix" hidden="false" id="709d-5671-aa40-c92c">
+          <entryLinks>
+            <entryLink import="true" name="Paired Katanas" hidden="false" id="9ec6-9667-51ab-c68d" type="selectionEntry" targetId="ad9a-fd80-5cdb-9b00">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3e6-3c9a-d6d6-48be"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d14f-0862-6af8-7351"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="8a0e-0dc6-ef16-060f" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Throwing Knives" hidden="false" id="233e-a98d-6a34-3116" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4776-daa5-61cd-6ee8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9d7-ba20-69f3-96df"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Strix" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3061-a6b0-3a0e-5bf6">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Mary Turner</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Strix</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Strix" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7ffc-a070-8ba9-83db">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Climbing Claws, Rapid Fire, Stealth, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="8012-befc-f6b8-763d" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="8508-b5be-219b-4b55" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ab01-f763-1eb5-d019" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="979c-38af-7847-460b" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Stealth" id="fc1d-6509-de33-6c0f" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Weakness to Cold" id="2d36-e299-b96e-c53b" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="c957-d19e-40ff-f260" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="2ad6-c110-3679-916a" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Climbing Claws" id="1d2a-b44d-b1c0-606f" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Rapid Fire (1SC)" id="93c3-f4c1-d1e3-7630" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="1890&apos;s Talon" hidden="false" id="4bc3-3dc4-1037-fbb2">
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="d9e9-47f6-3d02-6135" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="872c-afa1-7e28-e6ac" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3139-fa06-6075-6f5d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06ca-ac24-b3b7-f916"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Tanto" hidden="false" id="6bfc-985c-6cc9-0368" type="selectionEntry" targetId="1176-e8eb-2ae7-13e4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98ae-0355-ed70-3926"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b5b-28a4-264d-1eaa"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="1890&apos;s Talon" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cf0f-8825-e2c5-982e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Xiao Long</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">1890&apos;s Talon</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="1890&apos;s Talon" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="17a4-f57b-2490-6c3c">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Inspire Fear, Light Armor, Obstinate, Sneak Attack, Stealth, Unstoppable Monster, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="42"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="57c8-2c7b-7c36-bac3" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="8499-9e47-0bd3-b336" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="afe8-f2ad-bc22-bd36" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Inspire Fear (2SC)" id="7eeb-fb23-2944-349a" hidden="false" type="rule" targetId="4ef7-967d-0ca0-b696"/>
+            <infoLink name="Unstoppable Monster" id="7216-1f35-5377-9139" hidden="false" type="rule" targetId="0665-6fa1-c0a6-edac"/>
+            <infoLink name="Sneak Attack (1SC)" id="82b4-f7a7-a502-5014" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Obstinate" id="d51e-f290-8284-e302" hidden="false" type="rule" targetId="5d76-4060-5218-9c31"/>
+            <infoLink name="Stealth" id="09be-dd53-36ef-6322" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Weakness to Cold" id="ec80-b092-c698-9966" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="5f37-7895-00a3-ed50" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="67a9-c3b1-9c11-91cc" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Light Armor" id="9f64-084c-8b9f-16c9" hidden="false" type="rule" targetId="4d84-5587-91b0-63a5"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Talon" hidden="false" id="23ae-1798-d36f-0294">
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="20ed-b13d-3b79-2a89" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="90d3-6400-5018-06f4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="020b-c085-69a9-e023"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="1dec-a600-beeb-6fd4" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="7931-70d9-63ba-a968" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5f6-289b-ab89-a77b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c30-7f7d-9243-40d3"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="The Talon" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="deb4-f622-0b0a-0bef">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">William Cobb</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Talon</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Talon" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="377c-e494-dd5f-72a4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Combo (Knife), Martial Artist, Precise Blow, Street Guy, Undercover, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="65"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="acbb-9c52-e1e7-82ab" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="e336-dbd6-d72c-f966" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f38-b258-53c6-d971" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Precise Blow (1SC)" id="8209-db35-45c4-4a05" hidden="false" type="rule" targetId="49c0-8d44-51bf-c18e"/>
+            <infoLink name="Undercover" id="d52d-6316-dbb8-7ba7" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Weakness to Cold" id="c4ef-23a6-590e-d827" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="d1cd-8849-56f8-010b" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="20d3-962d-64cb-c591" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Martial Artist" id="723d-03ca-417f-f351" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Street Guy" id="3c85-2c64-448e-25b7" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+            <infoLink name="Combo (Weapon)" id="9ac2-d6b4-8365-1b71" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="O&apos;Malley Son" hidden="false" id="718b-63d8-e235-315c" sortIndex="">
+          <entryLinks>
+            <entryLink import="true" name="Katar" hidden="false" id="859c-f9b1-a746-6b02" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7ec-3a30-c806-bf18"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f7d-8dd6-08bc-0cc9"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="fca5-7a3c-718a-fc71" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="8184-02d0-2eb7-1876" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1419-a759-cad0-b25c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="794f-f035-6965-718f"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="O&apos;Malley Son" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b6de-e436-d3c9-23ab">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Nataniel O&apos;Malley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">O&apos;Malley Son</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="O&apos;Malley Son" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d807-043c-553d-21cd">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Distract, Martial Artist, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="30"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3c8c-edf8-3ec2-5c95" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="d6de-77e0-ddd2-c958" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3e47-be8e-f006-b7b5" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="86ad-4ece-08af-6007" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="a68f-dd3e-d726-6191" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f81c-002d-d286-1ee1" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Martial Artist" id="5e76-380f-46e5-5025" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Distract (1SC)" id="d01f-983e-ac49-96b6" hidden="false" type="rule" targetId="f3dd-c03b-c700-7996"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="O&apos;Malley Grandfather" hidden="false" id="b760-c1b9-2a1e-b7d3" sortIndex="">
+          <entryLinks>
+            <entryLink import="true" name="Katar" hidden="false" id="aa6c-401b-684c-0933" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff61-0b2b-e181-ee74"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="789a-ad6d-b4c1-1e45"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="1a09-9bc7-6c1d-7ac3" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="30bc-59d3-1ce1-94a0" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f1f-53c0-39bf-cda9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5ee-da72-bc32-a3a5"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="O&apos;Malley Grandfather" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="debf-c913-f9bd-02f5">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">James O&apos;Malley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">O&apos;Malley Grandfather</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="O&apos;Malley Grandfather" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ddcc-09b7-6d28-74ce">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Distract, Martial Artist, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="33"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="fe51-226e-125d-44d0" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="e773-0461-a3c0-8b18" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e671-413e-6152-7c02" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="5324-751f-8258-37e0" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="7f62-88c5-28ac-4869" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="052b-1a2c-e9d7-2a4e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Martial Artist" id="25f6-d90d-4df6-0779" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Bodyguard (1SC, Passive)" id="f115-fe7d-6443-4aa5" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+            <infoLink name="Veteran" id="40a3-0b4d-6bcc-0fac" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="O&apos;Malley Father" hidden="false" id="228a-3dc5-e71a-799d" sortIndex="">
+          <entryLinks>
+            <entryLink import="true" name="Katar" hidden="false" id="e95a-0451-e75f-7c70" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d53a-839a-20e2-39f9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9708-14fe-127c-de3b"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="ee97-4d9f-9c42-bf33" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="d2f5-a77c-509c-97fb" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e513-703f-eb13-8ab4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="143b-466e-e31c-506a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="O&apos;Malley Father" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5a9e-7a59-c5da-191a">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Brandon O&apos;Malley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">O&apos;Malley Father</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="O&apos;Malley Father" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="dde1-3946-d446-97b0">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Distract, Martial Artist, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="51"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="20a7-3d6f-45f1-a88a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="8360-f73f-0f7b-bdf7" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e114-3e6e-e8ab-bc22" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="de6d-3df6-ee2e-0930" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="6e33-fe25-ee67-e95a" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="4a71-98e8-92e4-222e" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Stealth" id="55fe-c22a-0e0e-7999" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Brutal" id="c95f-84af-70cb-1908" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Tireless" id="f768-657e-9fcf-b644" hidden="false" type="rule" targetId="c967-17ab-7b4e-9f19"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ephraim Newhouse" hidden="false" id="9e76-55c8-d186-8d90" sortIndex="">
+          <entryLinks>
+            <entryLink import="true" name="Scimitar" hidden="false" id="bd69-e8c6-5055-b529" type="selectionEntry" targetId="dd8f-8893-5c52-4783">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b0c3-ca6e-a70b-01ec"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db22-dbd6-bae5-e524"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="07bb-0977-8d93-ca6b" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Throwing Knives" hidden="false" id="1268-b856-cacc-27b2" type="selectionEntry" targetId="4525-3dcf-935c-803c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3055-2c91-97bd-64f9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a572-e06a-f423-fa4d"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Ephraim Newhouse" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f297-b9a8-379f-d764">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Ephraim Newhouse</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Unknown</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ephraim Newhouse" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7ec3-3db3-dfce-fb4b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Martial Artist, Primary Target (Loot), Weapon Master, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="62"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="86f6-29d9-cbfd-c82c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="fb0c-7600-b64a-c08c" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b78a-49d7-6058-9c8b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="b6c1-ae19-e93f-b1f2" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="9b89-cbb7-c9d8-1c73" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="3fe2-b233-1c7d-6253" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Martial Artist" id="a9f9-5dbf-9ef2-20cf" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Acrobat" id="1f0b-30fd-cb88-be4d" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Weapon Master" id="8bda-22e8-bacf-aced" hidden="false" type="rule" targetId="06cd-f77a-1330-9589"/>
+            <infoLink name="Primary Target (Type)" id="3402-6aaa-d674-7f34" hidden="false" type="rule" targetId="0ac2-e25d-8423-8b8c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="1880&apos;s Talon" hidden="false" id="bf17-05f3-3633-dc0e">
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="0b56-c86d-53c5-a16d" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Gladius" hidden="false" id="1763-a66b-59e4-73f5" type="selectionEntry" targetId="fb69-1d03-9863-933a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cebc-b9e8-d56f-753e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8d1-c109-45b8-6ba1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="1880&apos;s Talon" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eff8-a8b3-a4cd-0d8c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">1880&apos;s Talon</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="1880&apos;s Talon" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b2f4-f3df-23cd-72d1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Fast, Martial Artist, Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9e47-f15c-c3d7-0b70" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="7b96-bc43-ac24-aa07" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9dfd-acef-c729-b047" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="f925-5c8d-79c2-4767" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Weakness to Cold" id="a14a-19a6-2515-e59a" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="0f6d-9ac5-a629-0e2a" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Fast" id="2003-b9e1-3c29-0f2c" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Martial Artist" id="2256-4079-9334-c09d" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="da7d-47a1-6546-c8da" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Henry Ballard" hidden="false" id="41de-9f79-2cc2-37e2">
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="d175-8031-e602-ec9a" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="7959-766c-09bf-ec67" type="selectionEntry" targetId="ba72-def3-86c1-07e1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d1b-60fa-a8bf-6b5b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2189-cde6-7b55-c3e7"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Henry Ballard" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f68e-58c9-b91a-9c5f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Henry Ballard</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Unknown</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Henry Ballard" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3f51-84af-13b8-a189">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Claws, Invulnerability (1), Reanimated Owl, Weakness to Cold, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="46"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="df03-d21b-52c3-1d38" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="47be-df4c-0d27-8876" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7af8-6140-1a90-06c6" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="db7a-5aa2-cad5-502f" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="85ea-c9c1-c5ce-2e57" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f976-5e67-acf5-4fa0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Invulnerability (X)" id="da07-ed18-ba11-9d13" hidden="false" type="rule" targetId="a34f-ffef-1244-6cac"/>
+            <infoLink name="Claws" id="c56c-432b-de82-124f" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="644e-2fcc-6e93-4529">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Lincoln March" hidden="false" id="d9c3-9c90-eef4-dab1">
+          <profiles>
+            <profile name="Lincoln March" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="48bd-c300-e6a0-7db2">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Lincoln March</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lincoln March</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lincoln March" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8ecb-88b6-0867-9a18">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Combo (Unarmed), Court of Owls Crew, Fly, Joy for the Victory, Martial Artist, Power Armor, Retractable Claws, Strategist, Inspire, Reanimated Owl, Weakness to Cold</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Owl Knife" hidden="false" id="0b44-28b9-844f-655b" type="selectionEntry" targetId="ba72-def3-86c1-07e1"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="71b7-ebb6-345f-360f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="57b3-7d13-032e-92a4" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="1164-be8e-845b-3d42" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="102"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Power Armor (Passive)" id="f554-fb04-4b05-6dcf" hidden="false" type="rule" targetId="48f2-2fcc-4ef7-c2ca"/>
+            <infoLink name="Combo (Weapon)" id="577b-91a3-630f-6021" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Retractable Claws" id="5c7a-3cea-bfe0-ff4c" hidden="false" type="rule" targetId="e7b2-6c3f-c51f-f683"/>
+            <infoLink name="Court of Owls crew" id="d279-b342-03a2-99ae" hidden="false" type="rule" targetId="db90-feca-a0a8-5ce1"/>
+            <infoLink name="Fly (1MC+1SC)" id="6a3e-b164-904a-4640" hidden="false" type="rule" targetId="6eb9-3137-65ed-f057"/>
+            <infoLink name="Martial Artist" id="3d2f-be6c-1f13-fe9e" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Joy for the Victory" id="2a6d-7910-5cd7-c785" hidden="false" type="rule" targetId="2ed7-aea0-6a7d-1eae"/>
+            <infoLink name="Strategist" id="3539-45b1-fe6c-5d32" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Weakness to Cold" id="4608-6527-77ee-c15c" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="4a6b-e859-a7ce-d5d1" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Inspire (1SC)" id="4712-1d96-690a-7a48" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="High Court Member" hidden="false" id="371b-9b62-9cb3-faf2">
+          <profiles>
+            <profile name="High Court Member" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4a2b-591c-367b-99a9">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">High Court Member</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Court Member" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="338e-db90-9ba6-13fb">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Court of Owls Crew, Demoralize, Discourage, Distract, Inspire, Scheming (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Handgun" hidden="false" id="1176-b2a9-47ad-ab9d" type="selectionEntry" targetId="3e08-c26d-8249-ac8a"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="74b3-c9f3-1a9e-e3ae" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="2231-9a60-c908-ea4e" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="ceeb-6092-174c-1fb3" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="37"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Distract (1SC)" id="9bd9-7e74-ac26-5de3" hidden="false" type="rule" targetId="f3dd-c03b-c700-7996"/>
+            <infoLink name="Retractable Claws" id="f6c7-2c27-2bcb-fe7a" hidden="false" type="rule" targetId="e7b2-6c3f-c51f-f683"/>
+            <infoLink name="Court of Owls crew" id="bdf1-09a5-19ec-12ec" hidden="false" type="rule" targetId="db90-feca-a0a8-5ce1"/>
+            <infoLink name="Discourage (2SC)" id="1173-34d4-1eab-c019" hidden="false" type="rule" targetId="11d4-8deb-39df-161d"/>
+            <infoLink name="Demoralize (1SC)" id="24ea-f492-4cb3-cafd" hidden="false" type="rule" targetId="e60b-ec3c-8f7f-84e4"/>
+            <infoLink name="Scheming (X)" id="0c90-4466-bb5c-b97f" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Strategist" id="f2ec-44f3-96c5-98ae" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Weakness to Cold" id="ad43-ec1a-7a1b-f708" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Reanimated Owl" id="eb06-fba8-7ec1-44fd" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Inspire (1SC)" id="ed6a-aa84-05b5-265c" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Court" hidden="false" id="7c85-b26c-47af-a031">
+          <profiles>
+            <profile name="The Court" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c884-edd3-9291-70f4">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Court</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Court" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f23f-1cc5-1f16-3e37">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Boss&apos;s Orders, Court of Owls Crew, Demotivate, Enemies of the Court, Goad, Hidden, Inspire, Intel Support (5), Shadowed Perch</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Influence" hidden="false" id="037d-8d58-6aff-26df" type="selectionEntry" targetId="5a64-c5ad-0808-778b"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a973-1508-1456-53bc" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="f0e4-bf19-34c8-6833" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="3d99-3af3-4718-b390" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Hidden" id="023d-0f36-3785-504f" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+            <infoLink name="Boss&apos;s Orders (2SC)" id="01bc-9b00-38b8-d407" hidden="false" type="rule" targetId="ea51-3c4f-75be-920f"/>
+            <infoLink name="Goad (1SC)" id="655f-eaa9-02bc-739a" hidden="false" type="rule" targetId="c442-832d-bca7-9f0b"/>
+            <infoLink name="Demotivate (2SC)" id="51df-6349-0754-b91c" hidden="false" type="rule" targetId="838c-4964-2b5b-de9e"/>
+            <infoLink name="Intel Support (X) (v3)" id="7869-c55d-5396-ffd3" hidden="false" type="rule" targetId="3197-18bd-474c-2db3"/>
+            <infoLink name="Shadowed Perch" id="26ef-f194-d688-961f" hidden="false" type="rule" targetId="dc8f-1121-40e2-ed90"/>
+            <infoLink name="Enemies of the Court" id="962e-470a-44f9-8141" hidden="false" type="rule" targetId="88d8-7909-780e-8919"/>
+            <infoLink name="Inspire (1SC)" id="ee65-1e81-747b-0c2e" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Court of Owls crew" id="96cf-a16a-f750-c61a" hidden="false" type="rule" targetId="db90-feca-a0a8-5ce1"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="ee3a-1eb2-3c3b-4177">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Gotham Butcher" hidden="false" id="f33a-71a7-543d-8d22">
+          <profiles>
+            <profile name="Gotham Butcher" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3644-56c5-c5c0-7078">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Felix Harmon</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Gotham Butcher</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Gotham Butcher" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="26fa-10ba-eb1d-04e3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Brutal, Claws, Fast, Huge, Tough Skin, The Murderer, Weakness to Cold, Reanimated Owl</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="d9a5-d7c1-76dd-32b8" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="0ba8-3ef4-c1b9-4196" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="81"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d3f8-82a3-3a7b-6f2f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="85f7-b8b3-be26-631d" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="The Murderer" id="25b7-c467-63f1-7c18" hidden="false" type="rule" targetId="78f7-3b31-3e1b-a8f2"/>
+            <infoLink name="Brutal" id="1537-2cc3-585b-7bd3" hidden="false" type="rule" targetId="3671-0de1-cb89-3f33"/>
+            <infoLink name="Claws" id="ad10-7d36-5374-aa4d" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+            <infoLink name="Tough Skin" id="07d6-f664-0d60-b381" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Reanimated Owl" id="049d-5618-933a-f201" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Fast" id="c808-788b-0a18-639b" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Huge" id="8e9b-e95a-4191-997f" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Talon - Calvin Rose" hidden="false" id="29e1-3df1-8ed1-b79a">
+          <profiles>
+            <profile name="Talon - Calvin Rose" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1cf0-c76e-c090-617f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Calvin Rose</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Talon - Calvin Rose</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Talon - Calvin Rose" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d173-5ae8-55b1-0816">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Bat Family, Escape Artist, Reinforced Gloves, Runaway, Scout, Stealth, Reanimated Owl, Weakness to Cold</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="5f7c-7f0a-fcf7-b94d" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="add7-efc5-d735-a24d" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Talon Knife" hidden="false" id="7fe9-e2f0-27b9-504d" type="selectionEntry" targetId="879d-2e96-3125-7094">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="932a-74fe-ea63-2dd1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6064-a218-765a-202f"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a27e-08f9-a905-532d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Weakness to Cold" id="5c61-8b65-d445-3a0e" hidden="false" type="rule" targetId="037e-419d-80d3-c601"/>
+            <infoLink name="Runaway" id="04db-540c-94f0-14c5" hidden="false" type="rule" targetId="940e-e2b3-66e9-b8cc"/>
+            <infoLink name="Bat Family" id="bcfe-1dc9-545c-d575" hidden="false" type="rule" targetId="f9be-1a1e-f2bf-9e20"/>
+            <infoLink name="Escape Artist" id="6b0f-32bb-6e37-e20a" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+            <infoLink name="Reinforced Gloves" id="abe6-4f41-12b7-8bfc" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Reanimated Owl" id="e759-2a2f-4fbd-81df" hidden="false" type="rule" targetId="b542-e5e9-6640-aabf"/>
+            <infoLink name="Scout" id="0a22-70a7-e8f3-c242" hidden="false" type="rule" targetId="49a9-b4ff-fe41-9009"/>
+            <infoLink name="Stealth" id="25e9-a49b-ab0d-0112" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Acrobat" id="246a-7ea3-7d03-325b" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Raptor" hidden="false" id="defb-9a7b-24f0-f9d6">
+          <profiles>
+            <profile name="Raptor" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="184f-ad96-e53b-c24f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Richard</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Raptor</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Raptor" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="c0e5-b9f4-93b4-9a8c">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Batclaw, Desensitized, Street Fighter, Sturdy, Thief, Kobra Cultist</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="751e-12d1-fae5-ae1d" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink targetId="fb1c-d0da-ecbd-dd81" id="acf1-d430-6f83-5148" primary="false" name="Crew (Court of Owls)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Raptor&apos;s Claw" hidden="false" id="876c-6348-0958-1473" type="selectionEntry" targetId="9be9-4ccf-ece9-4181">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d11d-980a-b293-bc6a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aef-6796-25cf-136a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Raptor&apos;s Gas" hidden="false" id="c151-e7fa-cb12-0e07" type="selectionEntry" targetId="28cd-a854-05c9-885e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca3b-077e-7ce8-57a7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbdd-8535-9426-4004"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9434-03ac-4d9b-0fca" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="f086-0e16-277c-f911" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Desensitized" id="0211-b0f4-8d80-4e3f" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+            <infoLink name="Sturdy" id="4b40-c075-f7fe-3a6b" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="Thief (1SC)" id="07c7-464e-45f9-0f7a" hidden="false" type="rule" targetId="bbf0-b7eb-da4d-436a"/>
+            <infoLink name="Kobra Cultist" id="6c57-3569-a054-efbe" hidden="false" type="rule" targetId="e95a-7354-997a-eedf"/>
+            <infoLink name="Street Fighter (v3)" id="8353-ba18-c9b3-ac8f" hidden="false" type="rule" targetId="2efd-3b03-fef4-5032"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="a307-b68a-5bdc-de41">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="High Court Lady" hidden="false" id="3fc7-32f8-9f27-3496">
+          <profiles>
+            <profile name="High Court Lady" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="987f-bbf0-9086-4269">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">High Court Lady</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Court Lady" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d79e-dcc4-64ca-2448">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Court of Owls Crew, Demoralize, Discourage, Distract, Inspire, Scheming (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Hidden Gun" hidden="false" id="b8cf-e8f3-679c-76c6" type="selectionEntry" targetId="50e5-2943-ae31-b40d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c3da-126e-2e4f-55ef" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Crew (Court of Owls)" hidden="false" id="b611-dfe4-215f-09e1" targetId="fb1c-d0da-ecbd-dd81" primary="false"/>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="43f4-3fbc-3dd3-f941" primary="true" name="Sidekick"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Boss&apos;s Orders (2SC)" id="a777-f8d2-e894-f7ff" hidden="false" type="rule" targetId="ea51-3c4f-75be-920f"/>
+            <infoLink name="Court of Owls crew" id="0a2c-665c-b2d7-ef54" hidden="false" type="rule" targetId="db90-feca-a0a8-5ce1"/>
+            <infoLink name="Protect Me! (1SC, Passive)" id="74fb-5673-6165-1585" hidden="false" type="rule" targetId="83d4-358d-2ecb-8d95"/>
+            <infoLink name="Enemies of the Court" id="e810-c617-af96-5c3f" hidden="false" type="rule" targetId="88d8-7909-780e-8919"/>
+            <infoLink name="Invaluable" id="4e7f-d7c4-24b3-7fb4" hidden="false" type="rule" targetId="1ef0-6024-7ba2-87e1"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="0848-9f72-6ebd-aada" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c828-7b28-1bc1-fb29">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Dementor&apos;s Claw" hidden="false" id="452d-045f-cf29-6dda">
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="d72f-8340-16cf-8827" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+            <infoLink name="Sharp" id="7c14-f680-8e12-b300" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Dementor&apos;s Claw" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="d102-b9bf-f217-23f2">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Bleed (2), Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dementor&apos;s Sickle" hidden="false" id="5ea8-d670-3eeb-5727">
+          <infoLinks>
+            <infoLink name="Reach (X)" id="1877-8599-e2ae-8e34" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Sharp" id="71a6-2db1-bdb4-0c98" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Poison" id="d6c3-4f93-02bc-9cda" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Dementor&apos;s Sickle" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="02fe-87e4-b3bf-edd4">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach (1), Sharp, Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Talon Knife" hidden="false" id="879d-2e96-3125-7094">
+          <infoLinks>
+            <infoLink name="Crushing" id="c9a3-a70d-3215-535c" hidden="false" type="rule" targetId="0570-47ea-c898-e829"/>
+            <infoLink name="Handy" id="1316-4fda-5575-301f" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="c52f-3be9-d5af-c1fd" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Talon Knife" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="ce50-c7e2-935e-1393">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Crushing, Handy, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Raptor&apos;s Claw" hidden="false" id="9be9-4ccf-ece9-4181">
+          <infoLinks>
+            <infoLink name="Enervating (X)" id="7645-d4d9-7f94-3ad4" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+            <infoLink name="Sharp" id="f323-7820-fde8-c267" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Raptor&apos;s Claw" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="7135-168c-d60e-61f7">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Enervating (1), Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Raptor&apos;s Gas" hidden="false" id="28cd-a854-05c9-885e">
+          <profiles>
+            <profile name="Raptor&apos;s Gas" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="054e-caa1-ac74-8157">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Beam, Expansive, Gas, Enervating (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Enervating (X)" id="6c35-e20a-6eba-474f" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+            <infoLink name="Gas" id="02da-015f-0244-c277" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+            <infoLink name="Beam" id="3d18-b862-a410-ccca" hidden="false" type="rule" targetId="02b5-671c-bc5e-9da3"/>
+            <infoLink name="Expansive" id="4caf-2e79-4249-cbb7" hidden="false" type="rule" targetId="858c-f744-3397-15c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Owl Knife" hidden="false" id="ba72-def3-86c1-07e1">
+          <infoLinks>
+            <infoLink name="Handy" id="90ee-c4f8-6711-4f76" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="02a7-d95f-34d0-d0c3" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Owl Knife" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="db5e-515a-ee44-d68a">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Paired Katanas" hidden="false" id="ad9a-fd80-5cdb-9b00">
+          <infoLinks>
+            <infoLink name="Handy" id="9a5d-f408-65d6-8565" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Sharp" id="6d40-3242-4cbe-d3d3" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Overwhelming" id="5b4c-b3c9-eb67-7b8b" hidden="false" type="rule" targetId="6203-dc22-5a8b-d6dd"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Paired Katanas" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="d26d-9f65-5622-534a">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp, Overwhelming</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hidden Gun" hidden="false" id="50e5-2943-ae31-b40d">
+          <profiles>
+            <profile name="Hidden Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="f07f-dea5-49c7-8299">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, S. Range, Light</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Short Range" id="4359-bb60-21a8-4601" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="c927-6e52-a937-9000" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Light" id="e7d3-4d47-4fde-245a" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gladius" hidden="false" id="fb69-1d03-9863-933a">
+          <infoLinks>
+            <infoLink name="Overwhelming" id="7829-48dd-1da6-a768" hidden="false" type="rule" targetId="6203-dc22-5a8b-d6dd"/>
+            <infoLink name="Sharp" id="d8b2-71bc-4e78-f15d" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Gladius" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="4ab3-f8bf-7326-05f7">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Overwhelming, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Influence" hidden="false" id="5a64-c5ad-0808-778b">
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="cba2-31ca-c030-93d8" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+            <infoLink name="Sharp" id="5aab-e10f-3dcc-db75" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Influence" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="9ce3-9dbb-1174-a686">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">-</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach (6), Push (4)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="a49b-c3ad-4cb2-ee33"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Gotham Butcher" hidden="false" id="7ee0-1739-a037-4b05" type="selectionEntry" targetId="f33a-71a7-543d-8d22"/>
+    <entryLink import="true" name="Raptor" hidden="false" id="9ce2-87b1-131c-1469" type="selectionEntry" targetId="defb-9a7b-24f0-f9d6"/>
+    <entryLink import="true" name="Talon - Calvin Rose" hidden="false" id="afcc-fb11-790a-bd3d" type="selectionEntry" targetId="29e1-3df1-8ed1-b79a"/>
+    <entryLink import="true" name="Ephraim Newhouse" hidden="false" id="76b4-38e4-f33d-cf2c" type="selectionEntry" targetId="9e76-55c8-d186-8d90"/>
+    <entryLink import="true" name="O&apos;Malley Father" hidden="false" id="fd06-6d67-0ac4-9250" type="selectionEntry" targetId="228a-3dc5-e71a-799d"/>
+    <entryLink import="true" name="O&apos;Malley Grandfather" hidden="false" id="a39c-2153-a2ca-2193" type="selectionEntry" targetId="b760-c1b9-2a1e-b7d3"/>
+    <entryLink import="true" name="O&apos;Malley Son" hidden="false" id="dc9e-c31c-359d-add8" type="selectionEntry" targetId="718b-63d8-e235-315c"/>
+    <entryLink import="true" name="1880&apos;s Talon" hidden="false" id="2109-279a-f382-a73f" type="selectionEntry" targetId="bf17-05f3-3633-dc0e"/>
+    <entryLink import="true" name="1890&apos;s Talon" hidden="false" id="5ae5-8004-efdc-9775" type="selectionEntry" targetId="4bc3-3dc4-1037-fbb2"/>
+    <entryLink import="true" name="Dementor" hidden="false" id="0691-9f69-ada2-f88a" type="selectionEntry" targetId="5fb7-646d-d4f7-a19b"/>
+    <entryLink import="true" name="Henry Ballard" hidden="false" id="646c-78e9-28d6-d3f5" type="selectionEntry" targetId="41de-9f79-2cc2-37e2"/>
+    <entryLink import="true" name="Strix" hidden="false" id="6d73-d645-c0cf-354c" type="selectionEntry" targetId="709d-5671-aa40-c92c"/>
+    <entryLink import="true" name="The Talon" hidden="false" id="625b-c3d1-6f24-4854" type="selectionEntry" targetId="23ae-1798-d36f-0294"/>
+    <entryLink import="true" name="The Court" hidden="false" id="25c5-4886-c2c1-6fed" type="selectionEntry" targetId="7c85-b26c-47af-a031"/>
+    <entryLink import="true" name="Lincoln March" hidden="false" id="8d85-bf42-8e08-e01c" type="selectionEntry" targetId="d9c3-9c90-eef4-dab1"/>
+    <entryLink import="true" name="High Court Member" hidden="false" id="f006-e2d3-1077-2455" type="selectionEntry" targetId="371b-9b62-9cb3-faf2"/>
+    <entryLink import="true" name="High Court Lady" hidden="false" id="6605-578e-6ffd-ee03" type="selectionEntry" targetId="3fc7-32f8-9f27-3496"/>
+  </entryLinks>
+</catalogue>

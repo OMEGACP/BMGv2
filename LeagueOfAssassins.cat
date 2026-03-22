@@ -56,7 +56,7 @@
             </entryLink>
           </entryLinks>
           <modifiers>
-            <modifier type="set" value="false" field="hidden">
+            <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
               </conditions>
@@ -81,6 +81,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Free Agent" hidden="false" id="bfd3-81f2-f9a4-3eac" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="78ec-bdfc-96d2-dc8e" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="fd5a-3698-69e8-0795" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -114,7 +115,7 @@
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f2db-2500-ff3a-7efe" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="false" field="hidden">
+            <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
               </conditions>
@@ -127,6 +128,61 @@
             <infoLink name="Reflexes" id="e469-b3f4-6463-88af" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
             <infoLink name="Stealth" id="cbd2-308a-dff7-5875" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
             <infoLink name="Veteran" id="a4e5-9827-259c-8bb4" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Scarecrow (DKR)" hidden="false" id="f377-0e62-72e3-2b2a">
+          <profiles>
+            <profile name="Scarecrow (DKR)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="15c9-c2c1-4594-cc3c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Jonathan Crane</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Scarecrow (DKR)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Scarecrow (DKR)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="48d9-67d9-6406-8254">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Death or Exile, Follow me!, Hidden, Psychologist</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="003a-f6a3-ad28-6e99" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink name="Equipment (LoA: Cheshire)" hidden="false" id="be68-4a70-275c-4f77" targetId="0e24-78b4-3f88-2332" primary="false"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="251a-c6f4-0060-6cb4" primary="false" name="Crew (League of Assassins)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="60"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Drug Spray" hidden="false" id="9ca2-edce-5872-c822" type="selectionEntry" targetId="048f-0eee-af2c-1309">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c3d-5ee2-6399-53e7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94b1-1270-308e-908b"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f128-e156-d653-afcd" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Death or Exile (2SC)" id="c4b9-826b-4696-efbc" hidden="false" type="rule" targetId="9248-29ef-98ce-5356"/>
+            <infoLink name="Psychologist" id="9683-93a9-b99c-0af4" hidden="false" type="rule" targetId="ca26-6996-bc1d-36af"/>
+            <infoLink name="Hidden" id="d009-93f8-f2d8-1071" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
+            <infoLink name="Follow me! (1SC)" id="b57e-18d8-985c-5f0c" hidden="false" type="rule" targetId="dff5-13a0-8c39-ebad"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -198,6 +254,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="900c-81b4-b1eb-43dc" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="e232-882e-3916-1a35" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="cb1a-7e56-1c09-9f91" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -266,7 +323,7 @@
             <profile name="Hassassin 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65e1-0928-ffd7-9d04">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 1</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hassassin 1</characteristic>
               </characteristics>
             </profile>
             <profile name="Hassassin 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0356-91f7-4e7d-9d8d">
@@ -288,6 +345,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9a51-e837-2ba9-c3a8" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="13b4-542a-cf4c-0666" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e008-c1db-ce31-6cd4" includeChildSelections="true" includeChildForces="true"/>
@@ -332,6 +390,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="f71b-01ba-5b40-d13a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="524c-2f8b-debc-389c" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Acid Arrow" hidden="false" id="81af-3476-dee8-a606" type="selectionEntry" targetId="1d90-b5dd-8f75-5d82">
@@ -381,7 +440,7 @@
             <profile name="Hassassin 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d277-9b77-7d52-174e">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 2</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hassassin 2</characteristic>
               </characteristics>
             </profile>
             <profile name="Hassassin 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3da9-8a80-0b36-967b">
@@ -403,6 +462,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="648b-1190-51a7-e9c4" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="2c97-8811-73ae-d026" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a02b-6bbf-fe9a-16c0" includeChildSelections="true" includeChildForces="true"/>
@@ -441,7 +501,7 @@
             <profile name="Hassassin 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="bc92-3a4f-1e7f-0db3">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 3</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hassassin 3</characteristic>
               </characteristics>
             </profile>
             <profile name="Hassassin 3" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ca6b-7e8c-72fd-f938">
@@ -463,6 +523,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9460-c071-865e-e2a1" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="247d-c18c-821e-b370" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2971-4ef1-373f-4630" includeChildSelections="true" includeChildForces="true"/>
@@ -500,7 +561,7 @@
             <profile name="Hassassin 4" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5751-0f86-6582-2238">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hasssassin 4</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Hassassin 4</characteristic>
               </characteristics>
             </profile>
             <profile name="Hassassin 4" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d45b-10f6-6563-f436">
@@ -522,6 +583,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="ec4a-9280-604e-dafb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="a0d2-82b6-7b49-03ed" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2bb3-5821-21fb-96be" includeChildSelections="true" includeChildForces="true"/>
@@ -572,6 +634,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="bccd-7260-a1ac-505a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="014e-68c4-2f08-3aa5" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
@@ -632,6 +695,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="5bc3-cc7f-49f3-83ab" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="bc42-6ffc-2a90-7070" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
@@ -692,6 +756,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="66cf-e3a0-a88b-fcbe" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="226b-4d33-4c1d-4558" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
@@ -752,6 +817,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0b75-7ce0-add5-8e55" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="6cab-a07e-64c5-9ec8" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
@@ -781,6 +847,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="27bb-dc74-1eb4-c4c7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="1aa8-3599-6166-e911" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="2ac0-78e7-16ea-d57d" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -839,6 +906,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0ed6-7ed5-e57f-8941" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="9d06-629a-27fe-01fb" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="62dd-eea0-061f-613a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -895,6 +963,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2b25-827b-5cae-2eb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="fa39-a2e4-6a98-66aa" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Katana" hidden="false" id="573a-d11f-95fb-de8a" type="selectionEntry" targetId="ce89-03b6-16f8-8f6a">
@@ -980,6 +1049,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3b81-5cb1-cbf9-dc1c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="7307-9775-5a19-3d11" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eb69-de42-0f9d-6c5e" includeChildSelections="true" includeChildForces="true"/>
@@ -1034,6 +1104,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="ca67-00dd-6fb1-8d86" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="6378-fe3f-5a62-90d6" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="901b-8640-849b-6867" includeChildSelections="true" includeChildForces="true"/>
@@ -1087,6 +1158,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="347b-53af-15d9-9c1e" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="8ab4-7f08-9054-99a2" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="963d-a24b-0e6d-4b8e" includeChildSelections="true" includeChildForces="true"/>
@@ -1131,6 +1203,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="9c84-5579-9833-933a" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="be42-f5b0-7fd7-73b6" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Poisoned Arrow" hidden="false" id="6f36-6cf6-75a8-26c6" type="selectionEntry" targetId="2fb0-0203-dcf1-9f6c">
@@ -1172,6 +1245,7 @@
           </costs>
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="6152-fa67-96dc-3ae5" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="9702-99aa-fc73-85a4" id="bffc-ea01-8b1f-c64e" primary="false" name="Crew (League of Assassins)"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Bo" hidden="false" id="6fce-f4d6-ab36-f5cf" type="selectionEntry" targetId="2bd2-8196-009f-834a">
@@ -1473,15 +1547,15 @@
             <infoLink name="Inspire (1SC)" id="7f15-4995-0bf9-d318" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="ee3d-f602-1564-53ee">
+        <selectionEntry type="model" import="true" name="Ra&apos;s al Ghul (DKR)" hidden="false" id="ee3d-f602-1564-53ee">
           <profiles>
-            <profile name="Ra&apos;s al Ghul (Dark Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4d13-f349-e8b4-45b3">
+            <profile name="Ra&apos;s al Ghul (DKR)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4d13-f349-e8b4-45b3">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Ra&apos;s al Ghul</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul (Dark Knight)</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ra&apos;s al Ghul (DKR)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Ra&apos;s al Ghul (Dark Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b577-a1f1-b909-eac4">
+            <profile name="Ra&apos;s al Ghul (DKR)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b577-a1f1-b909-eac4">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
@@ -1621,7 +1695,7 @@
             <infoLink name="Deadly Strike (1SC)" id="6aaa-c094-ae80-5aca" hidden="false" type="rule" targetId="b75b-e01d-5713-aa88"/>
             <infoLink name="Exhaustive Planner" id="480b-c647-d434-0f62" hidden="false" type="rule" targetId="c8ee-73f3-f141-1791"/>
             <infoLink name="Strategist" id="bbbe-9a6d-dedc-680d" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
-            <infoLink name="Lazarus Pit Owner" id="bfe1-8eeb-0fd6-0565" hidden="false" type="rule" targetId="41fb-bd6e-a339-ec0d"/>
+            <infoLink name="Lazarus Pit Owner (v3)" id="bfe1-8eeb-0fd6-0565" hidden="false" type="rule" targetId="41fb-bd6e-a339-ec0d"/>
             <infoLink name="Shadows Command (1SC)" id="8aaf-9203-507b-220e" hidden="false" type="rule" targetId="c075-3a95-c318-21c3"/>
             <infoLink name="Inspire (1SC)" id="025a-f178-44df-2ab8" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
           </infoLinks>
@@ -1728,7 +1802,7 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Ice Axe" hidden="false" id="7eb7-c1b7-56c2-e023" type="selectionEntry" targetId="2af6-1438-c06d-6378">
+            <entryLink import="true" name="Knife" hidden="false" id="7eb7-c1b7-56c2-e023" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38ae-99a5-5608-a026-max"/>
@@ -1933,13 +2007,13 @@
             <categoryLink targetId="a684-0ba2-18de-95c4" id="b6b7-2d0a-7c6c-b229" primary="false" name="Equipment (LoA: Lady Shiva)"/>
           </categoryLinks>
           <profiles>
-            <profile name="Lady Shiva" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="da6d-e55c-3c78-86ef">
+            <profile name="Lady Shiva (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="da6d-e55c-3c78-86ef">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva (Legacy)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Lady Shiva" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="eb9e-81b2-8a4e-4bdf">
+            <profile name="Lady Shiva (Legacy)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="eb9e-81b2-8a4e-4bdf">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
@@ -2038,20 +2112,20 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Lady Shiva" hidden="false" id="2abc-7ed1-4799-45f4">
+        <selectionEntry type="model" import="true" name="Lady Shiva (Rebirth)" hidden="false" id="2abc-7ed1-4799-45f4">
           <categoryLinks>
             <categoryLink targetId="6c53-80aa-1e01-a485" id="ed6e-10e9-c5e5-64d1" primary="true" name="Sidekick"/>
             <categoryLink targetId="9702-99aa-fc73-85a4" id="efb6-fc7f-13cd-3103" primary="false" name="Crew (League of Assassins)"/>
             <categoryLink targetId="a684-0ba2-18de-95c4" id="b826-c35a-f8a0-47dc" primary="false" name="Equipment (LoA: Lady Shiva)"/>
           </categoryLinks>
           <profiles>
-            <profile name="Lady Shiva" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5672-af74-e728-15f8">
+            <profile name="Lady Shiva (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5672-af74-e728-15f8">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sandra Wu-San</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Lady Shiva (Rebirth)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Lady Shiva" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="21dd-1afb-8a3e-09ee">
+            <profile name="Lady Shiva (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="21dd-1afb-8a3e-09ee">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
@@ -2337,23 +2411,6 @@
             <categoryLink targetId="f863-9de5-8630-bf4a" id="0e41-16cd-e893-22c2" primary="false" name="CC Weapon"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Scimitar" hidden="false" id="dd8f-8893-5c52-4783">
-          <profiles>
-            <profile name="Scimitar" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="31cb-7c7d-e155-d664">
-              <characteristics>
-                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Blood</characteristic>
-                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp, Bleed (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Sharp" id="304f-85f4-6b23-509b" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
-            <infoLink name="Bleed (X)" id="f807-4d5e-777f-71e8" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink targetId="f863-9de5-8630-bf4a" id="8a82-ea7c-c80c-562b" primary="false" name="CC Weapon"/>
-          </categoryLinks>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bhuj" hidden="false" id="557f-781b-958d-4944">
           <profiles>
             <profile name="Bhuj" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="32ba-d7e8-163f-1dd6">
@@ -2592,9 +2649,6 @@
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink targetId="e5f1-fafc-c082-6528" id="77a7-b48b-cbf4-6b7e" type="selectionEntry" name="Shuriken" hidden="false"/>
-      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
