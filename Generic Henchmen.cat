@@ -56,7 +56,7 @@
             <infoLink name="Electric Storm (3SC)" id="7d3f-c07e-4e89-a121" hidden="false" type="rule" targetId="ba07-a631-b529-f2db"/>
             <infoLink name="Handyman" id="181c-a6da-2fce-5bb3" hidden="false" type="rule" targetId="a9a8-dd44-ee31-bd7c"/>
             <infoLink name="Sturdy" id="fb5b-798b-3a6e-6406" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
-            <infoLink name="Unpredictible" id="3253-545a-a767-a045" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Unpredictable" id="3253-545a-a767-a045" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
             <infoLink name="Let’s go! (1SC, passive)" id="9c7c-4ddf-e397-dad4" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
@@ -975,7 +975,7 @@
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink name="Unpredictible" id="f7e9-7d56-9962-35c6" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Unpredictable" id="f7e9-7d56-9962-35c6" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
             <infoLink name="Delirium" id="1128-5d24-7986-d77f" hidden="false" type="rule" targetId="8b2a-3a66-6368-06bc"/>
             <infoLink name="Let’s go! (1SC, passive)" id="a91b-d0a1-9584-cf84" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
@@ -1223,6 +1223,118 @@
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="5b60-6f96-f7a1-3bb0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Lou" hidden="false" id="386c-1833-5e0d-fe95">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="8710-06a7-d885-ff28" primary="true" name="Henchmen (Faction-specific)"/>
+            <categoryLink targetId="a8e5-9f8a-d8f0-02c7" id="b7a3-2f22-769c-3626" primary="false" name="Crew (Joker)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Lou" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b563-59a1-bd24-a563">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Lou</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Unknown</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lou" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b214-0aca-63fd-929b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Affinity (Harley Quinn), Animal, Claws, Death Pack, Mobste, Stupid, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4ce6-1817-b678-f262" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="674a-5dab-0186-9542" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Affinity (Model)" id="4098-def4-704e-0333" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Animal" id="7c5a-5e74-d10f-5685" hidden="false" type="rule" targetId="8209-cc9c-50b0-f794"/>
+            <infoLink name="Claws" id="f47a-59de-aeb5-a928" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="31da-914c-6c78-dc9f" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Death Pack" id="60fd-8af2-68ed-020f" hidden="false" type="rule" targetId="de95-3180-f208-8cef"/>
+            <infoLink name="Mobster" id="99c9-4bfa-05c7-cdd5" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
+            <infoLink name="Stupid" id="d8c0-5887-d797-ea4b" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bud" hidden="false" id="4e99-5ea4-3c2a-e23b">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="23"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="e9ad-4ce3-beed-0686" primary="true" name="Henchmen (Faction-specific)"/>
+            <categoryLink targetId="a8e5-9f8a-d8f0-02c7" id="83d1-2983-d685-9a7b" primary="false" name="Crew (Joker)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Bud" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="11af-a52e-7efa-09ff">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bud</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Unknown</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bud" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0c61-7b56-ae48-95b2">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Affinity (Harley Quinn), Animal, Claws, Death Pack, Mobste, Stupid, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b1c-bbe4-f8d1-d0bb" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="674a-5dab-0186-9542" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Affinity (Model)" id="1a31-931c-6ec6-ff91" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Animal" id="ddd2-0ebd-6a67-b1ea" hidden="false" type="rule" targetId="8209-cc9c-50b0-f794"/>
+            <infoLink name="Claws" id="35dd-dc3d-d5ca-90b4" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f5fe-bb50-5cef-92f4" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Death Pack" id="9b36-8935-a836-a38c" hidden="false" type="rule" targetId="de95-3180-f208-8cef"/>
+            <infoLink name="Mobster" id="e21e-e53b-a100-0173" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
+            <infoLink name="Stupid" id="d0c0-ffa8-8ea3-0a14" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1249,5 +1361,7 @@
     <entryLink import="true" name="Prisoner 93432" hidden="false" id="3133-b698-bbca-6209" type="selectionEntry" targetId="492d-ef08-ff48-3b81"/>
     <entryLink import="true" name="Goliath" hidden="false" id="bd8a-6775-6150-c65a" type="selectionEntry" targetId="cb1b-731a-0da3-7ea2"/>
     <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="2e7c-1217-0297-db8b" type="selectionEntry" targetId="6314-544d-0fed-16ca"/>
+    <entryLink import="true" name="Bud" hidden="false" id="435b-2e4b-a041-22bb" type="selectionEntry" targetId="4e99-5ea4-3c2a-e23b"/>
+    <entryLink import="true" name="Lou" hidden="false" id="607b-28b7-1d4d-e35f" type="selectionEntry" targetId="386c-1833-5e0d-fe95"/>
   </entryLinks>
 </catalogue>

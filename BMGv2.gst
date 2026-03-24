@@ -53,6 +53,7 @@
     <categoryEntry name="Legend" id="b6ad-bd71-688c-e321" hidden="false"/>
     <categoryEntry name="Vehicle" id="e649-0ab7-9e7e-1f5c" hidden="false"/>
     <categoryEntry name="Equipment (OC: Lex Luthor)" id="bcf9-e760-956d-a147" hidden="false"/>
+    <categoryEntry name="Equipment (Joker: Harley Quinn)" id="674a-5dab-0186-9542" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -383,7 +384,7 @@
       <description>2SC: Once per round, this model can target a non-vehicle enemy model within its line of sight, and no further than 8” away. Reduce the target model’s Attack and Defense ratings by 1. Also, the target cannot spend SC this round. Both effects last until the end of the round.</description>
       <alias>Confusion</alias>
     </rule>
-    <rule name="Unpredictible" id="84f7-de2f-5332-b782" hidden="false">
+    <rule name="Unpredictable" id="84f7-de2f-5332-b782" hidden="false">
       <description>This model’s SC are wildcards. It may spend Special Counters on any other skill or action, immediately converting them into the appropriate type of counter for that action. When converted, the counters do not count towards the maximum counters the model may hold in any particular skill.</description>
     </rule>
     <rule name="Tracking (2SC)" id="5d17-abb6-c02f-ced1" hidden="false">
@@ -1007,8 +1008,10 @@ Day Rules:
 • Large models suffer a -1 penalty to all their Ping! rolls. 
 • Large models gain the Charge special attack, and can reroll Endurance rolls.</description>
     </rule>
-    <rule name="Lazy Cousins" id="e364-dc3f-9b14-6c7c" hidden="false">
-      <description>This model suffers -1 to its Willpower skill if there are no other models with this trait in play.</description>
+    <rule name="Let&apos;s cool it for now (v3)" id="e364-dc3f-9b14-6c7c" hidden="false">
+      <description>v3: Once per round, after this model places a suspect, target anoter model within 4&quot; of that suspect, it gains +1 Defense.
+v2: TODO</description>
+      <alias>Let&apos;s cool it for now</alias>
     </rule>
     <rule name="Let’s go! (1SC, passive)" id="6840-9789-ea5e-da62" hidden="false">
       <description>1SC, passive: When a friendly Henchman ends its activation, roll a die. On a 4+, you may immediately activate this model who has not yet been activated this round. This model activates without giving the opposing player the chance to activate one of his models in between. When this model has finished its turn, subsequent models with the Let’s Go! trait may also attempt to activate, incurring a -1 penalty to the die each time (so the third model in a row activates on a 5+, the fourth and all subsequent model on a 6). A result of 6 is always a success.</description>
@@ -1175,7 +1178,7 @@ Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</descri
     <rule name="Pickpocket" id="a23e-42de-46cd-a6fb" hidden="false">
       <description>This model may perform a Manipulate action while in contact with a KO model. If it does so, immediately follow the rules for the Steal effect.</description>
     </rule>
-    <rule name="Planning the move" id="0bc0-701f-f5c7-3ec8" hidden="false">
+    <rule name="Planning the Move" id="0bc0-701f-f5c7-3ec8" hidden="false">
       <description>All friendly models with the Gotham City Siren rule in this model’s crew (but not this model itself) gain the Primary Target X trait, where X is the Objective of your choice.</description>
     </rule>
     <rule name="Poison Immunity" id="deba-aefd-27a7-f252" hidden="false">
@@ -1595,7 +1598,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
       <description>In case of a critical hit, this weapon causes the Fire effect for the targeted model instead of the usual Stun damage.</description>
     </rule>
     <rule name="CRT (Poison)" id="89ad-42c7-3fc5-d998" hidden="false">
-      <description>In case of a critical hit, this weapon causes the Poison effect for the targeted model.</description>
+      <description>In case of a critical hit, this weapon causes the Paralyze effect for the targeted model.</description>
     </rule>
     <rule name="CRT (2 Stun)" id="301d-eee8-0bd9-af4d" hidden="false">
       <description>In case of a critical hit, this weapon causes 2 Stun damage instead of the usual Stun damage.</description>
@@ -1710,6 +1713,54 @@ v2: TODO</description>
       <alias>Intel Support (4)</alias>
       <alias>Intel Support (5)</alias>
       <description>v3: This model cannot be targeted / affected by an attack and does not suffer Statuses or Damage and cannot perform Unarmed attacks. It is only considered in contact with other models during its activation. When this model performs a Move, it is instead a Place. This model cannot use the Sewers in any way. When an enemy model removes 1 of your Suspects, place 1 Disruption token on this model. When this model has X Disruption tokens, remove the tokens and the model from te gaming area. In any subsequent Raise the Plan phase, you may reduce your Audacity markers by 1 during that round to return this model to play, placing it anywhere on the gaming area. This model is considered a Casualty / KO, when it is removed from the game for the purpose of scoring a card.</description>
+    </rule>
+    <rule name="CRT (Paralyze)" id="30d9-89ba-53c9-4d54" hidden="false">
+      <description>In case of a critical hit, this weapon causes the Paralyze effect for the targeted model.</description>
+    </rule>
+    <rule name="Green Web (1SC) (v3)" id="8047-955c-f186-ccc7" hidden="false">
+      <description>1SC: One friendly model with the Plant trait within 8&quot; of this model immediately performs an Attack action.</description>
+      <alias>Green Web</alias>
+    </rule>
+    <rule name="Pollination (v3)" id="6b62-a70f-7bb3-65c5" hidden="false">
+      <description>v3: When this model places a Suspect, it may be placed completely within a friendly plant action zone.
+v2: 1SC: A friendly model with the plant trait may remove 1 Damage marker.</description>
+      <alias>Pollination</alias>
+    </rule>
+    <rule name="Green Magic" id="75fb-defc-fea9-ebfb" hidden="false">
+      <description>This model can use Green Spells. In addition, once per game, this model can spend 1 MP to remove 2 Damage markers from its character card.</description>
+    </rule>
+    <rule name="Biting" id="43f6-3377-efeb-ef8b" hidden="false">
+      <description>Enemies within 6&quot; that wish to performan Action must first suffer the Envervating (1) status. If they already have Enervating, they must increase their Enervating value by 1.</description>
+    </rule>
+    <rule name="Slow Digestion" id="8e9b-6b6d-6e20-83be" hidden="false">
+      <description>After resolving a Devour attacht that inflicts damage, remove the target from the gaming area. That model is &quot;Devoured&quot;. A Devoured model my still be activated each round, but can only take an Endurance roll. If it is succcessful, place the Devoured model within 2&quot; of this model and continue its activation. If the Endurance roll fails, the Devoured model suffers 2 Blood damage. This model can only remove one enemy from the game in this way at the same time. If this model becomes a Casualty, place any model it Devoured within 2&quot; before removing this model. If a model is still Devoured when the game ends, it is considered a Casualty.</description>
+    </rule>
+    <rule name="Suspicious Plant (v3)" id="cff3-74bf-6fc6-3181" hidden="false">
+      <description>v3: This model my place Suspects ignoring the Plant trait restriction.</description>
+    </rule>
+    <rule name="Life Growth (1SC) (v3)" id="29f8-4167-0cc0-8d2e" hidden="false">
+      <description>v3: 1SC: Target friendly Suspect within 8&quot; and LOS, and a friendly model with the Plant trait in play. Place this model in contact with the targeted Suspect and remove it.
+v2: 1SC: TODO</description>
+      <alias>Life Growth</alias>
+    </rule>
+    <rule name="Parliament of Flowers (v3)" id="5b8d-b430-e552-4c0b" hidden="false">
+      <alias>Parliament of Flowers</alias>
+      <description>v3: This model deploys as usual instead of using the Plants trait during Deploy Crews step. When a friendly model with the Plant trait within 8&quot; of this model performs a Manipulate action, it can suffer 2 Blood to place a friendly Suspect. In addition, this model&apos;s Tendrils attack gains Reach +X and +X to Hit rolls, where X is equal to the number of another friendly models with thePlant trait within 8&quot; of this model.
+v2: TODO</description>
+    </rule>
+    <rule name="Walking Plant (v3)" id="bd55-447d-2445-693e" hidden="false">
+      <description>v3: This model does not benefit from its Action Zone to perform Attack and Manipulate actions. In addition, if this model starts its activation within 8&quot; from a friendly model with the Elite Bos (Plants) trait, it removes 1 Damage. If not, it suffers 1 Blood.</description>
+    </rule>
+    <rule name="Growling Hound (1SC) (v3)" id="7ebd-ba4e-afa7-3375" hidden="false">
+      <description>1SC: Target an enemy model within 8&quot; and LoS. That model must take a Willpower roll. If unsuccessful, it must immediately MoveX&quot; directly away from this model (X is equal to the difference between the result and target&apos;s Willpower).</description>
+      <alias>Growling Hound</alias>
+    </rule>
+    <rule name="Lazy Cousins" id="6b7e-d12e-d0d5-c96c" hidden="false">
+      <description>This model suffers -1 to its Willpower skill if there are no other models with this trait in play.</description>
+    </rule>
+    <rule name="Nature&apos;s Arm (v3)" id="6163-ba09-2429-5fa1" hidden="false">
+      <description>v3: Until the end of the round, this model may place or reveal a Suspect marker within 4&quot; and LoS instead of in contact. An enemy model in contact with that Suspect increases the Slow Status value by 2, unless it doesn&apos;t have it. In case it does not have the Slow Status, it suffers Slow (2).</description>
+      <alias>Nature&apos;s Arm</alias>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -4111,6 +4162,9 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
       <alias>Magical Power (2)</alias>
       <alias>Magical Power (3)</alias>
       <alias>Magical Power (4)</alias>
+      <alias>Magical Power (5)</alias>
+      <alias>Magical Power (6)</alias>
+      <alias>Magical Power (7)</alias>
     </rule>
     <rule name="Necromancy" id="be0e-6414-55ce-a0ee" hidden="false">
       <description>TODO</description>
@@ -5213,5 +5267,6 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Equipment - Sirens" id="e85d-ec55-cc74-49ab" hidden="false"/>
   </sharedSelectionEntryGroups>
 </gameSystem>

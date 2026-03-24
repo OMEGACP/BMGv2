@@ -293,9 +293,9 @@
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="84e1-5896-3875-7cda" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="unit" import="true" name="Army of Rats" hidden="false" id="80d8-5e57-4ce1-a9ed" collective="true">
+            <selectionEntry type="unit" import="true" name="Army of Rats" hidden="false" id="80d8-5e57-4ce1-a9ed" subType="unit-group">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Sewer Swarm 1" hidden="true" id="7176-1448-0fbd-253b" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Sewer Swarm 1" hidden="true" id="7176-1448-0fbd-253b" defaultAmount="1">
                   <profiles>
                     <profile name="Sewer Swarm" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d5eb-9766-4bfd-aabe">
                       <characteristics>
@@ -346,7 +346,7 @@
                     <categoryLink name="Special Unit" hidden="false" id="cf4f-dd3a-b934-f968" targetId="ea61-4014-081c-4b64" primary="true"/>
                   </categoryLinks>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Sewer Swarm 2" hidden="true" id="e357-670b-0676-2604" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Sewer Swarm 2" hidden="true" id="e357-670b-0676-2604" defaultAmount="1">
                   <profiles>
                     <profile name="Sewer Swarm" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="56a4-be26-f6a6-b9f6">
                       <characteristics>
@@ -397,7 +397,7 @@
                     <categoryLink name="Special Unit" hidden="false" id="8d90-bc5d-e6fe-64d8" targetId="ea61-4014-081c-4b64" primary="true"/>
                   </categoryLinks>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Sewer Swarm 3" hidden="true" id="dd00-d824-9c28-4c56" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Sewer Swarm 3" hidden="true" id="dd00-d824-9c28-4c56" defaultAmount="1">
                   <profiles>
                     <profile name="Sewer Swarm" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="2243-da21-d451-196e">
                       <characteristics>
@@ -581,7 +581,7 @@
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink name="Unpredictible" id="b41c-6581-a086-d1d9" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Unpredictable" id="b41c-6581-a086-d1d9" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
             <infoLink name="Death Marks" id="6aed-78a8-36ef-a03e" hidden="false" type="rule" targetId="fccb-97c5-b287-28a8"/>
             <infoLink name="Tension" id="f064-945c-1096-32b2" hidden="false" type="rule" targetId="e4bc-8c3f-e32f-52e5"/>
             <infoLink name="Devastating Blow (1SC)" id="c8ce-e6ac-2a4d-5a3a" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
@@ -623,9 +623,9 @@
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="daef-6d22-40f2-0395" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="unit" import="true" name="Dollotrons" hidden="false" id="2125-6d6c-9b8c-f2a6" collective="true">
+            <selectionEntry type="unit" import="true" name="Dollotrons" hidden="false" id="2125-6d6c-9b8c-f2a6" subType="unit-group">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Dollotron 1" hidden="true" id="0332-2052-8289-a59c" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Dollotron 1" hidden="true" id="0332-2052-8289-a59c" defaultAmount="1">
                   <profiles>
                     <profile name="Dollotron 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="74e4-7618-6f98-e3dd">
                       <characteristics>
@@ -664,8 +664,11 @@
                     <infoLink name="Self-Discipline" id="1485-9339-0df3-4183" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
                     <infoLink name="Stupid" id="549e-8fe8-48c2-984c" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
                   </infoLinks>
+                  <categoryLinks>
+                    <categoryLink targetId="ea61-4014-081c-4b64" id="8141-cb82-e501-61eb" primary="true" name="Special Unit"/>
+                  </categoryLinks>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Dollotron 3" hidden="true" id="c71e-ff70-39d7-964f" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Dollotron 3" hidden="true" id="c71e-ff70-39d7-964f" defaultAmount="1">
                   <profiles>
                     <profile name="Dollotron 3" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="48f6-310d-b1be-8dff">
                       <characteristics>
@@ -704,8 +707,11 @@
                     <infoLink name="Self-Discipline" id="66c4-4a83-d7f2-66a8" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
                     <infoLink name="Stupid" id="6eae-2e25-5a94-f42d" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
                   </infoLinks>
+                  <categoryLinks>
+                    <categoryLink targetId="ea61-4014-081c-4b64" id="89e2-5835-d356-3128" primary="true" name="Special Unit"/>
+                  </categoryLinks>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Dollotron 2" hidden="true" id="b811-eaaa-b6f9-c976" defaultAmount="3" collective="true">
+                <selectionEntry type="model" import="true" name="Dollotron 2" hidden="true" id="b811-eaaa-b6f9-c976" defaultAmount="1">
                   <profiles>
                     <profile name="Dollotron 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="27ff-476a-add8-a9c4">
                       <characteristics>
@@ -744,6 +750,9 @@
                     <infoLink name="Self-Discipline" id="7c30-0341-c7a7-de7d" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
                     <infoLink name="Stupid" id="542c-a2cc-f529-b5b7" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
                   </infoLinks>
+                  <categoryLinks>
+                    <categoryLink targetId="ea61-4014-081c-4b64" id="ab78-bcbc-e764-0c76" primary="true" name="Special Unit"/>
+                  </categoryLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1221,7 +1230,7 @@
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="a8e5-9f8a-d8f0-02c7" childId="31ee-3210-13a5-20e8" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
@@ -1774,6 +1783,196 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Harley Quinn (Rebirth)" hidden="false" id="24c3-6de4-471d-bcb0">
+          <profiles>
+            <profile name="Harley Quinn (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6246-7584-aaec-4818">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Harleen Frances Quinzel</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Harley Quinn (Rebirth)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Harley Quinn (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="bbf8-65b4-5dd4-89e5">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Charismatic, Combat Flip, Confusion, Fast, Gotham City Siren, True Love (Joker)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="4a49-542f-3cea-a544" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink name="Crew (Unknown)" hidden="false" id="8e02-14f5-6e67-8d3c" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
+            <categoryLink targetId="674a-5dab-0186-9542" id="c750-1957-838b-e892" primary="false" name="Equipment (Joker: Harley Quinn)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="77"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Your Face Here" hidden="false" id="cc2d-18c2-c840-90a6" type="selectionEntry" targetId="1f15-b64e-c038-d3fd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9cb8-dd3e-5321-230a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06e0-3830-6329-ba63"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a95-313e-37e9-e81a" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Acrobat" id="3dbd-e557-b327-6582" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Charismatic" id="e9bb-f286-cf20-02d9" hidden="false" type="rule" targetId="f0cc-450b-1ed4-df6e"/>
+            <infoLink name="Fast" id="109a-22b9-f83a-77ac" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Gotham City Siren" id="d928-4604-490f-2e85" hidden="false" type="rule" targetId="e2b5-420d-fc88-2775"/>
+            <infoLink name="Combat Flip (1SC)" id="cf75-4b72-3792-524e" hidden="false" type="rule" targetId="f162-f173-595b-d58f"/>
+            <infoLink name="Confusion (2SC)" id="408a-b827-0208-0249" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
+            <infoLink name="True Love (Name)" id="29e1-3db9-8a2f-bd1c" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Catwoman" hidden="false" id="6ad6-cb40-bc1d-88ea">
+          <profiles>
+            <profile name="Catwoman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1bf9-d173-dc8d-55d8">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Selina Kyle</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Catwoman" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="392f-e9d7-6dcf-bd92">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">5</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Climbing Claws, Gotham City Siren, Planning the Move, Primary Target (Loot), Retractable Claws, Sneaking, Thief, Total Vision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="5b40-79d2-7e7f-ba4b" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="b1fe-d9ed-1adb-ca26" primary="false" name="Rival (The Brave and the Bold)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="4db7-badb-0001-e28f" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="66"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cda8-12e3-7c02-e440" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Whip" hidden="false" id="dc29-b73b-75d9-2dde" type="selectionEntry" targetId="3985-a4c5-7c64-c8ed">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2292-801f-d443-9220"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96a4-b94b-4fea-65a2"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="a8e5-9f8a-d8f0-02c7" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="bcf9-e760-956d-a147" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Retractable Claws" id="e863-6328-be8b-5eef" hidden="false" type="rule" targetId="e7b2-6c3f-c51f-f683"/>
+            <infoLink name="Gotham City Siren" id="abd3-62cb-4898-6d53" hidden="false" type="rule" targetId="e2b5-420d-fc88-2775"/>
+            <infoLink name="Planning the Move" id="4d6a-49a2-2798-c319" hidden="false" type="rule" targetId="0bc0-701f-f5c7-3ec8"/>
+            <infoLink name="Sneaking" id="17d1-4fae-c380-a937" hidden="false" type="rule" targetId="1964-47e0-8bc9-4e23"/>
+            <infoLink name="Climbing Claws" id="e1a8-436f-6e1f-06f1" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Acrobat" id="8dfb-4a65-4541-322b" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Primary Target (Type)" id="68a4-f3b5-5e6d-1f72" hidden="false" type="rule" targetId="0ac2-e25d-8423-8b8c"/>
+            <infoLink name="Total Vision" id="8f13-4da6-3a2c-fa12" hidden="false" type="rule" targetId="2bc9-33a3-ff0b-2fa5"/>
+            <infoLink name="Thief (1SC)" id="3926-6b5f-bc73-120b" hidden="false" type="rule" targetId="bbf0-b7eb-da4d-436a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Swamp Thing (v3)" hidden="false" id="68a7-29c1-9cdd-367b">
+          <profiles>
+            <profile name="Swamp Thing (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8c7b-a4b8-01c9-c7fb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Alex Holland</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Swamp Thing (v3)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Swamp Thing (v3)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="123b-f287-1897-d8d1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">9</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">4</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">12</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Chlorokinesis, Elite Boss (Plants), Green Magic, Immortal, Large, Magical Power (5), Natural Immunities, Pollution Hate, Regeneration, Supernatural, Tough Skin, Vulnerability to Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="b1c1-1fbd-a079-bc7a" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="8cc5-f961-9fab-a4a3" primary="true" name="Free Agent"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="e9d7-210c-0fbe-0a04" primary="false" name="Crew (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="150"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1501-cd52-bef9-351c" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Spikes" hidden="false" id="a321-3ec3-a29e-ebeb" type="selectionEntry" targetId="f388-d9c6-2095-3f27">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2eb-1a7f-adb9-c195"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b34b-e841-ecec-52a8"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Altered Limb" hidden="false" id="9906-057d-0a5a-2455" type="selectionEntry" targetId="cc27-4fdc-d3de-b9f1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c77a-e6b3-7396-0dcb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7915-1941-0ca8-d530"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Chlorokinesis (1SC)" id="f6d5-0900-c685-d6d8" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Elite Boss (Type)" id="0197-8049-5c41-0955" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Immortal" id="948e-f5e3-439c-fc12" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Supernatural" id="6dd9-04a0-72b2-f8a8" hidden="false" type="rule" targetId="e80c-1f11-bbe0-d13b"/>
+            <infoLink name="Tough Skin" id="f9bb-4a37-5073-9c62" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Vulnerability to Fire" id="3a22-ce9d-b4ab-3ab5" hidden="false" type="rule" targetId="5a15-dafe-b201-72b1"/>
+            <infoLink name="Magical Power (X)" id="8008-7baa-5023-8772" hidden="false" type="rule" targetId="5dba-59fb-cb2a-784c"/>
+            <infoLink name="Large" id="5cd5-f8d7-872b-f6f8" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Natural Immunities" id="aacb-64f7-abd9-e338" hidden="false" type="rule" targetId="ea6f-19ea-42a5-3d5f"/>
+            <infoLink name="Regeneration (1SC)" id="f85e-8782-8287-4d13" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Pollution Hate" id="129f-31cd-4c62-8ea6" hidden="false" type="rule" targetId="ad59-841c-a6eb-72bc"/>
+            <infoLink name="Green Magic" id="4b99-883f-c87a-dd90" hidden="false" type="rule" targetId="75fb-defc-fea9-ebfb"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c8f9-b951-694e-8e25">
@@ -1883,14 +2082,13 @@
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
                 <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
-                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, Reload, S. Range</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Throwing" id="33b5-c289-dcb8-6462" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
             <infoLink name="Short Range" id="999c-17b7-23c8-1b73" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
-            <infoLink name="Reload" id="0d46-4aa3-38cd-2511" hidden="false" type="rule" targetId="f2fc-7249-231f-b5cb"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Altered Limb" hidden="false" id="cc27-4fdc-d3de-b9f1">
@@ -1918,6 +2116,67 @@
           <infoLinks>
             <infoLink name="Handy" id="0224-9a24-f3a4-5614" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
             <infoLink name="CRT (1 Blood)" id="056e-a92f-c019-4b32" hidden="false" type="rule" targetId="b304-bcdd-4d2d-5b3c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Your Face Here" hidden="false" id="1f15-b64e-c038-d3fd">
+          <profiles>
+            <profile name="Your Face Here" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="bf32-d774-3651-26f6">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">3 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Heavy, Push, Reach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="6b86-14f5-b319-3a51" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+            <infoLink name="Push" id="837b-23c5-6210-85b1" hidden="false" type="rule" targetId="aeee-63a5-857c-8643"/>
+            <infoLink name="Reach (X)" id="0d4c-808b-c7a6-c19e" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reinforced Bat" hidden="false" id="e4f6-3b84-579e-4d58">
+          <profiles>
+            <profile name="Reinforced Bat" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0dc8-3e74-fe0b-0e36">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="b80e-fcbc-2d76-f467" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+            <infoLink name="Handy" id="49f4-f4b1-0f3c-e558" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Twin Guns" hidden="false" id="8ae9-f3a6-7c78-332a">
+          <profiles>
+            <profile name="Twin Guns" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="f00d-dd12-6b16-4850">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">4</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Firearm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Medium Range" id="ebd9-b837-24a9-1684" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Beam" id="4b5c-d902-870b-883e" hidden="false" type="rule" targetId="02b5-671c-bc5e-9da3"/>
+            <infoLink name="Reload" id="56c4-7b0d-f468-89c8" hidden="false" type="rule" targetId="f2fc-7249-231f-b5cb"/>
+            <infoLink name="CRT (Casualty)" id="c256-3b32-c1af-16ca" hidden="false" type="rule" targetId="da3d-b120-78ea-c465"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Metamorphic Branch" hidden="false" id="674b-48c0-e777-6dac">
+          <profiles>
+            <profile name="Metamorphic Branch" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0e75-118a-0ebd-07eb">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Crushing, Reach (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Reach (X)" id="873f-6960-b491-1a88" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+            <infoLink name="Crushing" id="3b0e-965f-1eb3-1586" hidden="false" type="rule" targetId="0570-47ea-c898-e829"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2005,15 +2264,15 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="0e35-eac2-bf34-e190">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Swamp Thing" hidden="false" id="a8e1-07cc-d811-8f66">
+        <selectionEntry type="model" import="true" name="Swamp Thing (Legacy)" hidden="false" id="a8e1-07cc-d811-8f66">
           <profiles>
-            <profile name="Swamp Thing" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6da9-bc7b-61f7-72b3">
+            <profile name="Swamp Thing (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6da9-bc7b-61f7-72b3">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Alex Holland</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Swamp Thing</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Swamp Thing (Legacy)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Swamp Thing" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="64f7-bb49-8922-81c6">
+            <profile name="Swamp Thing (Legacy)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="64f7-bb49-8922-81c6">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
@@ -2084,6 +2343,79 @@
             <infoLink name="Roots (2SC)" id="9454-bb32-a4a9-4051" hidden="false" type="rule" targetId="3fb2-4e61-e21c-688f"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Harley Quinn" hidden="false" id="715a-359a-9432-d183">
+          <profiles>
+            <profile name="Harley Quinn (Rebirth)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="26f2-2daa-21f0-2111">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Harleen Frances Quinzel</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Harley Quinn (Rebirth)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Harley Quinn (Rebirth)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3fc2-eb04-8261-1618">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Charismatic, Combat Flip, Confusion, Fast, Gotham City Siren, True Love (Joker)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Crew (Joker)" hidden="false" id="53f7-f6e6-8648-3b12" targetId="a8e5-9f8a-d8f0-02c7" primary="false"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="da94-97db-87de-6068" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="a6ec-457f-f6d9-cff9" primary="true" name="Sidekick"/>
+            <categoryLink targetId="674a-5dab-0186-9542" id="c5af-63d7-de44-a1f6" primary="false" name="Equipment (Joker: Harley Quinn)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="68"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Reinforced Bat" hidden="false" id="9314-cf71-d958-d144" type="selectionEntry" targetId="e4f6-3b84-579e-4d58">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="95f8-cda8-9a4c-a14c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb93-1eb4-1e69-ec19"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Guns" hidden="false" id="a943-31c9-afcb-7923" type="selectionEntry" targetId="8ae9-f3a6-7c78-332a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee68-54fa-0c79-0a18"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a7f-6a58-fa4e-509e"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="04f6-c5d4-154f-240a" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Unpredictable" id="be1d-4978-4d7c-a751" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Acrobat" id="f2cb-c70f-02dd-78f8" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Technique (1SC)" id="5a01-50cc-50db-f853" hidden="false" type="rule" targetId="66c4-ec53-de28-e8c6"/>
+            <infoLink name="Gotham City Siren" id="7e1d-752e-fe70-df38" hidden="false" type="rule" targetId="e2b5-420d-fc88-2775"/>
+            <infoLink name="Disarray (1SC)" id="d4ae-4520-4682-fa84" hidden="false" type="rule" targetId="19ca-58d8-d573-be79"/>
+            <infoLink name="Follow me! (1SC)" id="a550-cde3-d895-14bf" hidden="false" type="rule" targetId="dff5-13a0-8c39-ebad"/>
+            <infoLink name="True Love (Name)" id="fd26-4a26-a6a0-f96f" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Chaotic Friends" id="131d-32f2-b9b5-ec69" hidden="false" type="rule" targetId="6879-fa33-84f0-1dbc"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2112,10 +2444,15 @@
     <entryLink import="true" name="Scarecrow (Arkham City)" hidden="false" id="f213-5453-a862-3bc3" type="selectionEntry" targetId="6f4e-827e-ab4c-dfa6"/>
     <entryLink import="true" name="Electrocutioner" hidden="false" id="e295-0fe4-bf4a-b55f" type="selectionEntry" targetId="3189-32ab-1da6-b6df"/>
     <entryLink import="true" name="Parademon" hidden="false" id="8811-2a75-599c-a5c6" type="selectionEntry" targetId="8730-91be-b662-1ac5"/>
-    <entryLink import="true" name="Deathstroke" hidden="false" id="163e-f57a-59b0-1935" type="selectionEntry" targetId="3cf2-1503-bb28-4cc3"/>
+    <entryLink import="true" name="Deathstroke (Arkham City)" hidden="false" id="163e-f57a-59b0-1935" type="selectionEntry" targetId="3cf2-1503-bb28-4cc3"/>
     <entryLink import="true" name="Clayface" hidden="false" id="51d9-f003-1fbb-7911" type="selectionEntry" targetId="8f41-0f9f-eff0-0809"/>
     <entryLink import="true" name="Heat Wave" hidden="false" id="2d86-7673-402f-ae98" type="selectionEntry" targetId="0bda-4326-3ff8-5a52"/>
     <entryLink import="true" name="Killer Croc (Multiverse)" hidden="false" id="7ab2-db8d-d4c8-200e" type="selectionEntry" targetId="f6a5-84d7-a983-5d4a"/>
     <entryLink import="true" name="Deathstroke (Arkham Knight)" hidden="false" id="8756-c5d3-6a40-1729" type="selectionEntry" targetId="d2fd-52f7-5af1-58bd"/>
+    <entryLink import="true" name="Catwoman" hidden="false" id="dab8-0bdf-3fd6-c586" type="selectionEntry" targetId="6ad6-cb40-bc1d-88ea"/>
+    <entryLink import="true" name="Harley Quinn" hidden="false" id="eebd-f8bb-c1d3-9fc9" type="selectionEntry" targetId="715a-359a-9432-d183"/>
+    <entryLink import="true" name="Harley Quinn (Rebirth)" hidden="false" id="f7dc-ccf6-c038-2aa8" type="selectionEntry" targetId="24c3-6de4-471d-bcb0"/>
+    <entryLink import="true" name="Owlman" hidden="false" id="7413-540f-2464-1ab0" type="selectionEntry" targetId="393e-6635-f405-a4f9"/>
+    <entryLink import="true" name="Swamp Thing (v3)" hidden="false" id="1f6f-5fa1-3bbc-de90" type="selectionEntry" targetId="68a7-29c1-9cdd-367b"/>
   </entryLinks>
 </catalogue>
