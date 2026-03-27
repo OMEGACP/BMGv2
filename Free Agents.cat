@@ -1468,6 +1468,7 @@
             <infoLink name="Sturdy" id="d48e-1bb1-78fd-d6e0" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
             <infoLink name="Reinforced Gloves" id="69a0-5623-0fde-87fd" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Escape Artist" id="3dff-c66a-8485-3579" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+            <infoLink name="Teamwork X (Model)" id="0f3e-4c88-f9d7-ace3" hidden="false" type="rule" targetId="eef1-152d-cd96-c343"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Clayface" hidden="false" id="8f41-0f9f-eff0-0809">
@@ -1834,15 +1835,15 @@
             <infoLink name="True Love (Name)" id="29e1-3db9-8a2f-bd1c" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Catwoman" hidden="false" id="6ad6-cb40-bc1d-88ea">
+        <selectionEntry type="model" import="true" name="Catwoman (Siren)" hidden="false" id="6ad6-cb40-bc1d-88ea">
           <profiles>
-            <profile name="Catwoman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1bf9-d173-dc8d-55d8">
+            <profile name="Catwoman (Siren)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1bf9-d173-dc8d-55d8">
               <characteristics>
                 <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Selina Kyle</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman (Siren)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Catwoman" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="392f-e9d7-6dcf-bd92">
+            <profile name="Catwoman (Siren)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="392f-e9d7-6dcf-bd92">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
@@ -1867,22 +1868,17 @@
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cda8-12e3-7c02-e440" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Whip" hidden="false" id="dc29-b73b-75d9-2dde" type="selectionEntry" targetId="3985-a4c5-7c64-c8ed">
+            <entryLink import="true" name="Whip" hidden="false" id="6f0a-9f8b-9f3a-1b7e" type="selectionEntry" targetId="3985-a4c5-7c64-c8ed">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2292-801f-d443-9220"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96a4-b94b-4fea-65a2"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4b5-fd42-7267-10fc"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aa8-d64e-ec79-4b1e"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="a8e5-9f8a-d8f0-02c7" childId="31ee-3210-13a5-20e8" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="bcf9-e760-956d-a147" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1971,6 +1967,475 @@
             <infoLink name="Regeneration (1SC)" id="f85e-8782-8287-4d13" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
             <infoLink name="Pollution Hate" id="129f-31cd-4c62-8ea6" hidden="false" type="rule" targetId="ad59-841c-a6eb-72bc"/>
             <infoLink name="Green Magic" id="4b99-883f-c87a-dd90" hidden="false" type="rule" targetId="75fb-defc-fea9-ebfb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bronze Tiger" hidden="false" id="0d3a-7c41-559f-41cb">
+          <profiles>
+            <profile name="Bronze Tiger" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7ed7-8abe-2290-7bda">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Benjamin Turner</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bronze Tiger</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bronze Tiger" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ddba-f441-87b7-9bcf">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Close Combat Master, Counter Attack, Martial Artist, Martial Expert, Offensive Defense, Reinforced Gloves, Takedown, The Professional</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="b592-ee61-7d23-2fee" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="5b56-a7f2-ea36-7ee2" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="edf7-b9f2-4d8f-81b1" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Close Combat Master" id="f836-5475-b254-1772" hidden="false" type="rule" targetId="b58e-d721-e070-3238"/>
+            <infoLink name="Counter Attack (1SC) (Passive)" id="52e7-d062-a521-6a06" hidden="false" type="rule" targetId="648d-9c9e-3175-ef1c"/>
+            <infoLink name="Martial Artist" id="a4f0-3f2d-62bb-3c09" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Takedown (1SC)" id="4c3e-06c7-0abe-3067" hidden="false" type="rule" targetId="c365-8be0-c432-d041"/>
+            <infoLink name="Reinforced Gloves" id="1973-a409-696a-cca2" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="The Professional" id="dcce-2eab-fcaa-4511" hidden="false" type="rule" targetId="2d2b-741d-81a0-56b9"/>
+            <infoLink name="Offensive Defense" id="e1d0-0216-f7eb-d7de" hidden="false" type="rule" targetId="231d-5eed-313b-044f"/>
+            <infoLink name="Martial Expert" id="c9a7-e849-9768-41ce" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Captain Cold" hidden="false" id="51be-ac54-f2ce-97db">
+          <profiles>
+            <profile name="Captain Cold" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5bd3-9618-6778-9f33">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Leonard Snart</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Captain Cold</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Captain Cold" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="de45-99ae-b464-3383">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Leadership, Mastermind, Order, Ranged Master, Strategist, Teamwork (Heat Wave) (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="672e-fabb-5e5f-05ba" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="ddeb-31dd-d1ed-b6eb" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="72"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3527-0d7f-4325-0751" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="The Cold Gun" hidden="false" id="3b8a-f19b-6700-ea3e" type="selectionEntry" targetId="bbba-f271-969f-1feb">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d129-59bb-d42f-5454"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="936e-e338-9a7b-433a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="The Cold Gun (Full Power)" hidden="false" id="47db-409c-bea2-dba6" type="selectionEntry" targetId="30f0-137d-b2c4-d448">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ba2-99b9-5859-2191"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cf4-ad9e-b4a8-d689"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f2da-4023-9d92-989a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Leadership" id="d26e-e4bf-ed48-3838" hidden="false" type="rule" targetId="10cd-cb0f-6b2c-327a"/>
+            <infoLink name="Ranged Master" id="e9a9-8de9-7848-fdb6" hidden="false" type="rule" targetId="3724-6edf-2216-d9e0"/>
+            <infoLink name="Strategist" id="4bc4-13e3-250a-8677" hidden="false" type="rule" targetId="c6aa-57e2-aff9-0ddc"/>
+            <infoLink name="Order (1SC)" id="dc41-95aa-d52f-ef7a" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
+            <infoLink name="Mastermind" id="452b-de48-4e9b-1a91" hidden="false" type="rule" targetId="96ca-9d5f-9b86-ff7e"/>
+            <infoLink name="Teamwork X (Model)" id="6f4b-6f5a-4d14-d559" hidden="false" type="rule" targetId="eef1-152d-cd96-c343"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Catwoman (DKR)" hidden="false" id="a992-df1b-025e-43dd">
+          <profiles>
+            <profile name="Catwoman (DKR)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1933-ec34-bc16-8e01">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Selina Kyle</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman (DKR)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Catwoman (DKR)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="df30-7f10-1b70-385c">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Climbing Claws, Night Vision, Pickpocket, Sneak Attack, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="d87b-5b77-cfd0-846a" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="56f5-2704-d410-d0a4" primary="false" name="Rival (The Brave and the Bold)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="5c05-8fe1-6f76-095e" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="64"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="622b-1751-ef2c-9d3c" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="dc29-b73b-75d9-2dde" type="selectionEntry" targetId="0837-9f47-7129-0685">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2292-801f-d443-9220"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96a4-b94b-4fea-65a2"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heels" hidden="false" id="1648-72b5-105a-4779" type="selectionEntry" targetId="57b0-a49e-bb5c-75d6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b181-6d06-ec09-cfd7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2be8-0388-822c-8ad5"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Night Vision" id="b44a-63f9-2bf1-469c" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+            <infoLink name="Pickpocket" id="d214-fecb-ef1d-238a" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
+            <infoLink name="Undercover" id="8f78-1f97-18bf-a1d5" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Climbing Claws" id="1bd3-009c-c3b0-fd57" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Acrobat" id="b89a-274a-bcb9-cfb8" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Sneak Attack (1SC)" id="b18f-00e4-2a46-9c63" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Catwoman (Modern Age)" hidden="false" id="a427-786e-7772-b40e">
+          <profiles>
+            <profile name="Catwoman (Modern Age)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="766d-7a5f-5e29-edcd">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Selina Kyle</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman (Modern Age)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Catwoman (Modern Age)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="cf1e-faed-1ee7-f70d">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">5</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Backpack, Bluff, Climbing Claws, Coward&apos;s Reward, Retractable Claws, Sneaking, Thief</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="9b40-0c9f-ce36-454e" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="363c-0712-6cdf-9201" primary="false" name="Rival (The Brave and the Bold)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="91db-6259-363b-7794" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="69"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4951-e1aa-a74c-8133" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Whip" hidden="false" id="83a4-1233-154a-e5b5" type="selectionEntry" targetId="3985-a4c5-7c64-c8ed">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d942-258d-bed7-e07c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d41a-eb71-14ff-5c1c"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Retractable Claws" id="9c78-d65b-a77e-cf05" hidden="false" type="rule" targetId="e7b2-6c3f-c51f-f683"/>
+            <infoLink name="Coward’s Reward (1SC)" id="f3d4-7623-eb41-973a" hidden="false" type="rule" targetId="6c03-4a8a-ebda-82af"/>
+            <infoLink name="Sneaking" id="cf26-30e3-9706-0473" hidden="false" type="rule" targetId="1964-47e0-8bc9-4e23"/>
+            <infoLink name="Climbing Claws" id="feba-5097-57dd-e62f" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Acrobat" id="c4c7-8a4e-4223-d6d9" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Backpack" id="aafc-e843-2eb7-634d" hidden="false" type="rule" targetId="7fb3-1048-9239-798d"/>
+            <infoLink name="Bluff (1SC)" id="6745-870a-ad62-e04e" hidden="false" type="rule" targetId="83a8-97d9-d4cd-fc19"/>
+            <infoLink name="Thief (1SC)" id="3276-95f5-b2e9-1bf2" hidden="false" type="rule" targetId="bbf0-b7eb-da4d-436a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Clayface (Mud Form)" hidden="false" id="694b-7fc2-0192-c75f">
+          <profiles>
+            <profile name="Clayface (Mud Form)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="90d9-24fd-64ce-324e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Basil Carlo</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Clayface (Mud Form)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Clayface (Mud Form)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="dbdc-c257-9123-4122">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Adaptable, Bodyguard, Clay Body, Huge, Mud, Regeneration, Roots, Sturdy, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="b05a-7fd5-b245-98dd" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="c851-29da-827e-c207" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="115"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e044-81b6-c0ad-f197" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Metamorphic Weapon" hidden="false" id="7c52-a589-48ca-86d9" type="selectionEntry" targetId="f245-3600-922d-9538">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e72a-8437-a61d-32a8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43c3-06c7-dc37-05e4"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Huge" id="cfbd-a166-28d9-2a64" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+            <infoLink name="Sturdy" id="c3b9-6695-5131-aed0" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="Clay Body" id="4a1f-0cb3-6861-7021" hidden="false" type="rule" targetId="390a-6c71-1b8a-cb19"/>
+            <infoLink name="Undercover" id="2f9b-91dc-2fc2-a956" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Adaptable" id="0628-e007-78af-fa27" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Regeneration (1SC)" id="fba7-dad3-1881-2190" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Bodyguard (1SC, Passive)" id="96be-22ed-407d-1d29" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+            <infoLink name="Roots (2SC)" id="f128-c8f1-cb1d-e579" hidden="false" type="rule" targetId="3fb2-4e61-e21c-688f"/>
+            <infoLink name="Mud" id="5890-6039-4da9-a9c6" hidden="false" type="rule" targetId="371b-9679-1cc7-1ed0"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Clayface (Solid Form)" hidden="false" id="b7f2-6677-0eb3-0337">
+          <profiles>
+            <profile name="Clayface (Solid Form)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1689-fb86-15c7-eff9">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Basil Carlo</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Clayface (Solid Form)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Clayface (Solid Form)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="9bfa-74fb-3d7b-ece4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">10</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Adaptable, Bodyguard, Clay Body, Huge, Regeneration, Rock,  Sturdy, Tough Skin, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="82b1-ab59-b4f7-a0eb" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="a08b-788f-8db3-01e5" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="115"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d47e-5f53-5f9d-4df9" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Metamorphic Weapon" hidden="false" id="1e33-a3f0-d4ac-fa51" type="selectionEntry" targetId="f245-3600-922d-9538">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a9a-ca16-c00f-54fb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d55-1007-502f-976a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Huge" id="9679-5c58-ca66-8842" hidden="false" type="rule" targetId="4aae-bedd-c79b-017e"/>
+            <infoLink name="Sturdy" id="01f7-6c56-d9f6-1a35" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
+            <infoLink name="Clay Body" id="970f-9c55-927c-2d05" hidden="false" type="rule" targetId="390a-6c71-1b8a-cb19"/>
+            <infoLink name="Undercover" id="8ff7-8fc2-0379-bdf1" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Adaptable" id="aae1-3cf5-4033-1a39" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Regeneration (1SC)" id="3284-4800-2275-a2a4" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Bodyguard (1SC, Passive)" id="2f85-73b4-3dfc-960c" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
+            <infoLink name="Tough Skin" id="afaf-ce3d-312c-b022" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Rock" id="4ccf-458c-e8c6-af33" hidden="false" type="rule" targetId="0498-376c-2c8b-b710"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Damien Darhk" hidden="false" id="d666-1004-aebe-18eb">
+          <profiles>
+            <profile name="Damien Darhk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c603-1c69-37b2-a1e0">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Damien Darhk</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Damien Darhk</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Damien Darhk" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="359d-3319-1d6d-ccc3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Aversion (Ra&apos;s al Ghul), Hidden Boss, Immortal, Magical Power (4), Master Fighter, Necromancy, Reinforced Gloves, Scheming (2), Self-Discipline</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="15ad-8ac2-1784-715c" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="4cdd-3e3d-6bf8-5ca1" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ca89-0cdf-dfc6-14c3" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Cardistry" hidden="false" id="c320-e036-100f-7bf0" type="selectionEntry" targetId="bc31-4a20-c945-aad6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9888-c7a3-e11b-5e8c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c2e-bd1a-47f7-47b6"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Aversion (Model)" id="0b0d-5d7a-bad8-55d1" hidden="false" type="rule" targetId="4860-8a2f-c140-b34d"/>
+            <infoLink name="Immortal" id="7c76-dc66-5167-ea2f" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Magical Power (X)" id="5006-c986-b431-a432" hidden="false" type="rule" targetId="5dba-59fb-cb2a-784c"/>
+            <infoLink name="Master Fighter" id="446b-bcfb-b791-7884" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
+            <infoLink name="Hidden Boss" id="05f4-84e8-c562-fa6f" hidden="false" type="rule" targetId="8d1b-71e9-72b3-3007"/>
+            <infoLink name="Necromancy" id="5914-a7a7-9631-1ecf" hidden="false" type="rule" targetId="be0e-6414-55ce-a0ee"/>
+            <infoLink name="Reinforced Gloves" id="314b-f22d-310c-f7d2" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Scheming (X)" id="bee6-e87b-55c1-9d9e" hidden="false" type="rule" targetId="58dd-dc9b-50d1-a6c3"/>
+            <infoLink name="Self-Discipline" id="283d-7964-6c5e-e151" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Deadshot (Classic)" hidden="false" id="de07-96ce-d9ea-acde">
+          <profiles>
+            <profile name="Deadshot (Classic)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ffcd-4802-83f3-b3e6">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Floyd Lawton</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Deadshot (Classic)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Deadshot (Classic)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ba05-a462-dba5-ef5a">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Expert Marksman, Rapid Fire, Night Vision, Dodge, Shooter</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="3a7c-855e-e53c-a2e5" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="3dd1-fb59-ed64-7a68" primary="false" name="Rival (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="600"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="90"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="48c0-6510-d6ac-e386" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Barret" hidden="false" id="c877-5054-98e4-c0f5" type="selectionEntry" targetId="db6a-4f18-d573-156c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f16f-2c7e-a202-b8a4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3697-4629-1bfe-789d"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="9mm Twin Cannons" hidden="false" id="e704-12ab-b661-5b6e" type="selectionEntry" targetId="def7-5a7c-62e4-1383">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c35-fd15-a0f3-8cb2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9386-a385-96e1-e45e"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Assassin (X)" id="64e6-1158-1716-0dee" hidden="false" type="rule" targetId="d5a6-22e3-afce-bb83"/>
+            <infoLink name="Dodge" id="e58b-5a27-9faf-ec70" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
+            <infoLink name="Hold Breath (2AC)" id="c7b6-008b-febd-bd1c" hidden="false" type="rule" targetId="2638-766b-5e11-5b6e"/>
+            <infoLink name="Ranged Master" id="a269-872a-4a06-6dea" hidden="false" type="rule" targetId="3724-6edf-2216-d9e0"/>
+            <infoLink name="Outlaw Field Commander (1SC)" id="d857-e0b1-744f-e658" hidden="false" type="rule" targetId="168a-4504-47fe-1b91"/>
+            <infoLink name="Obsessive (Mental Disorder)" id="cfeb-fa80-0328-ffb0" hidden="false" type="rule" targetId="f709-e36c-3c5a-3d49"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2177,6 +2642,93 @@
           <infoLinks>
             <infoLink name="Reach (X)" id="873f-6960-b491-1a88" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
             <infoLink name="Crushing" id="3b0e-965f-1eb3-1586" hidden="false" type="rule" targetId="0570-47ea-c898-e829"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Cold Gun (Full Power)" hidden="false" id="30f0-137d-b2c4-d448">
+          <profiles>
+            <profile name="The Cold Gun (Full Power)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="be15-e54f-3bef-812d">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Beam, Cold, S. Range, Ice Template</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Short Range" id="f958-df2a-fb0e-b0b2" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Beam" id="3eb4-8d61-b2d5-9c4f" hidden="false" type="rule" targetId="02b5-671c-bc5e-9da3"/>
+            <infoLink name="Ice Template" id="81c9-ab47-c12f-83dd" hidden="false" type="rule" targetId="4b0a-cd61-cc6c-32cd"/>
+            <infoLink name="Aim" id="cb72-47fb-27c7-dab4" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Cold Gun" hidden="false" id="bbba-f271-969f-1feb">
+          <profiles>
+            <profile name="The Cold Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3c54-7198-a764-9236">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Beam, Cold, S. Range, Ice Template</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Medium Range" id="3387-01b3-31d5-5b4f" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Beam" id="e804-00bd-ce29-1340" hidden="false" type="rule" targetId="02b5-671c-bc5e-9da3"/>
+            <infoLink name="Cold" id="bc7e-78ce-b825-b837" hidden="false" type="rule" targetId="626b-32ae-7525-5031"/>
+            <infoLink name="Accurate" id="804e-bc14-ef18-fd6c" hidden="false" type="rule" targetId="b12c-acb7-8423-bfb7"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Heels" hidden="false" id="57b0-a49e-bb5c-75d6">
+          <profiles>
+            <profile name="Heels" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="712f-2cd5-aa96-a237">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Sharp" id="c00a-829f-c274-9cd4" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Cardistry" hidden="false" id="bc31-4a20-c945-aad6">
+          <profiles>
+            <profile name="Cardistry" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="6af6-42d6-8c9e-9e15">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">52</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Bleed (2), Sharp, S. Range, Throwing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Short Range" id="2789-d212-2404-f579" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Bleed (X)" id="f759-3c61-460b-be91" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+            <infoLink name="Throwing" id="ff6c-baf6-4f30-94be" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Sharp" id="d3eb-c89e-d285-ada4" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Barret" hidden="false" id="db6a-4f18-d573-156c">
+          <profiles>
+            <profile name="Barret" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3823-4922-9a3b-e5e1">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">4 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Aim, Anti-Tank, Bleed (2), Devastating, Firearm, Scope</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Bleed (X)" id="0a64-ceb7-cfc8-f355" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
+            <infoLink name="Aim" id="ad7c-f50b-b948-1522" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Devastating" id="1086-7261-25a1-c4ba" hidden="false" type="rule" targetId="7785-af6b-1917-71cf"/>
+            <infoLink name="Anti-Tank" id="6cc7-2e97-a0c1-47df" hidden="false" type="rule" targetId="5db8-f31a-eafb-c0b4"/>
+            <infoLink name="Scope" id="3c7f-5748-9126-52ad" hidden="false" type="rule" targetId="e1ee-b548-15a7-7f62"/>
+            <infoLink name="Firearm" id="880e-0ac1-a81e-34da" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

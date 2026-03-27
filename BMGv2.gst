@@ -1083,8 +1083,8 @@ v2: TODO</description>
     <rule name="Millionaire" id="62af-c8ad-69fe-012e" hidden="false">
       <description>This model&apos;s crew gains an additional $400 Funding.</description>
     </rule>
-    <rule name="Minion" id="371b-9679-1cc7-1ed0" hidden="false">
-      <description>This model can be hired up to three times in a crew, regardless of its name.</description>
+    <rule name="Mud" id="371b-9679-1cc7-1ed0" hidden="false">
+      <description>Enemy models in contact with this model that wish to move must spend 1MC+1SC. In addition this model&apos;s attacks gain the Slow (2) effect.</description>
     </rule>
     <rule name="Mob" id="e4cc-dff6-51be-8b96" hidden="false">
       <description>All models in the same crew as this model gain a +1 bonus to their Let’s Go! rolls.</description>
@@ -1235,8 +1235,8 @@ Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</descri
     <rule name="Puzzle Master" id="365b-d86a-69f9-6926" hidden="false">
       <description>This model gains 4VP when it Manipulates a Riddle; no roll is needed. In addition, while this model is in play, enemy models cannot reroll when Manipulating a Riddle under any circumstances.</description>
     </rule>
-    <rule name="Quiz Master" id="0498-376c-2c8b-b710" hidden="false">
-      <description>You can repeat the Objective: Riddle. Each Riddle objective you take let you to place 3 Riddle Markers instead of 2.</description>
+    <rule name="Rock" id="0498-376c-2c8b-b710" hidden="false">
+      <description>This model&apos;s attacks gain the Overwhelming Special Rule.</description>
     </rule>
     <rule name="Raised in the Sewers" id="8dd1-5517-8cf9-2de9" hidden="false">
       <description>This model does not count towards the limit of models that can enter in the Sewers during a round.</description>
@@ -1431,8 +1431,8 @@ Plants are immune to Poison, Knocked-Down, Hypnotize and Blind effects.</descri
     <rule name="The Target of the Bat" id="1c08-ad4a-566f-e713" hidden="false">
       <description>If a model with Name: Bruce Wayne KO’s this model, the Bruce Wayne model’s controlling player gains 2 bonus VPs.</description>
     </rule>
-    <rule name="The Untouchable" id="2d2b-741d-81a0-56b9" hidden="false">
-      <description>If this model is your crew’s Boss, friendly Henchmen using the Bodyguard trait to take a hit on its behalf do not spend SC to do so. In addition, while this model is the Boss, all friendly Henchmen gain the For the Family trait.</description>
+    <rule name="The Professional" id="2d2b-741d-81a0-56b9" hidden="false">
+      <description>This model scores 1 additional VP when removing from the game as a Casualty and opponent Leader, Sidekick and / or Free Agent.</description>
     </rule>
     <rule name="The Voices (Mental Disorder)" id="30c0-77ed-12ff-935e" hidden="false">
       <description>This model’s Attack Counters (AC) are wildcards. It may spend these counters on any other skill or action, immediately converting them into the appropriate type of counter for that action. When converted, the counters do not count towards the maximum counters the model may hold in any particular skill.</description>
@@ -1761,6 +1761,18 @@ v2: TODO</description>
     <rule name="Nature&apos;s Arm (v3)" id="6163-ba09-2429-5fa1" hidden="false">
       <description>v3: Until the end of the round, this model may place or reveal a Suspect marker within 4&quot; and LoS instead of in contact. An enemy model in contact with that Suspect increases the Slow Status value by 2, unless it doesn&apos;t have it. In case it does not have the Slow Status, it suffers Slow (2).</description>
       <alias>Nature&apos;s Arm</alias>
+    </rule>
+    <rule name="Offensive Defense" id="231d-5eed-313b-044f" hidden="false">
+      <description>This model can spend its Defence Counters during its activation as Attack Counters.</description>
+    </rule>
+    <rule name="The Untouchable" id="d4fd-8027-657d-5082" hidden="false">
+      <description>If this model is your crew’s Boss, friendly Henchmen using the Bodyguard trait to take a hit on its behalf do not spend SC to do so. In addition, while this model is the Boss, all friendly Henchmen gain the For the Family trait.</description>
+    </rule>
+    <rule name="Minion" id="70a6-8f51-cd10-c7f6" hidden="false">
+      <description>This model can be hired up to three times in a crew, regardless of its name.</description>
+    </rule>
+    <rule name="Quiz Master" id="7420-ada6-b0f1-10e3" hidden="false">
+      <description>You can repeat the Objective: Riddle. Each Riddle objective you take let you to place 3 Riddle Markers instead of 2.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
