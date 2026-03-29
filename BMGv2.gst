@@ -1803,7 +1803,7 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
       <description>In case of a critical hit, this weapon causes the Freeze effect for the targeted model instead of the usual Stun damage.</description>
     </rule>
     <rule name="Large Roots" id="ca57-9b67-5136-7f06" hidden="false">
-      <description> Models moving within a 4” radius of this plant suffer Impaired Movement.</description>
+      <description>Models moving within a 4” radius of this plant suffer Impaired Movement.</description>
     </rule>
     <rule name="Corrosive Blood" id="a6cd-4309-442f-40ee" hidden="false">
       <description>When this model becomes a casualty, all models in Contact must pass an Endurance roll or receive 1 Blood Damage.</description>
@@ -5818,12 +5818,12 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
                   </conditions>
                 </conditionGroup>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -5902,7 +5902,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6722-eb8e-ad2d-d454" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="bc33-2416-5618-848b" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
