@@ -181,11 +181,11 @@
             <infoLink name="Chlorokinesis (1SC)" id="ed31-c6c6-ec5c-7a5b" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
             <infoLink name="Control Pheromones (3SC)" id="1ca0-c556-7f7e-2dd9" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
             <infoLink name="Elite Boss (Type)" id="7bdf-1ec8-4c69-9605" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
-            <infoLink name="Possessed" id="7a0f-ce6c-fddb-5be0" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
             <infoLink name="Scientific" id="7685-8127-85f7-2843" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
             <infoLink name="Affinity (Model)" id="57f6-3503-9884-b7b2" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
             <infoLink name="Poison Immunity" id="670a-08c6-5316-6184" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
             <infoLink name="Inspire (1SC)" id="c977-aeb7-80d1-faf8" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Possessed" id="4e83-2ad7-a380-e262" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Poison Ivy (Plants)" hidden="false" id="5536-3367-217d-d6a4">
@@ -1054,6 +1054,69 @@
             <infoLink name="Let’s go! (1SC, passive)" id="4177-94b0-0f0b-2b68" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Borj" hidden="false" id="d708-8898-c983-ef91">
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Thorne" hidden="false" id="26c3-257d-9916-15ca" type="selectionEntry" targetId="da8e-e764-e3a3-96f1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecce-7a59-04b9-5909"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3656-a655-c6fb-cda9"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e183-1a81-8069-511d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Rain of Spores" hidden="false" id="99df-f083-4624-4af7" type="selectionEntry" targetId="e091-0b60-96ad-98fd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25ec-1b19-56f1-2c49"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="647a-13c1-f149-209c"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Borj" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="614d-57ad-590e-26ca">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Borj</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Borj" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8cb0-bdf5-3640-2e57">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Control Pheromones, Elite (Plants), Extremely mutated, Plant, Poison Master, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="da49-20d2-b5fe-14cf" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="5830-7cb1-098d-2d5a" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3491-3b37-48a9-4bf7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="af1b-de14-523f-5474" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="cd82-4285-1c40-74f1" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="e4fa-477c-e401-a214" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Control Pheromones (3SC)" id="59cf-f578-3ff5-1651" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+            <infoLink name="Extremely mutated" id="7831-22a0-d891-1c8a" hidden="false" type="rule" targetId="0fbf-d426-99c7-05e2"/>
+            <infoLink name="Poison Master" id="332a-b413-bd2a-a5f0" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4d94-c997-a155-8a9d">
@@ -1266,6 +1329,36 @@
             <infoLink name="Mechanical" id="269a-8c82-c55a-441e" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Thorne" hidden="false" id="da8e-e764-e3a3-96f1">
+          <profiles>
+            <profile name="Poisoned Thorne" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8314-0552-0f85-4a19">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Poison, Toxic (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="b412-a71d-06a1-64ff" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Toxic (X)" id="e4cf-4c65-7b7f-5d56" hidden="false" type="rule" targetId="fcdd-240e-fa88-2545"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rain of Spores" hidden="false" id="e091-0b60-96ad-98fd">
+          <profiles>
+            <profile name="Rain of Spores" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="8512-26ee-aa2f-1e1c">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">4</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Gas, S. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Gas" id="fb64-f86b-9747-6050" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+            <infoLink name="Short Range" id="150d-100b-a480-75af" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1283,7 +1376,7 @@
     <entryLink targetId="9a53-da69-0059-2174" id="b6f4-e034-a84f-3b2f" type="selectionEntry" name="Mutated Plant 1" hidden="false"/>
     <entryLink targetId="d218-f123-835b-985a" id="6d0b-d6e9-b956-5e22" type="selectionEntry" name="Frank the Plant" hidden="false"/>
     <entryLink targetId="003c-60ec-4890-0150" id="0791-82a7-3047-5881" type="selectionEntry" name="Creeper Plant" hidden="false"/>
-    <entryLink import="true" name="Poison Ivy" hidden="false" id="5c31-b2f5-a315-6f26" type="selectionEntry" targetId="0c16-d1ca-bfae-ba00"/>
+    <entryLink import="true" name="Poison Ivy (Sirens Crew)" hidden="false" id="5c31-b2f5-a315-6f26" type="selectionEntry" targetId="0c16-d1ca-bfae-ba00"/>
     <entryLink import="true" name="Carnivorous Plant" hidden="false" id="caab-c7a2-b9e4-ff30" type="selectionEntry" targetId="5f75-52f1-eb57-04f5"/>
     <entryLink import="true" name="Floronic Man" hidden="false" id="b4ef-767a-d3ef-817b" type="selectionEntry" targetId="59d0-add6-07d6-c64f"/>
     <entryLink import="true" name="Poison Ivy (1997)" hidden="false" id="341d-57c5-1142-b801" type="selectionEntry" targetId="6185-6ed7-a477-e15e"/>

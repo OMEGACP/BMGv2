@@ -844,8 +844,8 @@
     <rule name="Heavy Armor" id="f075-06d4-140b-fcd5" hidden="false">
       <description>Damage rolls against this model suffer a -3 penalty.</description>
     </rule>
-    <rule name="Hates: Crew/s" id="4ac1-2c93-0300-f99a" hidden="false">
-      <description>This model can never be hired with the specified crew/s.</description>
+    <rule name="Handsome Hunka Hunka" id="4ac1-2c93-0300-f99a" hidden="false">
+      <description>If this model is completely with 4&quot; if a friendly Joker and Harley Quinn model at the same time, remove this model as a casualty.</description>
     </rule>
     <rule name="Hardened" id="0610-907f-ed3e-df46" hidden="false">
       <description>Each round, the first Injury Damage marker (Blood) inflicted on this model becomes a Stun Damage marker (Stun) instead.</description>
@@ -1066,7 +1066,7 @@ v2: TODO</description>
       <description>2SC: Target a non-vehicle model within 8” and line of sight. The target must pass a Willpower roll or receive ( AA) damage. A model can use this trait once per round.</description>
     </rule>
     <rule name="Monitoring Device (1SC)" id="3a37-7808-b0d4-bbb4" hidden="false">
-      <description>2SC: This model gains Total Vision and its ranged weapons gain Remote Controlled until the end of the round.</description>
+      <description>1SC: This model gains Total Vision and its ranged weapons gain Remote Controlled until the end of the round.</description>
       <alias>Monitoring Device</alias>
     </rule>
     <rule name="Mine (1MC+1SC)" id="0273-f045-99d3-ae85" hidden="false">
@@ -1618,7 +1618,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
       <alias>Mental Dominance</alias>
     </rule>
     <rule name="Carry (1MC+2SC)" id="56ca-3b22-52ca-b0d7" hidden="false">
-      <description>If this model passes within 2* of one or more friendly models during a movement action, it may pay the Action Counter at the end of the Action to target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm. If the target model is Damian Wayne, its BMD is reduced to 0 and it cannot use the Batclaw trait during its next activation. If not, the target model must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive rounds.</description>
+      <description>If this model passes within 2* of one or more friendly models during a movement action, it may pay the Action Counter at the end of the Action to target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm. If the target model is Damian Wayne, its BMD is reduced to 0 and it cannot use the Batclaw trait during its next activation. If not, the target model must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive activations.</description>
     </rule>
     <rule name="Multitask" id="e7dc-2321-c3eb-3fb7" hidden="false">
       <description>When you hire this model, chose one of the next options:
@@ -1773,6 +1773,31 @@ v2: TODO</description>
     </rule>
     <rule name="Quiz Master" id="7420-ada6-b0f1-10e3" hidden="false">
       <description>You can repeat the Objective: Riddle. Each Riddle objective you take let you to place 3 Riddle Markers instead of 2.</description>
+    </rule>
+    <rule name="Speedster Power (Molecular Vibration)" id="7ba5-1575-f2b1-9ee8" hidden="false">
+      <description>Cost: 3 Paradox: 5+
+When successfully hitting an enemy model, that model must take an Endurace roll. If it fails, it cannot move or be placed until the end of the round.</description>
+    </rule>
+    <rule name="Drag (1SC)" id="6e1b-3d18-68d5-ecbf" hidden="false">
+      <description>1SC: If this model passes within 2* of one or more friendly models during a movement action, it may target one of those models and place it in base contact. The chosen model cannot have a base larger than 30mm and must forfeit its next activation entirely. The model cannot use the Carry trait in 2 consecutive activations.</description>
+      <alias>Drag</alias>
+    </rule>
+    <rule name="Speedster Power (Kinetic Tornado)" id="236c-3763-cb8b-5f30" hidden="false">
+      <description>Cost: 2 Paradox: 6+
+Place a Spray template in contact with this model. All models affected by it suffer a Push and an auto hit with a Strength 4+ and damage 2 Stun. This can be dodged as a ranged attack.</description>
+    </rule>
+    <rule name="Special Volume" id="e4cf-ea91-d00e-f2c4" hidden="false">
+      <description>This model uses a base of 60mm, but has the same volume height and rules as a model on a 30mm base. Also, this model gains +2&quot; to its basic movement distance.</description>
+    </rule>
+    <rule name="Speedster Power (Black Bats)" id="4169-ac3e-4ece-6099" hidden="false">
+      <description>Cost: 2 Paradox: No
+Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the Raise the Plan phase</description>
+    </rule>
+    <rule name="Hates: Crew/s" id="7e8c-fb6c-ecf4-acb9" hidden="false">
+      <description>This model can never be hired with the specified crew/s.</description>
+    </rule>
+    <rule name="CRT (Freeze)" id="1e01-aa27-9ce8-1068" hidden="false">
+      <description>In case of a critical hit, this weapon causes the Freeze effect for the targeted model instead of the usual Stun damage.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -2128,7 +2153,7 @@ v2: TODO</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hidden Weapon" hidden="false" id="b98c-659d-4530-ab43">
           <profiles>
-            <profile name="Automatic Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="05ea-172a-7114-baf2">
+            <profile name="Hidden Weapon" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="05ea-172a-7114-baf2">
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">3</characteristic>
@@ -2449,14 +2474,14 @@ v2: TODO</description>
             <infoLink name="Sharp" id="becc-090c-23be-dd51" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Barret" hidden="false" id="c4e3-9e2f-85df-41ca">
+        <selectionEntry type="upgrade" import="true" name="Ice Daggers" hidden="false" id="c4e3-9e2f-85df-41ca">
           <profiles>
-            <profile name="Barret" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="6e12-0329-db70-176b">
+            <profile name="Ice Daggers" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="6e12-0329-db70-176b">
               <characteristics>
-                <characteristic name="Damage" typeId="3402-b871-7b53-7064">4 Blood</characteristic>
-                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
-                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, Reload, Aim, Anti-Tank, Scope, CRT (3 Blood)</characteristic>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">Inf.</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">M. Range, Reload, Throwing</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2464,17 +2489,10 @@ v2: TODO</description>
             <categoryLink targetId="e5df-fb90-85ea-a151" id="731c-64ed-4f45-0618" primary="false" name="Ranged Weapon"/>
           </categoryLinks>
           <infoLinks>
-            <infoLink name="Firearm" id="fcb1-b5df-4c17-4bbe" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
             <infoLink name="Reload" id="1d98-ebf8-ac06-ae19" hidden="false" type="rule" targetId="f2fc-7249-231f-b5cb"/>
-            <infoLink name="Aim" id="a1bc-2b46-1fde-4f98" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
-            <infoLink name="Anti-Tank" id="d0f2-a708-1928-3109" hidden="false" type="rule" targetId="5db8-f31a-eafb-c0b4"/>
-            <infoLink name="Scope" id="9c91-fd62-87f9-75d5" hidden="false" type="rule" targetId="e1ee-b548-15a7-7f62"/>
+            <infoLink name="Medium Range" id="a1bc-2b46-1fde-4f98" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Throwing" id="9c91-fd62-87f9-75d5" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
           </infoLinks>
-          <rules>
-            <rule name="CRT (3 Blood)" id="132b-da49-e746-becb" hidden="false">
-              <description>In case of a critical hit, this weapon causes 3 Blood damage instead of the usual Stun damage.</description>
-            </rule>
-          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="9mm Twin Cannons" hidden="false" id="def7-5a7c-62e4-1383">
           <profiles>
@@ -3796,6 +3814,25 @@ v2: TODO</description>
             <categoryLink name="CC Weapon" hidden="false" id="8a82-ea7c-c80c-562b" targetId="f863-9de5-8630-bf4a" primary="false"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hidden Gun" hidden="false" id="efb2-8a3b-ec92-ff2f">
+          <profiles>
+            <profile name="Hidden Gun" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="cfb6-8374-926d-4761">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Firearm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="511b-d9c5-0fcc-d98b" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Short Range" id="3bff-ee9f-b5f7-de30" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="9e45-2d31-fbfc-801a" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4094,15 +4131,9 @@ the other (discarded weapons are lost, and will no longer be available to use b
       <description>The target is pushed directly away from the attacker a number of inches equal to half the result of the Collateral Damage die, to a minimum of 1”. 
 If the target can’t be pushed, (because a scenery element or model is in the way) it will immediately suffer a hit with Strength 4+ and Damage (1 Stund). If the target model is pushed from the edge of a piece of scenery so that it can only be placed on a lower level, the model will fall.
 
-
 A vehicle model can only be pushed in close combat by Large or Huge models.
-
-
 A Large model can only be pushed in close combat by Large or Huge models.
-
-
 A Huge model can only be pushed in close combat by Huge models.
-
 
 A model cannot be pushed off the edge of the gaming area – treat the edge of the board as an impassable obstacle.</description>
     </rule>
@@ -4179,7 +4210,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
       <alias>Magical Power (7)</alias>
     </rule>
     <rule name="Necromancy" id="be0e-6414-55ce-a0ee" hidden="false">
-      <description>TODO</description>
+      <description>This model can use Necromancy Spells. In addition, once per game during its activation, this model can spend 2 MPs to inflict 1 Blood Damage to another model in contact, and then remove 1 Damage from itself.</description>
     </rule>
     <rule name="The Devil You Know" id="3edb-f397-d2c8-1e46" hidden="false">
       <description>TODO</description>
