@@ -32,6 +32,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="1587-17f4-50f9-08c8" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="01af-f6fa-04f4-e0bf" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
@@ -77,6 +78,8 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="e780-6281-015a-04c2" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1219-fa1f-1c32-faa6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="08d7-5d05-54b2-fa56" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 01" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d3f5-4cca-135b-cd71">
@@ -130,6 +133,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="ddb2-8ce0-d512-adf0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e4e3-81cd-5d14-237d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 03" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9d4c-6eb1-d9d8-c9a8">
@@ -184,6 +188,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="62fe-850f-f0c5-cb34" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5877-42f0-9a92-beeb" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 02" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ac8d-3115-e863-982f">
@@ -238,6 +243,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="cb50-a244-fb20-a2c5" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5a06-5e01-aca1-1c7b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ac3-17f9-1ddf-f1fe">
@@ -298,6 +304,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="a883-25e8-3894-341b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="b5ea-c558-66eb-dbe7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 05" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cec1-b9d8-b737-0d9e">
@@ -351,6 +358,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="9cc7-12a0-8ff8-7c0a" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7e80-29ce-2fad-f26b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Henchman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65bc-f746-4763-5d9b">
@@ -407,6 +415,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="b1a2-34e2-7f32-c612" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="289a-4807-8ef7-be68" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Turk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6496-246d-b5fd-d8fd">
@@ -460,6 +469,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="48e5-f2c4-c908-9dcf" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3131-89fc-778d-c831" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Prisoner" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d676-cf60-ef9d-2d5e">
@@ -516,6 +526,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="3c0b-1936-2020-ec88" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="13e4-33ba-21ef-6d54" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04211" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0215-55f0-a9dc-7dc4">
@@ -570,6 +581,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="f7f6-8bba-5d97-154b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="c181-046e-24db-3339" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 47905" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a6dc-727c-4c66-6145">
@@ -654,6 +666,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="74c2-8276-c44c-58e1" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0a20-32d1-1615-f2c6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0475" hidden="false" id="9aaa-dad8-423b-083a">
@@ -673,6 +686,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="42c7-c46f-74ee-57a0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5618-b011-e466-736a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0475" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="955b-9b49-5202-409f">
@@ -727,6 +741,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="2113-3270-b11d-dd13" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="d6d8-e762-c4e0-60f7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0476" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b4f1-415f-d2e7-abaf">
@@ -782,6 +797,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="fa28-ea23-1a8f-de2c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ab94-b8e2-336c-e2fd" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0474" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="e71e-1b91-6ee6-20fe">
@@ -837,6 +853,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="7be5-e79c-fddb-a253" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="a062-f85c-02e5-5b55" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0478" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eec2-7dcb-7501-1768">
@@ -897,6 +914,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="6c38-e83d-e934-c515" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="96ca-ca8d-b58e-586b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0477" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="11c9-fe28-e8a0-e3e4">
@@ -981,6 +999,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="1142-8d36-6c6f-8f9b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="280a-3032-ad2b-8935" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Pavillion B Subject" hidden="false" id="6b82-d588-d4a8-76e7">
@@ -1030,6 +1049,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="101c-e39e-c5a5-db7b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4cca-9edf-3af5-1fa6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="File No 08923" hidden="false" id="dea0-c055-64e3-4a71">
@@ -1079,6 +1099,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="df4e-60b3-3a26-018e" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="803c-c8b7-bd16-9602" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Goliath" hidden="false" id="cb1b-731a-0da3-7ea2">
@@ -1140,6 +1161,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="e56e-f4c3-a764-5a02" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5afd-2477-7194-bf12" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Robin (Damian Wayne)" hidden="false" id="6314-544d-0fed-16ca">
@@ -1278,6 +1300,9 @@
             <infoLink name="Mobster" id="99c9-4bfa-05c7-cdd5" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
             <infoLink name="Stupid" id="d8c0-5887-d797-ea4b" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3af9-4629-cba6-1d28" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Bud" hidden="false" id="4e99-5ea4-3c2a-e23b">
           <costs>
@@ -1334,6 +1359,9 @@
             <infoLink name="Mobster" id="e21e-e53b-a100-0173" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
             <infoLink name="Stupid" id="d0c0-ffa8-8ea3-0a14" hidden="false" type="rule" targetId="744d-f387-6764-0d9e"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1eb3-8a64-1ee8-0546" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>

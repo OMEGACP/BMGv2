@@ -11,7 +11,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d940-d9f5-9ccb-7867"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e477-57f9-dc46-8636" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="17c9-0378-bcd8-60b8" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <profiles>
             <profile name="Floronic Man" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="87a1-83e3-4b18-5f81">
@@ -71,6 +71,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="ceed-04f4-d957-edf7" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="b3f2-834c-f18d-cc7c" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="218e-c13d-390f-8eee" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (Sirens Crew)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3602-cab2-5891-eecb">
@@ -103,6 +104,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95b5-f23a-4541-cb38"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="f841-a6c5-3d45-c85f" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d8d4-c49c-c01b-fd68" includeChildSelections="true" includeChildForces="true"/>
@@ -132,6 +134,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="d896-e6c7-f050-32e4" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="0322-1fe5-d36e-bfcd" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="45da-bbcb-de58-b853" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (Arkham City)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f58d-21f0-a0b9-d155">
@@ -164,6 +167,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b440-24de-8833-cc94"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="545d-7bfa-dc35-e88b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="252f-a60f-5898-d86d" includeChildSelections="true" includeChildForces="true"/>
@@ -192,6 +196,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="925b-b781-fe3f-1824" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="5963-6625-bf9e-3102" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="43c0-70e3-ca41-4c65" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (Plants)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1f12-aa65-d769-8dea">
@@ -230,6 +235,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="002f-e2e0-0c3e-5834"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="bd95-1faf-3a91-f0b4" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="db3b-c15f-6bef-3cca" includeChildSelections="true" includeChildForces="true"/>
@@ -259,6 +265,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="cf02-3f07-13e0-29ac" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="a051-386c-ae41-47a7" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="8b61-1940-d3db-cf4d" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (Comic)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9c9c-f513-48a6-cb7a">
@@ -291,6 +298,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e53-646a-5c9b-4ebf"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4baf-eae0-3987-6043" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bb86-cc6d-fc68-81fe" includeChildSelections="true" includeChildForces="true"/>
@@ -316,6 +324,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="66a6-7f22-be3f-4c20" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="31a8-3a9f-24c8-4b99" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="4698-9f23-f4d4-ef0d" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (Plant Throne)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6db0-8dab-1110-dc0c">
@@ -354,6 +363,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f84-f3e4-9500-a784"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1e24-6c8c-22de-291d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1547-7f94-9a46-1e35" includeChildSelections="true" includeChildForces="true"/>
@@ -383,6 +393,7 @@
           <categoryLinks>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="21d9-8c05-e714-f478" primary="false" name="Crew (Gotham City Sirens)"/>
             <categoryLink targetId="955d-3f8e-a1e3-88b9" id="34bd-3d68-d719-784a" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="aa84-a6c1-264a-69a8" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
           </categoryLinks>
           <profiles>
             <profile name="Poison Ivy (1997)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d15c-5108-5b17-4770">
@@ -421,6 +432,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04c0-6369-ac2d-cc76"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="c958-8ede-89db-9dd9" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba23-5953-d37b-8a66" includeChildSelections="true" includeChildForces="true"/>
@@ -486,6 +498,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2a78-e090-3461-625c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="3510-f755-6d7e-e9c5" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="91ba-bde7-000e-723d" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9210-331a-6c7d-1f68" includeChildSelections="true" includeChildForces="true"/>
@@ -541,6 +554,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="4c9d-0366-7e7a-4abd" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="b13d-4959-fd73-39d4" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="4e48-71b4-c012-4bce" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cc85-edc3-a8fc-1242" includeChildSelections="true" includeChildForces="true"/>
@@ -596,6 +610,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="490d-c98f-50ac-4bb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="60fb-eba4-d7ec-38c0" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="6f2e-7bf4-e5fb-c4a2" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9d21-b433-0e97-2062" includeChildSelections="true" includeChildForces="true"/>
@@ -650,6 +665,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="773e-5a94-2be5-0ccb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="d9cc-b099-1359-3660" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="8cad-3435-100e-3e02" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f46-7fd4-61ef-0108" includeChildSelections="true" includeChildForces="true"/>
@@ -705,6 +721,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0277-dda2-c2e4-6314" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="86b1-9f4e-6580-7d16" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="dcdb-86ec-ea16-6578" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cb90-bbea-8b27-f9aa" includeChildSelections="true" includeChildForces="true"/>
@@ -759,6 +776,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="16eb-a8e1-d0f1-08e3" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="ee8b-e3d1-0742-ca2f" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="fe3f-cfec-7c23-66ad" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e84-0ce3-06ed-fbbd" includeChildSelections="true" includeChildForces="true"/>
@@ -816,6 +834,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="7630-b751-2c56-066c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="e2f4-0a21-b09b-9637" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="a879-f42b-fe93-f106" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41dd-cf1e-8183-0b1a" includeChildSelections="true" includeChildForces="true"/>
@@ -873,6 +892,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="f8d9-2a96-4013-f3fa" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="af0f-3d16-ca9d-7347" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="dc24-0f4f-ceb2-dd60" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f1e5-3562-09e6-7516" includeChildSelections="true" includeChildForces="true"/>
@@ -926,6 +946,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="bd01-5665-0cf2-5e88" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="a254-6c85-1124-986b" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="35f1-859c-507c-4db2" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41ec-8d22-6ee8-6030" includeChildSelections="true" includeChildForces="true"/>
@@ -983,6 +1004,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2f9c-8308-d5ff-a7aa" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="aba2-243a-8843-11ed" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="cbec-8ef0-9784-1691" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="48c5-8ce5-0075-e59f" includeChildSelections="true" includeChildForces="true"/>
@@ -1037,6 +1059,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3eab-fe70-6dba-d34d" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="a058-6606-146f-1aa0" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="2da3-de5d-e1cd-362d" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4692-b2b5-7f12-1d26" includeChildSelections="true" includeChildForces="true"/>
@@ -1097,6 +1120,7 @@
           <categoryLinks>
             <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="da49-20d2-b5fe-14cf" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
             <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="5830-7cb1-098d-2d5a" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="bbcb-e6eb-d06a-01d9" primary="false" name="Equipment (GCS: Plant)"/>
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3491-3b37-48a9-4bf7" includeChildSelections="true" includeChildForces="true"/>
@@ -1364,6 +1388,7 @@
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Models" id="8f8f-7be0-1df9-e3a0" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="c46d-9bef-df79-b420" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink targetId="3da8-824a-a916-c802" id="2b88-a697-eaf0-122e" type="selectionEntry" name="Spore Plant" hidden="false"/>

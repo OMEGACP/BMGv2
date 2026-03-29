@@ -54,6 +54,9 @@
     <categoryEntry name="Vehicle" id="e649-0ab7-9e7e-1f5c" hidden="false"/>
     <categoryEntry name="Equipment (OC: Lex Luthor)" id="bcf9-e760-956d-a147" hidden="false"/>
     <categoryEntry name="Equipment (Joker: Harley Quinn)" id="674a-5dab-0186-9542" hidden="false"/>
+    <categoryEntry name="Equipment (GCS: Dr. Pamela Lillian Isley)" id="6722-eb8e-ad2d-d454" hidden="false"/>
+    <categoryEntry name="Equipment (GCS: Alec Holland)" id="bc33-2416-5618-848b" hidden="false"/>
+    <categoryEntry name="Equipment (GCS: Plant)" id="9512-3685-4301-56aa" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -1798,6 +1801,18 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
     </rule>
     <rule name="CRT (Freeze)" id="1e01-aa27-9ce8-1068" hidden="false">
       <description>In case of a critical hit, this weapon causes the Freeze effect for the targeted model instead of the usual Stun damage.</description>
+    </rule>
+    <rule name="Large Roots" id="ca57-9b67-5136-7f06" hidden="false">
+      <description> Models moving within a 4” radius of this plant suffer Impaired Movement.</description>
+    </rule>
+    <rule name="Corrosive Blood" id="a6cd-4309-442f-40ee" hidden="false">
+      <description>When this model becomes a casualty, all models in Contact must pass an Endurance roll or receive 1 Blood Damage.</description>
+    </rule>
+    <rule name="Modified Pheromones" id="fb25-83ed-f6ea-0f6e" hidden="false">
+      <description>All models in the crew with the Control Pheromones rules can choose up to 2 enemy models instead of 1 when using the Control Pheromones Trait. (Note: If this model is removed from play, your models lose this Bonus).</description>
+    </rule>
+    <rule name="Millennia-old Roots" id="db0b-6808-74ce-c1e9" hidden="false">
+      <description>The action area radius is increased to 6”.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -4215,6 +4230,9 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
     <rule name="The Devil You Know" id="3edb-f397-d2c8-1e46" hidden="false">
       <description>TODO</description>
     </rule>
+    <rule name="Extra Magazine" id="6ce3-49e5-61e5-ba02" hidden="false">
+      <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
+    </rule>
   </rules>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Equipment - LoA" id="8e6e-4dad-b76c-3399" hidden="false">
@@ -5298,18 +5316,620 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
             </modifier>
             <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
-          <rules>
-            <rule name="Extra Magazine" id="6ce3-49e5-61e5-ba02" hidden="false">
-              <description>Add 1 extra magazine to one of the ranged weapons of this model.</description>
-            </rule>
-          </rules>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink targetId="6ce3-49e5-61e5-ba02" id="9422-2b2a-9f36-0698" type="rule" name="Extra Magazine" hidden="false"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Equipment - Sirens" id="e85d-ec55-cc74-49ab" hidden="false"/>
+    <selectionEntryGroup name="Equipment - Sirens" id="e85d-ec55-cc74-49ab" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Titanic Mutation" hidden="false" id="27c9-ab3e-c2af-d4df">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f94-fea3-65ef-7f0a" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ab2-2311-ae15-643f"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Night Vision" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Night Vision" id="5c7d-4dd5-160f-d4b3" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sense Mutation" hidden="false" id="7feb-440f-5edd-e6cd">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="ee07-4651-5264-7e41" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2246-e7d3-e74e-39f1"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Titan Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Titan Dose (Doses)" id="d001-74af-5491-e20e" hidden="false" type="rule" targetId="2af6-a9e7-4235-446d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Extra Spores" hidden="false" id="93bf-643e-eaee-dbc8">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b660-1430-2238-6ea5" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e89-7739-3f38-0a92"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Extra Magazine" id="1a63-3ab9-25f6-0979" hidden="false" type="rule" targetId="6ce3-49e5-61e5-ba02"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spikes Mutation" hidden="false" id="2305-5408-e8d3-b21b">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="149a-7358-f8c6-5a39" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f88-976e-1b18-650b"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Claws" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Claws" id="850c-efa7-e8a4-b2b9" hidden="false" type="rule" targetId="c144-fc60-8c08-d197"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Luminiscent Mutation" hidden="false" id="83ee-f90a-0b46-997b">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="1460-be64-597f-2635" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4714-3f92-2676-9a9e"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Lantern" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Lantern (1SC)" id="7127-0956-e256-86ce" hidden="false" type="rule" targetId="c9cb-7d7c-08f6-d8f4"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Large Roots" hidden="false" id="b4f3-2ed8-8087-0c2b">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0f5a-441e-30c0-1908" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74b0-ee81-6503-7990"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Large Roots" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Large Roots" id="9a56-03bb-3234-ae23" hidden="false" type="rule" targetId="ca57-9b67-5136-7f06"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grapple Gun" hidden="false" id="2e86-b11a-a803-6c57">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a285-fa14-07d8-b17d" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e205-7fe6-95e1-7691"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="eeb5-15b8-d9bc-2589" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Camo Vest" hidden="false" id="4b8f-f0e0-9b0c-2d13">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e36e-e069-a570-0964" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f3-012a-617f-f345"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Stealth" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Stealth" id="3f81-c0f8-bebf-bd7c" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mutation Serum" hidden="false" id="31f7-9a33-fa8a-d9a1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a979-d8f8-fada-ca71" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d3e-8fbd-715c-5db5"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="3"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Tough Skin, Desensitized" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Tough Skin" id="446a-ceb6-b689-e465" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Desensitized" id="861f-7ea7-9bbf-5ceb" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mutant Alterations" hidden="false" id="8620-10a1-6aaf-eb4e">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="bc2a-466d-8206-3c13" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="502a-ed1e-c0e0-50fc"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Adaptable" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Adaptable" id="2700-28ad-84f5-c40e" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Corrosive Blood" hidden="false" id="1ce9-2396-7f47-ccb4">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="a60c-9c2d-0562-09cf" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52dd-6920-e5db-4e64"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Corrosive Blood" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Corrosive Blood" id="9f3f-1dc2-cab7-1aa6" hidden="false" type="rule" targetId="a6cd-4309-442f-40ee"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Modified Pheromones" hidden="false" id="e060-8737-9c6d-cdad">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0b24-0ab2-53ee-d83a" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee6-fbd3-8402-a0d5"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6722-eb8e-ad2d-d454" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="955d-3f8e-a1e3-88b9" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Modified Pheromones
+" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Modified Pheromones" id="0231-123e-bf38-0e4b" hidden="false" type="rule" targetId="fb25-83ed-f6ea-0f6e"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ancient Plans" hidden="false" id="a2d6-0f7d-e9ae-cd48">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="39cc-43e5-0460-6a37" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="061b-cfa3-3371-5d10"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6722-eb8e-ad2d-d454" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Large, Millennia-old Roots, Tough Skin
+" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Large" id="fd1e-6a88-77a5-9d8c" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Tough Skin" id="2581-8d79-a3ab-44e2" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Millennia-old Roots" id="a3bf-3d6f-738d-bbe8" hidden="false" type="rule" targetId="db0b-6808-74ce-c1e9"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Passage" hidden="false" id="ab24-eb62-dac0-1a05">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7de6-b764-758b-c16a" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3719-4603-96d6-ba69"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6722-eb8e-ad2d-d454" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Undercover
+" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Undercover" id="8f4e-2b03-3cee-18aa" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>

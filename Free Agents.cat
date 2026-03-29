@@ -4450,6 +4450,7 @@
           <categoryLinks>
             <categoryLink targetId="6c53-80aa-1e01-a485" id="6cf9-4e9c-3024-7574" primary="true" name="Sidekick"/>
             <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="65a6-b1cd-ff57-0189" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="bc33-2416-5618-848b" id="22f6-fdeb-e678-8635" primary="false" name="Equipment (GCS: Alec Holland)"/>
           </categoryLinks>
           <costs>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="150"/>
