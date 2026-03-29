@@ -1934,7 +1934,7 @@
             <infoLink name="Elite Boss (Type)" id="e3f8-d496-591c-f586" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
             <infoLink name="Confusion (2SC)" id="fa55-c1ca-bc5d-63d9" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
             <infoLink name="Martial Artist" id="718d-e935-189d-48b5" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
-            <infoLink name="Unpredictible" id="1fa7-65f7-0c26-0855" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+            <infoLink name="Unpredictable" id="1fa7-65f7-0c26-0855" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
             <infoLink name="Sidekick - Let&apos;s go! Reroll" id="12d5-dace-28dd-001d" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
@@ -2677,9 +2677,9 @@
     <entryLink import="true" name="Talia al Ghul (Limited)" hidden="false" id="a68d-2566-e29a-f4ed" type="selectionEntry" targetId="9b08-f4d5-170e-1141"/>
     <entryLink import="true" name="Lady Shiva (Legacy)" hidden="false" id="75cd-94fb-08ef-117b" type="selectionEntry" targetId="bd36-4a9a-8430-e4bc"/>
     <entryLink import="true" name="The Heretic" hidden="false" id="0f97-00b0-a526-8c38" type="selectionEntry" targetId="87c8-d397-3b43-5706"/>
-    <entryLink import="true" name="Lady Shiva" hidden="false" id="62e4-cc1b-0471-f179" type="selectionEntry" targetId="2abc-7ed1-4799-45f4"/>
+    <entryLink import="true" name="Lady Shiva (Rebirth)" hidden="false" id="62e4-cc1b-0471-f179" type="selectionEntry" targetId="2abc-7ed1-4799-45f4"/>
     <entryLink import="true" name="Ra&apos;s al Ghul" hidden="false" id="331d-63af-2b90-dcb4" type="selectionEntry" targetId="06bb-03a3-6870-475f"/>
-    <entryLink import="true" name="Ra&apos;s al Ghul (Dark Knight)" hidden="false" id="5303-eb81-c51c-cd9c" type="selectionEntry" targetId="ee3d-f602-1564-53ee"/>
+    <entryLink import="true" name="Ra&apos;s al Ghul (DKR)" hidden="false" id="5303-eb81-c51c-cd9c" type="selectionEntry" targetId="ee3d-f602-1564-53ee"/>
     <entryLink import="true" name="Ra&apos;s al Ghul (Rebirth)" hidden="false" id="7e83-86c8-75e5-bca6" type="selectionEntry" targetId="009d-8006-2694-11e6"/>
     <entryLink import="true" name="League Agent 1" hidden="false" id="a130-d22a-413d-32f9" type="selectionEntry" targetId="273e-5528-fe7b-6336"/>
     <entryLink import="true" name="League Agent 2" hidden="false" id="bcc3-f7d1-1245-e68f" type="selectionEntry" targetId="7a11-24b4-79ae-51e4"/>

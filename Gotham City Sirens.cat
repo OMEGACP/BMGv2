@@ -1,2 +1,1413 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="102f-d7ed-dd40-578e" name="Gotham City Sirens" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="102f-d7ed-dd40-578e" name="Gotham City Sirens" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="d1a1-a044-71a2-5069">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Floronic Man" hidden="false" id="59d0-add6-07d6-c64f">
+          <entryLinks>
+            <entryLink import="true" name="Tendrils" hidden="false" id="c3a9-e846-37d3-8b7b" type="selectionEntry" targetId="0483-4429-85c1-cbee">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44a2-7a1b-d7be-4777"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d940-d9f5-9ccb-7867"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="17c9-0378-bcd8-60b8" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Floronic Man" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="87a1-83e3-4b18-5f81">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Jason Woodrue</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Floronic Man</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Floronic Man" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e423-d947-e550-37d3">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Chlorokinesis, Elite Boss (Plants), Green Web, Life Growth, Parliament of Flowers, Plant, Pollination, Walking Plant</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="65"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="487d-979a-0ea7-9d3e" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink name="Free Agent" hidden="false" id="8fa4-df1c-9442-035c" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="976e-51d0-d7a6-d98a" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="152d-28dc-b61b-556d" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite Boss (Type)" id="79a2-e305-5d03-b6df" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Green Web (1SC) (v3)" id="6f28-e643-afb5-78a7" hidden="false" type="rule" targetId="8047-955c-f186-ccc7"/>
+            <infoLink name="Chlorokinesis (1SC)" id="32af-a88e-af5a-ee51" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Pollination (v3)" id="5056-4647-9324-15d0" hidden="false" type="rule" targetId="6b62-a70f-7bb3-65c5"/>
+            <infoLink name="Walking Plant (v3)" id="10e0-afdc-4654-fb71" hidden="false" type="rule" targetId="bd55-447d-2445-693e"/>
+            <infoLink name="Life Growth (1SC) (v3)" id="905f-9795-846b-8971" hidden="false" type="rule" targetId="29f8-4167-0cc0-8d2e"/>
+            <infoLink name="Parliament of Flowers (v3)" id="f1ef-bcd7-6632-7db9" hidden="false" type="rule" targetId="5b8d-b430-e552-4c0b"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="068a-2d0c-39fa-5cc8"/>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="9766-46f9-db23-787e">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Poison Ivy (Sirens Crew)" hidden="false" id="0c16-d1ca-bfae-ba00">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="ceed-04f4-d957-edf7" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="b3f2-834c-f18d-cc7c" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="218e-c13d-390f-8eee" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (Sirens Crew)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3602-cab2-5891-eecb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (Sirens Crew)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (Sirens Crew)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="59b3-5d7d-9ae7-7611">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Chlorokinesis, Control Pheromones, Elite Boss (Plants), Gotham City Siren, Mortal Kiss, Poison Immunity, Possessed, Scientific, The Song of the Sirens, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="101"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Sprinkling Spores" hidden="false" id="43bb-1225-2a85-fa08" type="selectionEntry" targetId="3c72-f587-073b-ca41">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fd3-0c35-800f-1671"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95b5-f23a-4541-cb38"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="f841-a6c5-3d45-c85f" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d8d4-c49c-c01b-fd68" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Mortal Kiss (2SC)" id="e077-d41a-0753-ace3" hidden="false" type="rule" targetId="4463-8632-0819-e362"/>
+            <infoLink name="Acrobat" id="273c-6fb1-9058-b308" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Chlorokinesis (1SC)" id="0e61-fff8-b7ec-f1c5" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Control Pheromones (3SC)" id="bc9b-b972-6738-4c23" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+            <infoLink name="Elite Boss (Type)" id="fce5-c607-d55f-dbc4" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Possessed" id="b389-cc5f-b89d-1c6c" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
+            <infoLink name="Inspire (1SC)" id="3ce8-544b-e4dc-bcad" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="The Song of the Sirens" id="0726-c6ab-cf12-9b5b" hidden="false" type="rule" targetId="72b0-ab24-ca85-2df4"/>
+            <infoLink name="Gotham City Siren" id="089a-7f45-6479-9d27" hidden="false" type="rule" targetId="e2b5-420d-fc88-2775"/>
+            <infoLink name="Poison Immunity" id="df26-270e-edd9-05d7" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Scientific" id="813e-1d8c-869b-be74" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Poison Ivy (Arkham City)" hidden="false" id="8b68-d264-da1e-e503">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="d896-e6c7-f050-32e4" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="0322-1fe5-d36e-bfcd" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="45da-bbcb-de58-b853" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (Arkham City)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f58d-21f0-a0b9-d155">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (Arkham City)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (Arkham City)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="9b95-ceb0-435f-4b73">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Affinity (Bane), Affinity (Penguin), Chlorokinesis, Control Pheromones, Discourage, Elite Boss (Plants), Mortal Kiss, Poison Immunity, Possessed, Scientific, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="97"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Sprinkling Spores" hidden="false" id="1af3-7fc9-ef71-d92d" type="selectionEntry" targetId="3c72-f587-073b-ca41">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c42-5333-ccef-0487"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b440-24de-8833-cc94"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="545d-7bfa-dc35-e88b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="252f-a60f-5898-d86d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Mortal Kiss (2SC)" id="5de6-96ad-d495-cacf" hidden="false" type="rule" targetId="4463-8632-0819-e362"/>
+            <infoLink name="Discourage (2SC)" id="1588-ca45-904d-ccbe" hidden="false" type="rule" targetId="11d4-8deb-39df-161d"/>
+            <infoLink name="Chlorokinesis (1SC)" id="ed31-c6c6-ec5c-7a5b" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Control Pheromones (3SC)" id="1ca0-c556-7f7e-2dd9" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+            <infoLink name="Elite Boss (Type)" id="7bdf-1ec8-4c69-9605" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Scientific" id="7685-8127-85f7-2843" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Affinity (Model)" id="57f6-3503-9884-b7b2" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Poison Immunity" id="670a-08c6-5316-6184" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Inspire (1SC)" id="c977-aeb7-80d1-faf8" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Possessed" id="4e83-2ad7-a380-e262" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Poison Ivy (Plants)" hidden="false" id="5536-3367-217d-d6a4">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="925b-b781-fe3f-1824" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="5963-6625-bf9e-3102" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="43c0-70e3-ca41-4c65" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (Plants)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1f12-aa65-d769-8dea">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (Plants)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (Plants)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d766-a818-4a34-c92e">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Adaptable, Chlorokinesis, Control Pheromones, Elite Boss (Plants), Gotham City Siren, Large, Mortal Kiss, Poison Immunity, Possessed, Scientific, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="97"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Plants" hidden="false" id="b108-1417-204a-af42" type="selectionEntry" targetId="d50b-a647-91ed-b089">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d43-7051-7dc2-3fb1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79bb-6526-fe0f-1dcc"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Spores" hidden="false" id="c357-983e-1c6c-7cbf" type="selectionEntry" targetId="57dc-4c27-b45a-1fd5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="171c-18bc-b49d-f271"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="002f-e2e0-0c3e-5834"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="bd95-1faf-3a91-f0b4" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="db3b-c15f-6bef-3cca" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Adaptable" id="bd25-9dd5-410d-2c0a" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Large" id="e209-cdbf-967b-cdd9" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Possessed" id="2fc4-2d43-be8a-9a32" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
+            <infoLink name="Scientific" id="9ad9-1ae2-9dea-362c" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Poison Immunity" id="d958-eddd-00a0-6b96" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Inspire (1SC)" id="61f1-317f-469b-5ddd" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Chlorokinesis (1SC)" id="2beb-ab02-3482-9d8e" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Gotham City Siren" id="acee-612f-484e-6362" hidden="false" type="rule" targetId="e2b5-420d-fc88-2775"/>
+            <infoLink name="Elite Boss (Type)" id="93b1-dcc7-b567-6fe6" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Mortal Kiss (2SC)" id="4fdc-cca8-54e3-44c4" hidden="false" type="rule" targetId="4463-8632-0819-e362"/>
+            <infoLink name="Control Pheromones (3SC)" id="7fbd-4ea4-35f9-ecec" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Poison Ivy (Comic)" hidden="false" id="6940-477a-376c-f917">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="cf02-3f07-13e0-29ac" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="a051-386c-ae41-47a7" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="8b61-1940-d3db-cf4d" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (Comic)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9c9c-f513-48a6-cb7a">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (Comic)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (Comic)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d436-fda2-ccf4-07d5">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Confusion, Control Pheromones, Elite Boss (Plants), Poison Immunity, Possessed, Scientific, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="83"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Toxic Nails" hidden="false" id="43fb-c200-1ab0-ab04" type="selectionEntry" targetId="217f-68e7-e3d9-4448">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3b53-8a62-ff2a-98b6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e53-646a-5c9b-4ebf"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4baf-eae0-3987-6043" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bb86-cc6d-fc68-81fe" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Confusion (2SC)" id="5a79-602c-4e79-f9fa" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
+            <infoLink name="Control Pheromones (3SC)" id="9d45-2820-739b-5ceb" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+            <infoLink name="Elite Boss (Type)" id="f715-0df5-5975-d2dd" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Possessed" id="78a3-e9e6-fa2c-aabe" hidden="false" type="rule" targetId="f6c8-f3dc-1359-fe7c"/>
+            <infoLink name="Scientific" id="153c-3c3c-c9b1-9194" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Poison Immunity" id="e446-03b0-1ddd-7d99" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Inspire (1SC)" id="763f-c81e-4f12-14ab" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Poison Ivy (Plant Throne)" hidden="false" id="561d-99f2-361e-71fe">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="66a6-7f22-be3f-4c20" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="31a8-3a9f-24c8-4b99" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="4698-9f23-f4d4-ef0d" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (Plant Throne)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6db0-8dab-1110-dc0c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (Plant Throne)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (Plant Throne)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="245a-0119-2e8b-3fcb">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Adaptable, Chlorokinesis, Control Pheromones, Elite Boss (Plants), Gotham City Siren, Large, Mortal Kiss, Poison Immunity, Possessed, Scientific, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="93"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Plants" hidden="false" id="35d9-40fe-af8d-af27" type="selectionEntry" targetId="d50b-a647-91ed-b089">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a27-1ebf-b612-9459"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfcb-d5bd-d378-ff6a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Spores" hidden="false" id="7eb5-6c14-24be-1312" type="selectionEntry" targetId="57dc-4c27-b45a-1fd5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a32d-71de-5955-5a74"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f84-f3e4-9500-a784"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1e24-6c8c-22de-291d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1547-7f94-9a46-1e35" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Adaptable" id="864d-3d50-854d-2aa5" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Large" id="068a-614b-c126-3722" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Pollination (v3)" id="05b0-ff9f-19c9-52ab" hidden="false" type="rule" targetId="6b62-a70f-7bb3-65c5"/>
+            <infoLink name="Scientific" id="0e10-f1fa-4023-65bc" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Poison Immunity" id="c161-b69e-82db-301f" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Inspire (1SC)" id="d45b-5c37-9dc3-73c5" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Chlorokinesis (1SC)" id="1e9a-d560-c8e0-8f5b" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Green Web (1SC) (v3)" id="5a7f-569b-5d2e-dc1f" hidden="false" type="rule" targetId="8047-955c-f186-ccc7"/>
+            <infoLink name="Elite Boss (Type)" id="8e4e-3054-ec5e-99a4" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Mortal Kiss (2SC)" id="c5d6-f6a9-7a9e-f318" hidden="false" type="rule" targetId="4463-8632-0819-e362"/>
+            <infoLink name="Control Pheromones (3SC)" id="7a3c-dd9f-26da-8e15" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Poison Ivy (1997)" hidden="false" id="6185-6ed7-a477-e15e">
+          <categoryLinks>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="21d9-8c05-e714-f478" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="955d-3f8e-a1e3-88b9" id="34bd-3d68-d719-784a" primary="true" name="Leader"/>
+            <categoryLink targetId="6722-eb8e-ad2d-d454" id="aa84-a6c1-264a-69a8" primary="false" name="Equipment (GCS: Dr. Pamela Lillian Isley)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Poison Ivy (1997)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d15c-5108-5b17-4770">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Pamela Lillian Isley</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Poison Ivy (1997)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Poison Ivy (1997)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="76dd-865e-7e40-8efe">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Affinity (Mr. Freeze (1997)), Control Pheromones, Elite Boss (Plants), Let&apos;s cool it for now, Mortal Kiss, Nature&apos;s Arm, Poison Immunity, Protect me!, Scientific, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="66"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Plants" hidden="false" id="2097-33d1-bf72-b712" type="selectionEntry" targetId="d50b-a647-91ed-b089">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da0a-a5f6-9e02-f120"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bf0-de55-c6c8-aa86"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Sprinkling Spores" hidden="false" id="86f2-4f4d-c742-7898" type="selectionEntry" targetId="3c72-f587-073b-ca41">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f002-06a1-a3ba-da22"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04c0-6369-ac2d-cc76"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="c958-8ede-89db-9dd9" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba23-5953-d37b-8a66" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Affinity (Model)" id="0393-4119-a2e9-babd" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Large" id="031d-ead7-f376-f883" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Nature&apos;s Arm (v3)" id="342e-dd87-477a-931e" hidden="false" type="rule" targetId="6163-ba09-2429-5fa1"/>
+            <infoLink name="Scientific" id="6732-1630-a2c1-bb1a" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Poison Immunity" id="10ac-8d4a-d952-1b96" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
+            <infoLink name="Inspire (1SC)" id="0a9b-ff3e-a161-86dd" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Protect Me! (1SC, Passive)" id="3401-8edb-3b81-e983" hidden="false" type="rule" targetId="83d4-358d-2ecb-8d95"/>
+            <infoLink name="Green Web (1SC) (v3)" id="8834-5b23-acb2-0008" hidden="false" type="rule" targetId="8047-955c-f186-ccc7"/>
+            <infoLink name="Elite Boss (Type)" id="35da-da2d-5ac5-54ee" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Mortal Kiss (2SC)" id="c88b-4d0c-146a-bc35" hidden="false" type="rule" targetId="4463-8632-0819-e362"/>
+            <infoLink name="Control Pheromones (3SC)" id="dbd8-1a5a-2cad-f87b" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="633d-8605-60ea-0cfa">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Carnivorous Plant" hidden="false" id="5f75-52f1-eb57-04f5">
+          <entryLinks>
+            <entryLink import="true" name="Bite" hidden="false" id="e01d-2100-865c-8cde" type="selectionEntry" targetId="7e46-c10b-52ae-f2cc">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce0b-42d6-86e3-0b17"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0223-38ce-c9b0-dda6"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="2550-48d8-0ba2-b3bb" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Carnivorous Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c245-4735-e57c-c0e7">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Carnivorous Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Carnivorous Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="7039-6ae0-7bd8-57df">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Disruptor, Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="14"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2a78-e090-3461-625c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink targetId="8acb-5b5e-ca8e-fb31" id="3510-f755-6d7e-e9c5" primary="false" name="Crew (Gotham City Sirens)"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="91ba-bde7-000e-723d" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9210-331a-6c7d-1f68" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="9db7-34a8-99dd-a81b" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="1143-9604-05c5-a11a" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="26cd-f1c5-4190-18b0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Disruptor (2SC)" id="cf29-787d-8aa3-46d8" hidden="false" type="rule" targetId="0b4c-5f40-ad05-b730"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mutated Plant 1" hidden="false" id="9a53-da69-0059-2174">
+          <entryLinks>
+            <entryLink import="true" name="Venomous Bite" hidden="false" id="3d69-fb93-f5eb-b859" type="selectionEntry" targetId="278f-2286-f5e4-98c6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f759-f160-cbc9-4383"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8470-d93c-d6ae-1cc3"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3e45-3dc9-4230-c4ed" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mutated Plant 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="86d7-d0a8-29ed-83b7">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Mutated Plant 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mutated Plant 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b6b7-fa83-fbb5-afd9">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Shockwave, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="17"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="4c9d-0366-7e7a-4abd" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="b13d-4959-fd73-39d4" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="4e48-71b4-c012-4bce" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cc85-edc3-a8fc-1242" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="ef48-f37a-f74e-2b77" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="edbd-e67f-43d4-384f" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="9a6e-d8e2-7403-3844" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Shockwave (1SC)" id="ea6a-c17c-1b95-0ebd" hidden="false" type="rule" targetId="6898-0075-442c-13b6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mutated Plant 2" hidden="false" id="091f-c327-07fc-f9dd">
+          <entryLinks>
+            <entryLink import="true" name="Venomous Spit" hidden="false" id="2d4c-625b-56fc-e5d6" type="selectionEntry" targetId="b95e-a013-590d-dfbc">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba61-75b7-a45a-7f90"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ed-cf68-123f-ba31"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7d48-e846-a8ac-158f" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mutated Plant 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8ab8-8475-33f6-a698">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Mutated Plant 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mutated Plant 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d8f9-243c-0d10-47f4">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Shockwave, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="250"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="16"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="490d-c98f-50ac-4bb7" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="60fb-eba4-d7ec-38c0" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="6f2e-7bf4-e5fb-c4a2" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9d21-b433-0e97-2062" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="91b7-daef-65ae-f4a8" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="2ff5-5f2d-248d-f061" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ed38-c97a-6664-9543" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Power Dampening (1SC)" id="629d-c3c4-3367-8675" hidden="false" type="rule" targetId="e74e-89de-dd7c-006a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mutated Plant 3" hidden="false" id="aab8-81a7-3cf0-941b">
+          <entryLinks>
+            <entryLink import="true" name="Bite" hidden="false" id="ff0a-a2a1-7ca5-9cdc" type="selectionEntry" targetId="7e46-c10b-52ae-f2cc">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa47-cede-a305-a357"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0e8-8be8-8410-d93e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="bd06-dfc5-bfea-dcd7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mutated Plant 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3a9b-aaa2-dcde-7def">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Mutated Plant 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mutated Plant 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="70f4-8570-a6d6-c86a">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Disruptor, Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="14"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="773e-5a94-2be5-0ccb" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="d9cc-b099-1359-3660" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="8cad-3435-100e-3e02" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f46-7fd4-61ef-0108" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="e908-06e6-e089-84d8" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="50d3-12b7-af5b-c4a4" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="5a84-1201-bb20-0f92" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Disruptor (2SC)" id="638a-cd51-cc39-c4d0" hidden="false" type="rule" targetId="0b4c-5f40-ad05-b730"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Plant" hidden="false" id="f893-1ab0-2510-8015">
+          <entryLinks>
+            <entryLink import="true" name="Root" hidden="false" id="ad6b-44d0-abf8-3a3d" type="selectionEntry" targetId="97bb-f8f3-74ce-1244">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e08-b916-24fa-cc0d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75fd-668a-9ebf-b7a4"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="2129-04b4-4028-432c" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3080-b80a-a52d-c7d3">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0df8-9be5-7470-d1bd">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="10"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="0277-dda2-c2e4-6314" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="86b1-9f4e-6580-7d16" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="dcdb-86ec-ea16-6578" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cb90-bbea-8b27-f9aa" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="40d3-5761-af5d-30ea" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="999d-d3b0-a5d4-a175" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="f6c6-54cc-4708-c5e1" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rabid Plant 1" hidden="false" id="7a4b-ac83-ebe9-b6ae">
+          <entryLinks>
+            <entryLink import="true" name="Rabid Claws &amp; Teeth" hidden="false" id="5be0-714b-322e-5c72" type="selectionEntry" targetId="27fc-6692-d75d-35f2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1580-e5eb-260d-8112"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5732-b1c8-086a-1e25"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3c33-9a2d-cb0f-0276" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Rabid Plant 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0f62-357e-dda8-cd0f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Rabid Plant 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rabid Plant 1" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f2f6-9f7d-d66c-6e81">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Charge, Death Pack, Elite (Plants), Plant, Walking Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="16eb-a8e1-d0f1-08e3" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="ee8b-e3d1-0742-ca2f" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="fe3f-cfec-7c23-66ad" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e84-0ce3-06ed-fbbd" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Death Pack" id="551f-0c12-a25c-91ca" hidden="false" type="rule" targetId="de95-3180-f208-8cef"/>
+            <infoLink name="Elite (Type)" id="b6fe-1db7-d6b0-3687" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="4431-36ee-fa1c-81a5" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Charge (1MC+1SC)" id="4b25-db1b-3934-31fe" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
+            <infoLink name="Walking Plant (v3)" id="2700-3ffd-3380-5416" hidden="false" type="rule" targetId="bd55-447d-2445-693e"/>
+            <infoLink name="Plant" id="66e9-f53f-912c-ad3b" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rabid Plant 2" hidden="false" id="5e9e-7013-f527-a53b">
+          <entryLinks>
+            <entryLink import="true" name="Rabid Claws &amp; Teeth" hidden="false" id="13c8-95e0-e233-dffa" type="selectionEntry" targetId="27fc-6692-d75d-35f2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30d0-2c0c-7fba-3f9d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2e-866d-7dc8-a99e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="368e-8ce7-ecdf-77e7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Rabid Plant 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="2836-a3a8-2d6a-6d7f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Rabid Plant 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rabid Plant 2" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="53a4-719c-fc9a-b629">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Charge, Death Pack, Elite (Plants), Plant, Walking Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="24"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="7630-b751-2c56-066c" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="e2f4-0a21-b09b-9637" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="a879-f42b-fe93-f106" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41dd-cf1e-8183-0b1a" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Death Pack" id="76da-1d3f-6997-66fd" hidden="false" type="rule" targetId="de95-3180-f208-8cef"/>
+            <infoLink name="Elite (Type)" id="5808-bd4c-791c-0080" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ae25-f25d-6bf5-f2a0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Growling Hound (1SC) (v3)" id="b5be-526f-08e8-1d1b" hidden="false" type="rule" targetId="7ebd-ba4e-afa7-3375"/>
+            <infoLink name="Walking Plant (v3)" id="6e27-36be-626f-5a91" hidden="false" type="rule" targetId="bd55-447d-2445-693e"/>
+            <infoLink name="Plant" id="6ab4-bb2e-1ed1-36cc" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Creeper Plant" hidden="false" id="003c-60ec-4890-0150">
+          <entryLinks>
+            <entryLink import="true" name="Creeper" hidden="false" id="1009-d598-5d97-c6e5" type="selectionEntry" targetId="067c-37dc-c000-103b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="568a-a1c8-e915-ffa7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33bd-b27d-7ab5-7a69"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="901d-860a-dbed-290a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Creeper Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="91e7-4c37-bff4-139e">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Creeper Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Creeper Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="293c-4e0d-db44-b4f0">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="16"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="f8d9-2a96-4013-f3fa" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="af0f-3d16-ca9d-7347" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="dc24-0f4f-ceb2-dd60" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f1e5-3562-09e6-7516" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="db02-7d01-c7d3-ab03" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="e509-b812-bbaa-c013" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="ddbb-97f8-c3e1-529a" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Frank the Plant" hidden="false" id="d218-f123-835b-985a">
+          <entryLinks>
+            <entryLink import="true" name="Devour" hidden="false" id="3ea5-9ac5-6f99-c6f8" type="selectionEntry" targetId="b944-7956-bc37-784b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ed7-af39-a4c5-e6b4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4bf-9c07-a7d4-7b1e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4dd2-dbef-21ba-fa93" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Frank the Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="fcf0-433c-ea29-5b17">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Frank the Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Frank the Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="f001-b540-c733-10ec">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Biting, Elite (Plants), Plant, Slow Digestion, Suspicious Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="32"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="bd01-5665-0cf2-5e88" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="a254-6c85-1124-986b" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="35f1-859c-507c-4db2" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41ec-8d22-6ee8-6030" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="e555-6baa-266b-61e4" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="9d1b-97ee-ac2b-cc94" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="0058-6a24-d126-9c6a" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Biting" id="c510-da6d-a3c6-8246" hidden="false" type="rule" targetId="43f6-3377-efeb-ef8b"/>
+            <infoLink name="Slow Digestion" id="3052-5152-6609-ff49" hidden="false" type="rule" targetId="8e9b-6b6d-6e20-83be"/>
+            <infoLink name="Suspicious Plant (v3)" id="71b5-1405-7d8f-989e" hidden="false" type="rule" targetId="cff3-74bf-6fc6-3181"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Spikes Plant" hidden="false" id="49e8-2230-ab5a-971a">
+          <entryLinks>
+            <entryLink import="true" name="Spike Shot" hidden="false" id="f3f1-181c-ed48-2e80" type="selectionEntry" targetId="0546-8395-a1b6-ac17">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b02-4ea0-7166-cbbf"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d86-fd16-4fec-43f9"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="b808-087e-c02a-43c4" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Spikes Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d465-0ee2-c893-fa3a">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Spikes Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Spikes Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d9f8-0de5-2013-fc76">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="13"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="2f9c-8308-d5ff-a7aa" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="aba2-243a-8843-11ed" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="cbec-8ef0-9784-1691" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="48c5-8ce5-0075-e59f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="5678-db7b-511c-0560" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="4536-c413-7692-72b0" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="043f-27f8-735d-e4a0" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Spore Plant" hidden="false" id="3da8-824a-a916-c802">
+          <entryLinks>
+            <entryLink import="true" name="Spore Sheath" hidden="false" id="e2b7-64d8-9484-e5bf" type="selectionEntry" targetId="398f-0132-a7aa-c104">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7e7-d9b6-66e7-fbed"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="292f-c4e4-d759-8c72"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="64c8-cce8-9021-cdda" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Spore Plant" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7b27-b6fa-d605-684f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Spore Plant</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Spore Plant" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="80f6-4b05-4cf7-abfc">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">4</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">2</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Elite (Plants), Plant, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="20"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="3eab-fe70-6dba-d34d" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="a058-6606-146f-1aa0" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="2da3-de5d-e1cd-362d" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4692-b2b5-7f12-1d26" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="cf5c-2ad1-3a04-3cba" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="95c1-e09a-fb2c-a192" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="4177-94b0-0f0b-2b68" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Borj" hidden="false" id="d708-8898-c983-ef91">
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Thorne" hidden="false" id="26c3-257d-9916-15ca" type="selectionEntry" targetId="da8e-e764-e3a3-96f1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecce-7a59-04b9-5909"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3656-a655-c6fb-cda9"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e183-1a81-8069-511d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Rain of Spores" hidden="false" id="99df-f083-4624-4af7" type="selectionEntry" targetId="e091-0b60-96ad-98fd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25ec-1b19-56f1-2c49"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="647a-13c1-f149-209c"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Borj" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="614d-57ad-590e-26ca">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Borj</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Borj" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8cb0-bdf5-3640-2e57">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">0</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Control Pheromones, Elite (Plants), Extremely mutated, Plant, Poison Master, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="50"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="da49-20d2-b5fe-14cf" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="5830-7cb1-098d-2d5a" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="9512-3685-4301-56aa" id="bbcb-e6eb-d06a-01d9" primary="false" name="Equipment (GCS: Plant)"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3491-3b37-48a9-4bf7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Plant" id="af1b-de14-523f-5474" hidden="false" type="rule" targetId="15b4-ef42-8d35-8271"/>
+            <infoLink name="Elite (Type)" id="cd82-4285-1c40-74f1" hidden="false" type="rule" targetId="9042-9981-8585-44c0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="e4fa-477c-e401-a214" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Control Pheromones (3SC)" id="59cf-f578-3ff5-1651" hidden="false" type="rule" targetId="c4f9-e5d5-6e9e-2f8f"/>
+            <infoLink name="Extremely mutated" id="7831-22a0-d891-1c8a" hidden="false" type="rule" targetId="0fbf-d426-99c7-05e2"/>
+            <infoLink name="Poison Master" id="332a-b413-bd2a-a5f0" hidden="false" type="rule" targetId="d527-09df-02aa-f631"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4d94-c997-a155-8a9d">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sprinkling Spores" hidden="false" id="3c72-f587-073b-ca41">
+          <profiles>
+            <profile name="Sprinkling Spores" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="0207-596a-629c-588f">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">Inf.</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Poison, Expansive, Gas, Toxic (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="e65b-2835-79f9-3621" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Expansive" id="e100-ceb7-5839-fad1" hidden="false" type="rule" targetId="858c-f744-3397-15c8"/>
+            <infoLink name="Toxic (X)" id="740a-cd5d-1133-98bb" hidden="false" type="rule" targetId="fcdd-240e-fa88-2545"/>
+            <infoLink name="Gas" id="d3c1-92ce-03e3-6e9e" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Toxic Nails" hidden="false" id="217f-68e7-e3d9-4448">
+          <profiles>
+            <profile name="Toxic Nails" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="ca19-7f41-8341-6482">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, CRT (Paralyze)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="105c-fc22-a096-6960" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="CRT (Paralyze)" id="b251-0e66-31e8-d958" hidden="false" type="rule" targetId="30d9-89ba-53c9-4d54"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spores" hidden="false" id="57dc-4c27-b45a-1fd5">
+          <profiles>
+            <profile name="Spores" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="98e8-4336-e2fa-8f3f">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Acid, Explosive, S. Range, Poison, Toxic (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="8918-b690-ac0b-0d72" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Acid" id="64ba-477a-8cb2-d750" hidden="false" type="rule" targetId="524d-ab5a-b390-e887"/>
+            <infoLink name="Toxic (X)" id="92f7-547f-5323-3b66" hidden="false" type="rule" targetId="fcdd-240e-fa88-2545"/>
+            <infoLink name="Explosive" id="83d9-a3b6-cb55-6333" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Short Range" id="39c3-a584-9b48-b19f" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plants" hidden="false" id="d50b-a647-91ed-b089">
+          <profiles>
+            <profile name="Plants" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="3d8e-71a2-f05b-0136">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Mechanical, Protective, Reach (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Protective" id="80e8-18b3-d3bb-fdaf" hidden="false" type="rule" targetId="4e8e-6ac9-8497-579b"/>
+            <infoLink name="Mechanical" id="f116-9bb1-0505-77ab" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Reach (X)" id="ad7e-ebbe-ff08-72b7" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venomous Bite" hidden="false" id="278f-2286-f5e4-98c6">
+          <profiles>
+            <profile name="Venomous Bite" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="4a31-9d9a-a6aa-15ba">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="1dce-e398-3d76-8c29" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Venomous Spit" hidden="false" id="b95e-a013-590d-dfbc">
+          <profiles>
+            <profile name="Venomous Spit" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="ed67-967a-31b0-a3f7">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Caustic, Mechanical, M. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Medium Range" id="f204-502a-0552-4ef8" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Caustic" id="739d-6f95-bf41-fc13" hidden="false" type="rule" targetId="6f40-ce3d-f6c7-5376"/>
+            <infoLink name="Mechanical" id="6e3f-9cd2-c48e-5125" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bite" hidden="false" id="7e46-c10b-52ae-f2cc">
+          <profiles>
+            <profile name="Bite" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="b0b0-67ac-359f-c877">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, CRT (Paralyze)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="147a-de60-e7f5-a8db" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="CRT (Paralyze)" id="ca0c-54c4-ebd7-b135" hidden="false" type="rule" targetId="30d9-89ba-53c9-4d54"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spike Shot" hidden="false" id="0546-8395-a1b6-ac17">
+          <profiles>
+            <profile name="Spike Shot" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="8c03-6b48-17b9-90ee">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, S. Range, Enervating (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="79b9-6d66-6b3b-9559" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Enervating (X)" id="aa3a-1350-ed0a-43b0" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+            <infoLink name="Short Range" id="f356-9941-f2b9-a166" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Devour" hidden="false" id="b944-7956-bc37-784b">
+          <profiles>
+            <profile name="Devour" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="0c78-c2b9-3412-2280">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="ff72-6b30-7ee2-8727" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tendrils" hidden="false" id="0483-4429-85c1-cbee">
+          <profiles>
+            <profile name="Tendrils" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="5c38-04e9-9e3d-6b12">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Reach (4)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Reach (X)" id="ff1f-8f6e-fb86-c69f" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rabid Claws &amp; Teeth" hidden="false" id="27fc-6692-d75d-35f2">
+          <profiles>
+            <profile name="Rabid Claws &amp; Teeth" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8391-2910-7fb6-5528">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Enervating (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Enervating (X)" id="256a-0ebb-a635-6726" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Root" hidden="false" id="97bb-f8f3-74ce-1244">
+          <profiles>
+            <profile name="Root" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="4652-75a1-4926-5abd">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="2a19-f2a0-470a-e296" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Creeper" hidden="false" id="067c-37dc-c000-103b">
+          <profiles>
+            <profile name="Creeper" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="cc34-6087-c933-bbbb">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, CRT (Paralyze)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Handy" id="11fb-7294-b91c-e9f6" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="CRT (Paralyze)" id="6761-9ba6-2de0-6e4b" hidden="false" type="rule" targetId="30d9-89ba-53c9-4d54"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spore Sheath" hidden="false" id="398f-0132-a7aa-c104">
+          <profiles>
+            <profile name="Spore Sheath" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="cd53-0dc9-6df1-5914">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Mechanical" id="269a-8c82-c55a-441e" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Poisoned Thorne" hidden="false" id="da8e-e764-e3a3-96f1">
+          <profiles>
+            <profile name="Poisoned Thorne" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8314-0552-0f85-4a19">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Poison, Toxic (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poison" id="b412-a71d-06a1-64ff" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+            <infoLink name="Toxic (X)" id="e4cf-4c65-7b7f-5d56" hidden="false" type="rule" targetId="fcdd-240e-fa88-2545"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rain of Spores" hidden="false" id="e091-0b60-96ad-98fd">
+          <profiles>
+            <profile name="Rain of Spores" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="8512-26ee-aa2f-1e1c">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">4</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Gas, S. Range</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Gas" id="fb64-f86b-9747-6050" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+            <infoLink name="Short Range" id="150d-100b-a480-75af" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Shared Models" id="8f8f-7be0-1df9-e3a0" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="c46d-9bef-df79-b420" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink targetId="3da8-824a-a916-c802" id="2b88-a697-eaf0-122e" type="selectionEntry" name="Spore Plant" hidden="false"/>
+    <entryLink targetId="49e8-2230-ab5a-971a" id="f100-554d-20be-fe87" type="selectionEntry" name="Spikes Plant" hidden="false"/>
+    <entryLink targetId="5e9e-7013-f527-a53b" id="117f-936f-3a17-2173" type="selectionEntry" name="Rabid Plant 2" hidden="false"/>
+    <entryLink targetId="7a4b-ac83-ebe9-b6ae" id="b7d8-8a9b-6bc6-18fc" type="selectionEntry" name="Rabid Plant 1" hidden="false"/>
+    <entryLink targetId="f893-1ab0-2510-8015" id="d808-3dea-8fef-4d34" type="selectionEntry" name="Plant" hidden="false"/>
+    <entryLink targetId="aab8-81a7-3cf0-941b" id="ad7a-f00b-5c4b-ccf4" type="selectionEntry" name="Mutated Plant 3" hidden="false"/>
+    <entryLink targetId="091f-c327-07fc-f9dd" id="4b8d-dfe5-4bb9-197a" type="selectionEntry" name="Mutated Plant 2" hidden="false"/>
+    <entryLink targetId="9a53-da69-0059-2174" id="b6f4-e034-a84f-3b2f" type="selectionEntry" name="Mutated Plant 1" hidden="false"/>
+    <entryLink targetId="d218-f123-835b-985a" id="6d0b-d6e9-b956-5e22" type="selectionEntry" name="Frank the Plant" hidden="false"/>
+    <entryLink targetId="003c-60ec-4890-0150" id="0791-82a7-3047-5881" type="selectionEntry" name="Creeper Plant" hidden="false"/>
+    <entryLink import="true" name="Poison Ivy (Sirens Crew)" hidden="false" id="5c31-b2f5-a315-6f26" type="selectionEntry" targetId="0c16-d1ca-bfae-ba00"/>
+    <entryLink import="true" name="Carnivorous Plant" hidden="false" id="caab-c7a2-b9e4-ff30" type="selectionEntry" targetId="5f75-52f1-eb57-04f5"/>
+    <entryLink import="true" name="Floronic Man" hidden="false" id="b4ef-767a-d3ef-817b" type="selectionEntry" targetId="59d0-add6-07d6-c64f"/>
+    <entryLink import="true" name="Poison Ivy (1997)" hidden="false" id="341d-57c5-1142-b801" type="selectionEntry" targetId="6185-6ed7-a477-e15e"/>
+    <entryLink import="true" name="Poison Ivy (Arkham City)" hidden="false" id="21b0-0221-30ad-ba2f" type="selectionEntry" targetId="8b68-d264-da1e-e503"/>
+    <entryLink import="true" name="Poison Ivy (Comic)" hidden="false" id="7745-0774-a3de-13b1" type="selectionEntry" targetId="6940-477a-376c-f917"/>
+    <entryLink import="true" name="Poison Ivy (Plant Throne)" hidden="false" id="18eb-18a5-9ade-b954" type="selectionEntry" targetId="561d-99f2-361e-71fe"/>
+    <entryLink import="true" name="Poison Ivy (Plants)" hidden="false" id="a117-a898-7b62-fa83" type="selectionEntry" targetId="5536-3367-217d-d6a4"/>
+  </entryLinks>
+</catalogue>
