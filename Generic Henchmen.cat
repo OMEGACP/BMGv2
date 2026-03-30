@@ -33,6 +33,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="1587-17f4-50f9-08c8" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="01af-f6fa-04f4-e0bf" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="59de-48bc-2319-03dd" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="43ae-8657-8efa-7e64" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
@@ -79,7 +81,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="e780-6281-015a-04c2" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1219-fa1f-1c32-faa6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
-            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="08d7-5d05-54b2-fa56" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="08d7-5d05-54b2-fa56" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="deb6-89bf-85fb-ce8f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 01" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d3f5-4cca-135b-cd71">
@@ -134,6 +137,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="ddb2-8ce0-d512-adf0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e4e3-81cd-5d14-237d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="2083-31af-aab6-e713" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="872b-233d-3582-97c2" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 03" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="9d4c-6eb1-d9d8-c9a8">
@@ -189,6 +194,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="62fe-850f-f0c5-cb34" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5877-42f0-9a92-beeb" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="8f7c-9be9-3e7e-130c" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="a289-9fbf-d646-f841" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 02" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ac8d-3115-e863-982f">
@@ -244,6 +251,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="cb50-a244-fb20-a2c5" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5a06-5e01-aca1-1c7b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="a356-bc60-ab51-aceb" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="754e-2719-e8a3-ae6b" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ac3-17f9-1ddf-f1fe">
@@ -305,6 +314,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="a883-25e8-3894-341b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="b5ea-c558-66eb-dbe7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="173e-74bc-61e9-fd73" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="ebad-7558-2af3-ed50" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 05" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="cec1-b9d8-b737-0d9e">
@@ -359,6 +370,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="9cc7-12a0-8ff8-7c0a" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7e80-29ce-2fad-f26b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="d7d5-f0a2-d120-aebb" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="07c7-9bd9-0de1-d071" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Henchman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="65bc-f746-4763-5d9b">
@@ -416,6 +429,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="b1a2-34e2-7f32-c612" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="289a-4807-8ef7-be68" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="eb62-1114-40cd-b31b" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="64bb-7b4e-20fd-07c8" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Turk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6496-246d-b5fd-d8fd">
@@ -470,6 +485,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="48e5-f2c4-c908-9dcf" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3131-89fc-778d-c831" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="fcdd-d277-3cdb-0174" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="67a9-d583-2bbb-9851" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="High Security Prisoner" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d676-cf60-ef9d-2d5e">
@@ -527,6 +544,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="3c0b-1936-2020-ec88" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="13e4-33ba-21ef-6d54" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="0b44-0b47-d3d1-d9bf" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="6233-446f-7317-ccb3" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 04211" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0215-55f0-a9dc-7dc4">
@@ -582,6 +601,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="f7f6-8bba-5d97-154b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="c181-046e-24db-3339" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="0e58-0f29-0b02-4f69" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="d836-8ed6-5a86-f556" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Prisoner 47905" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a6dc-727c-4c66-6145">
@@ -667,6 +688,8 @@
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="74c2-8276-c44c-58e1" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0a20-32d1-1615-f2c6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="c51f-2ccb-8c86-a96e" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="611a-f071-d3a3-b057" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Inmate E0475" hidden="false" id="9aaa-dad8-423b-083a">
@@ -687,6 +710,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="42c7-c46f-74ee-57a0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5618-b011-e466-736a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="e35d-ffb7-8cd1-3a72" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="1f29-e077-4401-e3c9" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0475" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="955b-9b49-5202-409f">
@@ -742,6 +767,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="2113-3270-b11d-dd13" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="d6d8-e762-c4e0-60f7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="28b3-823d-d184-6e8e" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="bf68-39a9-dee5-f1ef" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0476" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b4f1-415f-d2e7-abaf">
@@ -798,6 +825,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="fa28-ea23-1a8f-de2c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ab94-b8e2-336c-e2fd" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="969c-1569-1bfe-62e2" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="3535-6146-4cf9-9bb5" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0474" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="e71e-1b91-6ee6-20fe">
@@ -854,6 +883,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="7be5-e79c-fddb-a253" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="a062-f85c-02e5-5b55" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="2a70-519e-ead0-b605" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="777e-93c9-58f7-2cd6" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0478" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="eec2-7dcb-7501-1768">
@@ -915,6 +946,8 @@
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="6c38-e83d-e934-c515" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="96ca-ca8d-b58e-586b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="e8ee-ba90-a4e8-8a42" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="998e-66cc-4db9-1f2d" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Inmate E0477" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="11c9-fe28-e8a0-e3e4">
@@ -1000,6 +1033,8 @@
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="1142-8d36-6c6f-8f9b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="280a-3032-ad2b-8935" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="cdc6-19fc-a23b-40ae" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="f897-607d-0fa8-be32" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Pavillion B Subject" hidden="false" id="6b82-d588-d4a8-76e7">
@@ -1050,6 +1085,8 @@
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="101c-e39e-c5a5-db7b" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4cca-9edf-3af5-1fa6" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="d2b2-db00-5f61-68f4" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="7f15-aef1-afb5-249a" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="File No 08923" hidden="false" id="dea0-c055-64e3-4a71">
@@ -1098,8 +1135,10 @@
             <infoLink name="Let’s go! (1SC, passive)" id="e7a6-2519-bf5b-7793" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Equipment - LoA" hidden="false" id="df4e-60b3-3a26-018e" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="df4e-60b3-3a26-018e" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="803c-c8b7-bd16-9602" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="2146-9ef7-e1bf-f057" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="d57e-736a-41a3-aa1c" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Goliath" hidden="false" id="cb1b-731a-0da3-7ea2">
@@ -1161,7 +1200,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="e56e-f4c3-a764-5a02" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
-            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5afd-2477-7194-bf12" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="10f7-095d-b4a9-6067" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Robin (Damian Wayne)" hidden="false" id="6314-544d-0fed-16ca">
@@ -1243,6 +1282,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="5b60-6f96-f7a1-3bb0" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="7c0e-b17d-08b2-4801" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Lou" hidden="false" id="386c-1833-5e0d-fe95">

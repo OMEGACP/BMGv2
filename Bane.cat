@@ -107,6 +107,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="6967-f70d-411f-f0ab" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="5ac4-7161-6dcb-988c" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Mercenary 1" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="88fa-2822-232f-6f39">
@@ -195,6 +196,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="f465-06a5-067a-37fc" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="eb54-d262-a678-8f87" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Mercenary 2" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="4b70-6b8a-e6b0-a7ce">
@@ -290,6 +292,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="0d49-6f13-617b-a6ba" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="9346-48eb-0326-090e" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Ted Hunter (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8ed5-95c8-0189-d048">
@@ -378,6 +381,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed11-d1ea-c1e3-01ab-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="321c-581b-8232-3685" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="MacGregor (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="dd9c-438e-2527-ada8">
@@ -467,6 +471,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b3-eaeb-42ba-6c45-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="c17b-c331-4218-662e" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Dreadnought Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="21da-1b56-d863-c2c2">
@@ -554,6 +559,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd7f-e485-2d06-25ee-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="1f75-d03c-a8cd-8a47" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Elite Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1902-848f-7148-b2cd">
@@ -641,6 +647,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c300-ae2f-61f5-f67b-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="5731-07bc-775f-9a18" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Schoolboy" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="db02-1511-8629-4380">
@@ -727,6 +734,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d16d-5c17-6a39-63a3-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="7908-d722-18e6-8df8" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Sharp Shooter" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="780d-72ae-4579-9e95">
@@ -814,6 +822,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2adc-a575-75d2-3595-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="6523-aaa3-10bb-f97f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Stealth Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c20a-dc01-b2d8-4e5c">
@@ -908,6 +917,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ed8-f8a8-f19f-4975-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="53da-22e6-b174-593d" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Support Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d019-d95f-2fb7-f06e">
@@ -1001,6 +1011,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7207-70cc-84e7-b688-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="30ad-f5bf-d6aa-d112" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Lieutenant Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="d405-ffda-cc6a-549d">
@@ -1088,6 +1099,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79a3-747f-b78b-52ce-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="ae5b-43b8-697f-8fd2" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Medic Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a38c-cc7d-2c87-6c33">
@@ -1241,6 +1253,9 @@
             <infoLink name="Reinforced Gloves" id="1898-aab0-5887-dd15" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Super Jump (2MC+1SC)" id="c77e-e220-49e8-2613" hidden="false" type="rule" targetId="653e-7ca9-9205-785e"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="6cb9-c0c2-3ed8-5366" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Infiltrate Op" hidden="false" id="2e38-b4c6-ed67-9366">
           <costs>
@@ -1254,6 +1269,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="653b-15ff-51b2-8779-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="4316-8404-b8a0-4d6f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Infiltrate Op" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="237c-4204-a2e9-f488">
@@ -1342,6 +1358,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2441-9c1d-0347-c86c-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="9c41-7205-4f7e-d687" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Cuchillo (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="3792-0171-6b16-b457">
@@ -1430,8 +1447,8 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ae3-6579-63fb-8dc9-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment - Bane" hidden="false" id="0d66-a830-1b72-b1b6" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="3cc7-db6f-b1c1-495c" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="a95f-f2fc-6cd0-6fc6" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Dallas" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b9ca-413a-1000-d99e">
@@ -1520,6 +1537,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9226-e70a-fb18-fe8a-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="a62d-3b4f-6496-309f" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="T.N.T." typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="06dd-e653-b07f-ffae">
@@ -1677,6 +1695,9 @@
             <infoLink name="Reinforced Gloves" id="7827-d10c-e2db-9e05" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
             <infoLink name="Charge (1MC+1SC)" id="b048-ae43-f06f-97f9" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="ccbb-e77e-9cbf-eee8" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Mohawk" hidden="false" id="7289-ca86-f9cb-a386">
           <costs>
@@ -1697,6 +1718,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="1046-7126-a2ff-acc6" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="2eeb-2ce9-debe-b761" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Mohawk" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="532a-09ce-fbf2-4cec">
@@ -1786,6 +1808,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e8c-987d-5e43-13af-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="597a-2455-ce54-9156" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Clover" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="1621-9d09-b235-4704">
@@ -1879,6 +1902,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="4cb6-1bc6-e69b-80aa" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="455b-cd0a-5d8a-5903" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Smash (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="747b-7673-df2a-6e48">
@@ -1973,6 +1997,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a53e-4263-fca5-00b9-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="fc6d-43d9-3823-32f6" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Smash (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a5ad-fffc-04ac-fc87">
@@ -2062,6 +2087,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac26-094e-7dfa-9ad4-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="8c07-16a1-e51c-1a95" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Cuchillo (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="92e6-8f21-95f6-79c9">
@@ -2156,6 +2182,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="335a-04dc-c3af-18d6-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="9b5f-1af4-e225-2b4e" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="Ted Hunter (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="2097-33ab-db9c-f4b2">
@@ -2247,6 +2274,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Equipment - LoA" hidden="false" id="bbec-4ecb-3529-c562" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="8649-0a9a-44af-7105" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
           </entryLinks>
           <profiles>
             <profile name="MacGregor (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="96d9-d79d-87eb-f687">
@@ -3120,7 +3148,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Bane (Comic)" hidden="false" id="1460-3e31-3f85-e845" type="selectionEntry" targetId="94f3-cca9-cb1c-66ff"/>
+    <entryLink import="true" name="Bane (Arkham Origins)" hidden="false" id="1460-3e31-3f85-e845" type="selectionEntry" targetId="94f3-cca9-cb1c-66ff"/>
     <entryLink import="true" name="Barsad" hidden="false" id="6b4f-4654-e004-dc55" type="selectionEntry" targetId="40e7-42fe-4533-5f27"/>
     <entryLink import="true" name="Mercenary 1" hidden="false" id="b8bf-9620-f965-0922" type="selectionEntry" targetId="0952-2cd8-0a32-dae1"/>
     <entryLink import="true" name="Mercenary 2" hidden="false" id="cd2e-2020-e4f8-ae3b" type="selectionEntry" targetId="ba22-14bb-940b-8743"/>

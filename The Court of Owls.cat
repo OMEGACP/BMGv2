@@ -263,7 +263,7 @@
             <infoLink name="Combo (Weapon)" id="9ac2-d6b4-8365-1b71" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="O&apos;Malley Son" hidden="false" id="718b-63d8-e235-315c" sortIndex="">
+        <selectionEntry type="model" import="true" name="O&apos;Malley Son" hidden="false" id="718b-63d8-e235-315c">
           <entryLinks>
             <entryLink import="true" name="Katar" hidden="false" id="859c-f9b1-a746-6b02" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
               <constraints>
@@ -325,7 +325,7 @@
             <infoLink name="Distract (1SC)" id="d01f-983e-ac49-96b6" hidden="false" type="rule" targetId="f3dd-c03b-c700-7996"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="O&apos;Malley Grandfather" hidden="false" id="b760-c1b9-2a1e-b7d3" sortIndex="">
+        <selectionEntry type="model" import="true" name="O&apos;Malley Grandfather" hidden="false" id="b760-c1b9-2a1e-b7d3">
           <entryLinks>
             <entryLink import="true" name="Katar" hidden="false" id="aa6c-401b-684c-0933" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
               <constraints>
@@ -388,7 +388,7 @@
             <infoLink name="Veteran" id="40a3-0b4d-6bcc-0fac" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="O&apos;Malley Father" hidden="false" id="228a-3dc5-e71a-799d" sortIndex="">
+        <selectionEntry type="model" import="true" name="O&apos;Malley Father" hidden="false" id="228a-3dc5-e71a-799d">
           <entryLinks>
             <entryLink import="true" name="Katar" hidden="false" id="e95a-0451-e75f-7c70" type="selectionEntry" targetId="71d7-a511-af67-1fd1">
               <constraints>
@@ -451,7 +451,7 @@
             <infoLink name="Tireless" id="f768-657e-9fcf-b644" hidden="false" type="rule" targetId="c967-17ab-7b4e-9f19"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Ephraim Newhouse" hidden="false" id="9e76-55c8-d186-8d90" sortIndex="">
+        <selectionEntry type="model" import="true" name="Ephraim Newhouse" hidden="false" id="9e76-55c8-d186-8d90">
           <entryLinks>
             <entryLink import="true" name="Scimitar" hidden="false" id="bd69-e8c6-5055-b529" type="selectionEntry" targetId="dd8f-8893-5c52-4783">
               <constraints>
@@ -1194,9 +1194,6 @@
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="a49b-c3ad-4cb2-ee33"/>
-  </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Gotham Butcher" hidden="false" id="7ee0-1739-a037-4b05" type="selectionEntry" targetId="f33a-71a7-543d-8d22"/>
     <entryLink import="true" name="Raptor" hidden="false" id="9ce2-87b1-131c-1469" type="selectionEntry" targetId="defb-9a7b-24f0-f9d6"/>

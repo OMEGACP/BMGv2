@@ -58,6 +58,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6982-6656-9708-fa30-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="679f-7bec-77c3-d66a" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -144,6 +145,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e44-1293-30e4-010a-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="49e3-cbb3-1920-cb89" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -181,6 +183,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f949-3ce7-9991-899e-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b340-fe50-d8a8-d90f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9003-6171-9971-fb5c" includeChildSelections="true" includeChildForces="true"/>
@@ -259,6 +262,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4d9-3946-e905-58b2"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5829-b106-45c7-966b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d967-8c19-1433-bd9f" includeChildSelections="true" includeChildForces="true"/>
@@ -355,6 +359,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0540-f5c3-355b-3f0e-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="9708-ecb8-1ed3-afde" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cfdc-ddc1-3955-7725" includeChildSelections="true" includeChildForces="true"/>
@@ -437,6 +442,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80de-5ffd-f0cc-bdfe-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="c71a-6486-0424-3170" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="67a7-b53a-6d87-b45f" includeChildSelections="true" includeChildForces="true"/>
@@ -518,6 +524,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4126-afc8-e153-8986-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="3ccd-bacb-554b-84bf" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="09e7-ceeb-645f-73c9" includeChildSelections="true" includeChildForces="true"/>
@@ -593,6 +600,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="413d-f90c-b2c2-2930"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="dedf-de58-a9f5-6c05" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="746b-2216-58d0-d6aa" includeChildSelections="true" includeChildForces="true"/>
@@ -668,6 +676,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef7f-31cc-17bd-a3a1"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="07e8-3461-8610-7356" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="442e-aeef-b59c-9c74" includeChildSelections="true" includeChildForces="true"/>
@@ -744,6 +753,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15d3-1259-6e16-9377-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="04e8-d20d-0b1d-8b63" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0a0f-3a71-a758-09c2" includeChildSelections="true" includeChildForces="true"/>
@@ -821,6 +831,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6c5-3daa-625c-5099"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="d369-2b78-5277-fb89" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="465b-1167-dcb2-28f3" includeChildSelections="true" includeChildForces="true"/>
@@ -894,6 +905,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="437b-8a8e-654f-a789"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="f3be-096c-deb2-c160" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="36fc-5192-7c89-6923" includeChildSelections="true" includeChildForces="true"/>
@@ -1003,6 +1015,9 @@
             <infoLink name="Cop" id="5fae-b441-7e2e-7d6f" hidden="false" type="rule" targetId="19bd-d9e6-cf79-308f"/>
             <infoLink name="Stop! (1SC)" id="1f31-15fc-50dc-a64c" hidden="false" type="rule" targetId="1171-976c-97ac-dee9"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0973-ce11-c0fb-9d74" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="GCPD Officer 1" hidden="false" id="65fe-78ae-63a5-4a7c">
           <profiles>
@@ -1036,6 +1051,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bb9-592e-ec77-59e8"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b752-e127-d78a-bc25" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4cb2-0262-a2dc-b0db" includeChildSelections="true" includeChildForces="true"/>
@@ -1112,6 +1128,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58ca-9531-485e-a709"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="00c3-73b2-8e66-f6b4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3dc8-49f5-0119-68c6" includeChildSelections="true" includeChildForces="true"/>
@@ -1189,6 +1206,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e933-6ef8-a2d6-df7e-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5d5b-02b5-f7e2-eb91" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c9a4-5d49-dfa7-8507" includeChildSelections="true" includeChildForces="true"/>
@@ -1265,6 +1283,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cae9-9913-2993-f636"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="03ca-9996-952f-fcb6" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3888-5a06-fc79-d53a" includeChildSelections="true" includeChildForces="true"/>
@@ -1341,6 +1360,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6d0-3e70-6b12-45de"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="11a6-7a4f-6717-4688" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bb8b-809b-9816-5fec" includeChildSelections="true" includeChildForces="true"/>
@@ -1414,6 +1434,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fc1-1a3c-9431-829e"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="7dee-2c2c-f55b-204a" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ec7c-1764-1808-3a2d" includeChildSelections="true" includeChildForces="true"/>
@@ -1500,6 +1521,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bce4-499b-0ab1-629a-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="1b1e-b11d-f6d1-e9ff" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="38b0-0131-685c-4b1b" includeChildSelections="true" includeChildForces="true"/>
@@ -1578,6 +1600,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="434f-d641-c017-71ec"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="c551-5ffa-71a5-880e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4e3e-e0ed-d338-89f4" includeChildSelections="true" includeChildForces="true"/>
@@ -1663,6 +1686,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa50-a298-23cc-34d2"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="7470-b00f-01a3-8cd2" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8c1-40c4-3afd-8880" includeChildSelections="true" includeChildForces="true"/>
@@ -1735,6 +1759,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f5a-2253-dc15-97b1-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="104b-ff6b-d1ed-b42b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c3b3-3e13-81cc-2af7" includeChildSelections="true" includeChildForces="true"/>
@@ -1813,6 +1838,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf08-c203-5cce-5317-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="07ed-c728-b635-25ec" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9316-d2ae-e476-e568" includeChildSelections="true" includeChildForces="true"/>
@@ -1890,6 +1916,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0386-63e8-bc9a-658d-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="10d9-7277-5d82-ac91" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c841-8a53-83b0-d7ec" includeChildSelections="true" includeChildForces="true"/>
@@ -1974,6 +2001,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8628-a040-1d20-cb89"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="fc30-0bb4-e8cc-32eb" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8b65-7c98-b65f-3f0b" includeChildSelections="true" includeChildForces="true"/>
@@ -2048,6 +2076,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="540b-44c9-1ddb-4420"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="3d58-602c-31b6-a8ea" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="12e1-02c0-3e86-0ce9" includeChildSelections="true" includeChildForces="true"/>
@@ -2122,6 +2151,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8929-faab-ad00-f278"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="c087-269f-8498-0ffa" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ce00-303c-5e49-6bdc" includeChildSelections="true" includeChildForces="true"/>
@@ -2202,6 +2232,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfd2-083c-69cc-d344"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="8535-202a-fe2f-f20f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6530-f77c-9a75-60ec" includeChildSelections="true" includeChildForces="true"/>
@@ -2282,6 +2313,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef8e-f68d-cdb9-9b82"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5a6f-03b5-c4bf-04f8" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a39-09ec-0b59-c4e0" includeChildSelections="true" includeChildForces="true"/>
