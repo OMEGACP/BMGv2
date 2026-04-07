@@ -2406,7 +2406,7 @@
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Blood</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
                 <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
-                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, M. Range, One-User, Enervating (3)</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, M. Range, One-Use, Enervating (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>

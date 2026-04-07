@@ -4125,9 +4125,7 @@ A model may be affected by more than one Poison Marker at the same time. At th
       <description>The affected non-vehicle model cannot Crouch or use the Dodging Ranged Attacks rule, and suffers a -1 penalty to its Hit rolls (close combat and ranged) and Block rolls. This effect lasts until the end of the round.</description>
     </rule>
     <rule name="Smoke" id="af3c-653e-29cd-24b8" hidden="false">
-      <description>Place an Explosion template in the location of the Smoke cloud. Models cannot draw line of sight through the template. Models even partially within the template suffer the Blind effect. The Smoke dissipates at the end of the 
-round – remove the template automatically. 
-Weapons with the Smoke rule cannot be canceled. Unlike other templates, a smoke template is of infinite height.</description>
+      <description>Place an Explosion template in the location of the Smoke cloud. Models cannot draw line of sight through the template. Models even partially within the template suffer the Blind effect. The Smoke dissipates at the end of the round – remove the template automatically. Weapons with the Smoke rule cannot be canceled. Unlike other templates, a smoke template is of infinite height.</description>
     </rule>
     <rule name="Steal" id="08ca-7103-d954-07ec" hidden="false">
       <description>A model triggering this effect may attempt to steal a weapon from another non-vehicle model (if the target model carries more than one weapon, choose randomly which one is stolen, either by rolling a die or flipping a coin). From that moment on, the model will be able to use that weapon in addition to its usual armament (with whatever Ammunition it had left at the time of the theft). A stolen weapon cannot be used by its previous owner (unless it gets it back). 
@@ -7280,12 +7278,14 @@ Immunity to CRT.</description>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="e0ea-223f-4339-92dd" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Air Support
+            <modifier type="append" value="Heliport
 " field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
-          <infoLinks>
-            <infoLink name="Air Support (2SC)" id="8cfa-f870-afb1-2c94" hidden="false" type="rule" targetId="c0a0-e6fc-e4c6-3068"/>
-          </infoLinks>
+          <rules>
+            <rule name="Heliport" id="b58c-4f51-1f31-3b1d" hidden="false">
+              <description>When you use the Air Support rule, target an enemy model affected by the template, the target receives a Ranged attack with ROF 1, the Firearm weapon special rule and damage (2 Blood) which ignores the Ping! Rule. </description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sergeant Training" hidden="false" id="b374-c88b-e943-f6d6">
           <constraints>
@@ -7419,7 +7419,7 @@ Immunity to CRT.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Street Guy" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="append" value="Stop" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
