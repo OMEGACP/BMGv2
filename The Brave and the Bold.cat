@@ -45,7 +45,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="643f-fed4-b4bc-da1c-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="52ac-89c9-2924-bb93" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="52ac-89c9-2924-bb93" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -94,8 +94,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="80"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="100"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fffb-f9aa-c313-d2e4" includeChildSelections="true" includeChildForces="true"/>
@@ -131,7 +131,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a75-a187-a0d3-29b7-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="5362-b424-3447-fe6c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5362-b424-3447-fe6c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Katana" hidden="false" id="4197-05c0-acff-895f">
@@ -170,7 +170,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65e7-3500-5dab-f7c6"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="ee13-310b-dc7b-9002" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="ee13-310b-dc7b-9002" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Shuriken" hidden="false" id="2fc5-b6ba-4183-6122" type="selectionEntry" targetId="e5f1-fafc-c082-6528">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93f1-38be-8dc8-2615"/>
@@ -239,7 +239,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e4e-384e-aeca-3bfa"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="0471-4e10-7dc3-3221" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0471-4e10-7dc3-3221" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -289,7 +289,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="69"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="a4c2-d6cc-2a65-37a1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="a4c2-d6cc-2a65-37a1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -346,7 +346,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a85b-1b98-03f4-7059"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="2dba-407a-30a5-ac83" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2dba-407a-30a5-ac83" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -410,7 +410,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a80-d7cf-6668-e3e7"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="c323-ac47-8391-233a" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="c323-ac47-8391-233a" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -472,7 +472,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b0f-b785-bbb8-1ff3"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="a7c9-d6b1-fe8a-36c7" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="a7c9-d6b1-fe8a-36c7" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -529,7 +529,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5585-ba1b-a044-8b1b"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="d3e4-1a9d-79a6-258e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="d3e4-1a9d-79a6-258e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -580,7 +580,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="70"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="3fcf-c225-3e5c-61b5" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="3fcf-c225-3e5c-61b5" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -626,7 +626,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="70"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="c192-6430-0ef4-dd2c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="c192-6430-0ef4-dd2c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -690,7 +690,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48bb-5ff7-7267-e367"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="aac8-e639-d6e2-97c0" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="aac8-e639-d6e2-97c0" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -746,7 +746,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a66-abe7-5145-55b7"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="e14d-4ce2-f5cb-ba84" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="e14d-4ce2-f5cb-ba84" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -800,7 +800,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="80"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="2c6f-a69d-4464-f7ad" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2c6f-a69d-4464-f7ad" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -853,7 +853,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac2b-67df-29f0-155a"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b183-f42c-2374-f27f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b183-f42c-2374-f27f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d00a-c942-5942-24c4" includeChildSelections="true" includeChildForces="true"/>
@@ -906,7 +906,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="68"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="d5e2-9c29-4acd-bd39" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="d5e2-9c29-4acd-bd39" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f724-f056-05d0-3fd6" includeChildSelections="true" includeChildForces="true"/>
@@ -964,7 +964,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4973-7dc6-3213-6ca1"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="0d95-bb80-cffd-bcb2" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0d95-bb80-cffd-bcb2" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4d1f-d135-7c36-6639" includeChildSelections="true" includeChildForces="true"/>
@@ -1022,7 +1022,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1570-058a-634e-09b7"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="6688-d99f-5668-b47b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="6688-d99f-5668-b47b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="86fa-a3ae-d2f5-777a" includeChildSelections="true" includeChildForces="true"/>
@@ -1105,7 +1105,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b28-1bcb-6404-f9c2"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b998-7090-311e-f429" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b998-7090-311e-f429" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Robin (Teen Titans)" hidden="false" id="452b-7590-c2f2-e9a1">
@@ -1164,7 +1164,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="397c-3872-101b-4be1"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="5d03-50f8-c023-aa12" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5d03-50f8-c023-aa12" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Batlings" hidden="false" id="3176-d4ea-b20c-b189" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b69-0d4d-c34f-4412"/>
@@ -1209,7 +1209,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e1a-537f-c144-e30c-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="b937-cc9d-f03c-4481" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b937-cc9d-f03c-4481" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7517-b379-962f-8107" includeChildSelections="true" includeChildForces="true"/>
@@ -1263,7 +1263,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a07f-abb7-a426-3da0-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="6348-c11c-f35e-bd26" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="6348-c11c-f35e-bd26" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Handgun" hidden="false" id="e17a-b45e-651d-5300" type="selectionEntry" targetId="3e08-c26d-8249-ac8a"/>
           </entryLinks>
           <constraints>
@@ -1312,7 +1312,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="39"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="b098-571b-cdbf-2ba1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b098-571b-cdbf-2ba1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3e4d-e00a-7599-bb96" includeChildSelections="true" includeChildForces="true"/>
@@ -1422,7 +1422,7 @@
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="30"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="b559-11b7-7df9-23c4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="b559-11b7-7df9-23c4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4163-1f28-f634-d4b9" includeChildSelections="true" includeChildForces="true"/>
@@ -1479,7 +1479,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95e9-d794-f22b-58ba"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="fa67-079b-2590-7709" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="fa67-079b-2590-7709" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41db-7a35-c830-015b" includeChildSelections="true" includeChildForces="true"/>
@@ -1534,7 +1534,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e579-ebc7-f8a5-194f"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="80d2-8f26-cb4f-6ccc" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="80d2-8f26-cb4f-6ccc" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f4e0-0ab9-31b9-a809" includeChildSelections="true" includeChildForces="true"/>
@@ -1588,7 +1588,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6869-2708-d76d-4899"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="8d1b-d8e4-25ca-9e7f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="8d1b-d8e4-25ca-9e7f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c1c7-6558-aa7b-a21a" includeChildSelections="true" includeChildForces="true"/>
@@ -1643,7 +1643,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e49-296c-178e-0a36"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="a7c3-317e-2dab-53ce" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="a7c3-317e-2dab-53ce" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Energy Rifle (Expansive)" hidden="false" id="b079-f918-9f0a-34ca" type="selectionEntry" targetId="f8a2-fb2e-a5a9-079c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f314-0d07-cba8-f215"/>
@@ -1705,7 +1705,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5900-c3d7-4d8d-44f4"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="5486-1e76-60dd-5ad6" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5486-1e76-60dd-5ad6" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Tanto" hidden="false" id="45d5-0ed1-ff40-f892" type="selectionEntry" targetId="1176-e8eb-2ae7-13e4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="205a-bf2e-1a69-f47e"/>
@@ -1768,7 +1768,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d951-9098-e450-14aa"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="9076-536e-7fae-1c1e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="9076-536e-7fae-1c1e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Automatic Gun" hidden="false" id="646f-f61f-c595-6209" type="selectionEntry" targetId="0837-9f47-7129-0685">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5d6-f828-2d0d-4125"/>
@@ -1843,7 +1843,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b623-fd6f-b491-3de4-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="2b24-7320-31e1-232c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2b24-7320-31e1-232c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="75c7-a84e-dda5-03c6" includeChildSelections="true" includeChildForces="true"/>
@@ -1897,7 +1897,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f7a-e7b3-202d-9669-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="6d32-75d2-81cc-59d8" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="6d32-75d2-81cc-59d8" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ec2d-30f8-c8fd-cd44" includeChildSelections="true" includeChildForces="true"/>
@@ -1955,7 +1955,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8068-51c4-0548-4758-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="a592-952e-77d0-0a2b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="a592-952e-77d0-0a2b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2dbd-caf7-344a-9046" includeChildSelections="true" includeChildForces="true"/>
@@ -1987,6 +1987,7 @@
           <categoryLinks>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="66a7-139a-7b4f-b016" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Leader" hidden="false" id="e6d9-23ba-7666-7db4" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="e0ea-223f-4339-92dd" id="830e-b806-9d9c-ef1f" primary="false" name="Equipment (BB: James Gordon)"/>
           </categoryLinks>
           <profiles>
             <profile name="Commissioner Gordon (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="00f8-bcec-40c9-0bb7">
@@ -2038,7 +2039,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b678-5f6e-ebd6-4508-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="387e-ae23-9a5b-ad73" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="387e-ae23-9a5b-ad73" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Batman (Modern Age)" hidden="false" id="b0e0-7164-a9ee-3de8">
@@ -2099,7 +2100,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe31-39a7-de62-843d"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="46c6-fa6e-21cb-d82b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="46c6-fa6e-21cb-d82b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2170,7 +2171,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d800-367b-0e24-10c7-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="607e-2eb6-0486-0d52" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="607e-2eb6-0486-0d52" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Aaron Cash" hidden="false" id="96fc-95dd-3a8e-5ead">
@@ -2230,7 +2231,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="526d-2a81-ebe0-56c6"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="4c31-b308-82ae-460c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="4c31-b308-82ae-460c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Nightwing (Arkham Knight)" hidden="false" id="c9d6-0771-921f-5da0">
@@ -2291,7 +2292,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="692c-0faf-c9e4-e238"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="98b4-4678-5bf2-cd62" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="98b4-4678-5bf2-cd62" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Wingdings" hidden="false" id="d1e7-7455-1d6a-5baf" type="selectionEntry" targetId="f746-4730-5142-0cf4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0ad-e9f7-d790-bb0f"/>
@@ -2356,7 +2357,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e2d-d712-8148-c278"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="783a-6e71-bc54-c824" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="783a-6e71-bc54-c824" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="MG" hidden="false" id="86ae-30c3-eb81-dcb7" type="selectionEntry" targetId="b5c7-e529-7b39-79a3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37be-ea40-d624-4637"/>
@@ -2426,7 +2427,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5ec-2c78-4f19-f74f"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="fa45-fdd2-7d2e-6f35" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="fa45-fdd2-7d2e-6f35" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Batlings" hidden="false" id="743c-0b19-9988-6dbf" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e7b-57ee-9c3e-a14f"/>
@@ -2495,7 +2496,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b178-76e6-f50a-cf20"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="0d43-9a54-b644-83d1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0d43-9a54-b644-83d1" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Robin (Carrie Kelley)" hidden="false" id="9c34-68b2-ee0d-e015">
@@ -2545,7 +2546,7 @@
             <infoLink name="Handyman" id="98f9-4dc2-5acd-cdc7" hidden="false" type="rule" targetId="a9a8-dd44-ee31-bd7c"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="763d-c7df-23e7-49a4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="763d-c7df-23e7-49a4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Slingshot" hidden="false" id="79f2-f5ad-9867-8b63" type="selectionEntry" targetId="f843-fc03-7945-ccce">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ead-4457-54a0-dad0"/>
@@ -2608,7 +2609,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e7d-3482-1127-9c85"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="6cc8-9221-5939-9fac" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="6cc8-9221-5939-9fac" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Flash Grenade" hidden="false" id="44bf-f253-1d80-39f0" type="selectionEntry" targetId="0ae4-1d20-8c70-4d88">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a78-3d4d-c744-abdb"/>
@@ -2675,7 +2676,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6381-7a3d-7838-1f8f"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="db55-6cf9-593c-d733" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="db55-6cf9-593c-d733" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Plasma Cannon" hidden="false" id="daf6-32fd-6e5d-dc59" type="selectionEntry" targetId="d979-c1b3-72ca-57db">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5dd-34a0-23c9-1102"/>
@@ -2740,7 +2741,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d032-8dd0-71a7-fe55"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="d092-f44e-48b0-90e8" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="d092-f44e-48b0-90e8" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Green Arrow (Oliver Queen)" hidden="false" id="300a-345f-c7a6-db91">
@@ -2801,7 +2802,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a99c-1b67-416f-9942"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="bdb6-8ff8-90a8-22b0" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="bdb6-8ff8-90a8-22b0" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Green Arrow&apos;s Bow (Standard Arrow)" hidden="false" id="f374-401b-d6cb-fd54" type="selectionEntry" targetId="1407-6c87-812e-96a1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5887-f1ea-3f51-e379"/>
@@ -2860,8 +2861,66 @@
             <infoLink name="Detective" id="5a33-1f3a-ac2a-81a8" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="6122-50db-22fe-28f4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="6122-50db-22fe-28f4" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Harvey Bullock (Limited Edition)" hidden="false" id="f8da-db17-7971-e77c">
+          <profiles>
+            <profile name="Harvey Bullock (Limited Edition)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c3cb-1355-7953-cabb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Harvey Bullock</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Harvey Bullock</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Harvey Bullock (Limited Edition)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="180b-5c19-a85d-c714">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrest, Detective, Escape Artist, Informer, Luck, Order, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Handgun" hidden="false" id="c761-5d4c-b131-4336" type="selectionEntry" targetId="3e08-c26d-8249-ac8a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89a2-334b-7f76-c74d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9215-0b5c-a5eb-866f"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="af3c-54f0-f62f-c622" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4da6-a706-9b72-8921" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="608f-567a-0171-2698" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink targetId="6c53-80aa-1e01-a485" id="b3a0-0b75-b881-5c49" primary="true" name="Sidekick"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Detective" id="fb9b-3161-3210-92db" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="43f1-7677-dd0b-e6ac" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Arrest (1MC+1SC)" id="9e13-3603-d706-a504" hidden="false" type="rule" targetId="87fe-693a-11b8-34ac"/>
+            <infoLink name="Informer" id="4b33-5213-a1a5-f6e6" hidden="false" type="rule" targetId="c03f-32f1-83bd-a81c"/>
+            <infoLink name="Order (1SC)" id="84e0-b832-d9b5-4014" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
+            <infoLink name="Escape Artist" id="32e5-5413-7417-475b" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+            <infoLink name="Luck (1SC, Passive)" id="a9fd-bdb8-2b0c-9cac" hidden="false" type="rule" targetId="7b52-6498-88f0-3311"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3372,7 +3431,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f6d-50b4-00f4-6734"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="2879-56c2-922b-8114" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2879-56c2-922b-8114" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
             <entryLink import="true" name="Magic Shield" hidden="false" id="c8a8-988b-828b-f9db" type="selectionEntry" targetId="788e-3613-b70a-5a58">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="982f-684a-92c5-afbd"/>
@@ -3446,7 +3505,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f19c-3c40-020e-a414"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Equipment" hidden="false" id="d01e-5608-cebd-307f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="d01e-5608-cebd-307f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3516,6 +3575,17 @@
     <entryLink import="true" name="Beast Boy (Teen Titans)" hidden="false" id="d5ac-d7d6-6e07-9e97" type="selectionEntry" targetId="66e9-9217-c34c-0ed8"/>
     <entryLink import="true" name="Blue Beetle" hidden="false" id="4ffd-d0af-d180-39e6" type="selectionEntry" targetId="66b9-b76a-d8be-f48d"/>
     <entryLink import="true" name="Deadman" hidden="false" id="e632-d076-f03f-f3de" type="selectionEntry" targetId="c674-4097-bb78-951c"/>
+    <entryLink import="true" name="Alfred Pennyworth (DKR)" hidden="false" id="b90c-c3b6-e414-fd85" type="selectionEntry" targetId="4687-f070-d142-ccf5"/>
+    <entryLink import="true" name="Robin (Teen Titans)" hidden="false" id="7fe6-f06a-11eb-ce83" type="selectionEntry" targetId="452b-7590-c2f2-e9a1"/>
+    <entryLink import="true" name="Raven" hidden="false" id="431f-3aed-4929-b337" type="selectionEntry" targetId="8425-1dae-ad1e-5d07"/>
+    <entryLink import="true" name="Hawkman" hidden="false" id="8053-bf03-9c0c-d27b" type="selectionEntry" targetId="c79a-7e64-b071-120f"/>
+    <entryLink import="true" name="Hawkgirl" hidden="false" id="f8fd-83b4-4732-d1b3" type="selectionEntry" targetId="3cc8-972e-c629-6bd1"/>
+    <entryLink import="true" name="Hawk (Teen Titans)" hidden="false" id="2e31-bf7a-8c31-2605" type="selectionEntry" targetId="af63-0932-4206-7ff9"/>
+    <entryLink import="true" name="Dove (Teen Titans)" hidden="false" id="8aa0-8ea1-4bf6-1667" type="selectionEntry" targetId="4359-032c-cd63-eba5"/>
+    <entryLink import="true" name="Booster Gold" hidden="false" id="0eb2-af4b-e8a7-79f7" type="selectionEntry" targetId="b29b-b9e4-5c57-9032"/>
+    <entryLink import="true" name="Aaron Cash" hidden="false" id="4ec7-f7ba-6184-4ea6" type="selectionEntry" targetId="96fc-95dd-3a8e-5ead"/>
+    <entryLink import="true" name="John Constantine" hidden="false" id="fe91-497b-3056-c4c1" type="selectionEntry" targetId="52f9-676f-d850-68a9"/>
+    <entryLink import="true" name="Harvey Bullock (Limited Edition)" hidden="false" id="85b8-3dc0-a5b8-9b46" type="selectionEntry" targetId="f8da-db17-7971-e77c"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Police Forces" id="1415-049c-7374-559f" targetId="8028-03db-19d4-984b" importRootEntries="true"/>

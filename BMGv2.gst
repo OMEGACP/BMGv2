@@ -57,6 +57,9 @@
     <categoryEntry name="Equipment (GCS: Dr. Pamela Lillian Isley)" id="6722-eb8e-ad2d-d454" hidden="false"/>
     <categoryEntry name="Equipment (GCS: Alec Holland)" id="bc33-2416-5618-848b" hidden="false"/>
     <categoryEntry name="Equipment (GCS: Plant)" id="9512-3685-4301-56aa" hidden="false"/>
+    <categoryEntry name="Equipment (Joker: Joker)" id="5399-07b4-996c-ed8e" hidden="false"/>
+    <categoryEntry name="Equipment (Joker: Duela Dent)" id="49d6-1e7b-de82-f14b" hidden="false"/>
+    <categoryEntry name="Equipment (Joker: Mr. Hammer)" id="06ba-a776-84d8-e546" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -4122,9 +4125,7 @@ A model may be affected by more than one Poison Marker at the same time. At th
       <description>The affected non-vehicle model cannot Crouch or use the Dodging Ranged Attacks rule, and suffers a -1 penalty to its Hit rolls (close combat and ranged) and Block rolls. This effect lasts until the end of the round.</description>
     </rule>
     <rule name="Smoke" id="af3c-653e-29cd-24b8" hidden="false">
-      <description>Place an Explosion template in the location of the Smoke cloud. Models cannot draw line of sight through the template. Models even partially within the template suffer the Blind effect. The Smoke dissipates at the end of the 
-round – remove the template automatically. 
-Weapons with the Smoke rule cannot be canceled. Unlike other templates, a smoke template is of infinite height.</description>
+      <description>Place an Explosion template in the location of the Smoke cloud. Models cannot draw line of sight through the template. Models even partially within the template suffer the Blind effect. The Smoke dissipates at the end of the round – remove the template automatically. Weapons with the Smoke rule cannot be canceled. Unlike other templates, a smoke template is of infinite height.</description>
     </rule>
     <rule name="Steal" id="08ca-7103-d954-07ec" hidden="false">
       <description>A model triggering this effect may attempt to steal a weapon from another non-vehicle model (if the target model carries more than one weapon, choose randomly which one is stolen, either by rolling a die or flipping a coin). From that moment on, the model will be able to use that weapon in addition to its usual armament (with whatever Ammunition it had left at the time of the theft). A stolen weapon cannot be used by its previous owner (unless it gets it back). 
@@ -4253,6 +4254,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Bodyguard" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Bodyguard (1SC, Passive)" id="76d6-1904-105f-3d16" hidden="false" type="rule" targetId="1c70-9eb3-4836-9771"/>
@@ -4274,6 +4292,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Climbing Claws" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Climbing Claws" id="3479-539b-57ed-c85b" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
@@ -4295,6 +4330,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Hidden" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Hidden" id="2ed2-1d1d-fcf0-0a87" hidden="false" type="rule" targetId="d2cc-934e-b093-a484"/>
@@ -4316,6 +4368,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Gas Mask" id="eda4-b3d4-2fec-9118" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
@@ -4337,6 +4406,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="a874-39d6-713d-bb74" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
@@ -4358,6 +4444,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value=", Defensive" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Defensive" id="2f8a-be2c-c924-4f0e" hidden="false" type="rule" targetId="714f-82cf-5d4a-d881"/>
@@ -4379,6 +4482,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Vernom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Venom Dose (Doses)" id="242c-188e-8b03-3830" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
@@ -4400,6 +4520,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Chain of Command" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Chain of Command" id="7ddc-5049-16e8-7042" hidden="false" type="rule" targetId="5a94-0b2f-3838-4b37"/>
@@ -4421,6 +4558,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value=", Bleed (1)" field="2afb-1ec3-9d1e-cf96" scope="parent" affects="self.entries.recursive.upgrade.profiles.CC Weapon"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Bleed (X)" id="9b1b-2747-32fb-f6e6" hidden="false" type="rule" targetId="d661-299f-a4fb-9a80"/>
@@ -4442,6 +4596,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Undercover" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Undercover" id="4ef2-25a6-3e7d-0b3f" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
@@ -4459,6 +4630,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Shooter" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
@@ -4478,6 +4666,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <costs>
@@ -4503,6 +4708,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="c059-e67d-a436-c0a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <costs>
@@ -4530,6 +4752,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Close Combat Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
@@ -4551,6 +4790,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Poison Master" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
@@ -4572,6 +4828,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <rules>
             <rule name="Extra Magazine" id="2365-fc49-cda4-88be" hidden="false">
@@ -4606,6 +4879,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4647,6 +4925,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4680,6 +4963,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4707,6 +4995,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4746,6 +5039,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4777,6 +5075,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4857,6 +5160,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Venom Applicator" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4890,6 +5198,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4930,6 +5243,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Venom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4968,6 +5286,11 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Veteran" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
@@ -4996,6 +5319,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Fast" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Fast" id="e1f0-f9c6-b713-da61" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
@@ -5017,6 +5357,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Climbing Claws" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Climbing Claws" id="99e1-96e2-3275-b734" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
@@ -5038,6 +5395,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Gas Mask" id="3a7a-bc75-b411-27bf" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
@@ -5059,6 +5433,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="94be-26cd-b5c7-4f6a" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
@@ -5080,6 +5471,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Master Fighter" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Master Fighter" id="af98-5432-f39e-d41a" hidden="false" type="rule" targetId="b39a-6fc3-7844-57b0"/>
@@ -5096,6 +5504,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
               </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <costs>
@@ -5118,6 +5543,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Extra Magazine" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
@@ -5143,6 +5585,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Poison Immunity" id="7fe8-1e8a-6a13-228f" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
@@ -5164,6 +5623,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Stealth" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Stealth" id="78fb-98d7-1125-2e19" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
@@ -5183,6 +5659,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a715-5c67-e01a-bca9" shared="true"/>
               </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoLinks>
@@ -5205,6 +5698,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Explosive Gel" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Explosive Gel" id="e0b0-3abf-f516-27b3" hidden="false" type="rule" targetId="17ee-350d-fd6f-ead3"/>
@@ -5226,6 +5736,23 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
               </conditions>
             </modifier>
             <modifier type="append" value="Combat Flip" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <infoLinks>
             <infoLink name="Combat Flip (1SC)" id="8144-c42d-dc25-abf2" hidden="false" type="rule" targetId="f162-f173-595b-d58f"/>
@@ -6751,12 +7278,14 @@ Immunity to CRT.</description>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="e0ea-223f-4339-92dd" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Air Support
+            <modifier type="append" value="Heliport
 " field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
-          <infoLinks>
-            <infoLink name="Air Support (2SC)" id="8cfa-f870-afb1-2c94" hidden="false" type="rule" targetId="c0a0-e6fc-e4c6-3068"/>
-          </infoLinks>
+          <rules>
+            <rule name="Heliport" id="b58c-4f51-1f31-3b1d" hidden="false">
+              <description>When you use the Air Support rule, target an enemy model affected by the template, the target receives a Ranged attack with ROF 1, the Firearm weapon special rule and damage (2 Blood) which ignores the Ping! Rule. </description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sergeant Training" hidden="false" id="b374-c88b-e943-f6d6">
           <constraints>
@@ -6890,7 +7419,7 @@ Immunity to CRT.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Street Guy" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="append" value="Stop" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
@@ -7199,7 +7728,7 @@ Immunity to CRT.</description>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
@@ -7210,6 +7739,11 @@ Immunity to CRT.</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -7238,9 +7772,10 @@ Immunity to CRT.</description>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7251,9 +7786,13 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Grapple Gun" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
             <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="401f-e37a-9e4b-3fb9" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
@@ -7265,15 +7804,16 @@ Immunity to CRT.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b133-df8a-26e3-6b44"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7284,45 +7824,16 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Gas Mask" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
             <infoLink name="Gas Mask" id="c576-30fe-ad80-c234" hidden="false" type="rule" targetId="f542-5b53-ad2f-f92b"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Backpack" hidden="false" id="9acc-596a-7c5d-359d">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f344-68c6-a05e-81f0" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af79-c798-ff83-1d0b"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="Backpack" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="50"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Backpack" id="b13a-40ff-52f3-0674" hidden="false" type="rule" targetId="7fb3-1048-9239-798d"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Antidote" hidden="false" id="5d3e-8992-32d1-50fb">
@@ -7331,15 +7842,16 @@ Immunity to CRT.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acc9-ce87-5ee6-f3c8"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7350,29 +7862,34 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Poison Immunity" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
             <infoLink name="Poison Immunity" id="03a2-3bb5-f5c7-26e7" hidden="false" type="rule" targetId="deba-aefd-27a7-f252"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Titan Dose (1)" hidden="false" id="bfcf-d521-a022-764f">
+        <selectionEntry type="upgrade" import="true" name="Neurotoxic Drugs" hidden="false" id="bfcf-d521-a022-764f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8b7b-dad6-357b-ef36" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2413-88d1-f820-1758"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="250"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Dodge, Fast" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7383,74 +7900,34 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="Titan Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Titan Dose (Doses)" id="8d60-6d6e-638c-bf2c" hidden="false" type="rule" targetId="2af6-a9e7-4235-446d"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Venom Laboratory" hidden="false" id="7c88-9d76-af77-68de">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="79aa-550e-5c26-e34d" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4d1-ebc0-126b-ca02"/>
-          </constraints>
-          <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6c53-80aa-1e01-a485" shared="true"/>
-              </conditions>
-              <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="79d4-9b8b-7f29-cba5" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Venom Laboratory" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
-          <rules>
-            <rule name="Venom Laboratory" id="c0a4-83c9-190b-53c6" hidden="false">
-              <description>All model in your crew can use more than 1 Titan Dose per game. This bonus remains in play even if this model is removed from play or leaves the board. Also, the cost of Venom Doses in the equipment list is reduced to $50.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink name="Fast" id="8d60-6d6e-638c-bf2c" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Dodge" id="c9fe-989d-be40-4882" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Venom Applicator" hidden="false" id="0d55-b5b4-b608-5b9b">
+        <selectionEntry type="upgrade" import="true" name="Improvised Armor" hidden="false" id="0d55-b5b4-b608-5b9b">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9b77-97c1-665b-e39c" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9db0-4828-aa3d-f425"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
+            <modifier type="append" value="Hockey Gear" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7461,31 +7938,34 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Venom Applicator" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
-          <rules>
-            <rule name="Venom Applicator" id="382a-0cdd-32d9-fe04" hidden="false">
-              <description>This model can use Titan and Venom Doses on a friendly model in contact.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink name="Hockey Gear" id="5f9f-e1c6-bea7-7e6b" hidden="false" type="rule" targetId="1951-216f-3154-15e0"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Night Vision Goggles" hidden="false" id="306f-6d74-c29f-cdc7">
+        <selectionEntry type="upgrade" import="true" name="Clown Paint" hidden="false" id="306f-6d74-c29f-cdc7">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="51dd-6b3d-0bf8-6d1e" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70e7-ac53-647b-925c"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Distract" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7496,34 +7976,39 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Night Vision" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
-            <infoLink name="Night Vision" id="e2b4-b593-ff72-19c7" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+            <infoLink name="Distract (1SC)" id="e2b4-b593-ff72-19c7" hidden="false" type="rule" targetId="f3dd-c03b-c700-7996"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Venom Dose (1)" hidden="false" id="bc68-20f2-4ede-c9a4">
+        <selectionEntry type="upgrade" import="true" name="Nerve Gas" hidden="false" id="bc68-20f2-4ede-c9a4">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="c2e0-4f75-6e24-cdca" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c7-1479-7ec3-4744"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="3"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0daf-c319-56ab-9164" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="5399-07b4-996c-ed8e" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Sturdy" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7534,34 +8019,33 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Venom Dose (1)" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
-            <infoLink name="Venom Dose (Doses)" id="a116-5b5b-7bb6-daca" hidden="false" type="rule" targetId="7335-6ab8-643c-83ef"/>
+            <infoLink name="Sturdy" id="a116-5b5b-7bb6-daca" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Military Progress" hidden="false" id="fcc9-3453-8dd8-5f6a">
+        <selectionEntry type="upgrade" import="true" name="Flare" hidden="false" id="fcc9-3453-8dd8-5f6a">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b5e7-6825-8515-bd6c" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e56-1f16-c316-cbf2"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="2"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb2b-3a15-e80b-bca0" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f96-ce9e-e09b-c7ad" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
+            <modifier type="append" value="Flare" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
@@ -7572,12 +8056,186 @@ Immunity to CRT.</description>
                     <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Veteran" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <infoLinks>
-            <infoLink name="Veteran" id="81b3-ce69-291c-fe75" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+            <infoLink name="Flare" id="81b3-ce69-291c-fe75" hidden="false" type="rule" targetId="0e9c-f536-d84e-0b2c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sexy Costume" hidden="false" id="f2f1-74d2-4235-3a29">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c4e2-b4af-346c-e5f7" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a46-3da0-0f99-0346"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="674a-5dab-0186-9542" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Disarray" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Disarray (1SC)" id="aaac-7183-86c9-37e7" hidden="false" type="rule" targetId="19ca-58d8-d573-be79"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pole Dancer" hidden="false" id="c854-e240-80e7-af2f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5848-175e-9ba7-7dd9" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f69a-ed62-b103-0243"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="674a-5dab-0186-9542" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Escape Artist" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Escape Artist" id="1699-bb27-80cb-807d" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rusty Tools" hidden="false" id="3b33-a9c1-fcb1-1609">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7173-9da7-3767-1ae2" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a09-376e-214b-75c5"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="300"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="49d6-1e7b-de82-f14b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Cruel" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Cruel (2SC)" id="8386-db6b-5ec5-e28d" hidden="false" type="rule" targetId="a437-bea2-0ba3-89c0"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brutal Training" hidden="false" id="298c-63c9-e214-c886">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cc01-f41b-fff7-097f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81dc-615e-d545-f4c0"/>
+          </constraints>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="150"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="06ba-a776-84d8-e546" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Savage Fighter" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf01-1b3c-22d7-8d1b" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="32bb-4b05-45c6-81a9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6466-e31d-fdae-6b80" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Savage Fighter" id="d3f6-9000-bc78-4f17" hidden="false" type="rule" targetId="e6c8-fef6-5bd0-0950"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
