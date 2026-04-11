@@ -42,6 +42,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c06-6631-9270-ce5e-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="2391-b231-c0f8-eef2" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -119,6 +120,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9938-3636-8c28-72da"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="cc43-1b9e-738a-4d72" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4c70-a3ca-84ff-6e0b" includeChildSelections="true" includeChildForces="true"/>
@@ -170,6 +172,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3ea-911f-33b3-2ffe-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="a5c8-e527-fe9f-a625" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Blood Scent" id="b99e-23dc-ee83-cca8" hidden="false" type="rule" targetId="140e-3c75-9988-0dd0"/>
@@ -230,6 +233,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76a2-a8ce-7755-ceb8-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0db9-a7ca-59eb-6fbb" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Luck (1SC, Passive)" id="6b19-122a-4f4d-39ee" hidden="false" type="rule" targetId="7b52-6498-88f0-3311"/>
@@ -472,6 +476,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c856-dd8c-c9fc-9156"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="baa9-1174-2573-f10c" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Lord of the Sewers" id="480f-e3e0-287b-fe62" hidden="false" type="rule" targetId="0e63-0def-1f06-452e"/>
@@ -532,6 +537,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7972-f8e4-2e1a-10df" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Victor Zsasz" hidden="false" id="c170-ced5-fd51-73f5">
           <profiles>
@@ -572,6 +580,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27be-39bb-92e0-d657"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0954-ba73-f2b4-7a39" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -781,6 +790,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8493-7618-1a2e-3582-max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="d8f4-1d33-065a-ed45" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Self-Discipline" id="e324-716c-f6d3-901d" hidden="false" type="rule" targetId="b39e-007e-1f9b-9aa5"/>
@@ -836,6 +846,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dc8-e8f4-588a-3f00"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="a8d9-a613-e457-ca7f" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -899,6 +910,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1692-75e8-4d91-33ef"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4c4f-8b0e-7b40-ae3d" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -980,6 +992,9 @@
             <infoLink name="Psychologist" id="8f2c-caec-b247-5917" hidden="false" type="rule" targetId="ca26-6996-bc1d-36af"/>
             <infoLink name="Psychiatrist (1SC)" id="46fb-2580-8fc4-b01a" hidden="false" type="rule" targetId="d0a4-ab2f-7f1d-3f33"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="517f-1594-11b0-d919" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Hush" hidden="false" id="3864-ee09-9875-b062">
           <profiles>
@@ -1030,6 +1045,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9900-e325-06e5-f02c"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0f0a-ee5b-f189-e07b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1104,6 +1120,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="582d-6ad7-b5f3-3ce0"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="41ac-9bd4-1d2c-9779" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1162,6 +1179,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0499-2614-aa38-eff9"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1c64-a207-f3fc-7c74" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1221,6 +1239,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c86-c7ca-50ca-9bde"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="822e-bc2a-675d-962b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1295,6 +1314,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d089-6730-0ae0-7198"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="fc7a-b81d-2bb6-f429" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1356,6 +1376,9 @@
             <infoLink name="Sturdy" id="d250-b332-07c2-9b65" hidden="false" type="rule" targetId="d403-e155-0b00-1084"/>
             <infoLink name="Medium Armor" id="8bc4-1a6f-3ceb-47e7" hidden="false" type="rule" targetId="dfca-f8bb-ae16-e492"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="301d-6572-3818-a36f" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Electrocutioner" hidden="false" id="3189-32ab-1da6-b6df">
           <profiles>
@@ -1396,6 +1419,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e7e-a729-7db3-0b43"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5daf-a123-91ca-13c8" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Criminal" id="2e8e-e7c3-3bab-a601" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
@@ -1444,6 +1468,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4e4-493e-a05a-458a"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="cd2b-9c61-1b70-7086" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1505,6 +1530,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b83-d7a1-84f2-b3f9"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3a17-4652-85f5-5ca0" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1568,6 +1594,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87b4-6228-f549-ccfb"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="f62e-2363-83aa-970b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1632,6 +1659,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf3-bb58-5902-4eb8"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e909-f248-d22b-f98e" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1709,6 +1737,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b03-fda9-ae24-bbe0"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="aacd-a921-56b7-52fa" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1779,6 +1808,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ac42-3dcf-cd03-f8ee" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Harley Quinn (Rebirth)" hidden="false" id="24c3-6de4-471d-bcb0">
           <profiles>
@@ -1817,6 +1849,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06e0-3830-6329-ba63"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ec63-a5ff-ce24-a537" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a95-313e-37e9-e81a" includeChildSelections="true" includeChildForces="true"/>
@@ -1870,6 +1903,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aa8-d64e-ec79-4b1e"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="afdd-aa17-64ce-adaf" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1935,6 +1969,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7915-1941-0ca8-d530"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5d68-ea8d-d7b6-b272" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2014,6 +2049,9 @@
             <infoLink name="Offensive Defense" id="e1d0-0216-f7eb-d7de" hidden="false" type="rule" targetId="231d-5eed-313b-044f"/>
             <infoLink name="Martial Expert" id="c9a7-e849-9768-41ce" hidden="false" type="rule" targetId="d39e-6abd-aebb-fcce"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ca4c-fc7f-001a-5b38" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Captain Cold" hidden="false" id="51be-ac54-f2ce-97db">
           <profiles>
@@ -2060,6 +2098,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cf4-ad9e-b4a8-d689"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="2215-b5e3-97b1-84cd" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2133,6 +2172,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2be8-0388-822c-8ad5"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="15c7-4db2-8e7f-a4af" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Night Vision" id="b44a-63f9-2bf1-469c" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
@@ -2183,6 +2223,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d41a-eb71-14ff-5c1c"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="0d9e-886b-6ac6-347b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2241,6 +2282,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43c3-06c7-dc37-05e4"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="d4e9-1a53-b4dd-d18e" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2300,6 +2342,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d55-1007-502f-976a"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="688a-a7b6-dde4-88d7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2359,6 +2402,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c2e-bd1a-47f7-47b6"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4f81-d952-ae49-f557" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Aversion (Model)" id="0b0d-5d7a-bad8-55d1" hidden="false" type="rule" targetId="4860-8a2f-c140-b34d"/>
@@ -2417,6 +2461,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9386-a385-96e1-e45e"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="8847-713d-cf5a-6785" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2485,6 +2530,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f8f-ec7c-8068-0f21"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7b04-4f84-569e-ad6a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2545,6 +2591,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e0c-cad7-a8a7-4c30"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="b505-1844-8055-a8f3" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2609,6 +2656,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc72-9815-619a-8c97"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ba84-8548-5595-3887" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2667,6 +2715,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f07-bbbc-a6df-edbb"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="2cef-3c41-d2f4-cb5c" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Acrobat" id="a0a6-1763-668b-633f" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
@@ -2726,6 +2775,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bea-5b33-7d16-d9ad"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="65d3-ec89-d629-2899" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2792,6 +2842,9 @@
             <infoLink name="Speedster (X)" id="747b-9e27-caaa-a3db" hidden="false" type="rule" targetId="6564-1a29-2fe2-9231"/>
             <infoLink name="Speedster Power (Molecular Vibration)" id="77c3-d5c1-852e-e142" hidden="false" type="rule" targetId="7ba5-1575-f2b1-9ee8"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1fd1-1e74-a0d5-fb08" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Killer Croc (Suicide Squad)" hidden="false" id="e02b-1879-18ef-b00b">
           <profiles>
@@ -2839,6 +2892,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="bf47-9c61-eb70-51bc" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Killer Frost" hidden="false" id="95d6-866e-4a13-fe0c">
           <profiles>
@@ -2879,6 +2935,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd8e-013d-a00f-4697"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7b56-699f-3d06-c29c" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2935,6 +2992,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b87-ea40-cb7d-32e1"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5fbc-cc1b-7bad-cc24" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3004,6 +3062,9 @@
             <infoLink name="Sneaking" id="a375-c8fe-365a-40dc" hidden="false" type="rule" targetId="1964-47e0-8bc9-4e23"/>
             <infoLink name="Stealth" id="f3d7-30cf-dd5a-77e1" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="9b8a-26f2-f960-fc45" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Reverse Flash (TV)" hidden="false" id="f668-4f61-770b-5cfb">
           <profiles>
@@ -3055,6 +3116,9 @@
             <infoLink name="Speedster (X)" id="f097-0f4e-2078-170f" hidden="false" type="rule" targetId="6564-1a29-2fe2-9231"/>
             <infoLink name="Speedster Power (Kinetic Tornado)" id="35b4-9d1f-32b9-88da" hidden="false" type="rule" targetId="236c-3763-cb8b-5f30"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="30b5-fe4d-fb2e-ae7a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Scarecrow (Scythe)" hidden="false" id="d98a-760a-9d3f-c13a">
           <profiles>
@@ -3101,6 +3165,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0c6-2ce5-e088-a55f"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="3cd9-140a-4e57-f53c" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3159,6 +3224,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5284-2f8e-31a1-3ba9"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="e055-3893-737c-7ddf" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3224,6 +3290,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24a8-c2c1-cb4b-9f65"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5503-67d3-6ace-1266" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Regeneration (1SC)" id="8a52-bcc0-49c3-1427" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
@@ -3294,6 +3361,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2825-e736-7624-5133"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="6260-5f1e-45b5-24fd" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="The Murderer" id="1c84-31b9-e6c4-a044" hidden="false" type="rule" targetId="78f7-3b31-3e1b-a8f2"/>
@@ -3368,6 +3436,9 @@
             <infoLink name="Speedster Power (Black Bats)" id="83f4-ad29-8c65-8df9" hidden="false" type="rule" targetId="4169-ac3e-4ece-6099"/>
             <infoLink name="Martial Artist" id="8474-b579-a62c-794d" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="b373-9c65-98e4-a4fa" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Captain Boomerang (Suicide Squad)" hidden="false" id="7fdd-8f27-f9f4-4c9c">
           <profiles>
@@ -3420,6 +3491,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2be2-0b66-2254-f0c0"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="ce44-70a7-b85d-2695" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3500,6 +3572,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e891-2156-2cbe-23ae"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="03f3-03d9-27ce-b1ba" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3557,6 +3630,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad6a-dbeb-62a0-360f"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4add-15c0-82d6-01c3" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3626,6 +3700,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72e8-14b2-bca7-7a99"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="7517-7aba-4a19-c6a4" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6ecc-c4d3-741e-3d26" includeChildSelections="true" includeChildForces="true"/>
@@ -3683,6 +3758,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7164-b18d-1176-81f5"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="14fe-4eb5-77b2-33ae" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Goad (1SC)" id="a78c-6e4b-c728-8a3f" hidden="false" type="rule" targetId="c442-832d-bca7-9f0b"/>
@@ -3736,6 +3812,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cee2-c1ab-311d-80a4"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="bcb5-77d1-da80-230b" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3948,10 +4025,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Medium Range" id="ebd9-b837-24a9-1684" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
-            <infoLink name="Beam" id="4b5c-d902-870b-883e" hidden="false" type="rule" targetId="02b5-671c-bc5e-9da3"/>
-            <infoLink name="Reload" id="56c4-7b0d-f468-89c8" hidden="false" type="rule" targetId="f2fc-7249-231f-b5cb"/>
-            <infoLink name="CRT (Casualty)" id="c256-3b32-c1af-16ca" hidden="false" type="rule" targetId="da3d-b120-78ea-c465"/>
+            <infoLink name="Short Range" id="ebd9-b837-24a9-1684" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Firearm" id="4b5c-d902-870b-883e" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Metamorphic Branch" hidden="false" id="674b-48c0-e777-6dac">
@@ -4617,5 +4692,35 @@
     <entryLink import="true" name="Harley Quinn (Rebirth)" hidden="false" id="f7dc-ccf6-c038-2aa8" type="selectionEntry" targetId="24c3-6de4-471d-bcb0"/>
     <entryLink import="true" name="Owlman" hidden="false" id="7413-540f-2464-1ab0" type="selectionEntry" targetId="393e-6635-f405-a4f9"/>
     <entryLink import="true" name="Swamp Thing (v3)" hidden="false" id="1f6f-5fa1-3bbc-de90" type="selectionEntry" targetId="68a7-29c1-9cdd-367b"/>
+    <entryLink import="true" name="Killer Croc (Suicide Squad)" hidden="false" id="b7ad-d73c-030f-7714" type="selectionEntry" targetId="e02b-1879-18ef-b00b"/>
+    <entryLink import="true" name="Bronze Tiger" hidden="false" id="171e-962e-051b-c731" type="selectionEntry" targetId="0d3a-7c41-559f-41cb"/>
+    <entryLink import="true" name="Captain Boomerang" hidden="false" id="3306-4e4f-812c-8407" type="selectionEntry" targetId="dd7f-6d5d-d3ea-b3c2"/>
+    <entryLink import="true" name="Captain Boomerang (Suicide Squad)" hidden="false" id="a9d8-ab4f-a3af-f9c8" type="selectionEntry" targetId="7fdd-8f27-f9f4-4c9c"/>
+    <entryLink import="true" name="Captain Cold" hidden="false" id="de31-df04-4a54-77cc" type="selectionEntry" targetId="51be-ac54-f2ce-97db"/>
+    <entryLink import="true" name="Catwoman (DKR)" hidden="false" id="a9f6-d683-c9bd-17e4" type="selectionEntry" targetId="a992-df1b-025e-43dd"/>
+    <entryLink import="true" name="Catwoman (Modern Age)" hidden="false" id="4287-5d0e-2d43-0fc8" type="selectionEntry" targetId="a427-786e-7772-b40e"/>
+    <entryLink import="true" name="Catwoman (The Animated Series)" hidden="false" id="4502-e826-199a-f9b0" type="selectionEntry" targetId="9687-1fa6-9934-bdfe"/>
+    <entryLink import="true" name="Clayface (Mud Form)" hidden="false" id="e0fb-4103-1c00-cd5e" type="selectionEntry" targetId="694b-7fc2-0192-c75f"/>
+    <entryLink import="true" name="Clayface (Solid Form)" hidden="false" id="b03e-7672-8fca-1e13" type="selectionEntry" targetId="b7f2-6677-0eb3-0337"/>
+    <entryLink import="true" name="Damien Darhk" hidden="false" id="6e0b-fb0a-8d5a-ae54" type="selectionEntry" targetId="d666-1004-aebe-18eb"/>
+    <entryLink import="true" name="Deadshot (Classic)" hidden="false" id="2b89-ae21-ef25-fd00" type="selectionEntry" targetId="de07-96ce-d9ea-acde"/>
+    <entryLink import="true" name="Deadshot (Suicide Squad)" hidden="false" id="e8e8-45f9-b356-c2a4" type="selectionEntry" targetId="57c7-27b1-1168-d417"/>
+    <entryLink import="true" name="Deathstroke (Free Agent)" hidden="false" id="cc16-6c56-1d7b-32c4" type="selectionEntry" targetId="e8ea-771a-d1cf-878d"/>
+    <entryLink import="true" name="Diablo (Suicide Squad)" hidden="false" id="87c1-8239-5bec-aed8" type="selectionEntry" targetId="2697-5c6b-3717-9eb9"/>
+    <entryLink import="true" name="Enchantress" hidden="false" id="20a5-8395-16ac-c632" type="selectionEntry" targetId="6127-2736-1f85-f73c"/>
+    <entryLink import="true" name="Firefly" hidden="false" id="d92d-1c9b-0bf2-0f90" type="selectionEntry" targetId="0b00-82ad-e163-b57f"/>
+    <entryLink import="true" name="Johnny Quick" hidden="false" id="7a49-f65a-b50f-b0f5" type="selectionEntry" targetId="29ad-157d-c0f7-1c28"/>
+    <entryLink import="true" name="Killer Frost" hidden="false" id="0065-0ba4-04df-5401" type="selectionEntry" targetId="95d6-866e-4a13-fe0c"/>
+    <entryLink import="true" name="Lobo (Legacy)" hidden="false" id="985b-9056-cacf-ef1b" type="selectionEntry" targetId="59a7-c164-49cc-c8c7"/>
+    <entryLink import="true" name="Mad Hatter" hidden="false" id="fab0-3eb4-d742-3f1e" type="selectionEntry" targetId="c0b6-3b20-00c8-93a2"/>
+    <entryLink import="true" name="Man-Bat" hidden="false" id="b3f9-069d-29ed-93f4" type="selectionEntry" targetId="81dd-5745-445c-35fd"/>
+    <entryLink import="true" name="Monster T" hidden="false" id="039d-9e2e-44a7-d310" type="selectionEntry" targetId="d5ad-c70e-fdc4-6955"/>
+    <entryLink import="true" name="Mr. Freeze" hidden="false" id="fbf7-8d52-9eac-7c62" type="selectionEntry" targetId="cc82-a878-cc59-7396"/>
+    <entryLink import="true" name="Reverse Flash (TV)" hidden="false" id="4264-8ecc-4432-1799" type="selectionEntry" targetId="f668-4f61-770b-5cfb"/>
+    <entryLink import="true" name="Scarecrow (Scythe)" hidden="false" id="a5cd-632a-8ae4-f772" type="selectionEntry" targetId="d98a-760a-9d3f-c13a"/>
+    <entryLink import="true" name="Slipknot (Suicide Squad)" hidden="false" id="c8e7-f545-d9a2-4772" type="selectionEntry" targetId="860e-0c39-1694-237b"/>
+    <entryLink import="true" name="The Drowned" hidden="false" id="d9cd-8cec-d732-f8a9" type="selectionEntry" targetId="391f-acb9-e6b9-dcde"/>
+    <entryLink import="true" name="The Merciless" hidden="false" id="62f8-8922-f354-6f67" type="selectionEntry" targetId="8541-e521-8b66-1bb8"/>
+    <entryLink import="true" name="The Red Death" hidden="false" id="9f50-7f4c-4019-4814" type="selectionEntry" targetId="77fc-be6d-774d-b6d3"/>
   </entryLinks>
 </catalogue>
