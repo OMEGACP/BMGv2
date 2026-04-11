@@ -903,8 +903,8 @@
 • 8 or more: Model becomes Casualty; +1VP</description>
       <alias>Inspire Fear</alias>
     </rule>
-    <rule name="Intimidate (2SC)" id="62cc-46ad-3a40-94c7" hidden="false">
-      <description>2SC: Target an enemy non-vehicle model within 8” and line of sight. For the rest of the round, the target cannot spend SC and cannot reroll Willpower. A model can use this trait once per round.</description>
+    <rule name="Interrogation" id="62cc-46ad-3a40-94c7" hidden="false">
+      <description>When this model completes a Special Close Combat Action that scores at least one successful hit, this model or another friendly model can make a free move of 4&quot; oor reallocate up to 2 Action Counters. In addition, this model can always use a close combat weapon instead of attacking unarmed when performing Special Close Combat Actions.</description>
       <alias>Intimidate</alias>
     </rule>
     <rule name="Instinctive Shooting (1SC)" id="aeec-4195-f65b-943f" hidden="false">
@@ -1817,6 +1817,16 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
     <rule name="Millennia-old Roots" id="db0b-6808-74ce-c1e9" hidden="false">
       <description>The action area radius is increased to 6”.</description>
     </rule>
+    <rule name="Air Combat" id="19ff-68ca-90cc-be98" hidden="false">
+      <description>If this model uses the Batclaw trait or the Leap Down rule during its activation, then for the rmainder of the activation, it gains +1 to its hit rolls and damage rolls and triggers CRT on a natural score of 4+ when performing close combat attacks.</description>
+    </rule>
+    <rule name="Intimidate (2SC)" id="844d-6c1e-c94c-838a" hidden="false">
+      <description>2SC: Target an enemy non-vehicle model within 8” and line of sight. For the rest of the round, the target cannot spend SC and cannot reroll Willpower. A model can use this trait once per round.</description>
+      <alias>Intimidate</alias>
+    </rule>
+    <rule name="Military Teamwork" id="cc5c-484f-ca0b-3052" hidden="false">
+      <description>A friendly model performing an attack against an enemy in contact with this model gains +1 to its Attack value for the duration of the attack.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="48fe-70de-f325-b2e2">
@@ -1844,7 +1854,7 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">S. Range, Explosive, Mechanical, Smoke, Grenade</characteristic>
               </characteristics>
             </profile>
@@ -2231,13 +2241,13 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
             <infoLink name="Grenade" id="d72c-fb07-8a75-406c" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Batarang" hidden="false" id="441d-4be3-9299-6bd3">
+        <selectionEntry type="upgrade" import="true" name="Batarang (2x)" hidden="false" id="441d-4be3-9299-6bd3">
           <profiles>
-            <profile name="Batarang" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3a60-468d-7d24-1e84">
+            <profile name="Batarang (2x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="3a60-468d-7d24-1e84">
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, M. Range, Remote Controlled</characteristic>
               </characteristics>
             </profile>
@@ -3849,6 +3859,46 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
           <infoLinks>
             <infoLink name="Short Range" id="3bff-ee9f-b5f7-de30" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
             <infoLink name="Firearm" id="9e45-2d31-fbfc-801a" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Batarang (3x)" hidden="false" id="ce2e-0366-8081-4c87">
+          <profiles>
+            <profile name="Batarang (3x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="9a36-c271-b992-08d2">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, M. Range, Remote Controlled</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="de7b-fa87-0b11-46f4" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Throwing" id="238a-4f5a-9b6b-931c" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Medium Range" id="781c-3aa8-c9c4-8ca9" hidden="false" type="rule" targetId="e5eb-db8b-df9b-c087"/>
+            <infoLink name="Remote Controlled" id="ecbe-3994-a761-f75d" hidden="false" type="rule" targetId="278a-8fd4-b5a6-2874"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Smoke Pellets" hidden="false" id="44ac-fed9-1fef-e9c4">
+          <profiles>
+            <profile name="Smoke Pellets" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="bd77-15c4-8522-f51f">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Explosive, Grenade, Smoke</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="9d2e-1cd6-1595-8e85" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Explosive" id="7bfd-89e5-0867-5d1e" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Smoke" id="b7e2-e2d3-210a-fe34" hidden="false" type="rule" targetId="af3c-653e-29cd-24b8"/>
+            <infoLink name="Grenade" id="4ddc-7950-9d3f-2893" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5983,7 +6033,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74b0-ee81-6503-7990"/>
           </constraints>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="0"/>
           </costs>
           <modifiers>
@@ -6141,7 +6191,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9512-3685-4301-56aa" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7283,7 +7333,7 @@ Immunity to CRT.</description>
           </modifiers>
           <rules>
             <rule name="Heliport" id="b58c-4f51-1f31-3b1d" hidden="false">
-              <description>When you use the Air Support rule, target an enemy model affected by the template, the target receives a Ranged attack with ROF 1, the Firearm weapon special rule and damage (2 Blood) which ignores the Ping! Rule. </description>
+              <description>When you use the Air Support rule, target an enemy model affected by the template, the target receives a Ranged attack with ROF 1, the Firearm weapon special rule and damage (2 Blood) which ignores the Ping! Rule.</description>
             </rule>
           </rules>
         </selectionEntry>

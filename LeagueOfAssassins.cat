@@ -2689,6 +2689,7 @@
     <entryLink import="true" name="Shadowstorm (Ninja)" hidden="false" id="1cd3-4bcc-1d42-8c58" type="selectionEntry" targetId="92cd-96d6-a351-d6bf"/>
     <entryLink import="true" name="The Wizard" hidden="false" id="2e83-4598-325b-93a7" type="selectionEntry" targetId="534d-29b5-32c8-56ad"/>
     <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="8947-2b2b-c07f-83c9" type="selectionEntry" targetId="5c09-0c37-4685-df2b"/>
+    <entryLink import="true" name="Ubu" hidden="false" id="968a-d9a1-72b0-4d18" type="selectionEntry" targetId="5db3-f92c-a969-39aa"/>
   </entryLinks>
   <sharedRules>
     <rule name="Loyalty Tattoo" id="2ff2-171f-928e-e47a" hidden="false">
