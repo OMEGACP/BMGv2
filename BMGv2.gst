@@ -1827,6 +1827,23 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
     <rule name="Military Teamwork" id="cc5c-484f-ca0b-3052" hidden="false">
       <description>A friendly model performing an attack against an enemy in contact with this model gains +1 to its Attack value for the duration of the attack.</description>
     </rule>
+    <rule name="Truth-Seeker" id="1db0-db6f-9c6c-d2c2" hidden="false">
+      <description>When a model becomes KO or is removed from the game as a Casualty, you can place a 30mm Truth marker in contact with it before removing the model. During this model&apos;s activation you may remove one Truth marker within 4&quot; of this model to immediately move 4&quot;. When any friendly model within 4&quot; of a Truth marker scores VP by any means, you may remove one Truth marker to score 1 additional VP.</description>
+    </rule>
+    <rule name="I&apos;m Batman" id="8d4f-821e-6c14-db42" hidden="false">
+      <description>After all other models have deployed, this model deploys anywhere on the gaming area where its base can fit. All models within 2&quot; of this model must pass an Endurance roll or become Knocked Down when it deploys. In additoin, once per game, this model may reoll failed Damage rolls.</description>
+    </rule>
+    <rule name="Cloak of Bats" id="2c81-d3ea-b214-3694" hidden="false">
+      <description>Enemy models can only see this model if in contact with it. This ability works even when the model is within the area of effect of a Light. However, the model is still subject to other rules that aid detection, such as Total Vistion or Night Vision etc. This model can be affected by templates, but cannot be targeted directly. Also, when an enemey model enter contact with this model or this model enters contact with an enemey model, that model must take a Willower roll: If the roll is faules, the model sufferes the Scared effect.</description>
+    </rule>
+    <rule name="Special Base" id="b68d-2101-2638-cf2b" hidden="false">
+      <description>This model height is 2,5&quot; and it is subject to the following special rules:
+The model has a base size of 42x75mm.
+The model gains +2&quot; to its basic movement distance.
+A Special Base model cannot be Pushed or Grabbed and cannot be Knocked Down in close combat, except by attacks from models that also have the Large, Huge or Special Base trait.
+Special Base models suffer a -1 penalty to all their Ping! rolls.
+Special Base models gain the Charge special attack and can reroll Endurance rolls.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="48fe-70de-f325-b2e2">
@@ -2332,9 +2349,9 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
             <infoLink name="Reach (X)" id="55f2-656c-ccc7-a8e3" hidden="false" type="rule" targetId="b8bc-b583-55db-049c"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Batlings" hidden="false" id="01f6-603b-7ae9-2e7f">
+        <selectionEntry type="upgrade" import="true" name="Batlings (3x)" hidden="false" id="01f6-603b-7ae9-2e7f">
           <profiles>
-            <profile name="Batlings" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="2f5d-e56a-0443-3280">
+            <profile name="Batlings (3x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="2f5d-e56a-0443-3280">
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
@@ -3899,6 +3916,26 @@ Enemy models within 4&quot; suffer the Enervating (2) effect at the end of the R
             <infoLink name="Explosive" id="7bfd-89e5-0867-5d1e" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
             <infoLink name="Smoke" id="b7e2-e2d3-210a-fe34" hidden="false" type="rule" targetId="af3c-653e-29cd-24b8"/>
             <infoLink name="Grenade" id="4ddc-7950-9d3f-2893" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Batlings (2x)" hidden="false" id="f868-b1b4-461c-1261">
+          <profiles>
+            <profile name="Batlings (2x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="557b-6d0a-8ae1-7450">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="e4eb-0915-db79-5ad1" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Throwing" id="7acf-1ddd-ffa8-5c79" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="0f6c-9168-ea4a-c4ed" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Light" id="3270-4612-f9ba-70ba" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
