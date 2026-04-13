@@ -3058,7 +3058,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Bane (DKR)" hidden="false" id="d1d3-07ab-0794-8cfe">
+        <selectionEntry type="model" import="true" name="Bane (DKR) (SK)" hidden="false" id="d1d3-07ab-0794-8cfe">
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
             <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="97"/>
@@ -3177,15 +3177,15 @@
     <entryLink import="true" name="Ted Hunter (Legacy)" hidden="false" id="e660-9452-fdea-c225" type="selectionEntry" targetId="1c5f-2d7d-a9ba-a83e"/>
     <entryLink import="true" name="Venom Soldier" hidden="false" id="5a8f-cdae-6ce1-f1af" type="selectionEntry" targetId="1472-bc47-86d1-f874"/>
     <entryLink import="true" name="Bane (The Bat)" hidden="false" id="171c-06a7-0013-fc14" type="selectionEntry" targetId="8070-de80-9be0-b1c2"/>
-    <entryLink import="true" name="Bane (DKR)" hidden="false" id="a316-0f17-8a7e-cf0a" type="selectionEntry" targetId="d1d3-07ab-0794-8cfe"/>
+    <entryLink import="true" name="Bane (DKR) (SK)" hidden="false" id="a316-0f17-8a7e-cf0a" type="selectionEntry" targetId="d1d3-07ab-0794-8cfe"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Bane Mercenary Boss" id="5b12-a50d-13bd-fb43" hidden="false"/>
     <categoryEntry name="Bane Mercenary" id="4e2d-e205-7be8-a8ca" hidden="false"/>
   </categoryEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Free Agents" id="b2f4-3526-6f9b-b2f3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Henchman" id="82a6-0a43-8cee-a62c" targetId="2158-0d1a-7feb-5586" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Models" id="b2f4-3526-6f9b-b2f3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Henchmen" id="82a6-0a43-8cee-a62c" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
   </catalogueLinks>
   <sharedRules>
     <rule name="Venom Applicator" id="c731-790e-0a9b-97fb" hidden="false">

@@ -2,11 +2,6 @@
 <catalogue library="false" id="f2da-4023-9d92-989a" name="League of Assassins" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Bane" id="eb89-d0e9-0364-2ecb" targetId="bb2b-3a15-e80b-bca0" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Free Agents" id="d455-dc70-bdb5-0f25" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Shared Henchmen" id="0049-fb72-7579-fb2f" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Weapon Rules" id="5377-c1eb-1ae5-8ba5" targetId="27d9-6511-2f86-693d"/>
-    <catalogueLink type="catalogue" name="Effects" id="78a4-8267-1fab-71f7" targetId="21fe-eb6d-4a94-781b"/>
-    <catalogueLink type="catalogue" name="Special Attacks" id="427d-b17d-3c18-f632" targetId="0b28-80d3-74e4-3257"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="c05d-7129-df0f-e78b">
@@ -2165,7 +2160,7 @@
             <infoLink name="Sidekick - Let&apos;s go! Reroll" id="d030-9a61-3a83-3d2a" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="5c09-0c37-4685-df2b">
+        <selectionEntry type="model" import="true" name="Talia al Ghul (Rebirth) (SK)" hidden="false" id="5c09-0c37-4685-df2b">
           <categoryLinks>
             <categoryLink name="Crew (League of Assassins)" hidden="false" id="079e-5cfc-1cf1-d7ef" targetId="9702-99aa-fc73-85a4" primary="false"/>
             <categoryLink name="Equipment (LoA: Talia al Ghul)" hidden="false" id="f6ab-c561-379c-e3ca" targetId="3c91-e67e-b870-d7f8" primary="false"/>
@@ -2229,7 +2224,7 @@
             <infoLink name="Sidekick - Let&apos;s go! Reroll" id="9fc4-e45a-b043-8e5c" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Wizard" hidden="false" id="534d-29b5-32c8-56ad">
+        <selectionEntry type="upgrade" import="true" name="The Wizard (SK)" hidden="false" id="534d-29b5-32c8-56ad">
           <profiles>
             <profile name="The Wizard" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c73f-9841-d700-c991">
               <characteristics>
@@ -2687,8 +2682,8 @@
     <entryLink import="true" name="Seeker (Ninja)" hidden="false" id="7551-860e-b8cc-b0e1" type="selectionEntry" targetId="299e-4bd2-d6ce-7dcc"/>
     <entryLink import="true" name="Shadow (Ninja)" hidden="false" id="fe39-c8cb-e08a-bbc5" type="selectionEntry" targetId="f25c-3ed1-ea1f-25f2"/>
     <entryLink import="true" name="Shadowstorm (Ninja)" hidden="false" id="1cd3-4bcc-1d42-8c58" type="selectionEntry" targetId="92cd-96d6-a351-d6bf"/>
-    <entryLink import="true" name="The Wizard" hidden="false" id="2e83-4598-325b-93a7" type="selectionEntry" targetId="534d-29b5-32c8-56ad"/>
-    <entryLink import="true" name="Talia al Ghul (Rebirth)" hidden="false" id="8947-2b2b-c07f-83c9" type="selectionEntry" targetId="5c09-0c37-4685-df2b"/>
+    <entryLink import="true" name="The Wizard (SK)" hidden="false" id="2e83-4598-325b-93a7" type="selectionEntry" targetId="534d-29b5-32c8-56ad"/>
+    <entryLink import="true" name="Talia al Ghul (Rebirth) (SK)" hidden="false" id="8947-2b2b-c07f-83c9" type="selectionEntry" targetId="5c09-0c37-4685-df2b"/>
     <entryLink import="true" name="Ubu" hidden="false" id="968a-d9a1-72b0-4d18" type="selectionEntry" targetId="5db3-f92c-a969-39aa"/>
   </entryLinks>
   <sharedRules>
