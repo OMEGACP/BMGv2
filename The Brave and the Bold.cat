@@ -3043,7 +3043,7 @@
           </categoryLinks>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="100"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="120"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="155"/>
           </costs>
           <infoLinks>
             <infoLink name="Bat-Armor MK II" id="b602-30d2-d1a9-766a" hidden="false" type="rule" targetId="b300-01ae-406e-f3c3"/>

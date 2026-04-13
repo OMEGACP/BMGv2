@@ -40,7 +40,6 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f791-3f39-90b2-f770"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="TestGroup" hidden="false" id="5446-beeb-5b34-aa28" type="selectionEntryGroup" targetId="57dd-7edd-beab-28c8"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="be48-6f8b-64a6-1f7f" includeChildSelections="true" includeChildForces="true"/>
@@ -70,26 +69,4 @@
   <entryLinks>
     <entryLink targetId="7c57-75f1-c745-d566" id="b7a3-3bcb-da11-502b" type="selectionEntry" name="Batman (Arkham Knight)" hidden="false"/>
   </entryLinks>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="TestGroup" id="57dd-7edd-beab-28c8" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="TestEntry" hidden="false" id="f9d7-e84c-6dae-cae8">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b346-216a-1da1-19b2"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="TestNestedGroup" id="2676-5b8b-ba73-1c8d" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="TestSubEntry" hidden="false" id="4a7b-8548-7dcd-83fe">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5992-27a1-0d71-626b"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
 </catalogue>
