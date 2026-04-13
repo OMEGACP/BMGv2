@@ -1388,7 +1388,8 @@
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Models" id="8f8f-7be0-1df9-e3a0" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="c46d-9bef-df79-b420" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Henchmen" id="c46d-9bef-df79-b420" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Police Forces" id="ee1c-3b19-7c08-dc4e" targetId="8028-03db-19d4-984b" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink targetId="3da8-824a-a916-c802" id="2b88-a697-eaf0-122e" type="selectionEntry" name="Spore Plant" hidden="false"/>
