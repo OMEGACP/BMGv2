@@ -243,9 +243,6 @@
       <description>1SC: All friendly Henchmen within 4” of this model (but not the activated model itself) gain 1 free Attack Counter. This AC may take the number of assigned Action Counters above a Henchman’s normal maximum. A model can use this trait only once per round.</description>
       <alias>Kill them!</alias>
     </rule>
-    <rule name="Kryptonite" id="3f15-9cb2-b4fb-3db3" hidden="false">
-      <description>While a model with this trait is within 4” of a model with the Kryptonian trait, the Kryptonian model loses the Invulnerability and Regeneration traits (if they possess them).</description>
-    </rule>
     <rule name="Luck (1SC, Passive)" id="7b52-6498-88f0-3311" hidden="false">
       <description>1SC, Passive: This model may spend 1SC to reroll any single die that he has rolled, for whatever reason.</description>
       <alias>Luck</alias>
@@ -1598,7 +1595,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
     </rule>
     <rule name="Always on the Move (v3)" id="71a4-18e7-a23a-c1ea" hidden="false">
       <alias>Always on the Move</alias>
-      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enugh actions available to use this trait.</description>
+      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enough actions available to use this trait.</description>
     </rule>
     <rule name="CRT (Fire)" id="5804-ed80-2c27-1c8a" hidden="false">
       <description>In case of a critical hit, this weapon causes the Fire effect for the targeted model instead of the usual Stun damage.</description>
@@ -1843,6 +1840,13 @@ The model gains +2&quot; to its basic movement distance.
 A Special Base model cannot be Pushed or Grabbed and cannot be Knocked Down in close combat, except by attacks from models that also have the Large, Huge or Special Base trait.
 Special Base models suffer a -1 penalty to all their Ping! rolls.
 Special Base models gain the Charge special attack and can reroll Endurance rolls.</description>
+    </rule>
+    <rule name="Hallucination" id="3767-7f57-0b5a-26fa" hidden="false">
+      <description>When this model is recruited to your crew, a friendly model with the Alias: Bat-Mite loses its Legend rank.</description>
+    </rule>
+    <rule name="Speedster Power (Speed Force Bolts)" id="0a67-6603-803e-814e" hidden="false">
+      <description>Cost: 3 Paradox: 6+
+Target a model within 8&quot; and LoS. The target receives an auto hit with Str 4+ and damage 1 Blood + 2 Stun. This hit cannot be dodged.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3924,7 +3928,7 @@ Special Base models gain the Charge special attack and can reroll Endurance roll
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
               </characteristics>
             </profile>
@@ -3936,6 +3940,26 @@ Special Base models gain the Charge special attack and can reroll Endurance roll
             <infoLink name="Throwing" id="7acf-1ddd-ffa8-5c79" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
             <infoLink name="Short Range" id="0f6c-9168-ea4a-c4ed" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
             <infoLink name="Light" id="3270-4612-f9ba-70ba" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Batlings (1x)" hidden="false" id="0930-cd2c-9d28-cef7">
+          <profiles>
+            <profile name="Batlings (1x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="cce8-f71c-ee01-d9f2">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="de50-1574-630c-fb29" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Throwing" id="2ead-4199-bdac-566a" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="9b0e-77f5-dfe6-4f02" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Light" id="5a2d-65cc-f9be-4433" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

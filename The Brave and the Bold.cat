@@ -3124,6 +3124,243 @@
             <infoLink name="Dirty Fighter" id="34b3-18aa-e7e2-7088" hidden="false" type="rule" targetId="aa24-efa7-5766-51c7"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Green Arrow (Frank Miller)" hidden="false" id="19c3-57e2-5efc-dc9d">
+          <profiles>
+            <profile name="Green Arrow (Frank Miller)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="09e2-796e-9803-a0e1">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Frank Miller</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Green Arrow (Frank Miller)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Green Arrow (Frank Miller)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="eb93-2d6a-b428-fe4a">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">8</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Affinity (Batman), Hook Arrow, Desensitized, Good Aim, One-Armed, Ranged Master, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Bow (Frank Miller&apos;s Standard Arrow)" hidden="false" id="4664-d205-9c58-1f3f" type="selectionEntry" targetId="0c19-cf66-ffd3-3064">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e98b-6d0c-7fa7-d0f5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c800-9442-cbb4-1a08"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="cd45-044a-4fb8-b03e" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Bow (Frank Miller&apos;s Kryptonite Arrow)" hidden="false" id="8c1e-5dce-8f70-b4bb" type="selectionEntry" targetId="56f1-1cd4-b2d4-412c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc94-55cd-608b-6233"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06df-8c4c-bd98-f27c"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2eec-a310-13c3-82c7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="d069-6ae2-64c9-38fd" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="d044-425d-5d00-4371" primary="false" name="Crew (The Brave and the Bold)"/>
+            <categoryLink targetId="c0d1-f803-0129-31a7" id="aa77-c839-42ad-4090" primary="false" name="Equipment (BB: Bruce Wayne)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="75"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Affinity (Model)" id="5694-c5d8-d555-58b5" hidden="false" type="rule" targetId="a9bb-127b-fd56-7453"/>
+            <infoLink name="Good Aim (1SC)" id="4ea0-ef36-4549-24d0" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="One-Armed" id="67e9-ed04-74fb-1f00" hidden="false" type="rule" targetId="f04e-e361-246f-1b5d"/>
+            <infoLink name="Acrobat" id="9666-10e7-7d1a-4259" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="6630-d36b-9a7d-da43" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Ranged Master" id="3e93-f1c4-203a-0564" hidden="false" type="rule" targetId="3724-6edf-2216-d9e0"/>
+            <infoLink name="Inspire (1SC)" id="fc12-6cd7-857e-dc01" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Desensitized" id="c851-3a6e-cfa6-cb95" hidden="false" type="rule" targetId="05aa-935d-364a-a9cb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Green Arrow (The Animated Series)" hidden="false" id="1fd7-a409-c0da-f5bb">
+          <profiles>
+            <profile name="Green Arrow (The Animated Series)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a4ab-6a20-ff7c-b5b3">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Oliver Queen</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Green Arrow (The Animated Series)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Green Arrow (The Animated Series)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="fb8c-b264-3078-67ff">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Good Aim, Rapid Fire, Sharpshooter, Teamwork (2) (Black Canary)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Bow (Frank Miller&apos;s Standard Arrow)" hidden="false" id="82f3-1f1b-6fd3-7cfb" type="selectionEntry" targetId="0c19-cf66-ffd3-3064">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb25-b28e-3198-55f8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1dc-541b-dbbd-9d7c"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="5bc1-0cda-7241-189a" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Bow (Frank Miller&apos;s Kryptonite Arrow)" hidden="false" id="d22a-a95e-41ee-4e74" type="selectionEntry" targetId="56f1-1cd4-b2d4-412c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80f9-7db5-9d3c-8749"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="566b-86ee-e0ef-940a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="24fb-1830-ddbe-288d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="5ade-f462-8bbc-386d" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="48f5-f107-12ee-3a75" primary="false" name="Crew (The Brave and the Bold)"/>
+            <categoryLink targetId="c0d1-f803-0129-31a7" id="60f1-539f-985e-4d3f" primary="false" name="Equipment (BB: Bruce Wayne)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="75"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Rapid Fire (1SC)" id="4b4e-3e32-98e0-8ae0" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="Good Aim (1SC)" id="d0cb-fa86-e21a-e236" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Teamwork X (Model)" id="d14a-ab2c-50b7-383e" hidden="false" type="rule" targetId="eef1-152d-cd96-c343"/>
+            <infoLink name="Inspire (1SC)" id="09d6-9dab-64a0-1621" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Sharpshooter" id="5302-4980-4eeb-2c68" hidden="false" type="rule" targetId="a505-9f19-6107-0142"/>
+            <infoLink name="Acrobat" id="e4b2-43c4-e28c-7242" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Nightwing (Arkham Knight)" hidden="false" id="a08e-c3fc-bf2a-b1a4">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e19b-0f65-bfa3-fea4" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="eea1-6b56-6cf9-c01d" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Nightwing (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a9d9-ad40-01a8-e5b9">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dick Grayson</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Nightwing (Arkham Knight)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nightwing (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="8f17-d449-49d2-52be">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Agile, Batclaw, Charismatic, Combo (Electric Batons), Electric Storm, Reflexes, Teamwork (1) (All), Heir to the Cowl, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="95"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="919f-f676-e8eb-baea" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="3257-0fed-2e13-d837" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Agile" id="7c62-53a1-e644-96e9" hidden="false" type="rule" targetId="b0d4-b352-b031-307d"/>
+            <infoLink name="Combo (Weapon)" id="47d9-3a98-27e8-c92d" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Electric Storm (3SC)" id="8211-a43f-6f08-faf9" hidden="false" type="rule" targetId="ba07-a631-b529-f2db"/>
+            <infoLink name="Reflexes" id="af81-8f39-0a5e-d513" hidden="false" type="rule" targetId="d87e-048b-36b1-1568"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="5690-0c4a-04ac-bf66" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="1d87-2cf6-38b1-936f" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Teamwork X (ALL)" id="bbb3-ca52-078a-4b4b" hidden="false" type="rule" targetId="6762-dfef-92a4-556f"/>
+            <infoLink name="Charismatic" id="a268-5f0e-b787-49ac" hidden="false" type="rule" targetId="f0cc-450b-1ed4-df6e"/>
+            <infoLink name="Heir to the Cowl" id="43b6-47f5-72c8-9099" hidden="false" type="rule" targetId="57a8-b8fe-4c6d-cae1"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Electric Baton" hidden="false" id="a2a2-d443-f0f6-7637" type="selectionEntry" targetId="cec9-1ad9-3ac4-8a6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b57d-1458-7665-257e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c63-907e-c85b-c1ea"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0a73-ce30-80b6-0f63" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Wingdings" hidden="false" id="efab-fdc8-06de-ce63" type="selectionEntry" targetId="f746-4730-5142-0cf4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f99-7b98-a510-2043"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a73-ad95-2efc-794b"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Zur-En-Arrh Batman" hidden="false" id="d068-c67a-233c-bedd">
+          <profiles>
+            <profile name="Zur-En-Arrh Batman" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="0bfe-64d2-a350-58eb">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Zur-En-Arrh Batman</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Zur-En-Arrh Batman" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d968-e597-e5af-bb2b">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">5</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Adaptable, Bat Cape, Batclaw, Bat-Armor Mk I, Bipolar (Mental Disorder), Detective, Devastating Blow, Hallucination, Reinforced Gloves, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Batlings (1x)" hidden="false" id="bc7c-6ed5-5437-f640" type="selectionEntry" targetId="0930-cd2c-9d28-cef7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1038-99c5-c92b-ba51"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1f8-8ba9-79e1-f6b6"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="0d8b-1411-928f-2afc" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e540-56ab-495a-a657" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="9a56-3e34-e81b-7263" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="6fac-c91a-2862-c66c" primary="false" name="Crew (The Brave and the Bold)"/>
+            <categoryLink targetId="c0d1-f803-0129-31a7" id="4d93-bfe1-db28-4564" primary="false" name="Equipment (BB: Bruce Wayne)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="115"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Detective" id="8b47-4bd0-3d47-716f" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Adaptable" id="4baa-b0d1-7a60-6257" hidden="false" type="rule" targetId="da01-18af-7b3a-1d60"/>
+            <infoLink name="Devastating Blow (1SC)" id="b9da-6f71-3f21-4825" hidden="false" type="rule" targetId="852e-46c4-9edf-6f3f"/>
+            <infoLink name="Reinforced Gloves" id="7964-daab-4194-89ed" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="Bat Cape (1SC, passive)" id="986c-5b5b-9486-162e" hidden="false" type="rule" targetId="db55-a770-99bf-b2ca"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="1521-105a-31ae-0bcd" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Hallucination" id="3966-d005-93a9-b3cb" hidden="false" type="rule" targetId="3767-7f57-0b5a-26fa"/>
+            <infoLink name="Bat-Armor MK I" id="627e-c7e4-bcdd-bded" hidden="false" type="rule" targetId="e8c6-993d-b39a-945b"/>
+            <infoLink name="Inspire (1SC)" id="43b1-de4a-facf-6c51" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="597c-461e-2240-e397">
@@ -3322,34 +3559,34 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Rick Flag" hidden="false" id="77d9-23ce-84b3-db8f">
+        <selectionEntry type="model" import="true" name="Red Hood (Old)" hidden="false" id="77d9-23ce-84b3-db8f">
           <categoryLinks>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="0522-976e-9370-35c9" targetId="e482-2d30-1001-a6a1" primary="false"/>
             <categoryLink name="Sidekick" hidden="false" id="5297-c7f8-f1e5-87ce" targetId="6c53-80aa-1e01-a485" primary="true"/>
           </categoryLinks>
           <profiles>
-            <profile name="Rick Flag" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8edd-1d68-937e-c602">
+            <profile name="Red Hood (Old)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8edd-1d68-937e-c602">
               <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Richard Rogers Flag</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Rick Flag</characteristic>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Jason Todd</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Red Hood (Old)</characteristic>
               </characteristics>
             </profile>
-            <profile name="Rick Flag" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3492-1b83-62a2-6faf">
+            <profile name="Red Hood (Old)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="3492-1b83-62a2-6faf">
               <characteristics>
                 <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
                 <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
-                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
-                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
                 <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
                 <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
-                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bulletproof Vest, Elite Boss (Special Forces), Leadership, Multifire, Order, Veteran, Volunteer, Sidekick - Let&apos;s go! Reroll</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Agile, Gunman, Instinctive Shooting, Kevlar Vest, Martial Artist, Searcher, Shooter, Sidekick - Let&apos;s go! Reroll</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="500"/>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="64"/>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="400"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="84"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="96eb-a05c-264d-2fc6" includeChildSelections="true" includeChildForces="true"/>
@@ -3362,33 +3599,28 @@
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink name="Volunteer" id="0c7a-3aab-e774-53bb" hidden="false" type="rule" targetId="8d1d-7387-9af6-9fb0"/>
-            <infoLink name="Elite Boss (Type)" id="969b-b336-9d81-3ca5" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
-            <infoLink name="Leadership" id="04a6-1024-2f58-1057" hidden="false" type="rule" targetId="10cd-cb0f-6b2c-327a"/>
+            <infoLink name="Agile" id="0c7a-3aab-e774-53bb" hidden="false" type="rule" targetId="b0d4-b352-b031-307d"/>
+            <infoLink name="Martial Artist" id="969b-b336-9d81-3ca5" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Acrobat" id="04a6-1024-2f58-1057" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
             <infoLink name="Sidekick - Let&apos;s go! Reroll" id="5c36-c555-4108-e2b1" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
-            <infoLink name="Bulletproof Vest" id="17c3-f2fa-d7d1-e32f" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
-            <infoLink name="Order (1SC)" id="ace9-2d21-ec7a-db14" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
-            <infoLink name="Multifire (2SC)" id="ddaa-fad7-6d5c-59d3" hidden="false" type="rule" targetId="14a6-7cbc-28cf-0e89"/>
-            <infoLink name="Veteran" id="a9a6-44b3-f85c-af34" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+            <infoLink name="Kevlar Vest" id="17c3-f2fa-d7d1-e32f" hidden="false" type="rule" targetId="bbd3-240e-477f-9547"/>
+            <infoLink name="Gunman (2SC)" id="ace9-2d21-ec7a-db14" hidden="false" type="rule" targetId="002e-4ebd-cf7d-47ce"/>
+            <infoLink name="Instinctive Shooting (1SC)" id="ddaa-fad7-6d5c-59d3" hidden="false" type="rule" targetId="aeec-4195-f65b-943f"/>
+            <infoLink name="Searcher" id="a9a6-44b3-f85c-af34" hidden="false" type="rule" targetId="11ee-7754-5cb6-116b"/>
+            <infoLink name="Shooter" id="c771-0258-8a4f-22f4" hidden="false" type="rule" targetId="751e-7ac4-2e00-c9e2"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Knife" hidden="false" id="ce28-0325-1913-2798" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec9f-4cd7-a838-e864"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e2d-d712-8148-c278"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="783a-6e71-bc54-c824" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
-            <entryLink import="true" name="MG" hidden="false" id="86ae-30c3-eb81-dcb7" type="selectionEntry" targetId="b5c7-e529-7b39-79a3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37be-ea40-d624-4637"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65c7-46a4-2c70-768c"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Handgun" hidden="false" id="b371-0b39-8715-c529" type="selectionEntry" targetId="3e08-c26d-8249-ac8a">
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="b371-0b39-8715-c529" type="selectionEntry" targetId="0837-9f47-7129-0685">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1241-5d2f-847a-15d6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33ca-ee3a-62c0-e640"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="7d6f-27ef-7583-fc5a" type="selectionEntry" targetId="0837-9f47-7129-0685">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dc3-ca54-4105-9d42"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="040d-9685-9301-855d"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3942,6 +4174,700 @@
             <infoLink name="Escape Artist" id="32e5-5413-7417-475b" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
             <infoLink name="Luck (1SC, Passive)" id="a9fd-bdb8-2b0c-9cac" hidden="false" type="rule" targetId="7b52-6498-88f0-3311"/>
           </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Arsenal" hidden="false" id="6d20-6e61-1c61-1051">
+          <categoryLinks>
+            <categoryLink name="Sidekick" hidden="false" id="dab1-c75f-2dc5-5614" targetId="6c53-80aa-1e01-a485" primary="true"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="06ee-600c-1a90-d1a7" primary="false" name="Crew (The Brave and the Bold)"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Arsenal" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="a12c-563c-0c9e-d21c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Roy Harper Jr.</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Arsenal</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Arsenal" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="01b1-55ac-0285-5394">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Charge, Good Aim, Rapid Fire, Undercover, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="74"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3a77-478a-ecb7-03fd" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="1768-d03c-d4f6-44ab" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Charge (1MC+1SC)" id="7fd2-4382-9b51-2a5d" hidden="false" type="rule" targetId="f69c-c4e5-6fb8-dd9e"/>
+            <infoLink name="Rapid Fire (1SC)" id="56f8-33dc-07c9-f9ec" hidden="false" type="rule" targetId="4708-3417-6fab-181d"/>
+            <infoLink name="Good Aim (1SC)" id="9fcf-9635-a131-060e" hidden="false" type="rule" targetId="294c-c52a-d46b-0d2e"/>
+            <infoLink name="Undercover" id="ec6b-9243-436e-1d5a" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="728b-281a-a06e-deb6" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Bow" hidden="false" id="24b0-6913-b6ec-fdfc" type="selectionEntry" targetId="f304-7da2-71ff-2452">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5dd-285f-b086-1088"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f505-813c-09b7-a140"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="350d-bce3-3501-4e9d" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Bow (Explosive Arrow)" hidden="false" id="55d9-01f8-d5a0-29d5" type="selectionEntry" targetId="a065-108b-7883-ae79">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63f0-1f71-7a3c-7812"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e371-c36d-d657-edb8"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Batgirl" hidden="false" id="c383-7720-7d5d-00f7">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="6318-9df7-2f1f-0aa7" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="78ea-3083-cd92-68ef" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Batgirl" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7817-c337-40b0-3016">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Barbara Gordon</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batgirl (Barbara Gordon)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Batgirl" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="02a3-9e5d-78b8-7413">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Batcape, Batclaw, Combo (Unarmed), Informer, Martial Artist, Sneak Attack, Stealth, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="59"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f306-f7f3-3fcf-6ba3" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Combo (Weapon)" id="7b66-113b-27ca-1cd8" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Informer" id="9a3d-f112-fd81-06a3" hidden="false" type="rule" targetId="c03f-32f1-83bd-a81c"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="2f0b-a6a5-f6b0-8f75" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="63f3-d7e0-6df9-38df" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Martial Artist" id="e5a5-9b20-e387-4c85" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Bat Cape (1SC, passive)" id="43eb-dd06-225a-9382" hidden="false" type="rule" targetId="db55-a770-99bf-b2ca"/>
+            <infoLink name="Stealth" id="6688-b866-7396-4240" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Sneak Attack (1SC)" id="8168-92bc-c2ab-4d19" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Batlings (3x)" hidden="false" id="65d6-336e-c22a-f665" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af0b-feec-61ad-525c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5e9-bacb-dbc1-786a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="da70-a3dd-a89c-55f3" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bat-Mite" hidden="false" id="c458-1344-38fe-b995">
+          <profiles>
+            <profile name="Bat-Mite" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ddd3-f636-7466-e387">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Bat-Mite</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bat-Mite" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="d358-c914-3e3d-ed24">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">2+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">4</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Bipolar (Mental disorder), Fast, Kevlar Vest, Night Viision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="5092-fb4d-e5a3-8d6b" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Legend" hidden="false" id="1152-3a7b-4a6c-1c46" targetId="b6ad-bd71-688c-e321" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Energy Projection" hidden="false" id="413d-8587-e606-341e" type="selectionEntry" targetId="df3b-3919-6bf3-532f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ff9-c18d-3196-9813"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66d4-9017-cad6-adf0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2000-ade8-fff0-f10f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dbee-d621-64c0-a742" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Concealment (1MC+1SC)" id="7ad2-345d-c288-9992" hidden="false" type="rule" targetId="f853-c115-9856-c56c"/>
+            <infoLink name="Confusion (2SC)" id="c8da-e213-b858-e01a" hidden="false" type="rule" targetId="7bda-2f07-1fb6-bfdc"/>
+            <infoLink name="Inspire (1SC)" id="138b-b987-e83e-5b23" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Fly (1MC+1SC)" id="3667-fcb0-78f2-3d40" hidden="false" type="rule" targetId="6eb9-3137-65ed-f057"/>
+            <infoLink name="Supernatural" id="61c8-788c-083a-ad8a" hidden="false" type="rule" targetId="e80c-1f11-bbe0-d13b"/>
+            <infoLink name="Small" id="c28d-2ad0-7f62-b130" hidden="false" type="rule" targetId="c13c-b54f-6ade-73f0"/>
+            <infoLink name="This is awesome-sauce (2SC)" id="e97e-1612-a8c3-f089" hidden="false" type="rule" targetId="0c7c-f719-de41-c598"/>
+            <infoLink name="Reinforced Gloves" id="916d-9267-3501-7182" hidden="false" type="rule" targetId="be3c-44df-3c2e-faf3"/>
+            <infoLink name="My Idol" id="81ae-674c-51a1-cb71" hidden="false" type="rule" targetId="6be0-3f2e-b12f-6c9b"/>
+            <infoLink name="Time Stretch (3SC)" id="4cc1-b0a8-283c-31ff" hidden="false" type="rule" targetId="d628-3ff6-2b7a-9c69"/>
+            <infoLink name="Living Legend" id="e197-7541-e545-eab1" hidden="false" type="rule" targetId="db8a-1d79-590a-fbef"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Batwoman (Legacy)" hidden="false" id="157d-d32e-2b79-bb1c">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="6669-202a-200e-5eb1" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="b02e-df02-12a2-095c" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Batwoman (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="354b-5192-9214-2624">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Kathy Kane</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batwoman (Legacy)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Batwoman (Legacy)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="291b-4cee-a7ba-8aed">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bat-Armor Mk I, Batclaw, Criminology, Detective, Night Vision, Searcher, Stealth, Technique, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="95"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ce05-6fc8-481d-a202" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bat-Armor MK I" id="bba5-bd94-8cb7-09c0" hidden="false" type="rule" targetId="e8c6-993d-b39a-945b"/>
+            <infoLink name="Detective" id="93c7-4280-eb9e-0fec" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="4479-a15d-8759-b0ea" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="dc36-3088-9ae3-baac" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Stealth" id="a675-f40c-5c27-55ec" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Night Vision" id="a1f5-fd8d-5ef0-6543" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+            <infoLink name="Searcher" id="bdd6-50e2-552f-00f9" hidden="false" type="rule" targetId="11ee-7754-5cb6-116b"/>
+            <infoLink name="Technique (1SC)" id="cf76-b486-585f-5551" hidden="false" type="rule" targetId="66c4-ec53-de28-e8c6"/>
+            <infoLink name="Criminology" id="d348-951c-9574-c8d1" hidden="false" type="rule" targetId="93c9-c64b-693c-83fa"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="4f9c-ec26-555a-7d7f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Shock Gloves" hidden="false" id="feaa-6235-8706-cde7" type="selectionEntry" targetId="5282-6aa7-0c0f-3030">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56a4-7125-0664-89da"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="851e-2a78-dca7-e452"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Batarang (2x)" hidden="false" id="cb8a-b5f9-7821-e52f" type="selectionEntry" targetId="441d-4be3-9299-6bd3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f915-23b1-dff9-e55a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bf1-bc2d-1821-71bc"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Batwoman (Gargoyle)" hidden="false" id="f049-559f-a6c6-6352">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="2258-ca0e-c782-11ee" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="d6cc-baee-9b09-e6ff" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Batwoman (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="792f-1ae2-1256-3952">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Kathy Kane</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Batwoman (Legacy)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Batwoman (Legacy)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="787c-e05f-6c11-044f">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bat-Armor Mk I, Batclaw, Criminology, Detective, Night Vision, Searcher, Stealth, Technique, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="111"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="80f1-fe65-d26e-9ca8" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Bat-Armor MK I" id="acc6-e00d-230f-892a" hidden="false" type="rule" targetId="e8c6-993d-b39a-945b"/>
+            <infoLink name="Interrogation" id="8078-aa38-2e51-a19c" hidden="false" type="rule" targetId="62cc-46ad-3a40-94c7"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="5c02-a538-0387-98e0" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="2b42-3578-e0af-2f11" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Stealth" id="b157-a77c-2ea9-6de7" hidden="false" type="rule" targetId="5bc1-7dc9-35c5-e9c2"/>
+            <infoLink name="Military Teamwork" id="d4dd-243f-ceb0-ed27" hidden="false" type="rule" targetId="cc5c-484f-ca0b-3052"/>
+            <infoLink name="Searcher" id="c7c1-8ecf-cca8-9b91" hidden="false" type="rule" targetId="11ee-7754-5cb6-116b"/>
+            <infoLink name="Night Vision" id="2336-a82f-c5ad-dcfa" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+            <infoLink name="Criminology" id="e237-54aa-13de-7f05" hidden="false" type="rule" targetId="93c9-c64b-693c-83fa"/>
+            <infoLink name="Air Combat" id="87cc-fc0d-5e15-f755" hidden="false" type="rule" targetId="19ff-68ca-90cc-be98"/>
+            <infoLink name="Bat Cape (1SC, passive)" id="86ed-5621-c9e5-81d5" hidden="false" type="rule" targetId="db55-a770-99bf-b2ca"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Batarang (2x)" hidden="false" id="a36f-7567-f2f9-68b7" type="selectionEntry" targetId="441d-4be3-9299-6bd3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8dce-4f0e-0ffc-e2ff"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30f3-8965-c761-f34c"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="2b65-375a-6138-e50f" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Shock Gloves" hidden="false" id="089a-4c09-fadf-342f" type="selectionEntry" targetId="5282-6aa7-0c0f-3030">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9eab-cb23-8c5e-7d23"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0446-6315-31ff-2276"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Nightwing (Legacy)" hidden="false" id="3144-342d-9de9-f8db">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="e406-cef1-7730-88f2" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="ff8d-7def-c391-f389" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Nightwing (Legacy)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="691d-a926-11d9-809f">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dick Grayson</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Nightwing (Legacy)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nightwing (Legacy)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ed58-fbb3-5aa0-c7a7">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Batclaw, Charismatic, Combo (Electric Batons), Electric Storm, Explosive Gel, Sneak Attack, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="85"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cd5b-3392-f721-be9f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="c6d2-a9ea-d00f-5c7d" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Combo (Weapon)" id="4e94-88a9-04c3-d362" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Electric Storm (3SC)" id="b440-65c3-e022-eb8a" hidden="false" type="rule" targetId="ba07-a631-b529-f2db"/>
+            <infoLink name="Sneak Attack (1SC)" id="84a0-2761-eb12-24da" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="8c35-5907-5821-0e93" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="908b-da7a-ac8b-1d91" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Charismatic" id="e873-298c-83b8-91a8" hidden="false" type="rule" targetId="f0cc-450b-1ed4-df6e"/>
+            <infoLink name="Explosive Gel" id="2f9c-d834-be44-f2b1" hidden="false" type="rule" targetId="17ee-350d-fd6f-ead3"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Electric Baton" hidden="false" id="a130-ff50-0856-759e" type="selectionEntry" targetId="cec9-1ad9-3ac4-8a6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8dd2-ac65-a85f-fd34"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed45-aae0-d79b-b1bb"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="9cd7-f755-6516-695c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Wingdings" hidden="false" id="84a7-6d01-b321-b846" type="selectionEntry" targetId="f746-4730-5142-0cf4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2408-0787-9797-ae67"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8942-0281-3e3f-7aad"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Nightwing (Modern)" hidden="false" id="a45c-0ddb-ea18-23ba">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="4194-7cdf-4322-0f56" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="2d79-5fc6-4e90-5d3d" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Nightwing (Modern)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="6ff2-29eb-85ba-3a04">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dick Grayson</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Nightwing (Modern)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nightwing (Modern)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="2e0b-78b9-e390-0014">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Batclaw, Charismatic, Combat Flip, Combo (Electric Batons), Jump Up, Martial Artist, Searcher, Street Guy, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="90"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1ff6-71ef-705f-95dc" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Acrobat" id="011e-d2ea-0481-e81e" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Combat Flip (1SC)" id="3dc8-5a44-e85e-06e3" hidden="false" type="rule" targetId="f162-f173-595b-d58f"/>
+            <infoLink name="Combo (Weapon)" id="aa48-2947-ed45-ec66" hidden="false" type="rule" targetId="7f97-d629-3ec8-708b"/>
+            <infoLink name="Searcher" id="0d88-ad10-1da8-c7a9" hidden="false" type="rule" targetId="11ee-7754-5cb6-116b"/>
+            <infoLink name="Street Guy" id="fcf9-23fa-157b-c42d" hidden="false" type="rule" targetId="c942-a03e-447a-690b"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="e5f6-5b6c-c2b4-5aeb" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="442a-2858-213f-4331" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
+            <infoLink name="Charismatic" id="6be7-a60d-1b79-7c54" hidden="false" type="rule" targetId="f0cc-450b-1ed4-df6e"/>
+            <infoLink name="Martial Artist" id="7035-7c28-26d2-2b57" hidden="false" type="rule" targetId="8126-5cf9-1ee0-ad87"/>
+            <infoLink name="Jump Up" id="9e00-0a69-d19a-c98c" hidden="false" type="rule" targetId="2933-0698-49c0-54c3"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Nightwing&apos;s Sticks" hidden="false" id="bb4d-de85-ace1-f755" type="selectionEntry" targetId="08bd-6d2f-fad2-08df">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fb7-e241-70c3-23c2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4e3-bcad-ca50-bc1d"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="4739-9c0b-ad4b-2c36" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Wingdings" hidden="false" id="ff44-7c41-c1f7-d97e" type="selectionEntry" targetId="f746-4730-5142-0cf4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cfd-6783-e4cd-3834"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8402-ce72-a49c-babe"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rick Flag" hidden="false" id="58ad-7db6-d279-0c8f">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="092d-0bcf-9d2c-4f7f" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="de9e-fa27-9918-eebf" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Rick Flag" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="418e-13b7-c954-636c">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Richard Rogers Flag</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Rick Flag</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rick Flag" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b1eb-3117-67d1-be28">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bulletproof Vest, Elite Boss (Special Forces), Leadership, Multifire, Order, Veteran, Volunteer, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="500"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="64"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b09b-3249-ef1d-086d" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Volunteer" id="7464-afeb-3719-f551" hidden="false" type="rule" targetId="8d1d-7387-9af6-9fb0"/>
+            <infoLink name="Elite Boss (Type)" id="a9c2-9503-a7e9-d26a" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Leadership" id="db8f-8e0e-2379-9e49" hidden="false" type="rule" targetId="10cd-cb0f-6b2c-327a"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="e8ff-ebbb-873d-2012" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Bulletproof Vest" id="877f-773c-db58-9e11" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
+            <infoLink name="Order (1SC)" id="d7df-54db-d715-7267" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
+            <infoLink name="Multifire (2SC)" id="4c84-3fb8-4caf-330d" hidden="false" type="rule" targetId="14a6-7cbc-28cf-0e89"/>
+            <infoLink name="Veteran" id="31d5-0a40-8020-ef52" hidden="false" type="rule" targetId="de8e-f7cc-040e-388b"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Knife" hidden="false" id="9721-b055-ff65-c1e5" type="selectionEntry" targetId="6337-4f7a-b0a2-b0d5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8935-af58-700f-3d0f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f855-5dd7-84c6-d259"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="7789-8b10-5c2f-6f97" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="MG" hidden="false" id="a031-ee1e-d68d-cff8" type="selectionEntry" targetId="b5c7-e529-7b39-79a3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="755f-029a-879c-7794"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9fa-785b-6e50-4dda"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Handgun" hidden="false" id="850e-d48d-81f1-2cf6" type="selectionEntry" targetId="3e08-c26d-8249-ac8a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bd0-5813-e889-d859"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b23-0bd8-29fe-7b3b"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Robin (Teen Titans)" hidden="false" id="baa5-cbfd-960e-d577">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="fb10-78ef-3762-5798" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="c6d5-3c61-50c2-3288" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Robin (Teen Titans)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="81d6-3639-87cd-4e04">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dick Grayson</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Robin (Teen Titans)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Robin (Teen Titans)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="ee59-8ff6-3e86-d020">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Always on the Move, Charismatic, Cooperative Fighting, Detective, Leadership, Stay in Formation, True Love (Starfire), Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="65"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5319-9478-9847-eada" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Detective" id="6e90-5ac7-75bd-040c" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Always on the Move (v3)" id="08bb-e5fd-ea55-3820" hidden="false" type="rule" targetId="71a4-18e7-a23a-c1ea"/>
+            <infoLink name="Charismatic" id="6ea6-4272-3dd6-50dc" hidden="false" type="rule" targetId="f0cc-450b-1ed4-df6e"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="9a92-8128-ed4e-1ed8" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Leadership" id="65a0-b62c-95ac-92ed" hidden="false" type="rule" targetId="10cd-cb0f-6b2c-327a"/>
+            <infoLink name="True Love (Name)" id="808c-1992-c538-1ae8" hidden="false" type="rule" targetId="a610-1110-40f2-8367"/>
+            <infoLink name="Cooperative Fighting" id="34fb-4db2-74ca-43cb" hidden="false" type="rule" targetId="fd40-a0e6-6697-555e"/>
+            <infoLink name="Acrobat" id="2f73-5e3b-c090-4ba8" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Stay in Formation" id="9617-b901-a165-c35e" hidden="false" type="rule" targetId="6da4-28aa-f1e7-f6d3"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Shielded Bo" hidden="false" id="fd86-2815-3966-caa9" type="selectionEntry" targetId="92a5-0a84-6c0d-9ad1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c50c-f437-202f-f0d2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cca-b3f8-ee9f-407e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="e70e-26ac-9465-cca2" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Batlings (3x)" hidden="false" id="0794-3850-c193-8c78" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59f2-8bd7-4d00-c745"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb33-f932-76cd-4728"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Flash (TV Series)" hidden="false" id="bdc0-afc5-e4f2-3ae9">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="dbd0-9f06-281d-c03e" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="e445-fc58-ea41-82c6" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="The Flash (TV Series)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="30b5-fdf3-9331-6646">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Barry Allen</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Flash (TV Series)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Flash (TV Series)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="93bb-e3b2-036c-de03">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Detective, Dodge, Fast, Moral Compass, Scientific, Speedster (5), Speed Force Master, Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="100"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f797-f641-028b-f516" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Scientific" id="30c4-a459-1c65-a16d" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Speedster (X)" id="4556-b4f3-38d8-7593" hidden="false" type="rule" targetId="6564-1a29-2fe2-9231"/>
+            <infoLink name="Speed Force Master" id="bbca-57b4-ce11-cfcc" hidden="false" type="rule" targetId="2c01-0f58-55a2-c2f7"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="361c-78eb-cbac-37b1" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Fast" id="72d0-cc48-08e4-176c" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Dodge" id="7388-7598-a9d6-5389" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
+            <infoLink name="Moral Compass" id="10bf-3528-3c48-1b39" hidden="false" type="rule" targetId="2e9f-a340-3237-984d"/>
+            <infoLink name="Detective" id="fe5d-647b-e960-b4b4" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="54fc-7448-4b68-6268" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Flash (TV Show)" hidden="false" id="9986-a4e5-927f-1525">
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="a03b-40e9-ccfc-368a" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="0b3f-158b-93ea-dccc" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="The Flash (TV Show)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f302-bbf7-710c-d03b">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Barry Allen</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">The Flash (TV Show)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Flash (TV Show)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1bbc-04e7-dbae-749e">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrest, Detective, Dodge, Fast, Moral Compass, Scientific, Speedster (5), Speed Force Master, Speedster Power (Speed Force Bolts), Sidekick - Let&apos;s go! Reroll</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="100"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ef7c-5808-83f2-9c25" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Scientific" id="33b9-3abe-69e5-1f84" hidden="false" type="rule" targetId="5f75-bf2e-564f-2c4c"/>
+            <infoLink name="Speedster (X)" id="f332-1553-0b0a-4742" hidden="false" type="rule" targetId="6564-1a29-2fe2-9231"/>
+            <infoLink name="Speed Force Master" id="75da-6603-f9eb-c912" hidden="false" type="rule" targetId="2c01-0f58-55a2-c2f7"/>
+            <infoLink name="Sidekick - Let&apos;s go! Reroll" id="5736-1f72-ddba-f89a" hidden="false" type="rule" targetId="a720-f166-b6d7-6977"/>
+            <infoLink name="Fast" id="2750-cda9-50a9-9dcc" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Dodge" id="696a-883f-7137-72da" hidden="false" type="rule" targetId="ff3f-51e5-d699-4d97"/>
+            <infoLink name="Moral Compass" id="16c5-1637-0acc-cc65" hidden="false" type="rule" targetId="2e9f-a340-3237-984d"/>
+            <infoLink name="Arrest (1MC+1SC)" id="7a14-aae9-93a1-241a" hidden="false" type="rule" targetId="87fe-693a-11b8-34ac"/>
+            <infoLink name="Detective" id="4536-1479-92ea-a117" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Speedster Power (Speed Force Bolts)" id="ea77-40b4-b6fc-9df6" hidden="false" type="rule" targetId="0a67-6603-803e-814e"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="7962-f42f-d480-6bba" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4563,6 +5489,80 @@
             <categoryLink name="Ranged Weapon" hidden="false" id="97bb-9859-99cb-9c2c" targetId="e5df-fb90-85ea-a151" primary="false"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow (Frank Miller&apos;s Kryptonite Arrow)" hidden="false" id="56f1-1cd4-b2d4-412c">
+          <profiles>
+            <profile name="Bow (Frank Miller&apos;s Kryptonite Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="17c0-36f7-989b-5b9f">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">4 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Kryptonite</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="4665-e117-ecce-89ec" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Mechanical" id="1edb-8ac2-2757-ef0b" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Kryptonite" id="d531-d8ff-1047-c09b" hidden="false" type="rule" targetId="01a8-fa33-24f8-5f2d"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="fe39-b003-b53b-4e38" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow (Frank Miller&apos;s Standard Arrow)" hidden="false" id="0c19-cf66-ffd3-3064">
+          <profiles>
+            <profile name="Bow (Frank Miller&apos;s Standard Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="68a6-3adc-e26d-d8ce">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">3 Blood</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Mechanical, Aim, Kryptonite</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="3797-4e53-4bec-02db" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Mechanical" id="1eb3-843a-9bad-ae5c" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="05f9-64bd-c4ab-3ea2" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bow (Explosive Arrow)" hidden="false" id="a065-108b-7883-ae79">
+          <profiles>
+            <profile name="Bow (Explosive Arrow)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="39a4-5cdd-1285-1c0b">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">1 Blood, 1 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, Aim, Explosive</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Aim" id="fd24-3173-8082-daae" hidden="false" type="rule" targetId="b6cb-5f72-635b-9d94"/>
+            <infoLink name="Firearm" id="ba52-9f70-b182-e944" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+            <infoLink name="Explosive" id="aeb0-8617-d487-c910" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="05ac-81fe-a786-5256" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Nightwing&apos;s Sticks" hidden="false" id="08bd-6d2f-fad2-08df">
+          <profiles>
+            <profile name="Nightwing&apos;s Sticks" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="b59d-bccd-6a68-d697">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood, 1 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Magic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Electric" id="bc84-3d3a-8631-7538" hidden="false" type="rule" targetId="1fdb-143c-e420-5663"/>
+            <infoLink name="Mechanical" id="ed86-b74f-ad8e-6e91" hidden="false" type="rule" targetId="b076-9a28-b71d-22a2"/>
+            <infoLink name="Handy" id="824a-117b-fb44-69c7" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Legend" hidden="false" id="7a52-1dd3-2096-b025">
@@ -4775,6 +5775,20 @@
     <entryLink import="true" name="Commissioner Gordon (New SWAT Box)" hidden="false" id="99d5-b7d5-dddf-96d6" type="selectionEntry" targetId="d074-19bc-0f27-3756"/>
     <entryLink import="true" name="Green Arrow" hidden="false" id="62c4-74ec-ee16-9f0d" type="selectionEntry" targetId="a044-5ee7-5cee-53d9"/>
     <entryLink import="true" name="Batman (TDKR with Batpod)" hidden="false" id="cb36-7fe5-9a5e-a129" type="selectionEntry" targetId="6008-9a9b-36d9-c47d"/>
+    <entryLink import="true" name="Green Arrow (Frank Miller)" hidden="false" id="6ed9-2dd5-d8c1-08c7" type="selectionEntry" targetId="19c3-57e2-5efc-dc9d"/>
+    <entryLink import="true" name="Green Arrow (The Animated Series)" hidden="false" id="89ef-7b03-9a0a-277c" type="selectionEntry" targetId="1fd7-a409-c0da-f5bb"/>
+    <entryLink import="true" name="Nightwing (Arkham Knight)" hidden="false" id="2aaa-c6e7-6680-86a7" type="selectionEntry" targetId="a08e-c3fc-bf2a-b1a4"/>
+    <entryLink import="true" name="Zur-En-Arrh Batman" hidden="false" id="f1f9-4929-268a-3ed7" type="selectionEntry" targetId="d068-c67a-233c-bedd"/>
+    <entryLink import="true" name="Arsenal" hidden="false" id="9dd3-2dd9-e398-06bb" type="selectionEntry" targetId="6d20-6e61-1c61-1051"/>
+    <entryLink import="true" name="Batgirl (Barbara Gordon)" hidden="false" id="3156-b078-661d-9dc8" type="selectionEntry" targetId="c383-7720-7d5d-00f7"/>
+    <entryLink import="true" name="Bat-Mite" hidden="false" id="36c0-acac-d0b5-d523" type="selectionEntry" targetId="c458-1344-38fe-b995"/>
+    <entryLink import="true" name="Batwoman (Gargoyle)" hidden="false" id="aecb-8132-4ee2-f602" type="selectionEntry" targetId="f049-559f-a6c6-6352"/>
+    <entryLink import="true" name="Batwoman (Legacy)" hidden="false" id="5be5-8491-1a38-ea30" type="selectionEntry" targetId="157d-d32e-2b79-bb1c"/>
+    <entryLink import="true" name="Nightwing (Legacy)" hidden="false" id="04b9-037a-1922-49ac" type="selectionEntry" targetId="3144-342d-9de9-f8db"/>
+    <entryLink import="true" name="Nightwing (Modern)" hidden="false" id="6f0a-b7cc-0f53-2edd" type="selectionEntry" targetId="a45c-0ddb-ea18-23ba"/>
+    <entryLink import="true" name="Rick Flag" hidden="false" id="3cff-6bf4-0082-d74d" type="selectionEntry" targetId="58ad-7db6-d279-0c8f"/>
+    <entryLink import="true" name="Robin (Teen Titans)" hidden="false" id="15ca-3135-28cd-893a" type="selectionEntry" targetId="baa5-cbfd-960e-d577"/>
+    <entryLink import="true" name="The Flash (TV Series)" hidden="false" id="9ee5-a294-77a4-bd6f" type="selectionEntry" targetId="bdc0-afc5-e4f2-3ae9"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Police Forces" id="1415-049c-7374-559f" targetId="8028-03db-19d4-984b" importRootEntries="true"/>

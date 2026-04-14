@@ -286,7 +286,6 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Free Agent" hidden="false" id="9e1a-41f9-6b29-007f" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
-            <categoryLink name="Crew (Unknown)" hidden="false" id="af24-0b22-0c53-fae1" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
             <categoryLink name="Rival (The Brave and the Bold)" hidden="false" id="97e4-f972-2b4b-a4f7" targetId="33d4-af20-d41a-829e" primary="false"/>
           </categoryLinks>
           <costs>
