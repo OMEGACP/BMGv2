@@ -125,13 +125,6 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4c70-a3ca-84ff-6e0b" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="King Shark" hidden="false" id="76c8-862b-eecc-46e7">
           <profiles>
@@ -286,7 +279,6 @@
           </profiles>
           <categoryLinks>
             <categoryLink name="Free Agent" hidden="false" id="9e1a-41f9-6b29-007f" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
-            <categoryLink name="Crew (Unknown)" hidden="false" id="af24-0b22-0c53-fae1" targetId="b8c1-0bb0-ed53-bdfa" primary="false"/>
             <categoryLink name="Rival (The Brave and the Bold)" hidden="false" id="97e4-f972-2b4b-a4f7" targetId="33d4-af20-d41a-829e" primary="false"/>
           </categoryLinks>
           <costs>
@@ -1922,82 +1914,6 @@
             <infoLink name="Primary Target (Type)" id="68a4-f3b5-5e6d-1f72" hidden="false" type="rule" targetId="0ac2-e25d-8423-8b8c"/>
             <infoLink name="Total Vision" id="8f13-4da6-3a2c-fa12" hidden="false" type="rule" targetId="2bc9-33a3-ff0b-2fa5"/>
             <infoLink name="Thief (1SC)" id="3926-6b5f-bc73-120b" hidden="false" type="rule" targetId="bbf0-b7eb-da4d-436a"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="model" import="true" name="Swamp Thing (v3)" hidden="false" id="68a7-29c1-9cdd-367b">
-          <profiles>
-            <profile name="Swamp Thing (v3)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="8c7b-a4b8-01c9-c7fb">
-              <characteristics>
-                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Alex Holland</characteristic>
-                <characteristic name="Alias" typeId="324e-541d-263d-736b">Swamp Thing (v3)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Swamp Thing (v3)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="123b-f287-1897-d8d1">
-              <characteristics>
-                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">9</characteristic>
-                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
-                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
-                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
-                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
-                <characteristic name="Special" typeId="332e-5255-7c9b-115f">4</characteristic>
-                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">12</characteristic>
-                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Chlorokinesis, Elite Boss (Plants), Green Magic, Immortal, Large, Magical Power (5), Natural Immunities, Pollution Hate, Regeneration, Supernatural, Tough Skin, Vulnerability to Fire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="b1c1-1fbd-a079-bc7a" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
-            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="8cc5-f961-9fab-a4a3" primary="true" name="Free Agent"/>
-            <categoryLink targetId="e482-2d30-1001-a6a1" id="e9d7-210c-0fbe-0a04" primary="false" name="Crew (The Brave and the Bold)"/>
-          </categoryLinks>
-          <costs>
-            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="150"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1501-cd52-bef9-351c" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Spikes" hidden="false" id="a321-3ec3-a29e-ebeb" type="selectionEntry" targetId="f388-d9c6-2095-3f27">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2eb-1a7f-adb9-c195"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b34b-e841-ecec-52a8"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Altered Limb" hidden="false" id="9906-057d-0a5a-2455" type="selectionEntry" targetId="cc27-4fdc-d3de-b9f1">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c77a-e6b3-7396-0dcb"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7915-1941-0ca8-d530"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="5d68-ea8d-d7b6-b272" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
-          </entryLinks>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <infoLinks>
-            <infoLink name="Chlorokinesis (1SC)" id="f6d5-0900-c685-d6d8" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
-            <infoLink name="Elite Boss (Type)" id="0197-8049-5c41-0955" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
-            <infoLink name="Immortal" id="948e-f5e3-439c-fc12" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
-            <infoLink name="Supernatural" id="6dd9-04a0-72b2-f8a8" hidden="false" type="rule" targetId="e80c-1f11-bbe0-d13b"/>
-            <infoLink name="Tough Skin" id="f9bb-4a37-5073-9c62" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
-            <infoLink name="Vulnerability to Fire" id="3a22-ce9d-b4ab-3ab5" hidden="false" type="rule" targetId="5a15-dafe-b201-72b1"/>
-            <infoLink name="Magical Power (X)" id="8008-7baa-5023-8772" hidden="false" type="rule" targetId="5dba-59fb-cb2a-784c"/>
-            <infoLink name="Large" id="5cd5-f8d7-872b-f6f8" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
-            <infoLink name="Natural Immunities" id="aacb-64f7-abd9-e338" hidden="false" type="rule" targetId="ea6f-19ea-42a5-3d5f"/>
-            <infoLink name="Regeneration (1SC)" id="f85e-8782-8287-4d13" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
-            <infoLink name="Pollution Hate" id="129f-31cd-4c62-8ea6" hidden="false" type="rule" targetId="ad59-841c-a6eb-72bc"/>
-            <infoLink name="Green Magic" id="4b99-883f-c87a-dd90" hidden="false" type="rule" targetId="75fb-defc-fea9-ebfb"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Bronze Tiger" hidden="false" id="0d3a-7c41-559f-41cb">
@@ -3839,6 +3755,142 @@
             <infoLink name="Power Armor (Passive)" id="9816-a073-02d2-744c" hidden="false" type="rule" targetId="48f2-2fcc-4ef7-c2ca"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Catwoman on Batpod (DKR)" hidden="false" id="7a9e-e091-0cfc-5b2b">
+          <profiles>
+            <profile name="Catwoman on Batpod (DKR)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7286-9c1b-cf22-7b30">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Selina Kyle</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Catwoman on Batpod (DKR)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Catwoman on Batpod (DKR)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="6f44-2cf2-19e4-82bc">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">5</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">10</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Climbing Claws, Fast, Mechanical Mount, Night Vision, Pickpocket, Sneak Attack, Special Base, Undercover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="658b-6c91-3753-3670" primary="true" name="Free Agent"/>
+            <categoryLink targetId="33d4-af20-d41a-829e" id="aa1b-e696-7e14-c50f" primary="false" name="Rival (The Brave and the Bold)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="81a7-f0df-ae27-07da" primary="false" name="Rival (Joker)"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="800"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="99"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b907-e20e-a635-8eb5" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Gun" hidden="false" id="eaa2-0adf-0d10-5d07" type="selectionEntry" targetId="0837-9f47-7129-0685">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb73-afca-04a9-0a8f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9828-ff46-dd40-d2bf"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heels" hidden="false" id="acd8-48d0-605d-f341" type="selectionEntry" targetId="57b0-a49e-bb5c-75d6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3ad-a222-bbb3-fcb5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="088f-7a2f-5a89-7a17"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4e34-28c8-3992-3cae" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Night Vision" id="44c9-dd05-97e2-4441" hidden="false" type="rule" targetId="d751-4c59-9db9-53fe"/>
+            <infoLink name="Pickpocket" id="9147-929e-c3fd-5dd7" hidden="false" type="rule" targetId="a23e-42de-46cd-a6fb"/>
+            <infoLink name="Undercover" id="05cf-246a-1dc7-826f" hidden="false" type="rule" targetId="02ff-ec58-c941-9554"/>
+            <infoLink name="Climbing Claws" id="5eab-6fa1-ce19-273a" hidden="false" type="rule" targetId="00a3-8239-15e8-d006"/>
+            <infoLink name="Acrobat" id="0000-13b1-63c8-6670" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Sneak Attack (1SC)" id="3169-b59f-700e-c351" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
+            <infoLink name="Fast" id="dd14-ec81-0b31-f9b2" hidden="false" type="rule" targetId="abff-9516-0a96-d4c5"/>
+            <infoLink name="Mechanical Mount" id="1d20-8940-5acf-9af2" hidden="false" type="rule" targetId="0d96-9d18-448d-f3ee"/>
+            <infoLink name="Special Base" id="3a61-8028-863f-b55b" hidden="false" type="rule" targetId="b68d-2101-2638-cf2b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Swamp Thing (Free Agent)" hidden="false" id="3ff1-b3f5-5360-b4d1">
+          <profiles>
+            <profile name="Swamp Thing (Free Agent)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b6e0-6d8f-d620-a2f5">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Alec Holland</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Swamp Thing (Free Agent)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Swamp Thing (Free Agent)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="e82c-147a-5dd6-acda">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">9</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">4</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">12</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Chlorokinesis, Elite Boss (Plants), Green Magic, Immortal, Large, Magical Power (5), Natural Immunities, Pollution Hate, Regeneration, Supernatural, Tough Skin, Vulnerability to Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Crew (Gotham City Sirens)" hidden="false" id="7fb3-8d73-108b-fd25" targetId="8acb-5b5e-ca8e-fb31" primary="false"/>
+            <categoryLink targetId="79d4-9b8b-7f29-cba5" id="514d-27c9-beba-feac" primary="true" name="Free Agent"/>
+            <categoryLink targetId="e482-2d30-1001-a6a1" id="1e5e-8f81-a25b-ecd1" primary="false" name="Crew (The Brave and the Bold)"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="150"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4056-67e2-36b4-34e2" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Spikes" hidden="false" id="a834-f208-fbbf-1fdc" type="selectionEntry" targetId="f388-d9c6-2095-3f27">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d12-1192-a046-1d64"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7853-6885-2992-355f"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Metamorphic Branch" hidden="false" id="53cf-fde3-2081-a03d" type="selectionEntry" targetId="674b-48c0-e777-6dac">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c331-b18a-e993-32d8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2fe-0566-2da4-2bd6"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="03fe-70c9-5cf2-70e7" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="102f-d7ed-dd40-578e" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Chlorokinesis (1SC)" id="b634-69db-4af9-a6a2" hidden="false" type="rule" targetId="85de-30ce-379f-9eed"/>
+            <infoLink name="Elite Boss (Type)" id="98e4-b2e0-3ccd-6df3" hidden="false" type="rule" targetId="2ab7-a48d-2084-3bc1"/>
+            <infoLink name="Immortal" id="0772-d864-25c5-28ea" hidden="false" type="rule" targetId="3cd2-7850-d87e-c198"/>
+            <infoLink name="Supernatural" id="1427-7c72-5d70-67fb" hidden="false" type="rule" targetId="e80c-1f11-bbe0-d13b"/>
+            <infoLink name="Tough Skin" id="c5bc-1450-c2c7-1b8a" hidden="false" type="rule" targetId="7153-8d59-6cf7-9b4b"/>
+            <infoLink name="Vulnerability to Fire" id="e04e-ce4b-7519-631d" hidden="false" type="rule" targetId="5a15-dafe-b201-72b1"/>
+            <infoLink name="Magical Power (X)" id="fa5a-a807-64c5-58c3" hidden="false" type="rule" targetId="5dba-59fb-cb2a-784c"/>
+            <infoLink name="Large" id="6235-cdce-9595-6fc2" hidden="false" type="rule" targetId="e335-dce7-3ce6-2489"/>
+            <infoLink name="Natural Immunities" id="757a-4b69-980c-a33b" hidden="false" type="rule" targetId="ea6f-19ea-42a5-3d5f"/>
+            <infoLink name="Regeneration (1SC)" id="a57d-4fea-fec6-4bb5" hidden="false" type="rule" targetId="a76c-e99c-0551-57fe"/>
+            <infoLink name="Pollution Hate" id="3dda-c05c-d980-a18b" hidden="false" type="rule" targetId="ad59-841c-a6eb-72bc"/>
+            <infoLink name="Green Magic" id="17fe-3054-58d8-1c29" hidden="false" type="rule" targetId="75fb-defc-fea9-ebfb"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c8f9-b951-694e-8e25">
@@ -4691,7 +4743,6 @@
     <entryLink import="true" name="Harley Quinn" hidden="false" id="eebd-f8bb-c1d3-9fc9" type="selectionEntry" targetId="715a-359a-9432-d183"/>
     <entryLink import="true" name="Harley Quinn (Rebirth)" hidden="false" id="f7dc-ccf6-c038-2aa8" type="selectionEntry" targetId="24c3-6de4-471d-bcb0"/>
     <entryLink import="true" name="Owlman" hidden="false" id="7413-540f-2464-1ab0" type="selectionEntry" targetId="393e-6635-f405-a4f9"/>
-    <entryLink import="true" name="Swamp Thing (v3)" hidden="false" id="1f6f-5fa1-3bbc-de90" type="selectionEntry" targetId="68a7-29c1-9cdd-367b"/>
     <entryLink import="true" name="Killer Croc (Suicide Squad)" hidden="false" id="b7ad-d73c-030f-7714" type="selectionEntry" targetId="e02b-1879-18ef-b00b"/>
     <entryLink import="true" name="Bronze Tiger" hidden="false" id="171e-962e-051b-c731" type="selectionEntry" targetId="0d3a-7c41-559f-41cb"/>
     <entryLink import="true" name="Captain Boomerang" hidden="false" id="3306-4e4f-812c-8407" type="selectionEntry" targetId="dd7f-6d5d-d3ea-b3c2"/>
@@ -4722,5 +4773,6 @@
     <entryLink import="true" name="The Drowned" hidden="false" id="d9cd-8cec-d732-f8a9" type="selectionEntry" targetId="391f-acb9-e6b9-dcde"/>
     <entryLink import="true" name="The Merciless" hidden="false" id="62f8-8922-f354-6f67" type="selectionEntry" targetId="8541-e521-8b66-1bb8"/>
     <entryLink import="true" name="The Red Death" hidden="false" id="9f50-7f4c-4019-4814" type="selectionEntry" targetId="77fc-be6d-774d-b6d3"/>
+    <entryLink import="true" name="Swamp Thing (Free Agent)" hidden="false" id="9d7e-ab9f-6e2f-d4fc" type="selectionEntry" targetId="3ff1-b3f5-5360-b4d1"/>
   </entryLinks>
 </catalogue>

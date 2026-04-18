@@ -60,6 +60,7 @@
     <categoryEntry name="Equipment (Joker: Joker)" id="5399-07b4-996c-ed8e" hidden="false"/>
     <categoryEntry name="Equipment (Joker: Duela Dent)" id="49d6-1e7b-de82-f14b" hidden="false"/>
     <categoryEntry name="Equipment (Joker: Mr. Hammer)" id="06ba-a776-84d8-e546" hidden="false"/>
+    <categoryEntry name="Rival (Penguin)" id="cdfb-e25d-ad89-067a" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -242,9 +243,6 @@
     <rule name="Kill them! (1SC)" id="a3e6-ea50-118e-771b" hidden="false">
       <description>1SC: All friendly Henchmen within 4” of this model (but not the activated model itself) gain 1 free Attack Counter. This AC may take the number of assigned Action Counters above a Henchman’s normal maximum. A model can use this trait only once per round.</description>
       <alias>Kill them!</alias>
-    </rule>
-    <rule name="Kryptonite" id="3f15-9cb2-b4fb-3db3" hidden="false">
-      <description>While a model with this trait is within 4” of a model with the Kryptonian trait, the Kryptonian model loses the Invulnerability and Regeneration traits (if they possess them).</description>
     </rule>
     <rule name="Luck (1SC, Passive)" id="7b52-6498-88f0-3311" hidden="false">
       <description>1SC, Passive: This model may spend 1SC to reroll any single die that he has rolled, for whatever reason.</description>
@@ -446,6 +444,7 @@
     </rule>
     <rule name="Arrest (1MC+1SC)" id="87fe-693a-11b8-34ac" hidden="false">
       <description>1MC+1SC: When in contact with a KO, non-vehicle model, this model may immediately remove the KO model from the game as a Casualty.</description>
+      <alias>Arrest</alias>
     </rule>
     <rule name="Assistance" id="1bfe-8618-edf9-c2fa" hidden="false">
       <description>While a friendly Robin (Boy Wonder) is in play, this model gains +1 Willpower. If a friendly Robin (Boy Wonder) is removed as a Casualty, this model gains +1 Strength until the end of the game.</description>
@@ -533,7 +532,7 @@
       <description>Target a model with the Bot trait within 4” and in Line of Sight. Remove up to 3 Damage markers from that model. A model can use this trait only once per round.</description>
       <alias>Bot Mechanic</alias>
     </rule>
-    <rule name="Bracelets of submission" id="5205-d885-27e9-97fe" hidden="false">
+    <rule name="Bracelets of Submission" id="5205-d885-27e9-97fe" hidden="false">
       <description>The first time this model is hit by an enemy ranged attack in each round, it may make an Agility roll. If successful, one hit is canceled. This Agility roll takes place before any Dodging Ranged Attacks attempts.</description>
     </rule>
     <rule name="Boy Wonder" id="538c-0146-8111-c5ef" hidden="false">
@@ -1598,7 +1597,7 @@ v2: Once per game, this model may manipulate an objective marker without paying 
     </rule>
     <rule name="Always on the Move (v3)" id="71a4-18e7-a23a-c1ea" hidden="false">
       <alias>Always on the Move</alias>
-      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enugh actions available to use this trait.</description>
+      <description>v3+v2: This model can interrupt its movement action to perform an Attack action, and then continue with its Movement action. The model must have enough actions available to use this trait.</description>
     </rule>
     <rule name="CRT (Fire)" id="5804-ed80-2c27-1c8a" hidden="false">
       <description>In case of a critical hit, this weapon causes the Fire effect for the targeted model instead of the usual Stun damage.</description>
@@ -1668,8 +1667,8 @@ If the Possessed model becomes KO or Casualty while possessed, then the possessi
     <rule name="Immune to Fire" id="6d1e-af87-c56b-0924" hidden="false">
       <description>This model is immune to fire.</description>
     </rule>
-    <rule name="Demon" id="00ae-7ec4-7b12-2d2b" hidden="false">
-      <description>Damage rolls against this model suffer a -1 penalty. In addition, this model does not reduce its number of Action Counters as it accumulates Damage markers.</description>
+    <rule name="Demon&apos;s Curse" id="00ae-7ec4-7b12-2d2b" hidden="false">
+      <description>At the beginning of the Take the Lead phase, if there are no other models in contact, roll 2D6 for this model and add the results together. On a result of 11+, place a friendly Etrigan model within 4&quot; of this model, in a position in which its volume will fit. Then remove this model from play. For each friendly model removed as a Casualty in the game so far, add +2 to the result.</description>
     </rule>
     <rule name="Occultism" id="1204-eab5-ddaf-fedf" hidden="false">
       <description>This model can use Occultism Spells. In addition, once per game during its activation, the model gains +1 to its Defense value until the end of the round.</description>
@@ -1843,6 +1842,34 @@ The model gains +2&quot; to its basic movement distance.
 A Special Base model cannot be Pushed or Grabbed and cannot be Knocked Down in close combat, except by attacks from models that also have the Large, Huge or Special Base trait.
 Special Base models suffer a -1 penalty to all their Ping! rolls.
 Special Base models gain the Charge special attack and can reroll Endurance rolls.</description>
+    </rule>
+    <rule name="Hallucination" id="3767-7f57-0b5a-26fa" hidden="false">
+      <description>When this model is recruited to your crew, a friendly model with the Alias: Bat-Mite loses its Legend rank.</description>
+    </rule>
+    <rule name="Speedster Power (Speed Force Bolts)" id="0a67-6603-803e-814e" hidden="false">
+      <description>Cost: 3 Paradox: 6+
+Target a model within 8&quot; and LoS. The target receives an auto hit with Str 4+ and damage 1 Blood + 2 Stun. This hit cannot be dodged.</description>
+    </rule>
+    <rule name="Lasso of Persuasion (2AC)" id="9584-6cab-739d-4f81" hidden="false">
+      <description>2AC: Once per game, choose an enemy model within 2&quot;. That model suffers the Hypnotize effect.</description>
+      <alias>Lasso of Persuasion</alias>
+    </rule>
+    <rule name="Eldritch" id="2e2f-c603-896c-5e41" hidden="false">
+      <description>This model can use Eldritch Spells. In addition, once per game during its activatoin, the model gains +1 to its Attack value until the end of the round.</description>
+    </rule>
+    <rule name="Demon" id="e306-6d47-738a-5244" hidden="false">
+      <description>Damage rolls against this model suffer a -1 penalty. In addition, this model does not reduce its number of Action Counters as it accumulates Damage markers.</description>
+    </rule>
+    <rule name="Dimensional Portal (3SC)" id="2a0c-cd69-a63b-c243" hidden="false">
+      <description>Place this model within 12&quot; in a new position where its base will fit. At a cost of 2MC, this model may choose one friendly model within 2&quot; before it is placed - the target model is placed in base contact with this model in its new position, After being placed, this model ends its activation. Any model that was placed with it counts as having moved and its Basic Move Distance is 0 for the rest of the round. A model cannot use this trait in two consecutive activations.</description>
+      <alias>Dimensional Portal</alias>
+    </rule>
+    <rule name="Homo Magi" id="0e3c-f456-a70c-b583" hidden="false">
+      <description>This model gains +1 Willpower when taking a Magical test.</description>
+    </rule>
+    <rule name="Distort Magic (1MC)" id="0dd2-62f5-d844-db2c" hidden="false">
+      <description>1MC: Choose any point on the tabletop within 4&quot; of this model. Until the end of the round, this model can cast spells as though it was located at that point.</description>
+      <alias>Distort Magic</alias>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3924,7 +3951,7 @@ Special Base models gain the Charge special attack and can reroll Endurance roll
               <characteristics>
                 <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
                 <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
-                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">3</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
                 <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
               </characteristics>
             </profile>
@@ -3936,6 +3963,26 @@ Special Base models gain the Charge special attack and can reroll Endurance roll
             <infoLink name="Throwing" id="7acf-1ddd-ffa8-5c79" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
             <infoLink name="Short Range" id="0f6c-9168-ea4a-c4ed" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
             <infoLink name="Light" id="3270-4612-f9ba-70ba" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Batlings (1x)" hidden="false" id="0930-cd2c-9d28-cef7">
+          <profiles>
+            <profile name="Batlings (1x)" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="cce8-f71c-ee01-d9f2">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">2</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">1</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Throwing, S. Range, Light</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="e5df-fb90-85ea-a151" id="de50-1574-630c-fb29" primary="false" name="Ranged Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Throwing" id="2ead-4199-bdac-566a" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
+            <infoLink name="Short Range" id="9b0e-77f5-dfe6-4f02" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Light" id="5a2d-65cc-f9be-4433" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -4298,7 +4345,7 @@ This model receives damage (1 Stun) after using this Special Trait.</descriptio
       <description>This model can neither jump or climb.</description>
     </rule>
     <rule name="Divination" id="2c24-7aa7-24fd-08ab" hidden="false">
-      <description>TODO</description>
+      <description>This model can use Divination Spells. In addition, once per game, the model can reroll one die. You don&apos;t need to accept the second result and instead may choose between the both.</description>
     </rule>
     <rule name="Exorcism" id="af6f-35dc-4b39-f421" hidden="false">
       <description>TODO</description>
@@ -7506,7 +7553,7 @@ Immunity to CRT.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="append" value="Stop" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
+            <modifier type="append" value="Stop!" field="072b-9b59-7b27-0de0" scope="parent" affects="self.entries.forces.recursive.profiles.Statistics" position="0" join=", "/>
           </modifiers>
           <costs>
             <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>

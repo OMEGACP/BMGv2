@@ -1275,7 +1275,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eb6-0c3e-63ab-83bc"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Batlings" hidden="false" id="6187-e535-a4dd-f751" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
+            <entryLink import="true" name="Batlings (3x)" hidden="false" id="6187-e535-a4dd-f751" type="selectionEntry" targetId="01f6-603b-7ae9-2e7f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a7c-7b86-f12c-c412"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7bc-cf31-2866-53b3"/>
@@ -1403,6 +1403,72 @@
             <entryLink import="true" name="Equipment - Sirens" hidden="false" id="1eb3-8a64-1ee8-0546" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="B.A. (Limited)" hidden="false" id="9fba-13eb-43a1-0884">
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="43"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="32bb-4b05-45c6-81a9" id="1b43-4c3f-6955-9366" primary="true" name="Henchmen (Common)"/>
+            <categoryLink targetId="6d11-48fc-2bdc-0044" id="a207-9bb4-0dc8-eeba" primary="false" name="Rival (Joker)"/>
+            <categoryLink targetId="cdfb-e25d-ad89-067a" id="92b3-eba1-1fba-ad35" primary="false" name="Rival (Penguin)"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="BiggaSticka" hidden="false" id="fdda-35fa-cac0-7f90" type="selectionEntry" targetId="78dc-2f8e-ffe6-2a15">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="53a2-407f-d70d-f7ba"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83ee-004c-c058-ca51"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - LoA" hidden="false" id="269d-f92c-0917-f6dc" type="selectionEntryGroup" targetId="8e6e-4dad-b76c-3399"/>
+            <entryLink import="true" name="Equipment - Sirens" hidden="false" id="4291-a923-31fb-0f5a" type="selectionEntryGroup" targetId="e85d-ec55-cc74-49ab"/>
+            <entryLink import="true" name="Equipment - Court of Owls" hidden="false" id="8ed8-655a-6ee6-4cef" type="selectionEntryGroup" targetId="12a4-311f-61d4-10fe"/>
+            <entryLink import="true" name="Equipment - Bane" hidden="false" id="fbe1-9baf-f2ee-549b" type="selectionEntryGroup" targetId="ee70-0aa5-4345-08d2"/>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="8ab2-03ad-22be-1799" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <profiles>
+            <profile name="B.A. (Limited)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="5008-3b51-0ee5-6106">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Classified</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">B.A. (Limited)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="B.A. (Limited)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0ec6-b4f6-4542-0ef1">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">360 Attack, Handyman, Hates (Joker, Penguin), Runaway, Sturdy, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e033-e5d1-d640-2fbd" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true" childName="Joker"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="95d0-5643-0424-158d" shared="true" childName="Penguin"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Criminal" id="161c-855f-2dbb-f8f9" hidden="false" type="rule" targetId="6303-cbbb-83c5-0c5a"/>
+            <infoLink name="Elusive (1MC, Passive)" id="f59c-70eb-d65f-69c6" hidden="false" type="rule" targetId="6c33-51a3-84eb-ada0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="2c87-ef34-3b2b-456d" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1431,5 +1497,6 @@
     <entryLink import="true" name="Robin (Damian Wayne)" hidden="false" id="2e7c-1217-0297-db8b" type="selectionEntry" targetId="6314-544d-0fed-16ca"/>
     <entryLink import="true" name="Bud" hidden="false" id="435b-2e4b-a041-22bb" type="selectionEntry" targetId="4e99-5ea4-3c2a-e23b"/>
     <entryLink import="true" name="Lou" hidden="false" id="607b-28b7-1d4d-e35f" type="selectionEntry" targetId="386c-1833-5e0d-fe95"/>
+    <entryLink import="true" name="B.A. (Limited)" hidden="false" id="f1f5-f20e-2cce-270c" type="selectionEntry" targetId="9fba-13eb-43a1-0884"/>
   </entryLinks>
 </catalogue>
