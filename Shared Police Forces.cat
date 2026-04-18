@@ -298,6 +298,7 @@
           </modifiers>
           <categoryLinks>
             <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="6857-f377-d727-7a73" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="e970-d3f8-08fd-ed84" primary="true" name="Henchmen (Faction-specific)"/>
           </categoryLinks>
           <infoLinks>
             <infoLink name="Detective" id="b57b-7628-09c1-4c7a" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
@@ -2357,6 +2358,85 @@
             <infoLink name="Cop" id="0aa2-cb84-e95b-b50b" hidden="false" type="rule" targetId="19bd-d9e6-cf79-308f"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Sgt. Winslow (Limited Edition Card)" hidden="false" id="fe7e-9a22-22b4-fa4b">
+          <profiles>
+            <profile name="Sgt. Winslow (Limited Edition Card)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="ead2-e0a8-5259-c7b9">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Sgt. Winslow</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Sgt. Winslow (Limited Edition Card)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Sgt. Winslow (Limited Edition Card)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="fffc-abb7-d39d-9cee">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">4+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Arrest, Bulletproof Vest, Detective, Lantern, Order, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="28"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Tonfa" hidden="false" id="cf32-0dee-d10c-56ab" type="selectionEntry" targetId="8be1-76e0-257a-1369">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8416-6a68-61a6-f166"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff74-22b2-b6ff-506e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="ffac-b833-8e46-109c" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d652-fc2b-dc36-2091" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set-primary" value="6466-e31d-fdae-6b80" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f75a-e0d8-6291-5d7c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" value="cf01-1b3c-22d7-8d1b" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="5811-fab9-b9e0-600d" targetId="e482-2d30-1001-a6a1" primary="false"/>
+            <categoryLink targetId="cf01-1b3c-22d7-8d1b" id="2977-572d-578e-3318" primary="true" name="Henchmen (Faction-specific)"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Detective" id="0ef3-64ea-8cd0-87b0" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="1bf9-1744-5ad8-69ad" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+            <infoLink name="Arrest (1MC+1SC)" id="df10-0835-e880-ce21" hidden="false" type="rule" targetId="87fe-693a-11b8-34ac"/>
+            <infoLink name="Lantern (1SC)" id="d4be-0a30-efce-21a8" hidden="false" type="rule" targetId="c9cb-7d7c-08f6-d8f4"/>
+            <infoLink name="Cop" id="1e09-2cae-0d90-bfed" hidden="false" type="rule" targetId="19bd-d9e6-cf79-308f"/>
+            <infoLink name="Order (1SC)" id="e6a5-bf1f-5398-8d63" hidden="false" type="rule" targetId="f9ef-447e-c143-7356"/>
+            <infoLink name="Bulletproof Vest" id="a944-a97f-9389-db3b" hidden="false" type="rule" targetId="aa58-9b8b-bedf-dab7"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="36f4-c180-4ac6-9c52">
@@ -2502,6 +2582,7 @@
     <entryLink targetId="f863-1fcf-bf2f-87ec" id="ca0c-3809-bd69-a941" type="selectionEntry" name="Bravo (SWAT)" hidden="false"/>
     <entryLink targetId="5f49-ecc8-d707-ba9b" id="0bc7-7e1c-0b47-4328" type="selectionEntry" name="Alpha (SWAT)" hidden="false"/>
     <entryLink import="true" name="Detective Flass (Year One)" hidden="false" id="0886-0a03-22b5-48bf" targetId="5a62-69dc-c089-fbcc" type="selectionEntry"/>
+    <entryLink import="true" name="Sgt. Winslow" hidden="false" id="2a0f-d830-1016-0fe7" type="selectionEntry" targetId="fe7e-9a22-22b4-fa4b"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Elite (SWAT)" id="9a8a-17d6-b168-c131" hidden="false"/>
@@ -2509,72 +2590,4 @@
     <categoryEntry name="Corrupt" id="ffde-85a2-a29f-9fbd" hidden="false"/>
     <categoryEntry name="Corrupt_Flass" id="546f-2886-292f-3623" hidden="false"/>
   </categoryEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Recruitable Cops" id="269b-5944-73c6-4f01" hidden="false">
-      <entryLinks>
-        <entryLink import="true" name="Detective Flass (Year One)" hidden="false" id="9e04-788a-d5cd-8094" targetId="5a62-69dc-c089-fbcc" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="546f-2886-292f-3623" childId="any" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Agent 1" hidden="false" id="d50b-4542-51df-dec4" targetId="6dbe-47a6-8822-71e1" type="selectionEntry"/>
-        <entryLink import="true" name="Agent 2" hidden="false" id="68be-30ff-f08a-0da9" targetId="f665-806b-5ea1-9a60" type="selectionEntry"/>
-        <entryLink import="true" name="Agent 3" hidden="false" id="5a1b-23ea-576d-44ae" targetId="4d41-d5f1-3db0-858a" type="selectionEntry"/>
-        <entryLink import="true" name="Agent O&apos;Connell" hidden="false" id="6c2d-3c36-b0ba-af0d" targetId="1ab7-99cc-b11b-a7ee" type="selectionEntry"/>
-        <entryLink import="true" name="Agent Ron" hidden="false" id="dc49-250d-0af5-0df7" targetId="0768-fedc-c093-1f43" type="selectionEntry"/>
-        <entryLink import="true" name="Alpha (SWAT)" hidden="false" id="fed4-5ad3-019a-be55" targetId="5f49-ecc8-d707-ba9b" type="selectionEntry"/>
-        <entryLink import="true" name="Bravo (SWAT)" hidden="false" id="f06f-8264-dff5-fad0" targetId="f863-1fcf-bf2f-87ec" type="selectionEntry"/>
-        <entryLink import="true" name="Delta (SWAT)" hidden="false" id="ca3a-07ba-af67-b489" targetId="d57d-fb18-63f1-2ca2" type="selectionEntry"/>
-        <entryLink import="true" name="Echo (SWAT)" hidden="false" id="aed5-8ecd-6ed3-0ee1" targetId="e29f-21e9-8604-a2f9" type="selectionEntry"/>
-        <entryLink import="true" name="Foxtrot (SWAT)" hidden="false" id="2de6-4aa5-23a0-dd51" targetId="5cb9-208f-55f7-fe92" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Cop 1" hidden="false" id="26c6-76b7-346a-54fd" targetId="405a-d382-59bf-d332" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Cop 2" hidden="false" id="3491-61ef-404f-6920" targetId="03a1-71c7-63cd-d931" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Detective (legacy)" hidden="false" id="2044-ee5e-94bf-c95f" targetId="d2da-aec5-57c6-324f" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Detective (v3)" hidden="false" id="e609-4fc1-b108-7752" targetId="f12d-d4b6-f60a-5ec7" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Mounted Cop" hidden="false" id="1a92-8eab-0ce3-b5a9" targetId="1e2e-dae3-ded9-97c8" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Officer 1" hidden="false" id="a864-b420-c227-4be1" targetId="65fe-78ae-63a5-4a7c" type="selectionEntry"/>
-        <entryLink import="true" name="GCPD Officer 2" hidden="false" id="b8c6-6ef2-f33c-3c7e" targetId="f357-4681-272f-52ea" type="selectionEntry"/>
-        <entryLink import="true" name="Gotham Policeman" hidden="false" id="cc69-4fc8-149d-3260" targetId="eb3f-0d3a-4c01-ebfa" type="selectionEntry"/>
-        <entryLink import="true" name="Gotham Policewoman" hidden="false" id="0aae-8ebc-4558-4521" targetId="7710-b9a3-9f74-e13a" type="selectionEntry"/>
-        <entryLink import="true" name="Lerida (SWAT)" hidden="false" id="5577-2395-831e-f79b" targetId="df98-b61b-e82c-d796" type="selectionEntry"/>
-        <entryLink import="true" name="Officer Martinez" hidden="false" id="260c-edb9-a7f4-4dec" targetId="4445-9095-7d61-642b" type="selectionEntry"/>
-        <entryLink import="true" name="Officer Merkel" hidden="false" id="94fb-d583-594f-6e55" targetId="1d51-6201-6813-5eba" type="selectionEntry"/>
-        <entryLink import="true" name="Quick Response Team 1" hidden="false" id="9946-851c-9fe0-fe56" targetId="27f8-6226-3721-7d25" type="selectionEntry"/>
-        <entryLink import="true" name="Quick Response Team 2" hidden="false" id="fb9d-bff9-f156-d672" targetId="42ba-7c77-a031-7be6" type="selectionEntry"/>
-        <entryLink import="true" name="Quick Response Team 3" hidden="false" id="79be-9825-d8a2-2960" targetId="6bf9-b7a1-1834-fce1" type="selectionEntry"/>
-        <entryLink import="true" name="Sgt. Harvey Bullock" hidden="false" id="4738-a775-1cac-92da" targetId="3d93-839f-475d-5d85" type="selectionEntry"/>
-        <entryLink import="true" name="Sierra (SWAT)" hidden="false" id="0a2c-d9da-f767-a126" targetId="26d9-fc0f-6295-67bb" type="selectionEntry"/>
-      </entryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="35f3-0cf7-cca6-9349"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="31ee-3210-13a5-20e8" shared="true"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="546f-2886-292f-3623" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ffde-85a2-a29f-9fbd" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink targetId="6466-e31d-fdae-6b80" id="c603-90a7-95b4-8ce6" primary="true" name="Henchmen (Corrupt)"/>
-      </categoryLinks>
-      <comment>obsolete</comment>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
 </catalogue>
