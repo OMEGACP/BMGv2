@@ -1871,6 +1871,12 @@ Target a model within 8&quot; and LoS. The target receives an auto hit with Str 
       <description>1MC: Choose any point on the tabletop within 4&quot; of this model. Until the end of the round, this model can cast spells as though it was located at that point.</description>
       <alias>Distort Magic</alias>
     </rule>
+    <rule name="Sad Life" id="14c9-1569-de05-e838" hidden="false">
+      <description>Enemies within 6&quot; that wish to spend Action Counters to perform an action or use a trait, must spend 1 additional Action counter.</description>
+    </rule>
+    <rule name="Truly Immortal" id="15b0-e04a-df39-084a" hidden="false">
+      <description>This model cannot become KO or be removed as a Casualty from the game by any means. Instead, remove one Damage marker, the the opponent relocates  this model, placing it within 4&quot;.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="48fe-70de-f325-b2e2">
@@ -3983,6 +3989,23 @@ Target a model within 8&quot; and LoS. The target receives an auto hit with Str 
             <infoLink name="Throwing" id="2ead-4199-bdac-566a" hidden="false" type="rule" targetId="aa4f-6809-a4af-ae4c"/>
             <infoLink name="Short Range" id="9b0e-77f5-dfe6-4f02" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
             <infoLink name="Light" id="5a2d-65cc-f9be-4433" hidden="false" type="rule" targetId="9245-5460-d3ab-32c8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reinforced Bat" hidden="false" id="d37d-f3f3-7bd4-4f34">
+          <profiles>
+            <profile name="Reinforced Bat" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="8eae-a9e8-b87b-47a0">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">2 Stun</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="c4d1-b244-9f90-b4ce" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Handy" id="1c9f-26a7-9404-0402" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
+            <infoLink name="Heavy" id="969e-3f8f-ea61-6fbf" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
