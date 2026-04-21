@@ -2,71 +2,297 @@
 <catalogue library="false" id="f75a-e0d8-6291-5d7c" name="Organized Crime" gameSystemId="sys-aff3-e6d8-3587-11c7" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shared Police Forces" id="dd37-b7f5-4811-28e3" targetId="8028-03db-19d4-984b" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Shared Henchmen" id="1982-19d0-7fff-02e1" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Free Agents" id="2275-8c47-eb6e-fde3" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Henchmen" id="a8c5-92bd-8190-f8e1" targetId="0d11-f6bc-876a-091a" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shared Models" id="a305-7e5b-7632-4898" targetId="cede-9489-7ead-361e" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="model" import="true" name="Batman (Arkham Knight)" hidden="false" id="7c57-75f1-c745-d566">
-      <profiles>
-        <profile name="Batman (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="b1fc-5116-5d68-0fb4">
-          <characteristics>
-            <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Bruce Wayne</characteristic>
-            <characteristic name="Alias" typeId="324e-541d-263d-736b">Batman (Arkham Knight)</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Batman (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b3ac-cddb-d648-393a">
-          <characteristics>
-            <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">8</characteristic>
-            <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">3+</characteristic>
-            <characteristic name="Movement" typeId="926c-cb61-0860-4a75">3</characteristic>
-            <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">5</characteristic>
-            <characteristic name="Defense" typeId="772d-9054-3e95-2611">5</characteristic>
-            <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
-            <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">9</characteristic>
-            <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Bat Cape, Batclaw, Bat-Armor MK I, Total Vision, Explosive Gel, Counter Attack, Detective, Sneak Attack, Inspire</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Shock Gloves" hidden="false" id="aed8-a626-303a-10c0" type="selectionEntry" targetId="5282-6aa7-0c0f-3030">
+    <selectionEntry type="upgrade" import="true" name="Free Agent" hidden="false" id="785f-62fb-3036-3214">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Harley Quinn (The Animated Series)" hidden="false" id="cd31-01c0-c7f5-e1ac">
+          <profiles>
+            <profile name="Harley Quinn (The Animated Series)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="f751-20bd-36d1-7d51">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Harleen Frances Quinzel</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Harley Quinn (The Animated Series)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Harley Quinn (The Animated Series)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="08c0-cc67-a013-7e4d">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">3</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">4</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Disarray, Distract, Follow Me!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Free Agent" hidden="false" id="0c92-70a1-e602-7b2c" targetId="79d4-9b8b-7f29-cba5" primary="true"/>
+            <categoryLink name="Crew (Joker)" hidden="false" id="abc6-bf87-4d6b-81c4" targetId="a8e5-9f8a-d8f0-02c7" primary="false"/>
+            <categoryLink name="Equipment (Joker: Harley Quinn)" hidden="false" id="ffdc-1c85-06c1-903c" targetId="674a-5dab-0186-9542" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="200"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="40"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Harley&apos;s Little Helper" hidden="false" id="66d1-c45f-67db-f003" type="selectionEntry" targetId="1a33-7b13-8792-49cd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1911-5e3f-dd18-1b9b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef3b-7957-a445-9049"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Joker" hidden="false" id="5be6-8091-c588-045b" type="selectionEntryGroup" targetId="fd6d-a0e4-67af-1796"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true" childName="Joker"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38b8-97eb-6cb3-3bbf"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9cb-31b2-1270-fa48"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d1b2-36bb-4828-d8cf" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
-        </entryLink>
-        <entryLink import="true" name="Batarang" hidden="false" id="9fa4-b0ff-2ad2-c0f8" type="selectionEntry" targetId="441d-4be3-9299-6bd3">
+          <infoLinks>
+            <infoLink name="Acrobat" id="e32c-1b66-8c3d-f213" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Disarray (1SC)" id="ce53-6f28-1590-c3be" hidden="false" type="rule" targetId="19ca-58d8-d573-be79"/>
+            <infoLink name="Distract (1SC)" id="4b47-a83b-97b6-699b" hidden="false" type="rule" targetId="f3dd-c03b-c700-7996"/>
+            <infoLink name="Follow me! (1SC)" id="7a62-a28c-5bd5-f666" hidden="false" type="rule" targetId="dff5-13a0-8c39-ebad"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Henchman" hidden="false" id="57ca-30de-4d0e-a9f9">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ace of Spades" hidden="false" id="4d00-6533-4ca0-a841">
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="26"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Henchmen (Faction-specific)" hidden="false" id="cab5-df71-cca9-ca68" targetId="cf01-1b3c-22d7-8d1b" primary="true"/>
+            <categoryLink name="Crew (Joker)" hidden="false" id="3824-4aae-3b70-d434" targetId="a8e5-9f8a-d8f0-02c7" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Joker&apos;s Gas Grenades" hidden="false" id="eded-131e-1f74-2d5c" type="selectionEntry" targetId="d9c5-85d8-4d17-c991">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef1b-20db-0b2c-1105"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e071-4c87-b1b6-038d"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - Joker" hidden="false" id="f34e-944c-d941-7f55" type="selectionEntryGroup" targetId="fd6d-a0e4-67af-1796"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Ace of Spades" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="be14-721e-d65e-b939">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Ace of Spades</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ace of Spades" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="b8f3-4fdc-47fa-0d47">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">5</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">6</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Joker&apos;s Gas, Paranoid (Mental Disorder), Resilient, Let&apos;s go!</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d881-4fc2-5af9-506f"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f791-3f39-90b2-f770"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="958a-d649-6df3-6283" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="be48-6f8b-64a6-1f7f" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink name="Leader" hidden="false" id="5b1d-eef0-efd8-5e13" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
-        <categoryLink name="Crew (The Brave and the Bold)" hidden="false" id="80ab-2fe3-622c-2716" targetId="e482-2d30-1001-a6a1" primary="false"/>
-        <categoryLink name="Equipment (BB: Bruce Wayne)" hidden="false" id="6eb9-db6a-22c5-b189" targetId="c0d1-f803-0129-31a7" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
-        <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="144"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Bat-Armor MK I" id="393d-366c-264e-175d" hidden="false" type="rule" targetId="e8c6-993d-b39a-945b"/>
-        <infoLink name="Detective" id="12da-b517-a28b-b07c" hidden="false" type="rule" targetId="f493-cc40-896a-f113"/>
-        <infoLink name="Explosive Gel" id="6a97-61e7-e1e4-5d5b" hidden="false" type="rule" targetId="17ee-350d-fd6f-ead3"/>
-        <infoLink name="Sneak Attack (1SC)" id="af03-7750-ad35-65e9" hidden="false" type="rule" targetId="19cb-75c5-25f7-dcc9"/>
-        <infoLink name="Bat Cape (1SC, passive)" id="44ce-c95a-48e9-1797" hidden="false" type="rule" targetId="db55-a770-99bf-b2ca"/>
-        <infoLink name="Batclaw / Grapple Gun (1MC+1SC)" id="0db5-0b7e-e71a-1427" hidden="false" type="rule" targetId="451d-b629-13c3-25b6"/>
-        <infoLink name="Total Vision" id="cb7c-3a59-2b95-53ea" hidden="false" type="rule" targetId="2bc9-33a3-ff0b-2fa5"/>
-        <infoLink name="Counter Attack (1SC) (Passive)" id="1424-40fc-9c7a-b9ec" hidden="false" type="rule" targetId="648d-9c9e-3175-ef1c"/>
-        <infoLink name="Inspire (1SC)" id="76d5-92d3-68fc-d6f1" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
-      </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true" childName="Joker"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Joker’s Gas (2SC)" id="30f6-e7de-0b32-0dfa" hidden="false" type="rule" targetId="190d-d745-50f8-a202"/>
+            <infoLink name="Resilient" id="2096-d956-b6f6-22d3" hidden="false" type="rule" targetId="5029-9345-33de-c2f3"/>
+            <infoLink name="Paranoid (Mental Disorder) " id="3458-088a-90d7-acc6" hidden="false" type="rule" targetId="6d07-8246-e781-7ae0"/>
+            <infoLink name="Let’s go! (1SC, passive)" id="6051-59b0-3979-1d14" hidden="false" type="rule" targetId="6840-9789-ea5e-da62"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="0238-ae7c-0715-8205">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Harley Quinn (Arkham Knight)" hidden="false" id="1a38-5d54-9b26-d6a3">
+          <categoryLinks>
+            <categoryLink name="Leader" hidden="false" id="8bbb-b75d-9645-7f21" targetId="955d-3f8e-a1e3-88b9" primary="true"/>
+            <categoryLink name="Crew (Joker)" hidden="false" id="4345-cbab-6f51-130c" targetId="a8e5-9f8a-d8f0-02c7" primary="false"/>
+            <categoryLink name="Equipment (Joker: Harley Quinn)" hidden="false" id="8407-a68d-b0d1-6aa1" targetId="674a-5dab-0186-9542" primary="false"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Harley Quinn (Arkham Knight)" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="c707-ec5f-af5e-b759">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Dr. Harleen Frances Quinzel</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Harley Quinn (Arkham Knight)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Harley Quinn (Arkham Knight)" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="0875-f0ff-0fe1-de14">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">7</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">5+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">4</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">4</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">4</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Acrobat, Bluff, Discourage, Escape Artist, Mobster, Play Nice!, Unpredictable, Inspire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dollar" typeId="b5b3-aa8b-4d9c-5673" value="0"/>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="80"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="276d-309e-9467-8e61" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Mobster" id="2361-7183-658c-64ae" hidden="false" type="rule" targetId="34d8-2373-daac-5e6e"/>
+            <infoLink name="Bluff (1SC)" id="7272-2f7f-7c22-417b" hidden="false" type="rule" targetId="83a8-97d9-d4cd-fc19"/>
+            <infoLink name="Escape Artist" id="52d1-6ef2-7ad2-65eb" hidden="false" type="rule" targetId="4807-b9e4-a353-0db6"/>
+            <infoLink name="Play Nice!" id="d53a-aff8-2c7a-d555" hidden="false" type="rule" targetId="47a3-1c6d-33c0-d89e"/>
+            <infoLink name="Discourage (2SC)" id="2bb7-1c99-1a39-c7ee" hidden="false" type="rule" targetId="11d4-8deb-39df-161d"/>
+            <infoLink name="Inspire (1SC)" id="01cf-5cbf-1db1-5f66" hidden="false" type="rule" targetId="8247-a4cd-633c-202b"/>
+            <infoLink name="Acrobat" id="385d-7d4d-ef65-a113" hidden="false" type="rule" targetId="da11-4bbf-38e8-f4fb"/>
+            <infoLink name="Persuasive (1AC+1SC)" id="d8e6-42d7-39da-4aa6" hidden="false" type="rule" targetId="edb9-92a5-68ff-a712"/>
+            <infoLink name="Unpredictable" id="adfc-580a-6c55-31d5" hidden="false" type="rule" targetId="84f7-de2f-5332-b782"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="SMG" hidden="false" id="8afa-9af8-6e6e-d7c9" type="selectionEntry" targetId="fc9f-1af3-984e-2593">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="20d6-2e1c-156e-1aaa"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7bd-3a57-c53d-ee3d"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="af73-5adf-537f-611b" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+            <entryLink import="true" name="Reinforced Bat" hidden="false" id="5fd4-04a4-3d52-cfed" type="selectionEntry" targetId="d37d-f3f3-7bd4-4f34">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb61-b0b5-227a-c5a6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1db-bbfc-7ceb-52ef"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true" childName="Joker"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sidekick" hidden="false" id="63a2-e768-d024-b570">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Archie" hidden="false" id="72e1-eac1-9ad9-820d">
+          <profiles>
+            <profile name="Archie" typeId="9d0f-e155-f058-1c47" typeName="Identifier" hidden="false" id="7c10-2b00-ed0c-50c8">
+              <characteristics>
+                <characteristic name="Name" typeId="1ef1-a21d-012a-e008">Unknown</characteristic>
+                <characteristic name="Alias" typeId="324e-541d-263d-736b">Archie</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Archie" typeId="6ba8-3e9b-e9ec-4fc1" typeName="Statistics" hidden="false" id="1203-44d0-bba6-82cd">
+              <characteristics>
+                <characteristic name="Willpoints" typeId="72c9-ec3f-8c3e-6edf">6</characteristic>
+                <characteristic name="Strength" typeId="b7df-0e7d-5dd4-1a2f">6+</characteristic>
+                <characteristic name="Movement" typeId="926c-cb61-0860-4a75">2</characteristic>
+                <characteristic name="Attack" typeId="dd2a-10f4-717a-4bc1">2</characteristic>
+                <characteristic name="Defense" typeId="772d-9054-3e95-2611">3</characteristic>
+                <characteristic name="Special" typeId="332e-5255-7c9b-115f">3</characteristic>
+                <characteristic name="Endurance" typeId="b01b-8d00-8a94-dfe8">7</characteristic>
+                <characteristic name="Traits" typeId="072b-9b59-7b27-0de0">Luck, Sad Life, Small, Truly Immortal</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Crew (Joker)" hidden="false" id="d715-3b79-c4e6-e596" targetId="a8e5-9f8a-d8f0-02c7" primary="false"/>
+            <categoryLink name="Sidekick" hidden="false" id="9f25-96b8-9004-b0ac" targetId="6c53-80aa-1e01-a485" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Reputation" typeId="99c9-f5c8-7271-b9c6" value="35"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Equipment - The Brave and the Bold" hidden="false" id="33f8-3680-9c88-6f48" type="selectionEntryGroup" targetId="6f6a-3bd9-dedb-a13e"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="848c-656e-fb46-4e27" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Luck (1SC, Passive)" id="9ff2-660d-5258-ac81" hidden="false" type="rule" targetId="7b52-6498-88f0-3311"/>
+            <infoLink name="Truly Immortal" id="9933-d3ea-4844-3612" hidden="false" type="rule" targetId="15b0-e04a-df39-084a"/>
+            <infoLink name="Small" id="8279-57bb-52fc-08ab" hidden="false" type="rule" targetId="c13c-b54f-6ade-73f0"/>
+            <infoLink name="Sad Life" id="f996-77b9-7c9a-544a" hidden="false" type="rule" targetId="14c9-1569-de05-e838"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="febf-f30e-792a-2fc7" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="7200-a354-a2fe-b775">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Harley&apos;s Little Helper" hidden="false" id="1a33-7b13-8792-49cd">
+          <profiles>
+            <profile name="Harley&apos;s Little Helper" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="2409-060a-0f4f-6d9d">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">2 Stun</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Firearm, S. Range, Stunned</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Short Range" id="24a8-4af8-4237-e9d6" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Stunned" id="38d7-9bd8-66a6-f342" hidden="false" type="rule" targetId="9d15-2818-78dc-56ef"/>
+            <infoLink name="Firearm" id="68ce-31c2-b0b2-f54e" hidden="false" type="rule" targetId="1ae1-d6b6-c05d-2529"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="df80-45bb-4878-a0d6" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Joker&apos;s Gas Grenades" hidden="false" id="d9c5-85d8-4d17-c991">
+          <profiles>
+            <profile name="Joker&apos;s Gas Grenades" typeId="b013-c352-bbf7-acfa" typeName="Ranged Weapon" hidden="false" id="b0af-e7eb-7b3c-2b45">
+              <characteristics>
+                <characteristic name="Damage" typeId="3402-b871-7b53-7064">-</characteristic>
+                <characteristic name="ROF" typeId="35c1-c8d6-1c79-eee3">1</characteristic>
+                <characteristic name="Ammo" typeId="4275-3182-fcf5-8a8c">2</characteristic>
+                <characteristic name="Weapon Traits" typeId="d571-2ae9-4a98-8baf">Explosive, Gas, Grenade, S. Range, Enervating (1), Poison</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Gas" id="831d-7ed7-b004-255b" hidden="false" type="rule" targetId="7717-0711-f894-543a"/>
+            <infoLink name="Enervating (X)" id="8ae3-b82c-2ec8-5f1f" hidden="false" type="rule" targetId="4b56-62b6-ddcd-6880"/>
+            <infoLink name="Explosive" id="38cb-1b20-fd2c-4391" hidden="false" type="rule" targetId="7725-e61b-297c-558b"/>
+            <infoLink name="Grenade" id="3ae6-7d47-7ac7-9b4b" hidden="false" type="rule" targetId="6b3e-875d-4e60-676b"/>
+            <infoLink name="Short Range" id="f1ef-d62d-f25e-0fdb" hidden="false" type="rule" targetId="a4fb-dcd8-6ec1-c779"/>
+            <infoLink name="Poison" id="495c-4e7b-41db-75d0" hidden="false" type="rule" targetId="b728-9cd2-f41d-d684"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" hidden="false" id="f8ec-5f99-372e-e50f" targetId="e5df-fb90-85ea-a151" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
-  <entryLinks>
-    <entryLink targetId="7c57-75f1-c745-d566" id="b7a3-3bcb-da11-502b" type="selectionEntry" name="Batman (Arkham Knight)" hidden="false"/>
-  </entryLinks>
 </catalogue>

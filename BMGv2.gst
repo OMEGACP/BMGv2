@@ -947,7 +947,7 @@
 • Huge models gain the Charge special attack and can reroll Endurance rolls.</description>
     </rule>
     <rule name="Kapow!!! (1SC)" id="a773-33e3-285e-4f63" hidden="false">
-      <description>1SC:</description>
+      <description>1SC: Until the end of its activation, this model&apos;s Unarmed strikes gain +1 to hit rolls and CRT (3 Stun). A model can use this trait only once per round.</description>
     </rule>
     <rule name="Judgement" id="2f0d-2d1f-923f-8c66" hidden="false">
       <description>When this model makes an enemy model KO, flip a coin or roll a D6: if the result is ‘heads’ (or an even number) remove the enemy model as a Casualty.</description>
@@ -1876,6 +1876,15 @@ Target a model within 8&quot; and LoS. The target receives an auto hit with Str 
     </rule>
     <rule name="Truly Immortal" id="15b0-e04a-df39-084a" hidden="false">
       <description>This model cannot become KO or be removed as a Casualty from the game by any means. Instead, remove one Damage marker, the the opponent relocates  this model, placing it within 4&quot;.</description>
+    </rule>
+    <rule name="They&apos;re Cheap" id="6a3e-5914-361d-8208" hidden="false">
+      <description>Once per game, at the end of the Raise the Plan phase, you may activate this trait. For the remainder of the rounds, ranged attacks performed by friendly models spend no ammo.</description>
+    </rule>
+    <rule name="To Prove a Point" id="105b-addc-ef8d-1916" hidden="false">
+      <description>Enemy models within 6&quot; and Line of Sight suffer +1 to their Willpower rolls. In addition, this model can use the Intimidate trait ith no Action cost during its activation.</description>
+    </rule>
+    <rule name="Gas Jumper" id="e6ef-9b8b-6819-64b5" hidden="false">
+      <description>Place this model within 8&quot; in a new position where its base will fit. All model witin 4&quot; of the model&apos;s new position must pass an Endurance roll or suffer 1 Blood and Enervating (1) with the Gas special rule. This model can use this trait only once per round.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -4006,6 +4015,23 @@ Target a model within 8&quot; and LoS. The target receives an auto hit with Str 
           <infoLinks>
             <infoLink name="Handy" id="1c9f-26a7-9404-0402" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
             <infoLink name="Heavy" id="969e-3f8f-ea61-6fbf" hidden="false" type="rule" targetId="55b2-7f90-5e2e-cddd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Precise Knife" hidden="false" id="6930-2603-47e7-475a">
+          <profiles>
+            <profile name="Precise Knife" typeId="8753-fb9c-9080-5b6d" typeName="CC Weapon" hidden="false" id="cf36-d88e-3a91-b151">
+              <characteristics>
+                <characteristic name="Damage" typeId="b6ca-2a6b-06bb-8095">1 Blood</characteristic>
+                <characteristic name="Weapon Traits" typeId="2afb-1ec3-9d1e-cf96">Handy, Sharp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="f863-9de5-8630-bf4a" id="0672-ac6d-4762-48af" primary="false" name="CC Weapon"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Sharp" id="c029-ac81-ad93-2ca4" hidden="false" type="rule" targetId="cec6-3659-861c-d862"/>
+            <infoLink name="Handy" id="078b-a128-cf0b-0974" hidden="false" type="rule" targetId="b891-4c26-32c8-2364"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
